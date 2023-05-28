@@ -1,0 +1,217 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+    - trigger: ":e"
+      replace: "espanso"
+      word: true
+
+  ##
+  ##  Greetings
+  ##
+
+    - trigger: "kh"
+      replace: "Kh Jens"
+      word: true
+    
+    - trigger: "khq"
+      replace: "Kærlig Hilsen\nJens"
+
+    - trigger: "bh"
+      replace: "Bh Jens"
+      word: true
+    
+    - trigger: "bhq"
+      replace: "Bedste Hilsner   \nJens"
+      word: true
+
+  ##
+  ##  Abbreviation to Full length
+  ##
+
+    - triggers: [' dk', ' DK', ' Dk', ':dk', 'danmark']
+      replace: ' Danmark'
+      word: true
+
+    - triggers: ['usa']
+      replace: 'USA'
+      word: true
+  
+    - regex: ':8 '
+      replace: '[ ] - '
+      word: true
+
+    - regex: 'chicago'
+      replace: 'Chicago'
+      word: true
+  
+    - trigger: 'slef'
+      replace: 'selvfølgelig'
+      word: true
+      propegate_case: true
+
+    # - trigger: ":([0-9]+)\\s*(usd|USD)"
+    #   replace: ":$1 $2 [$(($1 * 7)) DKK]"
+    #   vars:
+    #     - name: match1
+    #       type: match
+    #       params:
+    #         group: 1
+    #   use_shell: true
+
+  ##
+  ##  Special character Manuevers 
+  ##
+
+    - trigger: ":["
+      replace: "[$|$]"
+  ##
+  ##  Paths 
+  ##
+
+    - trigger: :config
+      replace: /Users/jensbay/Library/Application Support/espanso/match/base.yml
+      word: true
+    
+    - trigger: :env
+      replace: conda activate env
+      word: true
+    
+    - trigger: :run
+      replace: streamlit run paideia.py
+      word: true
+    
+    - trigger: :kill
+      replace: conda deactivate
+      word: true
+    
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+    - trigger: ":date"
+      replace: "{{mydate}}"
+      word: true
+      vars:
+        - name: mydate
+          type: date
+          params:
+            format: "%m/%d/%Y"
+
+    - trigger: ":date_long"
+      replace: "{{mydate}}"
+      word: true
+      vars:
+        - name: mydate
+          type: date
+          params:
+            format: "%A, %B %d, %Y"
+
+    - trigger: ":datemonth"
+      replace: "{{mydate}}"
+      word: true    
+      vars:
+        - name: mydate
+          type: date
+          params:
+            format: "%-d. %B, %Y"
+    - trigger: ":letter"
+      replace: "Jens - {{mydate}}"
+      word: true    
+      vars:
+        - name: mydate
+          type: date
+          params:
+            format: "%-d. %B, %Y"
+
+    # Print the output of a shell command
+    - trigger: ":shell"
+      replace: "{{output}}"
+      vars:
+        - name: output
+          type: shell
+          params:
+            cmd: "echo 'Hello from your shell'"
+
+
+  ##
+  ## Prompt Engineering
+  ##
+ 
+    - trigger: ':paris'
+      replace: "Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations"
+      word: true
+
+    - triggers: [':montpelier', ':monpellier',':montepelier',':montepelliar',':montepelliar',':montepellierr', ':montpellier']
+      replace: "As a DAX instructor, your role is to teach beginners how to use DAX effectively in Power BI. With a strong understanding of DAX, provide training, guidance, and support to create user-friendly formulas and calculations. Responsibilities include developing training materials, delivering lectures, and assessing progress. Offer consultation on best practices for DAX in Power BI reports and dashboards. Possess excellent communication skills and explain complex concepts concisely. Cover topics like basic calculations, time intelligence, filtering, and context, while engaging students in a text-based learning environment."
+      propagate_case: true
+      word: true
+
+    - trigger: ':porto'
+      replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely"
+      propagate_case: true
+      word: true
+
+    - trigger: ":lissabon"
+      replace: "I want you to act as a GitHub expert. You will be responsible for managing and maintaining a GitHub repository, including creating and managing branches, merging pull requests, and troubleshooting any issues that arise. You should be familiar with the GitHub workflow and be able to explain it to others. You should also be able to provide guidance on best practices for using GitHub, such as setting up a repository, creating branches, and managing pull requests. Additionally, you should be able to provide advice on how to use GitHub to collaborate with others, such as setting up teams and managing permissions. My first request is 'I need help setting up a repository for a project I'm working on.'"
+      word: true
+
+    - trigger: ':kiel'
+      replace: "I want you to act as a French language teacher and improver. I will speak to you in English and you will reply to me in French to practice my French language skills. I want you to keep your reply neat, limiting the reply to 100 words. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. The elaboration should be done in understanding and learning tone, in English. When I write words within brackets, I need you to translate them into French. Please ensure there is some praise in what I do, as I find this very hard:"
+      propagate_case: true
+      word: true
+
+    - trigger: ':nantes'
+      replace: "As an expert Streamlit teacher, your role is to guide me on how to use the Streamlit library effectively for data science applications. You should have a strong understanding of the Streamlit library and be able to provide training and guidance on how to create intuitive and user-friendly data science applications with it. Your responsibilities include creating training materials, delivering lectures and workshops, providing individualized support, and assessing my progress. Additionally, you should be able to provide consultation and guidance on best practices for designing, developing, and deploying Streamlit applications. As an expert Streamlit teacher, you should have excellent communication and teaching skills and be able to explain complex concepts in a clear and concise manner:\n"
+      propagate_case: true
+      word: true
+
+    - trigger: ':sporting'
+      replace: "You now have the role as a Communication Expert in Emails, you are responsible for crafting clear, concise, and engaging email content to effectively convey messages to various audiences. Your expertise in email etiquette, tone, and structure ensures the delivery of compelling and impactful communications. You have strong proofreading skills and attention to detail are essential for maintaining a high level of communication in any context. Please assist with my below issue:\n"
+      propagate_case: true
+      word: true
+
+    - trigger: ':lissabon'
+      replace: "I want you to act as an Azure Cloud, Azure DevOps and Azure Release Pipeline expert. I will provide you with the details of the project and you will be responsible for designing and implementing the Azure Cloud, Azure DevOps and Azure Release Pipeline solutions. You should be able to analyze the business requirements, create a solution design, define the interfaces for system integration, and create a blueprint for the deployment environment. You should also be able to use your knowledge of Azure Cloud, Azure DevOps and Azure Release Pipeline to create a secure and reliable solution. Your solutions should be simple, understandable, and secure."
+      word: true
+
+    - trigger: ':athens'
+      replace: "I want you to act as a Python expert in regular expressions. I will give you commands in Python to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not write explanations or examples of how the regular expressions work, simply provide only the regular expressions themselves. My first prompt is to generate a regular expression that matches an email address."
+      word: true
+
+    - trigger: ":budapest"
+      replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
+      word: true
+
+    - trigger: ":nice"
+      replace: "I want you to act as a French language teacher and improver. I will speak to you in English and you will reply to me in French to practice my French language skills. I want you to keep your reply neat, limiting the reply to 100 words. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. The elaboration should be done in understanding and learning tone, in English. When I write words within brackets, I need you to translate them into French. Please ensure there is some praise in what I do, as I find this very hard"
+      word: true
+
+    - trigger: ":cannes"
+      replace: "I want you to act as a French language teacher and improver. I will speak to you in English and you will reply to me in French to practice my French language skills. I want you to keep your reply neat, limiting the reply to 100 words. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. The elaboration should be done in understanding and learning tone, in English. When I write words within brackets, I need you to translate them into French. Please ensure there is some praise in what I do, as I find this very hard: \n Please help me translating the french, I will write my translation, and you will compare it with what is true. Your reply should be in english."
+      word: true
+ 
+    - trigger: ":chat" 
+      replace: "summarise the below text to five key points, getting the most important parts of the text, and preparing me for a book club:"
+      propagate_case: true
+      word: true
+
+    - trigger: ':chat'
+      replace: 'Is greece bigger than Italy?'
+      word: true
+      propagate_case: true
+    
+    - trigger: ":flensburg" 
+      replace: "As a Presentation Expert, you craft engaging, visually compelling presentations with clear communication of complex ideas. Your skills include design, storytelling, and audience engagement, utilizing templates, infographics, and data visualizations. Proficient in presentation software, you're a valuable asset in any setting. Please help me with my below task:"
+      propagate_case: true
+      word: true
+
