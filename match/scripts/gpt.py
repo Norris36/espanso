@@ -3,10 +3,18 @@ import openai
 import pyperclip as py
 import csv
 from datetime import datetime
-openai.api_type     = "azure"
-openai.api_base     = "https://dcei-openai-we.openai.azure.com/"
-openai.api_version = "2023-03-15-preview"
-openai.api_key      = 'e12bcf7f25f94e259d06c393b4568bc0'
+
+openai.api_type         = os.getenv("OPENAI_TYPE")
+openai.api_base         = os.getenv("OPENAI_BASE")
+openai.api_version      = os.getenv("OPENAI_VERSION")
+openai.api_key          = os.getenv("OPENAI_KEY")
+
+
+def get_log_path():
+   # The `return os.path.join(os.path.dirname(__file__), "data.csv")` line of code is returning the
+   # full path of the `data.csv` file by joining the directory path of the current file with the
+   # filename `data.csv`.
+   return os.path.join(os.path.dirname(__file__), "gpt_log.csv")
 
 #py.copy('Is greece bigger than Italy? ')
 
@@ -65,7 +73,7 @@ timestamp = int(datetime.utcnow().timestamp())
 
 path = r'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\gpt_log.csv'
 
-with open(path, mode='a', newline='') as file:
+with open(get_log_path(), mode='a', newline='') as file:
     writer = csv.writer(file)
     writer.writerow([prompt, response, timestamp])
 
