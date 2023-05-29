@@ -84,8 +84,8 @@ matches:
       replace: conda activate env
       word: true
     
-    - trigger: :run
-      replace: streamlit run paideia.py
+    - trigger: ":run paideia"
+      replace: streamlit run paideia/paideia.py
       word: true
     
     - trigger: :kill
