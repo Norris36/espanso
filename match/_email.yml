@@ -1,0 +1,115 @@
+matches:
+  ##
+  ## Often used words in english
+  ##
+    - triggers: ["i'm", "im", "iøm"]
+      replace: "I'm"
+      word: true
+      propagate_case: true
+
+    - triggers: ["i've", "ive", "iøve"]
+      replace: "I've"
+      word: true
+      propagate_case: true
+
+    - triggers: ["i'll", "ill", "iøll"]
+      replace: "I'll"
+      word: true
+      propagate_case: true
+
+    - triggers: ["i'd", "id", "iød"]
+      replace: "I'd"
+      word: true
+      propagate_case: true
+
+    - triggers: ["dont", "donøt"]
+      replace: "don't"
+      word: true
+      propagate_case: true
+
+    - trigger: 'i'
+      replace: 'I'
+      word: true
+      propagate_case: true
+
+    - trigger: 'idq'
+      replace: 'id'
+      word: true
+      propagate_case: true
+
+    - trigger: 'ii'
+      replace: 'i'
+      word: true
+      propagate_case: true
+
+
+  ##
+  ##  Email stuff
+  ##
+
+    - trigger: ":gm"
+      replace: "Good Morning"
+      word: true
+
+    - trigger: "slef"
+      replace: "selvfølgelig"
+      propagate_case: true
+  
+
+    - triggers: [":br", ":Br"]
+      replace: "Best Regards,\nJens"
+      word: true
+
+    - trigger: ":bh"
+      replace: "Bedste Hilsner,\nJens"
+      word: true
+
+    - trigger: ":kh"
+      replace: "Kærlig Hilsen,\nJens"
+      word: true
+
+    - trigger: "j@"
+      replace: "jbay@steelseries.gg"
+
+  ##
+  ##  Apprisals
+  ##
+
+    - trigger: ":apr"
+      replace: "Thank you, I really appreciate this!"
+      word: true
+
+    - trigger: ":pty"
+      replace: "Perfect - thank you very much!"
+
+    - trigger: ":ta"
+      replace: "Thanks a lot, $|$, you've been a great help!"
+      word: true
+
+    - trigger: ":am:"
+      replace: "You did an amazing job, $|$!"
+
+    - trigger: ":ti"
+      replace: "Thank you for your input! :D "
+
+    - trigger: ":gj"
+      replace: "Good Job - I appreciate it!"
+
+    - trigger: ":gaf"
+      replace: "Great, I appreciate the feedback!"
+
+    - trigger: ":tfd"
+      replace: "Tak for det! 😃"
+
+    - trigger: "gnsn" 
+      replace: "https://gnsn.service-now.com/sp?id=index"
+      propagate_case: true
+      word: true
+    - trigger: ":| Event         | Week enclosing date | Week of event in 2023 |" 
+      replace: "|---------------|---------------------|-----------------------|"
+      propagate_case: true
+      word: true
+    - trigger: ":vis" 
+      replace: "visualisations"
+      propagate_case: true
+      word: true

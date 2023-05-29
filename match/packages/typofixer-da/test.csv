@@ -1,0 +1,77 @@
+  , trigger                                                       , replace     , word, propagate_case, trigger=1
+0 , "[""abbonnement"",""abbonement"",""abonement""]"              , abonnement  , True, True          , False
+1 , "[""accellerere"",""acelerere""]"                             , accelerere  , True, True          , False
+2 , addresse                                                      , adresse     , True, True          , True
+3 , afhængelig                                                    , afhængig    , True, True          , True
+4 , afspassere                                                    , afspadsere  , True, True          , True
+5 , af vide                                                       , at vide     , True, True          , True
+6 , "[""arangement"",""arrengement"",""arengement""]"             , arrangement , True, True          , False
+7 , barbeque                                                      , barbecue    , True, True          , True
+8 , bekræftigelse                                                 , bekræftelse , True, True          , True
+9 , "[""bordou"",""bordeux"",""bordaux""]"                        , bordeaux    , True, True          , False
+10, "[""bulion"",""boulion"",""boullion""]"                       , bouillon    , True, True          , False
+11, brochurre                                                     , brochure    , True, True          , True
+12, "[""buget"",""byget"",""bydget""]"                            , Budget      , True, True          , False
+13, "[""byro"",""buro"",""burau""]"                               , bureau      , True, True          , False
+14, "[""chafør"",""chaffør"",""chuaffør""]"                       , chauffør    , True, True          , False
+15, check                                                         , tjek        , True, True          , True
+16, diamentral                                                    , diametral   , True, True          , True
+17, diciplin                                                      , disciplin   , True, True          , True
+18, "[""diskusion"",""diskution""]"                               , diskussion  , True, True          , False
+19, dyrelæge                                                      , dyrlæge     , True, True          , True
+20, financiere                                                    , finansiere  , True, True          , True
+21, forspørgsel                                                   , forespørgsel, True, True          , True
+22, forsæt                                                        , fortsæt     , True, True          , True
+23, fælleskab                                                     , fællesskab  , True, True          , True
+24, holdte                                                        , holdt       , True, True          , True
+25, hovede                                                        , hoved       , True, True          , True
+26, "[""hygiegne"",""hygiajne""]"                                 , hygiejne    , True, True          , False
+27, ialt                                                          , i alt       , True, True          , True
+28, """idag"" "                                                   , i dag       , True, True          , False
+29, ihvertfald                                                    , i hvert fald, True, True          , True
+30, incl                                                          , inkl.       , True, True          , True
+31, "[""ingenør"",""inginør"",""ingeinør""]"                      , ingeniør    , True, True          , False
+32, "[""intiativ"",""initiv""]"                                   , initiativ   , True, True          , False
+33, "[""intrasant"",""interesant"",""intresant"",""intressant""]" , interessant , True, True          , False
+34, "[""interveiw"",""interwiev"",""interweiv""]"                 , interview   , True, True          , False
+35, "[""i nu"",""inu""]"                                          , endnu       , True, True          , False
+36, "[""jfr."",""jvf.""]"                                         , jf.         , True, True          , False
+37, "[""kaptagn"",""kaptegn"",""kaptain""]"                       , kaptajn     , True, True          , False
+38, "[""karusel"",""karussel"",""karrussel""]"                    , karrusel    , True, True          , False
+39, "[""konklution"",""konklussion""]"                            , konklusion  , True, True          , False
+40, linie                                                         , linje       , True, True          , True
+41, massere                                                       , masser      , True, True          , True
+42, med mindre                                                    , medmindre   , True, True          , True
+43, "[""nivou"",""nivau"",""nevou"",""nivaue""]"                  , niveau      , True, True          , False
+44, "[""palietter"",""pallietter"",""pailetter""]"                , pailletter  , True, True          , False
+45, "[""parralel"",""parrallel"",""paralel""]"                    , parallel    , True, True          , False
+46, parantes                                                      , parentes    , True, True          , True
+47, "[""priotering"",""pritering""]"                              , prioritering, True, True          , False
+48, "[""proffessionel"",""profesionel"",""professionel""]"        , professionel, True, True          , False
+49, provensiel                                                    , provinsiel  , True, True          , True
+50, reflektion                                                    , refleksion  , True, True          , True
+51, "[""resource"",""resurce"",""ressourse""]"                    , ressource   , True, True          , False
+52, "[""resuarant"",""resourant"",""restaurent""]"                , restaurant  , True, True          , False
+53, "[""rutchebane"",""rutshebane"",""rutschebane""]"             , rutsjebane  , True, True          , False
+54, "[""sattelitter"",""sattellitter""]"                          , satellitter , True, True          , False
+55, "[""sekrætær"",""sekratær""]"                                 , sekretær    , True, True          , False
+56, selvskab                                                      , selskab     , True, True          , True
+57, seperat                                                       , separat     , True, True          , True
+58, sindsygt                                                      , sindssygt   , True, True          , True
+59, sku                                                           , sgu         , True, True          , True
+60, "[""snaksaglig"",""snaksalig""]"                              , snakkesalig , True, True          , False
+61, "[""suvenir"",""souvinir""]"                                  , souvenir    , True, True          , False
+62, standart                                                      , standard    , True, True          , True
+63, staniol                                                       , stanniol    , True, True          , True
+64, størrere                                                      , større      , True, True          , True
+65, "[""suces"",""success""]"                                     , succes      , True, True          , False
+66, tastetur                                                      , tastatur    , True, True          , True
+67, "[""terasse"",""terresse"",""teresse""]"                      , terrasse    , True, True          , False
+68, the                                                           , te          , True, True          , True
+69, udemærket                                                     , udmærket    , True, True          , True
+70, ynglingsfilm                                                  , yndlingsfilm, True, True          , True
+71, "[""yugurt"",""yughurt"",""yougurt"",""youghurt"",""yogurt""]", yoghurt     , True, True          , False
+72, ærgelig                                                       , ærgerlig    , True, True          , True
+73, excl.                                                         , ekskl.      , True, True          , True
+74, igår                                                          , I går       , True, True          , True
+75, imorgen                                                       , I morgen    , True, True          , True

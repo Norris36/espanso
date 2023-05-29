@@ -7,146 +7,39 @@
 
 # Matches are substitution rules: when you type the "trigger" string
 # it gets replaced by the "replace" string.
+# And much more! For more information, visit the docs: https://espanso.org/docs/
 matches:
   # Simple text replacement
     - trigger: ":e"
       replace: "espanso"
       word: true
+      propagate_case: true
 
-  ##
-  ##  Greetings
-  ##
-
-    - trigger: "kh"
-      replace: "Kh Jens"
+    - trigger: ':run gnpt'
+      replace: streamlit run .\🌐_GnPT_Explorer.py
       word: true
+      propagate_case: true
+
+    - trigger: ':table'
+      replace: 'ANALYTICS.DOTCOM.ALL_ORDERS_COMPLETED'
+      word: true
+      propagate_case: true
     
-    - trigger: "khq"
-      replace: "Kærlig Hilsen\nJens"
-
-    - trigger: "bh"
-      replace: "Bh Jens"
+    - trigger: ':di'
+      replace: 'Digital Innovation'
       word: true
-    
-    - trigger: "bhq"
-      replace: "Bedste Hilsner   \nJens"
-      word: true
+      propagate_case: true
 
-  ##
-  ##  Abbreviation to Full length
-  ##
+    - trigger: ':snow'
+      replace: '#YS4oThxpjXJ'
 
-    - triggers: [' dk', ' DK', ' Dk', ':dk', 'danmark']
-      replace: ' Danmark'
-      word: true
-
-    - triggers: ['usa']
-      replace: 'USA'
+    - trigger: ':ca'
+      replace: 'ça'
       word: true
   
-    - regex: ':8 '
-      replace: '[ ] - '
-      word: true
-
-    - regex: 'chicago'
-      replace: 'Chicago'
-      word: true
-  
-    - trigger: 'slef'
-      replace: 'selvfølgelig'
-      word: true
-      propegate_case: true
-
-    # - trigger: ":([0-9]+)\\s*(usd|USD)"
-    #   replace: ":$1 $2 [$(($1 * 7)) DKK]"
-    #   vars:
-    #     - name: match1
-    #       type: match
-    #       params:
-    #         group: 1
-    #   use_shell: true
-
   ##
-  ##  Special character Manuevers 
+  ##  Prompt Engineering Base Prompts
   ##
-
-    - trigger: ":["
-      replace: "[$|$]"
-  ##
-  ##  Paths 
-  ##
-
-    - trigger: :config
-      replace: /Users/jensbay/Library/Application Support/espanso/match/base.yml
-      word: true
-    
-    - trigger: :env
-      replace: conda activate env
-      word: true
-    
-    - trigger: ":run paideia"
-      replace: streamlit run paideia/paideia.py
-      word: true
-    
-    - trigger: :kill
-      replace: conda deactivate
-      word: true
-    
-
-  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
-
-  # But matches can also be dynamic:
-
-  # Print the current date
-    - trigger: ":date"
-      replace: "{{mydate}}"
-      word: true
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%m/%d/%Y"
-
-    - trigger: ":date_long"
-      replace: "{{mydate}}"
-      word: true
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%A, %B %d, %Y"
-
-    - trigger: ":datemonth"
-      replace: "{{mydate}}"
-      word: true    
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%-d. %B, %Y"
-    - trigger: ":letter"
-      replace: "Jens - {{mydate}}"
-      word: true    
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%-d. %B, %Y"
-
-    # Print the output of a shell command
-    - trigger: ":shell"
-      replace: "{{output}}"
-      vars:
-        - name: output
-          type: shell
-          params:
-            cmd: "echo 'Hello from your shell'"
-
-
-  ##
-  ## Prompt Engineering
-  ##
- 
     - trigger: ':paris'
       replace: "Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations"
       word: true
@@ -158,8 +51,6 @@ matches:
 
     - trigger: ':porto'
       replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely"
-      propagate_case: true
-      word: true
 
     - trigger: ":lissabon"
       replace: "I want you to act as a GitHub expert. You will be responsible for managing and maintaining a GitHub repository, including creating and managing branches, merging pull requests, and troubleshooting any issues that arise. You should be familiar with the GitHub workflow and be able to explain it to others. You should also be able to provide guidance on best practices for using GitHub, such as setting up a repository, creating branches, and managing pull requests. Additionally, you should be able to provide advice on how to use GitHub to collaborate with others, such as setting up teams and managing permissions. My first request is 'I need help setting up a repository for a project I'm working on.'"
@@ -180,10 +71,6 @@ matches:
       propagate_case: true
       word: true
 
-    - trigger: ':lissabon'
-      replace: "I want you to act as an Azure Cloud, Azure DevOps and Azure Release Pipeline expert. I will provide you with the details of the project and you will be responsible for designing and implementing the Azure Cloud, Azure DevOps and Azure Release Pipeline solutions. You should be able to analyze the business requirements, create a solution design, define the interfaces for system integration, and create a blueprint for the deployment environment. You should also be able to use your knowledge of Azure Cloud, Azure DevOps and Azure Release Pipeline to create a secure and reliable solution. Your solutions should be simple, understandable, and secure."
-      word: true
-
     - trigger: ':athens'
       replace: "I want you to act as a Python expert in regular expressions. I will give you commands in Python to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not write explanations or examples of how the regular expressions work, simply provide only the regular expressions themselves. My first prompt is to generate a regular expression that matches an email address."
       word: true
@@ -192,14 +79,6 @@ matches:
       replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
       word: true
 
-    - trigger: ":nice"
-      replace: "I want you to act as a French language teacher and improver. I will speak to you in English and you will reply to me in French to practice my French language skills. I want you to keep your reply neat, limiting the reply to 100 words. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. The elaboration should be done in understanding and learning tone, in English. When I write words within brackets, I need you to translate them into French. Please ensure there is some praise in what I do, as I find this very hard"
-      word: true
-
-    - trigger: ":cannes"
-      replace: "I want you to act as a French language teacher and improver. I will speak to you in English and you will reply to me in French to practice my French language skills. I want you to keep your reply neat, limiting the reply to 100 words. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. The elaboration should be done in understanding and learning tone, in English. When I write words within brackets, I need you to translate them into French. Please ensure there is some praise in what I do, as I find this very hard: \n Please help me translating the french, I will write my translation, and you will compare it with what is true. Your reply should be in english."
-      word: true
- 
     - trigger: ":chat" 
       replace: "summarise the below text to five key points, getting the most important parts of the text, and preparing me for a book club:"
       propagate_case: true
@@ -215,3 +94,163 @@ matches:
       propagate_case: true
       word: true
 
+    - trigger: ':copenhagen'
+      replace: "Here are the roles associated with each trigger: \n   1. :paris - Document Python code line-by-line.\n   2. :montpelier variants - Teach DAX for beginners.\n   3. :porto - Python programming coach.\n   4. :lissabon 1 - GitHub expert.\n   5. :kiel - French language teacher.\n   6. :nantes - Streamlit guide for data science.\n   7. :sporting - Communication Expert in Emails.\n   8. :lissabon 2 - Azure Cloud, DevOps, Release Pipeline expert.\n   9. :athens - Python regex expert.\n   10. :budapest - Data Miner and Data Scraper.\n   11. :nice - French language teacher.\n   12. :cannes - French language teacher, translation comparison.\n   13. :chat 1 - Summarise texts for book club.\n   14. :chat 2 - Answer geography trivia.\n   15. :flensburg - Presentation Expert."
+      propagate_case: true
+      word: true
+
+    - trigger: ':kiel'
+      replace: "I want you to act as a French language teacher and improver, I'm at level A1, and seekting to become A2. will provide you with attempts at writing french, you will then write a corrected french sentence with the same meaning. If I write a word or a set of words, in hard brackets such as [], then I don't know the french translation of a given word, please in the corrected sentence remove the brackets and write the translated word Then you will write a constructive list of corrections, in english. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. Please ensure there is some praise in what I do, as I find this very hard:"
+      propagate_case: true
+      word: true
+
+    - trigger: ":marseille"
+      replace: "I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. Additionally, you should explain the solutions in a way that is easy to understand, using simple language and bullet points. Your role is to help me understand the solutions and how to use them."
+      word: true
+
+    - trigger: ":lyon"
+      replace: "I want you to act as a French language teacher and improver, im at level A1 and seeking to become A2. I will provide you with an attempt at translating french to english, and the sentence I'm trying to translate. You you should provide in each reply to me provide 1 hint, to get a closer translation. In each of my replies i will write, how many times i've tried, if i hit 3, you should tell me the answer. If I write a word or a set of words, in hard brackets such as [], then I don't know the french word Your task will be to provide hints to the correct translation."
+      word: true
+
+    - trigger: ":charles"
+      replace: "As Vice President in Direct Sales, you will be responsible for leading a team of sales professionals to achieve and exceed sales targets. You will develop and implement strategies to increase sales, create and manage budgets, and analyze market trends to identify new opportunities. You will also be responsible for training and motivating your team, providing feedback and guidance, and ensuring that customer service standards are met. You will be the face of the company, representing it to external stakeholders and customers. Your success will be measured by the team's performance and the company's overall growth."
+      word: true
+
+
+
+  ##
+  ##  Names
+  ##
+
+    - trigger: ":ado"
+      replace: "Azure DevOps"
+
+    - trigger: ":ms"
+      replace: "Microsoft"
+
+    - trigger: ":ss"
+      replace: "SteelSeries"
+
+    - trigger: ":hash"
+      replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
+
+    - trigger: :config
+      replace: C:\Users\jbay\AppData\Roaming\espanso\match\base.yml
+
+    - trigger: "::sharex"
+      replace: "https://getsharex.com/"
+
+    - trigger: "chicago" 
+      replace: "Chicago"
+      propagate_case: true
+      word: true
+
+    - trigger: "resound" 
+      replace: "ReSound"
+      propagate_case: true
+      word: true
+
+    - trigger: ":employeeid" 
+      replace: "50020126"
+      propagate_case: true
+      word: true
+
+    - trigges: ["jabra"] 
+      replace: "Jabra"
+      propagate_case: true
+      word: true
+
+    - triggers: ["steelseries", "steelseeries", "stelseries"]
+      replace: "SteelSeries"
+      propagate_case: true
+      word: true
+
+    - trigger: ":address"
+      replace: "1407 South Michigan Avenue"
+      propagate_case: true
+      word: true
+    
+    - trigger: ":gnsp"
+      replace: "https://gnsn.service-now.com/sp?id=sc_cat_item&sys_id=9fab39e2d7532100a9ad1e173e24d484"
+
+    - trigger: ":team"
+      replace: "tgroenfeldtsenger@gn.com\nmproschowsky@gn.com\nbarnardottir@gn.com\ncxgu@gn.com"
+      word: true
+
+    - trigger: ":env"
+      replace: '.\venv\Scripts\activate'
+      word: true
+      propagate_case: true
+
+    - trigger: ":today"
+      replace: "{{mydate}}"
+      vars:
+        - name: mydate
+          type: date
+          params:
+            format: "%d/%m/%y"
+
+    - trigger: ":longday"
+      replace: "{{mydate}}"
+      vars:
+        - name: mydate
+          type: date
+          params:
+            format: "%a %d/%m/%y"
+
+    #Print the output of a shell command
+    - trigger: ":shell"
+      replace: "{{output}}"
+      vars:
+        - name: output
+          type: python
+          params:
+            cmd: "echo 'Hello from your shell'"
+
+
+    - regex: ':(?P<d>\d{2})(?P<m>\d{2})'
+      replace: '{{d}}/{{m}}/2023'
+
+    - trigger: ':lorem'
+      replace: 'Cumque laudantium quia quia aliquam ducimus. Possimus sit dolores eius cupiditate quam laudantium. Modi quis sequi autem velit corporis. Necessitatibus nostrum rem maiores suscipit. Voluptatem vel aut dolorum occaecati itaque voluptatum et.'
+
+    - regex: ':8'
+      replace: "[ ] - "
+      word: true
+
+    - trigger: ":monthswitch" 
+      replace: 'Switch(function; 1; "Janaury"; 2; "Febuary"; 3; "March"; 4; "April"; 5; "May"; 6; "June"; 7; "July"; 8; "August"; 9; "September"; 10; "October"; 11; "November"; 12; "December";)'
+
+    - trigger: ":ticket"
+      replace: "$|$\n\nUser story:\n\nI as a [type of user] should be able to [action] [item]\n\nAcceptance Criteria:\n - The solution must be able to [criteria]"
+
+    - trigger: ":pbx" 
+      replace: "1280"
+      propagate_case: true
+      word: true
+
+    - trigger: ":-" 
+      replace: "----------------------------------------------------------------"
+      propagate_case: true
+      word: true
+
+    - trigger: ":pby" 
+      replace: "720"
+      propagate_case: true
+      word: true
+
+    - trigger: "ar" 
+      replace: "are"
+      propagate_case: true
+      word: true
+    
+    - trigger: ":import" 
+      replace: "import utilities as my\n#import pandas as pd\n#import regex as re\n#import os\n#from datetime import datetime\n#from tqdm import tqdm\n#import matplotlib.pyplot as plt\n#import seaborn as sns\n#import numpy as np\n%autosave 60"
+      propagate_case: true
+      word: true
+    
+    - trigger: ":or" 
+      replace: "|"
+      propagate_case: true
+      word: true
+    

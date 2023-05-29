@@ -1,0 +1,48 @@
+
+Remove all items, which are checked 
+ - [ ] Desk booking 
+ - [ ] Locker and code 
+ - [x] Tour 
+ - [ ] Workday 
+ - [ ] Meeting rooms 
+ - [ ] Work from anywhere lunch plan 
+ - [ ] Recurring meetings 
+ - [ ] Our way of working (and agile in GNIT) 
+ - [ ] P2E and merit adjustment 
+ - [x] ADO
+ - [x] Miro
+ - [x] GitHub
+ - [x] Microsoft Learn
+ - [x] Office Supplies
+ - [x] Tools and everything day
+ - [ ] The process, from idea to conception 
+ - [x] Training 
+ - [x] What would I like to know
+ - [x] Indsæt magnet i mus og på bærbar
+ - [x] Dødmands kamp versus distance sensor
+ - [x] Skrivebords måler
+
+
+:[Espanso]: An error occurred during rendering, please examine the logs for more information.
+
+:The updated list of items is as follows:
+
+- [ ] Desk booking 
+- [ ] Locker and code 
+- [ ] Workday 
+- [ ] Meeting rooms 
+- [ ] Work from anywhere lunch plan 
+- [ ] Recurring meetings 
+- [ ] Our way of working (and agile in GNIT) 
+- [ ] P2E and merit adjustment 
+- [ ] The process, from idea to conception
+
+:```
+import datetime
+
+now = datetime.datetime.now()
+copenhagen_time = now + datetime.timedelta(hours=1)
+
+print(copenhagen_time.strftime("%H:%M:%S"))
+```
+This script imports the datetime module and uses it to get the current time. It then adds one hour to account for the time difference between Denmark and UTC, and prints the time in the format of hours, minutes, and seconds.

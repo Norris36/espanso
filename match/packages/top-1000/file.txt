@@ -1,0 +1,19 @@
+file.txt
+
+okay, thanks, in that case, i would like you to write a script which follows the bellow structure
+
+word_permutations()
+    #generating all the permutations of the word
+
+split the dataframe, to two, one for english and one for danish
+
+
+dataframe updater(dataframe_a, dataframe_b)
+    for line in dataframe_a:
+        correct_spellings = dataframe.correct_spellings 
+         find word permutations
+        new_words = []
+        for each word permutation:
+            check if word in correct_spelings
+    create a list for all correct spellings
+

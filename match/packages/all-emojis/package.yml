@@ -1,0 +1,5725 @@
+matches:
+  - triggers: [':100', ':100:']
+    replace: "\U0001F4AF"
+    word: true
+  - triggers: [':score', ':score:']
+    replace: "\U0001F4AF"
+    word: true
+  - triggers: [':perfect', ':perfect:']
+    replace: "\U0001F4AF"
+    word: true
+  - triggers: [':1234', ':1234:']
+    replace: "\U0001F522"
+    word: true
+  - triggers: [':numbers', ':numbers:']
+    replace: "\U0001F522"
+    word: true
+  - triggers: [':grinning', ':grinning:']
+    replace: "\U0001F600"
+    word: true
+  - triggers: [':happy', ':happy:']
+    replace: "\U0001F600"
+    word: true
+  - triggers: [':smiley', ':smiley:']
+    replace: "\U0001F603"
+    word: true
+  - triggers: [':haha', ':haha:']
+    replace: "\U0001F603"
+    word: true
+  - triggers: [':smile', ':smile:']
+    replace: "\U0001F604"
+    word: true
+  - triggers: [':laugh', ':laugh:']
+    replace: "\U0001F604"
+    word: true
+  - triggers: [':pleased', ':pleased:']
+    replace: "\U0001F604"
+    word: true
+  - triggers: [':grin', ':grin:']
+    replace: "\U0001F601"
+    word: true
+  - triggers: [':laughing', ':laughing:']
+    replace: "\U0001F606"
+    word: true
+  - triggers: [':satisfied', ':satisfied:']
+    replace: "\U0001F606"
+    word: true
+  - triggers: [':laughing', ':laughing:']
+    replace: "\U0001F606"
+    word: true
+  - triggers: [':sweat smile', ':sweat smile:']
+    replace: "\U0001F605"
+    word: true
+  - triggers: [':hot', ':hot:']
+    replace: "\U0001F605"
+    word: true
+  - triggers: [':joy', ':joy:']
+    replace: "\U0001F602"
+    word: true
+  - triggers: [':tears', ':tears:']
+    replace: "\U0001F602"
+    word: true
+  - triggers: [':rofl', ':rofl:']
+    replace: "\U0001F923"
+    word: true
+  - triggers: [':lol', ':lol:']
+    replace: "\U0001F923"
+    word: true
+  - triggers: [':relaxed', ':relaxed:']
+    replace: ☺️
+    word: true
+  - triggers: [':blush', ':blush:']
+    replace: "\U0001F60A"
+    word: true
+  - triggers: [':proud', ':proud:']
+    replace: "\U0001F60A"
+    word: true
+  - triggers: [':innocent', ':innocent:']
+    replace: "\U0001F607"
+    word: true
+  - triggers: [':slightly smiling face', ':slightly smiling face:']
+    replace: "\U0001F642"
+    word: true
+  - triggers: [':upside down face', ':upside down face:']
+    replace: "\U0001F643"
+    word: true
+  - triggers: [':wink', ':wink:']
+    replace: "\U0001F609"
+    word: true
+  - triggers: [':flirt', ':flirt:']
+    replace: "\U0001F609"
+    word: true
+  - triggers: [':relieved', ':relieved:']
+    replace: "\U0001F60C"
+    word: true
+  - triggers: [':whew', ':whew:']
+    replace: "\U0001F60C"
+    word: true
+  - triggers: [':heart eyes', ':heart eyes:']
+    replace: "\U0001F60D"
+    word: true
+  - triggers: [':love', ':love:']
+    replace: "\U0001F60D"
+    word: true
+  - triggers: [':crush', ':crush:']
+    replace: "\U0001F60D"
+    word: true
+  - triggers: [':kissing heart', ':kissing heart:']
+    replace: "\U0001F618"
+    word: true
+  - triggers: [':kissing', ':kissing:']
+    replace: "\U0001F617"
+    word: true
+  - triggers: [':kissing smiling eyes', ':kissing smiling eyes:']
+    replace: "\U0001F619"
+    word: true
+  - triggers: [':kissing closed eyes', ':kissing closed eyes:']
+    replace: "\U0001F61A"
+    word: true
+  - triggers: [':yum', ':yum:']
+    replace: "\U0001F60B"
+    word: true
+  - triggers: [':lick', ':lick:']
+    replace: "\U0001F60B"
+    word: true
+  - triggers: [':stuck out tongue winking eye', ':stuck out tongue winking eye:']
+    replace: "\U0001F61C"
+    word: true
+  - triggers: [':prank', ':prank:']
+    replace: "\U0001F61C"
+    word: true
+  - triggers: [':silly', ':silly:']
+    replace: "\U0001F61C"
+    word: true
+  - triggers: [':stuck out tongue closed eyes', ':stuck out tongue closed eyes:']
+    replace: "\U0001F61D"
+    word: true
+  - triggers: [':stuck out tongue', ':stuck out tongue:']
+    replace: "\U0001F61B"
+    word: true
+  - triggers: [':money mouth face', ':money mouth face:']
+    replace: "\U0001F911"
+    word: true
+  - triggers: [':rich', ':rich:']
+    replace: "\U0001F911"
+    word: true
+  - triggers: [':hugs', ':hugs:']
+    replace: "\U0001F917"
+    word: true
+  - triggers: [':nerd face', ':nerd face:']
+    replace: "\U0001F913"
+    word: true
+  - triggers: [':geek', ':geek:']
+    replace: "\U0001F913"
+    word: true
+  - triggers: [':glasses', ':glasses:']
+    replace: "\U0001F913"
+    word: true
+  - triggers: [':sunglasses', ':sunglasses:']
+    replace: "\U0001F60E"
+    word: true
+  - triggers: [':clown face', ':clown face:']
+    replace: "\U0001F921"
+    word: true
+  - triggers: [':cowboy hat face', ':cowboy hat face:']
+    replace: "\U0001F920"
+    word: true
+  - triggers: [':smirk', ':smirk:']
+    replace: "\U0001F60F"
+    word: true
+  - triggers: [':smug', ':smug:']
+    replace: "\U0001F60F"
+    word: true
+  - triggers: [':unamused', ':unamused:']
+    replace: "\U0001F612"
+    word: true
+  - triggers: [':meh', ':meh:']
+    replace: "\U0001F612"
+    word: true
+  - triggers: [':disappointed', ':disappointed:']
+    replace: "\U0001F61E"
+    word: true
+  - triggers: [':sad', ':sad:']
+    replace: "\U0001F61E"
+    word: true
+  - triggers: [':pensive', ':pensive:']
+    replace: "\U0001F614"
+    word: true
+  - triggers: [':worried', ':worried:']
+    replace: "\U0001F61F"
+    word: true
+  - triggers: [':nervous', ':nervous:']
+    replace: "\U0001F61F"
+    word: true
+  - triggers: [':confused', ':confused:']
+    replace: "\U0001F615"
+    word: true
+  - triggers: [':slightly frowning face', ':slightly frowning face:']
+    replace: "\U0001F641"
+    word: true
+  - triggers: [':frowning face', ':frowning face:']
+    replace: ☹️
+    word: true
+  - triggers: [':persevere', ':persevere:']
+    replace: "\U0001F623"
+    word: true
+  - triggers: [':struggling', ':struggling:']
+    replace: "\U0001F623"
+    word: true
+  - triggers: [':confounded', ':confounded:']
+    replace: "\U0001F616"
+    word: true
+  - triggers: [':tired face', ':tired face:']
+    replace: "\U0001F62B"
+    word: true
+  - triggers: [':upset', ':upset:']
+    replace: "\U0001F62B"
+    word: true
+  - triggers: [':whine', ':whine:']
+    replace: "\U0001F62B"
+    word: true
+  - triggers: [':weary', ':weary:']
+    replace: "\U0001F629"
+    word: true
+  - triggers: [':tired', ':tired:']
+    replace: "\U0001F629"
+    word: true
+  - triggers: [':triumph', ':triumph:']
+    replace: "\U0001F624"
+    word: true
+  - triggers: [':angry', ':angry:']
+    replace: "\U0001F620"
+    word: true
+  - triggers: [':mad', ':mad:']
+    replace: "\U0001F620"
+    word: true
+  - triggers: [':annoyed', ':annoyed:']
+    replace: "\U0001F620"
+    word: true
+  - triggers: [':rage', ':rage:']
+    replace: "\U0001F621"
+    word: true
+  - triggers: [':pout', ':pout:']
+    replace: "\U0001F621"
+    word: true
+  - triggers: [':rage', ':rage:']
+    replace: "\U0001F621"
+    word: true
+  - triggers: [':no mouth', ':no mouth:']
+    replace: "\U0001F636"
+    word: true
+  - triggers: [':silence', ':silence:']
+    replace: "\U0001F636"
+    word: true
+  - triggers: [':neutral face', ':neutral face:']
+    replace: "\U0001F610"
+    word: true
+  - triggers: [':expressionless', ':expressionless:']
+    replace: "\U0001F611"
+    word: true
+  - triggers: [':hushed', ':hushed:']
+    replace: "\U0001F62F"
+    word: true
+  - triggers: [':speechless', ':speechless:']
+    replace: "\U0001F62F"
+    word: true
+  - triggers: [':frowning', ':frowning:']
+    replace: "\U0001F626"
+    word: true
+  - triggers: [':anguished', ':anguished:']
+    replace: "\U0001F627"
+    word: true
+  - triggers: [':stunned', ':stunned:']
+    replace: "\U0001F627"
+    word: true
+  - triggers: [':open mouth', ':open mouth:']
+    replace: "\U0001F62E"
+    word: true
+  - triggers: [':surprise', ':surprise:']
+    replace: "\U0001F62E"
+    word: true
+  - triggers: [':impressed', ':impressed:']
+    replace: "\U0001F62E"
+    word: true
+  - triggers: [':wow', ':wow:']
+    replace: "\U0001F62E"
+    word: true
+  - triggers: [':astonished', ':astonished:']
+    replace: "\U0001F632"
+    word: true
+  - triggers: [':amazed', ':amazed:']
+    replace: "\U0001F632"
+    word: true
+  - triggers: [':gasp', ':gasp:']
+    replace: "\U0001F632"
+    word: true
+  - triggers: [':dizzy face', ':dizzy face:']
+    replace: "\U0001F635"
+    word: true
+  - triggers: [':flushed', ':flushed:']
+    replace: "\U0001F633"
+    word: true
+  - triggers: [':scream', ':scream:']
+    replace: "\U0001F631"
+    word: true
+  - triggers: [':horror', ':horror:']
+    replace: "\U0001F631"
+    word: true
+  - triggers: [':shocked', ':shocked:']
+    replace: "\U0001F631"
+    word: true
+  - triggers: [':fearful', ':fearful:']
+    replace: "\U0001F628"
+    word: true
+  - triggers: [':scared', ':scared:']
+    replace: "\U0001F628"
+    word: true
+  - triggers: [':oops', ':oops:']
+    replace: "\U0001F628"
+    word: true
+  - triggers: [':cold sweat', ':cold sweat:']
+    replace: "\U0001F630"
+    word: true
+  - triggers: [':cry', ':cry:']
+    replace: "\U0001F622"
+    word: true
+  - triggers: [':tear', ':tear:']
+    replace: "\U0001F622"
+    word: true
+  - triggers: [':disappointed relieved', ':disappointed relieved:']
+    replace: "\U0001F625"
+    word: true
+  - triggers: [':phew', ':phew:']
+    replace: "\U0001F625"
+    word: true
+  - triggers: [':drooling face', ':drooling face:']
+    replace: "\U0001F924"
+    word: true
+  - triggers: [':sob', ':sob:']
+    replace: "\U0001F62D"
+    word: true
+  - triggers: [':bawling', ':bawling:']
+    replace: "\U0001F62D"
+    word: true
+  - triggers: [':sweat', ':sweat:']
+    replace: "\U0001F613"
+    word: true
+  - triggers: [':sleepy', ':sleepy:']
+    replace: "\U0001F62A"
+    word: true
+  - triggers: [':sleeping', ':sleeping:']
+    replace: "\U0001F634"
+    word: true
+  - triggers: [':roll eyes', ':roll eyes:']
+    replace: "\U0001F644"
+    word: true
+  - triggers: [':thinking', ':thinking:']
+    replace: "\U0001F914"
+    word: true
+  - triggers: [':lying face', ':lying face:']
+    replace: "\U0001F925"
+    word: true
+  - triggers: [':liar', ':liar:']
+    replace: "\U0001F925"
+    word: true
+  - triggers: [':grimacing', ':grimacing:']
+    replace: "\U0001F62C"
+    word: true
+  - triggers: [':zipper mouth face', ':zipper mouth face:']
+    replace: "\U0001F910"
+    word: true
+  - triggers: [':hush', ':hush:']
+    replace: "\U0001F910"
+    word: true
+  - triggers: [':nauseated face', ':nauseated face:']
+    replace: "\U0001F922"
+    word: true
+  - triggers: [':sick', ':sick:']
+    replace: "\U0001F922"
+    word: true
+  - triggers: [':barf', ':barf:']
+    replace: "\U0001F922"
+    word: true
+  - triggers: [':disgusted', ':disgusted:']
+    replace: "\U0001F922"
+    word: true
+  - triggers: [':sneezing face', ':sneezing face:']
+    replace: "\U0001F927"
+    word: true
+  - triggers: [':achoo', ':achoo:']
+    replace: "\U0001F927"
+    word: true
+  - triggers: [':mask', ':mask:']
+    replace: "\U0001F637"
+    word: true
+  - triggers: [':ill', ':ill:']
+    replace: "\U0001F637"
+    word: true
+  - triggers: [':face with thermometer', ':face with thermometer:']
+    replace: "\U0001F912"
+    word: true
+  - triggers: [':face with head bandage', ':face with head bandage:']
+    replace: "\U0001F915"
+    word: true
+  - triggers: [':hurt', ':hurt:']
+    replace: "\U0001F915"
+    word: true
+  - triggers: [':smiling imp', ':smiling imp:']
+    replace: "\U0001F608"
+    word: true
+  - triggers: [':devil', ':devil:']
+    replace: "\U0001F608"
+    word: true
+  - triggers: [':evil', ':evil:']
+    replace: "\U0001F608"
+    word: true
+  - triggers: [':horns', ':horns:']
+    replace: "\U0001F608"
+    word: true
+  - triggers: [':imp', ':imp:']
+    replace: "\U0001F47F"
+    word: true
+  - triggers: [':japanese ogre', ':japanese ogre:']
+    replace: "\U0001F479"
+    word: true
+  - triggers: [':monster', ':monster:']
+    replace: "\U0001F479"
+    word: true
+  - triggers: [':japanese goblin', ':japanese goblin:']
+    replace: "\U0001F47A"
+    word: true
+  - triggers: [':hankey', ':hankey:']
+    replace: "\U0001F4A9"
+    word: true
+  - triggers: [':poop', ':poop:']
+    replace: "\U0001F4A9"
+    word: true
+  - triggers: [':shit', ':shit:']
+    replace: "\U0001F4A9"
+    word: true
+  - triggers: [':crap', ':crap:']
+    replace: "\U0001F4A9"
+    word: true
+  - triggers: [':hankey', ':hankey:']
+    replace: "\U0001F4A9"
+    word: true
+  - triggers: [':hankey', ':hankey:']
+    replace: "\U0001F4A9"
+    word: true
+  - triggers: [':ghost', ':ghost:']
+    replace: "\U0001F47B"
+    word: true
+  - triggers: [':halloween', ':halloween:']
+    replace: "\U0001F47B"
+    word: true
+  - triggers: [':skull', ':skull:']
+    replace: "\U0001F480"
+    word: true
+  - triggers: [':dead', ':dead:']
+    replace: "\U0001F480"
+    word: true
+  - triggers: [':danger', ':danger:']
+    replace: "\U0001F480"
+    word: true
+  - triggers: [':poison', ':poison:']
+    replace: "\U0001F480"
+    word: true
+  - triggers: [':skull and crossbones', ':skull and crossbones:']
+    replace: ☠️
+    word: true
+  - triggers: [':pirate', ':pirate:']
+    replace: ☠️
+    word: true
+  - triggers: [':alien', ':alien:']
+    replace: "\U0001F47D"
+    word: true
+  - triggers: [':ufo', ':ufo:']
+    replace: "\U0001F47D"
+    word: true
+  - triggers: [':space invader', ':space invader:']
+    replace: "\U0001F47E"
+    word: true
+  - triggers: [':game', ':game:']
+    replace: "\U0001F47E"
+    word: true
+  - triggers: [':retro', ':retro:']
+    replace: "\U0001F47E"
+    word: true
+  - triggers: [':robot', ':robot:']
+    replace: "\U0001F916"
+    word: true
+  - triggers: [':jack o lantern', ':jack o lantern:']
+    replace: "\U0001F383"
+    word: true
+  - triggers: [':smiley cat', ':smiley cat:']
+    replace: "\U0001F63A"
+    word: true
+  - triggers: [':smile cat', ':smile cat:']
+    replace: "\U0001F638"
+    word: true
+  - triggers: [':joy cat', ':joy cat:']
+    replace: "\U0001F639"
+    word: true
+  - triggers: [':heart eyes cat', ':heart eyes cat:']
+    replace: "\U0001F63B"
+    word: true
+  - triggers: [':smirk cat', ':smirk cat:']
+    replace: "\U0001F63C"
+    word: true
+  - triggers: [':kissing cat', ':kissing cat:']
+    replace: "\U0001F63D"
+    word: true
+  - triggers: [':scream cat', ':scream cat:']
+    replace: "\U0001F640"
+    word: true
+  - triggers: [':crying cat face', ':crying cat face:']
+    replace: "\U0001F63F"
+    word: true
+  - triggers: [':pouting cat', ':pouting cat:']
+    replace: "\U0001F63E"
+    word: true
+  - triggers: [':open hands', ':open hands:']
+    replace: "\U0001F450"
+    word: true
+  - triggers: [':raised hands', ':raised hands:']
+    replace: "\U0001F64C"
+    word: true
+  - triggers: [':hooray', ':hooray:']
+    replace: "\U0001F64C"
+    word: true
+  - triggers: [':clap', ':clap:']
+    replace: "\U0001F44F"
+    word: true
+  - triggers: [':praise', ':praise:']
+    replace: "\U0001F44F"
+    word: true
+  - triggers: [':applause', ':applause:']
+    replace: "\U0001F44F"
+    word: true
+  - triggers: [':pray', ':pray:']
+    replace: "\U0001F64F"
+    word: true
+  - triggers: [':please', ':please:']
+    replace: "\U0001F64F"
+    word: true
+  - triggers: [':hope', ':hope:']
+    replace: "\U0001F64F"
+    word: true
+  - triggers: [':wish', ':wish:']
+    replace: "\U0001F64F"
+    word: true
+  - triggers: [':handshake', ':handshake:']
+    replace: "\U0001F91D"
+    word: true
+  - triggers: [':deal', ':deal:']
+    replace: "\U0001F91D"
+    word: true
+  - triggers: [':+1', ':+1:']
+    replace: "\U0001F44D"
+    word: true
+  - triggers: [':thumbsup', ':thumbsup:']
+    replace: "\U0001F44D"
+    word: true
+  - triggers: [':approve', ':approve:']
+    replace: "\U0001F44D"
+    word: true
+  - triggers: [':+1', ':+1:']
+    replace: "\U0001F44D"
+    word: true
+  - triggers: [':-1', ':-1:']
+    replace: "\U0001F44E"
+    word: true
+  - triggers: [':thumbsdown', ':thumbsdown:']
+    replace: "\U0001F44E"
+    word: true
+  - triggers: [':disapprove', ':disapprove:']
+    replace: "\U0001F44E"
+    word: true
+  - triggers: [':bury', ':bury:']
+    replace: "\U0001F44E"
+    word: true
+  - triggers: [':-1', ':-1:']
+    replace: "\U0001F44E"
+    word: true
+  - triggers: [':fist oncoming', ':fist oncoming:']
+    replace: "\U0001F44A"
+    word: true
+  - triggers: [':facepunch', ':facepunch:']
+    replace: "\U0001F44A"
+    word: true
+  - triggers: [':punch', ':punch:']
+    replace: "\U0001F44A"
+    word: true
+  - triggers: [':attack', ':attack:']
+    replace: "\U0001F44A"
+    word: true
+  - triggers: [':fist oncoming', ':fist oncoming:']
+    replace: "\U0001F44A"
+    word: true
+  - triggers: [':fist oncoming', ':fist oncoming:']
+    replace: "\U0001F44A"
+    word: true
+  - triggers: [':fist raised', ':fist raised:']
+    replace: ✊
+    word: true
+  - triggers: [':fist', ':fist:']
+    replace: ✊
+    word: true
+  - triggers: [':power', ':power:']
+    replace: ✊
+    word: true
+  - triggers: [':fist raised', ':fist raised:']
+    replace: ✊
+    word: true
+  - triggers: [':fist left', ':fist left:']
+    replace: "\U0001F91B"
+    word: true
+  - triggers: [':fist right', ':fist right:']
+    replace: "\U0001F91C"
+    word: true
+  - triggers: [':crossed fingers', ':crossed fingers:']
+    replace: "\U0001F91E"
+    word: true
+  - triggers: [':luck', ':luck:']
+    replace: "\U0001F91E"
+    word: true
+  - triggers: [':hopeful', ':hopeful:']
+    replace: "\U0001F91E"
+    word: true
+  - triggers: [':v', ':v:']
+    replace: ✌️
+    word: true
+  - triggers: [':victory', ':victory:']
+    replace: ✌️
+    word: true
+  - triggers: [':peace', ':peace:']
+    replace: ✌️
+    word: true
+  - triggers: [':metal', ':metal:']
+    replace: "\U0001F918"
+    word: true
+  - triggers: [':ok hand', ':ok hand:']
+    replace: "\U0001F44C"
+    word: true
+  - triggers: [':point left', ':point left:']
+    replace: "\U0001F448"
+    word: true
+  - triggers: [':point right', ':point right:']
+    replace: "\U0001F449"
+    word: true
+  - triggers: [':point up 2', ':point up 2:']
+    replace: "\U0001F446"
+    word: true
+  - triggers: [':point down', ':point down:']
+    replace: "\U0001F447"
+    word: true
+  - triggers: [':point up', ':point up:']
+    replace: ☝️
+    word: true
+  - triggers: [':hand', ':hand:']
+    replace: ✋
+    word: true
+  - triggers: [':raised hand', ':raised hand:']
+    replace: ✋
+    word: true
+  - triggers: [':highfive', ':highfive:']
+    replace: ✋
+    word: true
+  - triggers: [':stop', ':stop:']
+    replace: ✋
+    word: true
+  - triggers: [':hand', ':hand:']
+    replace: ✋
+    word: true
+  - triggers: [':raised back of hand', ':raised back of hand:']
+    replace: "\U0001F91A"
+    word: true
+  - triggers: [':raised hand with fingers splayed', ':raised hand with fingers splayed:']
+    replace: "\U0001F590"
+    word: true
+  - triggers: [':vulcan salute', ':vulcan salute:']
+    replace: "\U0001F596"
+    word: true
+  - triggers: [':prosper', ':prosper:']
+    replace: "\U0001F596"
+    word: true
+  - triggers: [':spock', ':spock:']
+    replace: "\U0001F596"
+    word: true
+  - triggers: [':wave', ':wave:']
+    replace: "\U0001F44B"
+    word: true
+  - triggers: [':goodbye', ':goodbye:']
+    replace: "\U0001F44B"
+    word: true
+  - triggers: [':call me hand', ':call me hand:']
+    replace: "\U0001F919"
+    word: true
+  - triggers: [':muscle', ':muscle:']
+    replace: "\U0001F4AA"
+    word: true
+  - triggers: [':flex', ':flex:']
+    replace: "\U0001F4AA"
+    word: true
+  - triggers: [':bicep', ':bicep:']
+    replace: "\U0001F4AA"
+    word: true
+  - triggers: [':strong', ':strong:']
+    replace: "\U0001F4AA"
+    word: true
+  - triggers: [':workout', ':workout:']
+    replace: "\U0001F4AA"
+    word: true
+  - triggers: [':middle finger', ':middle finger:']
+    replace: "\U0001F595"
+    word: true
+  - triggers: [':fu', ':fu:']
+    replace: "\U0001F595"
+    word: true
+  - triggers: [':middle finger', ':middle finger:']
+    replace: "\U0001F595"
+    word: true
+  - triggers: [':writing hand', ':writing hand:']
+    replace: ✍️
+    word: true
+  - triggers: [':selfie', ':selfie:']
+    replace: "\U0001F933"
+    word: true
+  - triggers: [':nail care', ':nail care:']
+    replace: "\U0001F485"
+    word: true
+  - triggers: [':beauty', ':beauty:']
+    replace: "\U0001F485"
+    word: true
+  - triggers: [':manicure', ':manicure:']
+    replace: "\U0001F485"
+    word: true
+  - triggers: [':ring', ':ring:']
+    replace: "\U0001F48D"
+    word: true
+  - triggers: [':marriage', ':marriage:']
+    replace: "\U0001F48D"
+    word: true
+  - triggers: [':engaged', ':engaged:']
+    replace: "\U0001F48D"
+    word: true
+  - triggers: [':lipstick', ':lipstick:']
+    replace: "\U0001F484"
+    word: true
+  - triggers: [':makeup', ':makeup:']
+    replace: "\U0001F484"
+    word: true
+  - triggers: [':kiss', ':kiss:']
+    replace: "\U0001F48B"
+    word: true
+  - triggers: [':lips', ':lips:']
+    replace: "\U0001F444"
+    word: true
+  - triggers: [':tongue', ':tongue:']
+    replace: "\U0001F445"
+    word: true
+  - triggers: [':taste', ':taste:']
+    replace: "\U0001F445"
+    word: true
+  - triggers: [':ear', ':ear:']
+    replace: "\U0001F442"
+    word: true
+  - triggers: [':hear', ':hear:']
+    replace: "\U0001F442"
+    word: true
+  - triggers: [':listen', ':listen:']
+    replace: "\U0001F442"
+    word: true
+  - triggers: [':nose', ':nose:']
+    replace: "\U0001F443"
+    word: true
+  - triggers: [':smell', ':smell:']
+    replace: "\U0001F443"
+    word: true
+  - triggers: [':footprints', ':footprints:']
+    replace: "\U0001F463"
+    word: true
+  - triggers: [':tracks', ':tracks:']
+    replace: "\U0001F463"
+    word: true
+  - triggers: [':eye', ':eye:']
+    replace: "\U0001F441"
+    word: true
+  - triggers: [':eyes', ':eyes:']
+    replace: "\U0001F440"
+    word: true
+  - triggers: [':look', ':look:']
+    replace: "\U0001F440"
+    word: true
+  - triggers: [':see', ':see:']
+    replace: "\U0001F440"
+    word: true
+  - triggers: [':speaking head', ':speaking head:']
+    replace: "\U0001F5E3"
+    word: true
+  - triggers: [':bust in silhouette', ':bust in silhouette:']
+    replace: "\U0001F464"
+    word: true
+  - triggers: [':user', ':user:']
+    replace: "\U0001F464"
+    word: true
+  - triggers: [':busts in silhouette', ':busts in silhouette:']
+    replace: "\U0001F465"
+    word: true
+  - triggers: [':users', ':users:']
+    replace: "\U0001F465"
+    word: true
+  - triggers: [':group', ':group:']
+    replace: "\U0001F465"
+    word: true
+  - triggers: [':team', ':team:']
+    replace: "\U0001F465"
+    word: true
+  - triggers: [':baby', ':baby:']
+    replace: "\U0001F476"
+    word: true
+  - triggers: [':child', ':child:']
+    replace: "\U0001F476"
+    word: true
+  - triggers: [':newborn', ':newborn:']
+    replace: "\U0001F476"
+    word: true
+  - triggers: [':boy', ':boy:']
+    replace: "\U0001F466"
+    word: true
+  - triggers: [':girl', ':girl:']
+    replace: "\U0001F467"
+    word: true
+  - triggers: [':man', ':man:']
+    replace: "\U0001F468"
+    word: true
+  - triggers: [':mustache', ':mustache:']
+    replace: "\U0001F468"
+    word: true
+  - triggers: [':father', ':father:']
+    replace: "\U0001F468"
+    word: true
+  - triggers: [':dad', ':dad:']
+    replace: "\U0001F468"
+    word: true
+  - triggers: [':woman', ':woman:']
+    replace: "\U0001F469"
+    word: true
+  - triggers: [':girls', ':girls:']
+    replace: "\U0001F469"
+    word: true
+  - triggers: [':blonde woman', ':blonde woman:']
+    replace: "\U0001F471‍♀"
+    word: true
+  - triggers: [':blonde man', ':blonde man:']
+    replace: "\U0001F471"
+    word: true
+  - triggers: [':person with blond hair', ':person with blond hair:']
+    replace: "\U0001F471"
+    word: true
+  - triggers: [':blonde man', ':blonde man:']
+    replace: "\U0001F471"
+    word: true
+  - triggers: [':older man', ':older man:']
+    replace: "\U0001F474"
+    word: true
+  - triggers: [':older woman', ':older woman:']
+    replace: "\U0001F475"
+    word: true
+  - triggers: [':man with gua pi mao', ':man with gua pi mao:']
+    replace: "\U0001F472"
+    word: true
+  - triggers: [':woman with turban', ':woman with turban:']
+    replace: "\U0001F473‍♀"
+    word: true
+  - triggers: [':man with turban', ':man with turban:']
+    replace: "\U0001F473"
+    word: true
+  - triggers: [':policewoman', ':policewoman:']
+    replace: "\U0001F46E‍♀"
+    word: true
+  - triggers: [':policeman', ':policeman:']
+    replace: "\U0001F46E"
+    word: true
+  - triggers: [':cop', ':cop:']
+    replace: "\U0001F46E"
+    word: true
+  - triggers: [':police', ':police:']
+    replace: "\U0001F46E"
+    word: true
+  - triggers: [':law', ':law:']
+    replace: "\U0001F46E"
+    word: true
+  - triggers: [':policeman', ':policeman:']
+    replace: "\U0001F46E"
+    word: true
+  - triggers: [':construction worker woman', ':construction worker woman:']
+    replace: "\U0001F477‍♀"
+    word: true
+  - triggers: [':construction worker man', ':construction worker man:']
+    replace: "\U0001F477"
+    word: true
+  - triggers: [':construction worker', ':construction worker:']
+    replace: "\U0001F477"
+    word: true
+  - triggers: [':helmet', ':helmet:']
+    replace: "\U0001F477"
+    word: true
+  - triggers: [':construction worker man', ':construction worker man:']
+    replace: "\U0001F477"
+    word: true
+  - triggers: [':guardswoman', ':guardswoman:']
+    replace: "\U0001F482‍♀"
+    word: true
+  - triggers: [':guardsman', ':guardsman:']
+    replace: "\U0001F482"
+    word: true
+  - triggers: [':female detective', ':female detective:']
+    replace: "\U0001F575️‍♀️"
+    word: true
+  - triggers: [':sleuth', ':sleuth:']
+    replace: "\U0001F575️‍♀️"
+    word: true
+  - triggers: [':male detective', ':male detective:']
+    replace: "\U0001F575"
+    word: true
+  - triggers: [':detective', ':detective:']
+    replace: "\U0001F575"
+    word: true
+  - triggers: [':male detective', ':male detective:']
+    replace: "\U0001F575"
+    word: true
+  - triggers: [':woman health worker', ':woman health worker:']
+    replace: "\U0001F469‍⚕"
+    word: true
+  - triggers: [':doctor', ':doctor:']
+    replace: "\U0001F469‍⚕"
+    word: true
+  - triggers: [':nurse', ':nurse:']
+    replace: "\U0001F469‍⚕"
+    word: true
+  - triggers: [':man health worker', ':man health worker:']
+    replace: "\U0001F468‍⚕"
+    word: true
+  - triggers: [':woman farmer', ':woman farmer:']
+    replace: "\U0001F469‍\U0001F33E"
+    word: true
+  - triggers: [':man farmer', ':man farmer:']
+    replace: "\U0001F468‍\U0001F33E"
+    word: true
+  - triggers: [':woman cook', ':woman cook:']
+    replace: "\U0001F469‍\U0001F373"
+    word: true
+  - triggers: [':chef', ':chef:']
+    replace: "\U0001F469‍\U0001F373"
+    word: true
+  - triggers: [':man cook', ':man cook:']
+    replace: "\U0001F468‍\U0001F373"
+    word: true
+  - triggers: [':woman student', ':woman student:']
+    replace: "\U0001F469‍\U0001F393"
+    word: true
+  - triggers: [':graduation', ':graduation:']
+    replace: "\U0001F469‍\U0001F393"
+    word: true
+  - triggers: [':man student', ':man student:']
+    replace: "\U0001F468‍\U0001F393"
+    word: true
+  - triggers: [':woman singer', ':woman singer:']
+    replace: "\U0001F469‍\U0001F3A4"
+    word: true
+  - triggers: [':rockstar', ':rockstar:']
+    replace: "\U0001F469‍\U0001F3A4"
+    word: true
+  - triggers: [':man singer', ':man singer:']
+    replace: "\U0001F468‍\U0001F3A4"
+    word: true
+  - triggers: [':woman teacher', ':woman teacher:']
+    replace: "\U0001F469‍\U0001F3EB"
+    word: true
+  - triggers: [':professor', ':professor:']
+    replace: "\U0001F469‍\U0001F3EB"
+    word: true
+  - triggers: [':man teacher', ':man teacher:']
+    replace: "\U0001F468‍\U0001F3EB"
+    word: true
+  - triggers: [':woman factory worker', ':woman factory worker:']
+    replace: "\U0001F469‍\U0001F3ED"
+    word: true
+  - triggers: [':man factory worker', ':man factory worker:']
+    replace: "\U0001F468‍\U0001F3ED"
+    word: true
+  - triggers: [':woman technologist', ':woman technologist:']
+    replace: "\U0001F469‍\U0001F4BB"
+    word: true
+  - triggers: [':coder', ':coder:']
+    replace: "\U0001F469‍\U0001F4BB"
+    word: true
+  - triggers: [':man technologist', ':man technologist:']
+    replace: "\U0001F468‍\U0001F4BB"
+    word: true
+  - triggers: [':woman office worker', ':woman office worker:']
+    replace: "\U0001F469‍\U0001F4BC"
+    word: true
+  - triggers: [':business', ':business:']
+    replace: "\U0001F469‍\U0001F4BC"
+    word: true
+  - triggers: [':man office worker', ':man office worker:']
+    replace: "\U0001F468‍\U0001F4BC"
+    word: true
+  - triggers: [':woman mechanic', ':woman mechanic:']
+    replace: "\U0001F469‍\U0001F527"
+    word: true
+  - triggers: [':man mechanic', ':man mechanic:']
+    replace: "\U0001F468‍\U0001F527"
+    word: true
+  - triggers: [':woman scientist', ':woman scientist:']
+    replace: "\U0001F469‍\U0001F52C"
+    word: true
+  - triggers: [':research', ':research:']
+    replace: "\U0001F469‍\U0001F52C"
+    word: true
+  - triggers: [':man scientist', ':man scientist:']
+    replace: "\U0001F468‍\U0001F52C"
+    word: true
+  - triggers: [':woman artist', ':woman artist:']
+    replace: "\U0001F469‍\U0001F3A8"
+    word: true
+  - triggers: [':painter', ':painter:']
+    replace: "\U0001F469‍\U0001F3A8"
+    word: true
+  - triggers: [':man artist', ':man artist:']
+    replace: "\U0001F468‍\U0001F3A8"
+    word: true
+  - triggers: [':woman firefighter', ':woman firefighter:']
+    replace: "\U0001F469‍\U0001F692"
+    word: true
+  - triggers: [':man firefighter', ':man firefighter:']
+    replace: "\U0001F468‍\U0001F692"
+    word: true
+  - triggers: [':woman pilot', ':woman pilot:']
+    replace: "\U0001F469‍✈"
+    word: true
+  - triggers: [':man pilot', ':man pilot:']
+    replace: "\U0001F468‍✈"
+    word: true
+  - triggers: [':woman astronaut', ':woman astronaut:']
+    replace: "\U0001F469‍\U0001F680"
+    word: true
+  - triggers: [':space', ':space:']
+    replace: "\U0001F469‍\U0001F680"
+    word: true
+  - triggers: [':man astronaut', ':man astronaut:']
+    replace: "\U0001F468‍\U0001F680"
+    word: true
+  - triggers: [':woman judge', ':woman judge:']
+    replace: "\U0001F469‍⚖"
+    word: true
+  - triggers: [':justice', ':justice:']
+    replace: "\U0001F469‍⚖"
+    word: true
+  - triggers: [':man judge', ':man judge:']
+    replace: "\U0001F468‍⚖"
+    word: true
+  - triggers: [':mrs claus', ':mrs claus:']
+    replace: "\U0001F936"
+    word: true
+  - triggers: [':santa', ':santa:']
+    replace: "\U0001F385"
+    word: true
+  - triggers: [':christmas', ':christmas:']
+    replace: "\U0001F385"
+    word: true
+  - triggers: [':princess', ':princess:']
+    replace: "\U0001F478"
+    word: true
+  - triggers: [':blonde', ':blonde:']
+    replace: "\U0001F478"
+    word: true
+  - triggers: [':royal', ':royal:']
+    replace: "\U0001F478"
+    word: true
+  - triggers: [':prince', ':prince:']
+    replace: "\U0001F934"
+    word: true
+  - triggers: [':bride with veil', ':bride with veil:']
+    replace: "\U0001F470"
+    word: true
+  - triggers: [':man in tuxedo', ':man in tuxedo:']
+    replace: "\U0001F935"
+    word: true
+  - triggers: [':groom', ':groom:']
+    replace: "\U0001F935"
+    word: true
+  - triggers: [':angel', ':angel:']
+    replace: "\U0001F47C"
+    word: true
+  - triggers: [':pregnant woman', ':pregnant woman:']
+    replace: "\U0001F930"
+    word: true
+  - triggers: [':bowing woman', ':bowing woman:']
+    replace: "\U0001F647‍♀"
+    word: true
+  - triggers: [':respect', ':respect:']
+    replace: "\U0001F647‍♀"
+    word: true
+  - triggers: [':thanks', ':thanks:']
+    replace: "\U0001F647‍♀"
+    word: true
+  - triggers: [':bowing man', ':bowing man:']
+    replace: "\U0001F647"
+    word: true
+  - triggers: [':bow', ':bow:']
+    replace: "\U0001F647"
+    word: true
+  - triggers: [':bowing man', ':bowing man:']
+    replace: "\U0001F647"
+    word: true
+  - triggers: [':tipping hand woman', ':tipping hand woman:']
+    replace: "\U0001F481"
+    word: true
+  - triggers: [':information desk person', ':information desk person:']
+    replace: "\U0001F481"
+    word: true
+  - triggers: [':sassy woman', ':sassy woman:']
+    replace: "\U0001F481"
+    word: true
+  - triggers: [':tipping hand woman', ':tipping hand woman:']
+    replace: "\U0001F481"
+    word: true
+  - triggers: [':tipping hand woman', ':tipping hand woman:']
+    replace: "\U0001F481"
+    word: true
+  - triggers: [':tipping hand man', ':tipping hand man:']
+    replace: "\U0001F481‍♂"
+    word: true
+  - triggers: [':sassy man', ':sassy man:']
+    replace: "\U0001F481‍♂"
+    word: true
+  - triggers: [':information', ':information:']
+    replace: "\U0001F481‍♂"
+    word: true
+  - triggers: [':tipping hand man', ':tipping hand man:']
+    replace: "\U0001F481‍♂"
+    word: true
+  - triggers: [':no good woman', ':no good woman:']
+    replace: "\U0001F645"
+    word: true
+  - triggers: [':no good', ':no good:']
+    replace: "\U0001F645"
+    word: true
+  - triggers: [':ng woman', ':ng woman:']
+    replace: "\U0001F645"
+    word: true
+  - triggers: [':halt', ':halt:']
+    replace: "\U0001F645"
+    word: true
+  - triggers: [':no good woman', ':no good woman:']
+    replace: "\U0001F645"
+    word: true
+  - triggers: [':no good woman', ':no good woman:']
+    replace: "\U0001F645"
+    word: true
+  - triggers: [':no good man', ':no good man:']
+    replace: "\U0001F645‍♂"
+    word: true
+  - triggers: [':ng man', ':ng man:']
+    replace: "\U0001F645‍♂"
+    word: true
+  - triggers: [':no good man', ':no good man:']
+    replace: "\U0001F645‍♂"
+    word: true
+  - triggers: [':ok woman', ':ok woman:']
+    replace: "\U0001F646"
+    word: true
+  - triggers: [':ok man', ':ok man:']
+    replace: "\U0001F646‍♂"
+    word: true
+  - triggers: [':raising hand woman', ':raising hand woman:']
+    replace: "\U0001F64B"
+    word: true
+  - triggers: [':raising hand', ':raising hand:']
+    replace: "\U0001F64B"
+    word: true
+  - triggers: [':raising hand woman', ':raising hand woman:']
+    replace: "\U0001F64B"
+    word: true
+  - triggers: [':raising hand man', ':raising hand man:']
+    replace: "\U0001F64B‍♂"
+    word: true
+  - triggers: [':woman facepalming', ':woman facepalming:']
+    replace: "\U0001F926‍♀"
+    word: true
+  - triggers: [':facepalm', ':facepalming:']
+    replace: "\U0001F926‍♂"
+    word: true
+  - triggers: [':woman shrugging', ':woman shrugging:']
+    replace: "\U0001F937‍♀"
+    word: true
+  - triggers: [':man shrugging', ':man shrugging:']
+    replace: "\U0001F937‍♂"
+    word: true
+  - triggers: [':pouting woman', ':pouting woman:']
+    replace: "\U0001F64E"
+    word: true
+  - triggers: [':person with pouting face', ':person with pouting face:']
+    replace: "\U0001F64E"
+    word: true
+  - triggers: [':pouting woman', ':pouting woman:']
+    replace: "\U0001F64E"
+    word: true
+  - triggers: [':pouting man', ':pouting man:']
+    replace: "\U0001F64E‍♂"
+    word: true
+  - triggers: [':frowning woman', ':frowning woman:']
+    replace: "\U0001F64D"
+    word: true
+  - triggers: [':person frowning', ':person frowning:']
+    replace: "\U0001F64D"
+    word: true
+  - triggers: [':frowning woman', ':frowning woman:']
+    replace: "\U0001F64D"
+    word: true
+  - triggers: [':frowning man', ':frowning man:']
+    replace: "\U0001F64D‍♂"
+    word: true
+  - triggers: [':haircut woman', ':haircut woman:']
+    replace: "\U0001F487"
+    word: true
+  - triggers: [':haircut', ':haircut:']
+    replace: "\U0001F487"
+    word: true
+  - triggers: [':haircut woman', ':haircut woman:']
+    replace: "\U0001F487"
+    word: true
+  - triggers: [':haircut man', ':haircut man:']
+    replace: "\U0001F487‍♂"
+    word: true
+  - triggers: [':massage woman', ':massage woman:']
+    replace: "\U0001F486"
+    word: true
+  - triggers: [':massage', ':massage:']
+    replace: "\U0001F486"
+    word: true
+  - triggers: [':spa', ':spa:']
+    replace: "\U0001F486"
+    word: true
+  - triggers: [':massage woman', ':massage woman:']
+    replace: "\U0001F486"
+    word: true
+  - triggers: [':massage man', ':massage man:']
+    replace: "\U0001F486‍♂"
+    word: true
+  - triggers: [':business suit levitating', ':business suit levitating:']
+    replace: "\U0001F574"
+    word: true
+  - triggers: [':dancer', ':dancer:']
+    replace: "\U0001F483"
+    word: true
+  - triggers: [':man dancing', ':man dancing:']
+    replace: "\U0001F57A"
+    word: true
+  - triggers: [':dancing women', ':dancing women:']
+    replace: "\U0001F46F"
+    word: true
+  - triggers: [':dancers', ':dancers:']
+    replace: "\U0001F46F"
+    word: true
+  - triggers: [':bunny', ':bunny:']
+    replace: "\U0001F46F"
+    word: true
+  - triggers: [':dancing women', ':dancing women:']
+    replace: "\U0001F46F"
+    word: true
+  - triggers: [':dancing men', ':dancing men:']
+    replace: "\U0001F46F‍♂"
+    word: true
+  - triggers: [':walking woman', ':walking woman:']
+    replace: "\U0001F6B6‍♀"
+    word: true
+  - triggers: [':walking man', ':walking man:']
+    replace: "\U0001F6B6"
+    word: true
+  - triggers: [':walking', ':walking:']
+    replace: "\U0001F6B6"
+    word: true
+  - triggers: [':walking man', ':walking man:']
+    replace: "\U0001F6B6"
+    word: true
+  - triggers: [':running woman', ':running woman:']
+    replace: "\U0001F3C3‍♀"
+    word: true
+  - triggers: [':exercise', ':exercise:']
+    replace: "\U0001F3C3‍♀"
+    word: true
+  - triggers: [':marathon', ':marathon:']
+    replace: "\U0001F3C3‍♀"
+    word: true
+  - triggers: [':running man', ':running man:']
+    replace: "\U0001F3C3"
+    word: true
+  - triggers: [':runner', ':runner:']
+    replace: "\U0001F3C3"
+    word: true
+  - triggers: [':running', ':running:']
+    replace: "\U0001F3C3"
+    word: true
+  - triggers: [':running man', ':running man:']
+    replace: "\U0001F3C3"
+    word: true
+  - triggers: [':running man', ':running man:']
+    replace: "\U0001F3C3"
+    word: true
+  - triggers: [':couple', ':couple:']
+    replace: "\U0001F46B"
+    word: true
+  - triggers: [':two women holding hands', ':two women holding hands:']
+    replace: "\U0001F46D"
+    word: true
+  - triggers: [':two men holding hands', ':two men holding hands:']
+    replace: "\U0001F46C"
+    word: true
+  - triggers: [':couple with heart woman man', ':couple with heart woman man:']
+    replace: "\U0001F491"
+    word: true
+  - triggers: [':couple with heart', ':couple with heart:']
+    replace: "\U0001F491"
+    word: true
+  - triggers: [':couple with heart woman man', ':couple with heart woman man:']
+    replace: "\U0001F491"
+    word: true
+  - triggers: [':couple with heart woman woman', ':couple with heart woman woman:']
+    replace: "\U0001F469‍❤️‍\U0001F469"
+    word: true
+  - triggers: [':couple with heart man man', ':couple with heart man man:']
+    replace: "\U0001F468‍❤️‍\U0001F468"
+    word: true
+  - triggers: [':couplekiss man woman', ':couplekiss man woman:']
+    replace: "\U0001F48F"
+    word: true
+  - triggers: [':couplekiss woman woman', ':couplekiss woman woman:']
+    replace: "\U0001F469‍❤️‍\U0001F48B‍\U0001F469"
+    word: true
+  - triggers: [':couplekiss man man', ':couplekiss man man:']
+    replace: "\U0001F468‍❤️‍\U0001F48B‍\U0001F468"
+    word: true
+  - triggers: [':family man woman boy', ':family man woman boy:']
+    replace: "\U0001F46A"
+    word: true
+  - triggers: [':family', ':family:']
+    replace: "\U0001F46A"
+    word: true
+  - triggers: [':home', ':home:']
+    replace: "\U0001F46A"
+    word: true
+  - triggers: [':parents', ':parents:']
+    replace: "\U0001F46A"
+    word: true
+  - triggers: [':family man woman boy', ':family man woman boy:']
+    replace: "\U0001F46A"
+    word: true
+  - triggers: [':family man woman girl', ':family man woman girl:']
+    replace: "\U0001F468‍\U0001F469‍\U0001F467"
+    word: true
+  - triggers: [':family man woman girl boy', ':family man woman girl boy:']
+    replace: "\U0001F468‍\U0001F469‍\U0001F467‍\U0001F466"
+    word: true
+  - triggers: [':family man woman boy boy', ':family man woman boy boy:']
+    replace: "\U0001F468‍\U0001F469‍\U0001F466‍\U0001F466"
+    word: true
+  - triggers: [':family man woman girl girl', ':family man woman girl girl:']
+    replace: "\U0001F468‍\U0001F469‍\U0001F467‍\U0001F467"
+    word: true
+  - triggers: [':family woman woman boy', ':family woman woman boy:']
+    replace: "\U0001F469‍\U0001F469‍\U0001F466"
+    word: true
+  - triggers: [':family woman woman girl', ':family woman woman girl:']
+    replace: "\U0001F469‍\U0001F469‍\U0001F467"
+    word: true
+  - triggers: [':family woman woman girl boy', ':family woman woman girl boy:']
+    replace: "\U0001F469‍\U0001F469‍\U0001F467‍\U0001F466"
+    word: true
+  - triggers: [':family woman woman boy boy', ':family woman woman boy boy:']
+    replace: "\U0001F469‍\U0001F469‍\U0001F466‍\U0001F466"
+    word: true
+  - triggers: [':family woman woman girl girl', ':family woman woman girl girl:']
+    replace: "\U0001F469‍\U0001F469‍\U0001F467‍\U0001F467"
+    word: true
+  - triggers: [':family man man boy', ':family man man boy:']
+    replace: "\U0001F468‍\U0001F468‍\U0001F466"
+    word: true
+  - triggers: [':family man man girl', ':family man man girl:']
+    replace: "\U0001F468‍\U0001F468‍\U0001F467"
+    word: true
+  - triggers: [':family man man girl boy', ':family man man girl boy:']
+    replace: "\U0001F468‍\U0001F468‍\U0001F467‍\U0001F466"
+    word: true
+  - triggers: [':family man man boy boy', ':family man man boy boy:']
+    replace: "\U0001F468‍\U0001F468‍\U0001F466‍\U0001F466"
+    word: true
+  - triggers: [':family man man girl girl', ':family man man girl girl:']
+    replace: "\U0001F468‍\U0001F468‍\U0001F467‍\U0001F467"
+    word: true
+  - triggers: [':family woman boy', ':family woman boy:']
+    replace: "\U0001F469‍\U0001F466"
+    word: true
+  - triggers: [':family woman girl', ':family woman girl:']
+    replace: "\U0001F469‍\U0001F467"
+    word: true
+  - triggers: [':family woman girl boy', ':family woman girl boy:']
+    replace: "\U0001F469‍\U0001F467‍\U0001F466"
+    word: true
+  - triggers: [':family woman boy boy', ':family woman boy boy:']
+    replace: "\U0001F469‍\U0001F466‍\U0001F466"
+    word: true
+  - triggers: [':family woman girl girl', ':family woman girl girl:']
+    replace: "\U0001F469‍\U0001F467‍\U0001F467"
+    word: true
+  - triggers: [':family man boy', ':family man boy:']
+    replace: "\U0001F468‍\U0001F466"
+    word: true
+  - triggers: [':family man girl', ':family man girl:']
+    replace: "\U0001F468‍\U0001F467"
+    word: true
+  - triggers: [':family man girl boy', ':family man girl boy:']
+    replace: "\U0001F468‍\U0001F467‍\U0001F466"
+    word: true
+  - triggers: [':family man boy boy', ':family man boy boy:']
+    replace: "\U0001F468‍\U0001F466‍\U0001F466"
+    word: true
+  - triggers: [':family man girl girl', ':family man girl girl:']
+    replace: "\U0001F468‍\U0001F467‍\U0001F467"
+    word: true
+  - triggers: [':womans clothes', ':womans clothes:']
+    replace: "\U0001F45A"
+    word: true
+  - triggers: [':shirt', ':shirt:']
+    replace: "\U0001F455"
+    word: true
+  - triggers: [':tshirt', ':tshirt:']
+    replace: "\U0001F455"
+    word: true
+  - triggers: [':shirt', ':shirt:']
+    replace: "\U0001F455"
+    word: true
+  - triggers: [':jeans', ':jeans:']
+    replace: "\U0001F456"
+    word: true
+  - triggers: [':pants', ':pants:']
+    replace: "\U0001F456"
+    word: true
+  - triggers: [':necktie', ':necktie:']
+    replace: "\U0001F454"
+    word: true
+  - triggers: [':formal', ':formal:']
+    replace: "\U0001F454"
+    word: true
+  - triggers: [':dress', ':dress:']
+    replace: "\U0001F457"
+    word: true
+  - triggers: [':bikini', ':bikini:']
+    replace: "\U0001F459"
+    word: true
+  - triggers: [':beach', ':beach:']
+    replace: "\U0001F459"
+    word: true
+  - triggers: [':kimono', ':kimono:']
+    replace: "\U0001F458"
+    word: true
+  - triggers: [':high heel', ':high heel:']
+    replace: "\U0001F460"
+    word: true
+  - triggers: [':shoe', ':shoe:']
+    replace: "\U0001F460"
+    word: true
+  - triggers: [':sandal', ':sandal:']
+    replace: "\U0001F461"
+    word: true
+  - triggers: [':boot', ':boot:']
+    replace: "\U0001F462"
+    word: true
+  - triggers: [':mans shoe', ':mans shoe:']
+    replace: "\U0001F45E"
+    word: true
+  - triggers: [':mans shoe', ':mans shoe:']
+    replace: "\U0001F45E"
+    word: true
+  - triggers: [':athletic shoe', ':athletic shoe:']
+    replace: "\U0001F45F"
+    word: true
+  - triggers: [':sneaker', ':sneaker:']
+    replace: "\U0001F45F"
+    word: true
+  - triggers: [':sport', ':sport:']
+    replace: "\U0001F45F"
+    word: true
+  - triggers: [':womans hat', ':womans hat:']
+    replace: "\U0001F452"
+    word: true
+  - triggers: [':tophat', ':tophat:']
+    replace: "\U0001F3A9"
+    word: true
+  - triggers: [':hat', ':hat:']
+    replace: "\U0001F3A9"
+    word: true
+  - triggers: [':classy', ':classy:']
+    replace: "\U0001F3A9"
+    word: true
+  - triggers: [':mortar board', ':mortar board:']
+    replace: "\U0001F393"
+    word: true
+  - triggers: [':education', ':education:']
+    replace: "\U0001F393"
+    word: true
+  - triggers: [':college', ':college:']
+    replace: "\U0001F393"
+    word: true
+  - triggers: [':university', ':university:']
+    replace: "\U0001F393"
+    word: true
+  - triggers: [':crown', ':crown:']
+    replace: "\U0001F451"
+    word: true
+  - triggers: [':king', ':king:']
+    replace: "\U0001F451"
+    word: true
+  - triggers: [':queen', ':queen:']
+    replace: "\U0001F451"
+    word: true
+  - triggers: [':rescue worker helmet', ':rescue worker helmet:']
+    replace: ⛑
+    word: true
+  - triggers: [':school satchel', ':school satchel:']
+    replace: "\U0001F392"
+    word: true
+  - triggers: [':pouch', ':pouch:']
+    replace: "\U0001F45D"
+    word: true
+  - triggers: [':bag', ':bag:']
+    replace: "\U0001F45D"
+    word: true
+  - triggers: [':purse', ':purse:']
+    replace: "\U0001F45B"
+    word: true
+  - triggers: [':handbag', ':handbag:']
+    replace: "\U0001F45C"
+    word: true
+  - triggers: [':briefcase', ':briefcase:']
+    replace: "\U0001F4BC"
+    word: true
+  - triggers: [':eyeglasses', ':eyeglasses:']
+    replace: "\U0001F453"
+    word: true
+  - triggers: [':dark sunglasses', ':dark sunglasses:']
+    replace: "\U0001F576"
+    word: true
+  - triggers: [':closed umbrella', ':closed umbrella:']
+    replace: "\U0001F302"
+    word: true
+  - triggers: [':weather', ':weather:']
+    replace: "\U0001F302"
+    word: true
+  - triggers: [':rain', ':rain:']
+    replace: "\U0001F302"
+    word: true
+  - triggers: [':open umbrella', ':open umbrella:']
+    replace: ☂️
+    word: true
+  - triggers: [':dog', ':dog:']
+    replace: "\U0001F436"
+    word: true
+  - triggers: [':pet', ':pet:']
+    replace: "\U0001F436"
+    word: true
+  - triggers: [':cat', ':cat:']
+    replace: "\U0001F431"
+    word: true
+  - triggers: [':mouse', ':mouse:']
+    replace: "\U0001F42D"
+    word: true
+  - triggers: [':hamster', ':hamster:']
+    replace: "\U0001F439"
+    word: true
+  - triggers: [':rabbit', ':rabbit:']
+    replace: "\U0001F430"
+    word: true
+  - triggers: [':fox face', ':fox face:']
+    replace: "\U0001F98A"
+    word: true
+  - triggers: [':bear', ':bear:']
+    replace: "\U0001F43B"
+    word: true
+  - triggers: [':panda face', ':panda face:']
+    replace: "\U0001F43C"
+    word: true
+  - triggers: [':koala', ':koala:']
+    replace: "\U0001F428"
+    word: true
+  - triggers: [':tiger', ':tiger:']
+    replace: "\U0001F42F"
+    word: true
+  - triggers: [':lion', ':lion:']
+    replace: "\U0001F981"
+    word: true
+  - triggers: [':cow', ':cow:']
+    replace: "\U0001F42E"
+    word: true
+  - triggers: [':pig', ':pig:']
+    replace: "\U0001F437"
+    word: true
+  - triggers: [':pig nose', ':pig nose:']
+    replace: "\U0001F43D"
+    word: true
+  - triggers: [':frog', ':frog:']
+    replace: "\U0001F438"
+    word: true
+  - triggers: [':monkey face', ':monkey face:']
+    replace: "\U0001F435"
+    word: true
+  - triggers: [':see no evil', ':see no evil:']
+    replace: "\U0001F648"
+    word: true
+  - triggers: [':blind', ':blind:']
+    replace: "\U0001F648"
+    word: true
+  - triggers: [':ignore', ':ignore:']
+    replace: "\U0001F648"
+    word: true
+  - triggers: [':hear no evil', ':hear no evil:']
+    replace: "\U0001F649"
+    word: true
+  - triggers: [':deaf', ':deaf:']
+    replace: "\U0001F649"
+    word: true
+  - triggers: [':speak no evil', ':speak no evil:']
+    replace: "\U0001F64A"
+    word: true
+  - triggers: [':monkey', ':monkey:']
+    replace: "\U0001F412"
+    word: true
+  - triggers: [':chicken', ':chicken:']
+    replace: "\U0001F414"
+    word: true
+  - triggers: [':penguin', ':penguin:']
+    replace: "\U0001F427"
+    word: true
+  - triggers: [':bird', ':bird:']
+    replace: "\U0001F426"
+    word: true
+  - triggers: [':baby chick', ':baby chick:']
+    replace: "\U0001F424"
+    word: true
+  - triggers: [':hatching chick', ':hatching chick:']
+    replace: "\U0001F423"
+    word: true
+  - triggers: [':hatched chick', ':hatched chick:']
+    replace: "\U0001F425"
+    word: true
+  - triggers: [':duck', ':duck:']
+    replace: "\U0001F986"
+    word: true
+  - triggers: [':eagle', ':eagle:']
+    replace: "\U0001F985"
+    word: true
+  - triggers: [':owl', ':owl:']
+    replace: "\U0001F989"
+    word: true
+  - triggers: [':bat', ':bat:']
+    replace: "\U0001F987"
+    word: true
+  - triggers: [':wolf', ':wolf:']
+    replace: "\U0001F43A"
+    word: true
+  - triggers: [':boar', ':boar:']
+    replace: "\U0001F417"
+    word: true
+  - triggers: [':horse', ':horse:']
+    replace: "\U0001F434"
+    word: true
+  - triggers: [':unicorn', ':unicorn:']
+    replace: "\U0001F984"
+    word: true
+  - triggers: [':bee', ':bee:']
+    replace: "\U0001F41D"
+    word: true
+  - triggers: [':honeybee', ':honeybee:']
+    replace: "\U0001F41D"
+    word: true
+  - triggers: [':bee', ':bee:']
+    replace: "\U0001F41D"
+    word: true
+  - triggers: [':bug', ':bug:']
+    replace: "\U0001F41B"
+    word: true
+  - triggers: [':butterfly', ':butterfly:']
+    replace: "\U0001F98B"
+    word: true
+  - triggers: [':snail', ':snail:']
+    replace: "\U0001F40C"
+    word: true
+  - triggers: [':slow', ':slow:']
+    replace: "\U0001F40C"
+    word: true
+  - triggers: [':shell', ':shell:']
+    replace: "\U0001F41A"
+    word: true
+  - triggers: [':sea', ':sea:']
+    replace: "\U0001F41A"
+    word: true
+  - triggers: [':beetle', ':beetle:']
+    replace: "\U0001F41E"
+    word: true
+  - triggers: [':ant', ':ant:']
+    replace: "\U0001F41C"
+    word: true
+  - triggers: [':spider', ':spider:']
+    replace: "\U0001F577"
+    word: true
+  - triggers: [':spider web', ':spider web:']
+    replace: "\U0001F578"
+    word: true
+  - triggers: [':turtle', ':turtle:']
+    replace: "\U0001F422"
+    word: true
+  - triggers: [':snake', ':snake:']
+    replace: "\U0001F40D"
+    word: true
+  - triggers: [':lizard', ':lizard:']
+    replace: "\U0001F98E"
+    word: true
+  - triggers: [':scorpion', ':scorpion:']
+    replace: "\U0001F982"
+    word: true
+  - triggers: [':crab', ':crab:']
+    replace: "\U0001F980"
+    word: true
+  - triggers: [':squid', ':squid:']
+    replace: "\U0001F991"
+    word: true
+  - triggers: [':octopus', ':octopus:']
+    replace: "\U0001F419"
+    word: true
+  - triggers: [':shrimp', ':shrimp:']
+    replace: "\U0001F990"
+    word: true
+  - triggers: [':tropical fish', ':tropical fish:']
+    replace: "\U0001F420"
+    word: true
+  - triggers: [':fish', ':fish:']
+    replace: "\U0001F41F"
+    word: true
+  - triggers: [':blowfish', ':blowfish:']
+    replace: "\U0001F421"
+    word: true
+  - triggers: [':dolphin', ':dolphin:']
+    replace: "\U0001F42C"
+    word: true
+  - triggers: [':flipper', ':flipper:']
+    replace: "\U0001F42C"
+    word: true
+  - triggers: [':dolphin', ':dolphin:']
+    replace: "\U0001F42C"
+    word: true
+  - triggers: [':shark', ':shark:']
+    replace: "\U0001F988"
+    word: true
+  - triggers: [':whale', ':whale:']
+    replace: "\U0001F433"
+    word: true
+  - triggers: [':whale2', ':whale2:']
+    replace: "\U0001F40B"
+    word: true
+  - triggers: [':crocodile', ':crocodile:']
+    replace: "\U0001F40A"
+    word: true
+  - triggers: [':leopard', ':leopard:']
+    replace: "\U0001F406"
+    word: true
+  - triggers: [':tiger2', ':tiger2:']
+    replace: "\U0001F405"
+    word: true
+  - triggers: [':water buffalo', ':water buffalo:']
+    replace: "\U0001F403"
+    word: true
+  - triggers: [':ox', ':ox:']
+    replace: "\U0001F402"
+    word: true
+  - triggers: [':cow2', ':cow2:']
+    replace: "\U0001F404"
+    word: true
+  - triggers: [':deer', ':deer:']
+    replace: "\U0001F98C"
+    word: true
+  - triggers: [':dromedary camel', ':dromedary camel:']
+    replace: "\U0001F42A"
+    word: true
+  - triggers: [':camel', ':camel:']
+    replace: "\U0001F42B"
+    word: true
+  - triggers: [':elephant', ':elephant:']
+    replace: "\U0001F418"
+    word: true
+  - triggers: [':rhinoceros', ':rhinoceros:']
+    replace: "\U0001F98F"
+    word: true
+  - triggers: [':gorilla', ':gorilla:']
+    replace: "\U0001F98D"
+    word: true
+  - triggers: [':racehorse', ':racehorse:']
+    replace: "\U0001F40E"
+    word: true
+  - triggers: [':speed', ':speed:']
+    replace: "\U0001F40E"
+    word: true
+  - triggers: [':pig2', ':pig2:']
+    replace: "\U0001F416"
+    word: true
+  - triggers: [':goat', ':goat:']
+    replace: "\U0001F410"
+    word: true
+  - triggers: [':ram', ':ram:']
+    replace: "\U0001F40F"
+    word: true
+  - triggers: [':sheep', ':sheep:']
+    replace: "\U0001F411"
+    word: true
+  - triggers: [':dog2', ':dog2:']
+    replace: "\U0001F415"
+    word: true
+  - triggers: [':poodle', ':poodle:']
+    replace: "\U0001F429"
+    word: true
+  - triggers: [':cat2', ':cat2:']
+    replace: "\U0001F408"
+    word: true
+  - triggers: [':rooster', ':rooster:']
+    replace: "\U0001F413"
+    word: true
+  - triggers: [':turkey', ':turkey:']
+    replace: "\U0001F983"
+    word: true
+  - triggers: [':thanksgiving', ':thanksgiving:']
+    replace: "\U0001F983"
+    word: true
+  - triggers: [':dove', ':dove:']
+    replace: "\U0001F54A"
+    word: true
+  - triggers: [':rabbit2', ':rabbit2:']
+    replace: "\U0001F407"
+    word: true
+  - triggers: [':mouse2', ':mouse2:']
+    replace: "\U0001F401"
+    word: true
+  - triggers: [':rat', ':rat:']
+    replace: "\U0001F400"
+    word: true
+  - triggers: [':chipmunk', ':chipmunk:']
+    replace: "\U0001F43F"
+    word: true
+  - triggers: [':feet', ':feet:']
+    replace: "\U0001F43E"
+    word: true
+  - triggers: [':paw prints', ':paw prints:']
+    replace: "\U0001F43E"
+    word: true
+  - triggers: [':feet', ':feet:']
+    replace: "\U0001F43E"
+    word: true
+  - triggers: [':dragon', ':dragon:']
+    replace: "\U0001F409"
+    word: true
+  - triggers: [':dragon face', ':dragon face:']
+    replace: "\U0001F432"
+    word: true
+  - triggers: [':cactus', ':cactus:']
+    replace: "\U0001F335"
+    word: true
+  - triggers: [':christmas tree', ':christmas tree:']
+    replace: "\U0001F384"
+    word: true
+  - triggers: [':evergreen tree', ':evergreen tree:']
+    replace: "\U0001F332"
+    word: true
+  - triggers: [':wood', ':wood:']
+    replace: "\U0001F332"
+    word: true
+  - triggers: [':deciduous tree', ':deciduous tree:']
+    replace: "\U0001F333"
+    word: true
+  - triggers: [':palm tree', ':palm tree:']
+    replace: "\U0001F334"
+    word: true
+  - triggers: [':seedling', ':seedling:']
+    replace: "\U0001F331"
+    word: true
+  - triggers: [':plant', ':plant:']
+    replace: "\U0001F331"
+    word: true
+  - triggers: [':herb', ':herb:']
+    replace: "\U0001F33F"
+    word: true
+  - triggers: [':shamrock', ':shamrock:']
+    replace: ☘️
+    word: true
+  - triggers: [':four leaf clover', ':four leaf clover:']
+    replace: "\U0001F340"
+    word: true
+  - triggers: [':bamboo', ':bamboo:']
+    replace: "\U0001F38D"
+    word: true
+  - triggers: [':tanabata tree', ':tanabata tree:']
+    replace: "\U0001F38B"
+    word: true
+  - triggers: [':leaves', ':leaves:']
+    replace: "\U0001F343"
+    word: true
+  - triggers: [':leaf', ':leaf:']
+    replace: "\U0001F343"
+    word: true
+  - triggers: [':fallen leaf', ':fallen leaf:']
+    replace: "\U0001F342"
+    word: true
+  - triggers: [':autumn', ':autumn:']
+    replace: "\U0001F342"
+    word: true
+  - triggers: [':maple leaf', ':maple leaf:']
+    replace: "\U0001F341"
+    word: true
+  - triggers: [':mushroom', ':mushroom:']
+    replace: "\U0001F344"
+    word: true
+  - triggers: [':ear of rice', ':ear of rice:']
+    replace: "\U0001F33E"
+    word: true
+  - triggers: [':bouquet', ':bouquet:']
+    replace: "\U0001F490"
+    word: true
+  - triggers: [':flowers', ':flowers:']
+    replace: "\U0001F490"
+    word: true
+  - triggers: [':tulip', ':tulip:']
+    replace: "\U0001F337"
+    word: true
+  - triggers: [':flower', ':flower:']
+    replace: "\U0001F337"
+    word: true
+  - triggers: [':rose', ':rose:']
+    replace: "\U0001F339"
+    word: true
+  - triggers: [':wilted flower', ':wilted flower:']
+    replace: "\U0001F940"
+    word: true
+  - triggers: [':sunflower', ':sunflower:']
+    replace: "\U0001F33B"
+    word: true
+  - triggers: [':blossom', ':blossom:']
+    replace: "\U0001F33C"
+    word: true
+  - triggers: [':cherry blossom', ':cherry blossom:']
+    replace: "\U0001F338"
+    word: true
+  - triggers: [':spring', ':spring:']
+    replace: "\U0001F338"
+    word: true
+  - triggers: [':hibiscus', ':hibiscus:']
+    replace: "\U0001F33A"
+    word: true
+  - triggers: [':earth americas', ':earth americas:']
+    replace: "\U0001F30E"
+    word: true
+  - triggers: [':globe', ':globe:']
+    replace: "\U0001F30E"
+    word: true
+  - triggers: [':world', ':world:']
+    replace: "\U0001F30E"
+    word: true
+  - triggers: [':international', ':international:']
+    replace: "\U0001F30E"
+    word: true
+  - triggers: [':earth africa', ':earth africa:']
+    replace: "\U0001F30D"
+    word: true
+  - triggers: [':earth asia', ':earth asia:']
+    replace: "\U0001F30F"
+    word: true
+  - triggers: [':full moon', ':full moon:']
+    replace: "\U0001F315"
+    word: true
+  - triggers: [':waning gibbous moon', ':waning gibbous moon:']
+    replace: "\U0001F316"
+    word: true
+  - triggers: [':last quarter moon', ':last quarter moon:']
+    replace: "\U0001F317"
+    word: true
+  - triggers: [':waning crescent moon', ':waning crescent moon:']
+    replace: "\U0001F318"
+    word: true
+  - triggers: [':new moon', ':new moon:']
+    replace: "\U0001F311"
+    word: true
+  - triggers: [':waxing crescent moon', ':waxing crescent moon:']
+    replace: "\U0001F312"
+    word: true
+  - triggers: [':first quarter moon', ':first quarter moon:']
+    replace: "\U0001F313"
+    word: true
+  - triggers: [':moon', ':moon:']
+    replace: "\U0001F314"
+    word: true
+  - triggers: [':waxing gibbous moon', ':waxing gibbous moon:']
+    replace: "\U0001F314"
+    word: true
+  - triggers: [':moon', ':moon:']
+    replace: "\U0001F314"
+    word: true
+  - triggers: [':new moon with face', ':new moon with face:']
+    replace: "\U0001F31A"
+    word: true
+  - triggers: [':full moon with face', ':full moon with face:']
+    replace: "\U0001F31D"
+    word: true
+  - triggers: [':sun with face', ':sun with face:']
+    replace: "\U0001F31E"
+    word: true
+  - triggers: [':summer', ':summer:']
+    replace: "\U0001F31E"
+    word: true
+  - triggers: [':first quarter moon with face', ':first quarter moon with face:']
+    replace: "\U0001F31B"
+    word: true
+  - triggers: [':last quarter moon with face', ':last quarter moon with face:']
+    replace: "\U0001F31C"
+    word: true
+  - triggers: [':crescent moon', ':crescent moon:']
+    replace: "\U0001F319"
+    word: true
+  - triggers: [':night', ':night:']
+    replace: "\U0001F319"
+    word: true
+  - triggers: [':dizzy', ':dizzy:']
+    replace: "\U0001F4AB"
+    word: true
+  - triggers: [':star', ':star:']
+    replace: ⭐️
+    word: true
+  - triggers: [':star2', ':star2:']
+    replace: "\U0001F31F"
+    word: true
+  - triggers: [':sparkles', ':sparkles:']
+    replace: ✨
+    word: true
+  - triggers: [':shiny', ':shiny:']
+    replace: ✨
+    word: true
+  - triggers: [':zap', ':zap:']
+    replace: ⚡️
+    word: true
+  - triggers: [':lightning', ':lightning:']
+    replace: ⚡️
+    word: true
+  - triggers: [':thunder', ':thunder:']
+    replace: ⚡️
+    word: true
+  - triggers: [':fire', ':fire:']
+    replace: "\U0001F525"
+    word: true
+  - triggers: [':burn', ':burn:']
+    replace: "\U0001F525"
+    word: true
+  - triggers: [':boom', ':boom:']
+    replace: "\U0001F4A5"
+    word: true
+  - triggers: [':collision', ':collision:']
+    replace: "\U0001F4A5"
+    word: true
+  - triggers: [':explode', ':explode:']
+    replace: "\U0001F4A5"
+    word: true
+  - triggers: [':boom', ':boom:']
+    replace: "\U0001F4A5"
+    word: true
+  - triggers: [':comet', ':comet:']
+    replace: ☄
+    word: true
+  - triggers: [':sunny', ':sunny:']
+    replace: ☀️
+    word: true
+  - triggers: [':sun behind small cloud', ':sun behind small cloud:']
+    replace: "\U0001F324"
+    word: true
+  - triggers: [':partly sunny', ':partly sunny:']
+    replace: ⛅️
+    word: true
+  - triggers: [':sun behind large cloud', ':sun behind large cloud:']
+    replace: "\U0001F325"
+    word: true
+  - triggers: [':sun behind rain cloud', ':sun behind rain cloud:']
+    replace: "\U0001F326"
+    word: true
+  - triggers: [':rainbow', ':rainbow:']
+    replace: "\U0001F308"
+    word: true
+  - triggers: [':cloud', ':cloud:']
+    replace: ☁️
+    word: true
+  - triggers: [':cloud with rain', ':cloud with rain:']
+    replace: "\U0001F327"
+    word: true
+  - triggers: [':cloud with lightning and rain', ':cloud with lightning and rain:']
+    replace: ⛈
+    word: true
+  - triggers: [':cloud with lightning', ':cloud with lightning:']
+    replace: "\U0001F329"
+    word: true
+  - triggers: [':cloud with snow', ':cloud with snow:']
+    replace: "\U0001F328"
+    word: true
+  - triggers: [':snowman with snow', ':snowman with snow:']
+    replace: ☃️
+    word: true
+  - triggers: [':winter', ':winter:']
+    replace: ☃️
+    word: true
+  - triggers: [':snowman', ':snowman:']
+    replace: ⛄️
+    word: true
+  - triggers: [':snowflake', ':snowflake:']
+    replace: ❄️
+    word: true
+  - triggers: [':cold', ':cold:']
+    replace: ❄️
+    word: true
+  - triggers: [':wind face', ':wind face:']
+    replace: "\U0001F32C"
+    word: true
+  - triggers: [':dash', ':dash:']
+    replace: "\U0001F4A8"
+    word: true
+  - triggers: [':wind', ':wind:']
+    replace: "\U0001F4A8"
+    word: true
+  - triggers: [':blow', ':blow:']
+    replace: "\U0001F4A8"
+    word: true
+  - triggers: [':fast', ':fast:']
+    replace: "\U0001F4A8"
+    word: true
+  - triggers: [':tornado', ':tornado:']
+    replace: "\U0001F32A"
+    word: true
+  - triggers: [':fog', ':fog:']
+    replace: "\U0001F32B"
+    word: true
+  - triggers: [':ocean', ':ocean:']
+    replace: "\U0001F30A"
+    word: true
+  - triggers: [':droplet', ':droplet:']
+    replace: "\U0001F4A7"
+    word: true
+  - triggers: [':water', ':water:']
+    replace: "\U0001F4A7"
+    word: true
+  - triggers: [':sweat drops', ':sweat drops:']
+    replace: "\U0001F4A6"
+    word: true
+  - triggers: [':umbrella', ':umbrella:']
+    replace: ☔️
+    word: true
+  - triggers: [':green apple', ':green apple:']
+    replace: "\U0001F34F"
+    word: true
+  - triggers: [':fruit', ':fruit:']
+    replace: "\U0001F34F"
+    word: true
+  - triggers: [':apple', ':apple:']
+    replace: "\U0001F34E"
+    word: true
+  - triggers: [':pear', ':pear:']
+    replace: "\U0001F350"
+    word: true
+  - triggers: [':tangerine', ':tangerine:']
+    replace: "\U0001F34A"
+    word: true
+  - triggers: [':orange', ':orange:']
+    replace: "\U0001F34A"
+    word: true
+  - triggers: [':mandarin', ':mandarin:']
+    replace: "\U0001F34A"
+    word: true
+  - triggers: [':tangerine', ':tangerine:']
+    replace: "\U0001F34A"
+    word: true
+  - triggers: [':tangerine', ':tangerine:']
+    replace: "\U0001F34A"
+    word: true
+  - triggers: [':lemon', ':lemon:']
+    replace: "\U0001F34B"
+    word: true
+  - triggers: [':banana', ':banana:']
+    replace: "\U0001F34C"
+    word: true
+  - triggers: [':watermelon', ':watermelon:']
+    replace: "\U0001F349"
+    word: true
+  - triggers: [':grapes', ':grapes:']
+    replace: "\U0001F347"
+    word: true
+  - triggers: [':strawberry', ':strawberry:']
+    replace: "\U0001F353"
+    word: true
+  - triggers: [':melon', ':melon:']
+    replace: "\U0001F348"
+    word: true
+  - triggers: [':cherries', ':cherries:']
+    replace: "\U0001F352"
+    word: true
+  - triggers: [':peach', ':peach:']
+    replace: "\U0001F351"
+    word: true
+  - triggers: [':pineapple', ':pineapple:']
+    replace: "\U0001F34D"
+    word: true
+  - triggers: [':kiwi fruit', ':kiwi fruit:']
+    replace: "\U0001F95D"
+    word: true
+  - triggers: [':avocado', ':avocado:']
+    replace: "\U0001F951"
+    word: true
+  - triggers: [':tomato', ':tomato:']
+    replace: "\U0001F345"
+    word: true
+  - triggers: [':eggplant', ':eggplant:']
+    replace: "\U0001F346"
+    word: true
+  - triggers: [':aubergine', ':aubergine:']
+    replace: "\U0001F346"
+    word: true
+  - triggers: [':cucumber', ':cucumber:']
+    replace: "\U0001F952"
+    word: true
+  - triggers: [':carrot', ':carrot:']
+    replace: "\U0001F955"
+    word: true
+  - triggers: [':corn', ':corn:']
+    replace: "\U0001F33D"
+    word: true
+  - triggers: [':hot pepper', ':hot pepper:']
+    replace: "\U0001F336"
+    word: true
+  - triggers: [':spicy', ':spicy:']
+    replace: "\U0001F336"
+    word: true
+  - triggers: [':potato', ':potato:']
+    replace: "\U0001F954"
+    word: true
+  - triggers: [':sweet potato', ':sweet potato:']
+    replace: "\U0001F360"
+    word: true
+  - triggers: [':chestnut', ':chestnut:']
+    replace: "\U0001F330"
+    word: true
+  - triggers: [':peanuts', ':peanuts:']
+    replace: "\U0001F95C"
+    word: true
+  - triggers: [':honey pot', ':honey pot:']
+    replace: "\U0001F36F"
+    word: true
+  - triggers: [':croissant', ':croissant:']
+    replace: "\U0001F950"
+    word: true
+  - triggers: [':bread', ':bread:']
+    replace: "\U0001F35E"
+    word: true
+  - triggers: [':toast', ':toast:']
+    replace: "\U0001F35E"
+    word: true
+  - triggers: [':baguette bread', ':baguette bread:']
+    replace: "\U0001F956"
+    word: true
+  - triggers: [':cheese', ':cheese:']
+    replace: "\U0001F9C0"
+    word: true
+  - triggers: [':egg', ':egg:']
+    replace: "\U0001F95A"
+    word: true
+  - triggers: [':fried egg', ':fried egg:']
+    replace: "\U0001F373"
+    word: true
+  - triggers: [':breakfast', ':breakfast:']
+    replace: "\U0001F373"
+    word: true
+  - triggers: [':bacon', ':bacon:']
+    replace: "\U0001F953"
+    word: true
+  - triggers: [':pancakes', ':pancakes:']
+    replace: "\U0001F95E"
+    word: true
+  - triggers: [':fried shrimp', ':fried shrimp:']
+    replace: "\U0001F364"
+    word: true
+  - triggers: [':tempura', ':tempura:']
+    replace: "\U0001F364"
+    word: true
+  - triggers: [':poultry leg', ':poultry leg:']
+    replace: "\U0001F357"
+    word: true
+  - triggers: [':meat', ':meat:']
+    replace: "\U0001F357"
+    word: true
+  - triggers: [':meat on bone', ':meat on bone:']
+    replace: "\U0001F356"
+    word: true
+  - triggers: [':pizza', ':pizza:']
+    replace: "\U0001F355"
+    word: true
+  - triggers: [':hotdog', ':hotdog:']
+    replace: "\U0001F32D"
+    word: true
+  - triggers: [':hamburger', ':hamburger:']
+    replace: "\U0001F354"
+    word: true
+  - triggers: [':burger', ':burger:']
+    replace: "\U0001F354"
+    word: true
+  - triggers: [':fries', ':fries:']
+    replace: "\U0001F35F"
+    word: true
+  - triggers: [':stuffed flatbread', ':stuffed flatbread:']
+    replace: "\U0001F959"
+    word: true
+  - triggers: [':taco', ':taco:']
+    replace: "\U0001F32E"
+    word: true
+  - triggers: [':burrito', ':burrito:']
+    replace: "\U0001F32F"
+    word: true
+  - triggers: [':green salad', ':green salad:']
+    replace: "\U0001F957"
+    word: true
+  - triggers: [':shallow pan of food', ':shallow pan of food:']
+    replace: "\U0001F958"
+    word: true
+  - triggers: [':paella', ':paella:']
+    replace: "\U0001F958"
+    word: true
+  - triggers: [':spaghetti', ':spaghetti:']
+    replace: "\U0001F35D"
+    word: true
+  - triggers: [':pasta', ':pasta:']
+    replace: "\U0001F35D"
+    word: true
+  - triggers: [':ramen', ':ramen:']
+    replace: "\U0001F35C"
+    word: true
+  - triggers: [':noodle', ':noodle:']
+    replace: "\U0001F35C"
+    word: true
+  - triggers: [':stew', ':stew:']
+    replace: "\U0001F372"
+    word: true
+  - triggers: [':fish cake', ':fish cake:']
+    replace: "\U0001F365"
+    word: true
+  - triggers: [':sushi', ':sushi:']
+    replace: "\U0001F363"
+    word: true
+  - triggers: [':bento', ':bento:']
+    replace: "\U0001F371"
+    word: true
+  - triggers: [':curry', ':curry:']
+    replace: "\U0001F35B"
+    word: true
+  - triggers: [':rice', ':rice:']
+    replace: "\U0001F35A"
+    word: true
+  - triggers: [':rice ball', ':rice ball:']
+    replace: "\U0001F359"
+    word: true
+  - triggers: [':rice cracker', ':rice cracker:']
+    replace: "\U0001F358"
+    word: true
+  - triggers: [':oden', ':oden:']
+    replace: "\U0001F362"
+    word: true
+  - triggers: [':dango', ':dango:']
+    replace: "\U0001F361"
+    word: true
+  - triggers: [':shaved ice', ':shaved ice:']
+    replace: "\U0001F367"
+    word: true
+  - triggers: [':ice cream', ':ice cream:']
+    replace: "\U0001F368"
+    word: true
+  - triggers: [':icecream', ':icecream:']
+    replace: "\U0001F366"
+    word: true
+  - triggers: [':cake', ':cake:']
+    replace: "\U0001F370"
+    word: true
+  - triggers: [':dessert', ':dessert:']
+    replace: "\U0001F370"
+    word: true
+  - triggers: [':birthday', ':birthday:']
+    replace: "\U0001F382"
+    word: true
+  - triggers: [':party', ':party:']
+    replace: "\U0001F382"
+    word: true
+  - triggers: [':custard', ':custard:']
+    replace: "\U0001F36E"
+    word: true
+  - triggers: [':lollipop', ':lollipop:']
+    replace: "\U0001F36D"
+    word: true
+  - triggers: [':candy', ':candy:']
+    replace: "\U0001F36C"
+    word: true
+  - triggers: [':sweet', ':sweet:']
+    replace: "\U0001F36C"
+    word: true
+  - triggers: [':chocolate bar', ':chocolate bar:']
+    replace: "\U0001F36B"
+    word: true
+  - triggers: [':popcorn', ':popcorn:']
+    replace: "\U0001F37F"
+    word: true
+  - triggers: [':doughnut', ':doughnut:']
+    replace: "\U0001F369"
+    word: true
+  - triggers: [':cookie', ':cookie:']
+    replace: "\U0001F36A"
+    word: true
+  - triggers: [':milk glass', ':milk glass:']
+    replace: "\U0001F95B"
+    word: true
+  - triggers: [':baby bottle', ':baby bottle:']
+    replace: "\U0001F37C"
+    word: true
+  - triggers: [':milk', ':milk:']
+    replace: "\U0001F37C"
+    word: true
+  - triggers: [':coffee', ':coffee:']
+    replace: ☕️
+    word: true
+  - triggers: [':cafe', ':cafe:']
+    replace: ☕️
+    word: true
+  - triggers: [':espresso', ':espresso:']
+    replace: ☕️
+    word: true
+  - triggers: [':tea', ':tea:']
+    replace: "\U0001F375"
+    word: true
+  - triggers: [':green', ':green:']
+    replace: "\U0001F375"
+    word: true
+  - triggers: [':sake', ':sake:']
+    replace: "\U0001F376"
+    word: true
+  - triggers: [':beer', ':beer:']
+    replace: "\U0001F37A"
+    word: true
+  - triggers: [':drink', ':drink:']
+    replace: "\U0001F37A"
+    word: true
+  - triggers: [':beers', ':beers:']
+    replace: "\U0001F37B"
+    word: true
+  - triggers: [':drinks', ':drinks:']
+    replace: "\U0001F37B"
+    word: true
+  - triggers: [':clinking glasses', ':clinking glasses:']
+    replace: "\U0001F942"
+    word: true
+  - triggers: [':cheers', ':cheers:']
+    replace: "\U0001F942"
+    word: true
+  - triggers: [':wine glass', ':wine glass:']
+    replace: "\U0001F377"
+    word: true
+  - triggers: [':tumbler glass', ':tumbler glass:']
+    replace: "\U0001F943"
+    word: true
+  - triggers: [':whisky', ':whisky:']
+    replace: "\U0001F943"
+    word: true
+  - triggers: [':cocktail', ':cocktail:']
+    replace: "\U0001F378"
+    word: true
+  - triggers: [':tropical drink', ':tropical drink:']
+    replace: "\U0001F379"
+    word: true
+  - triggers: [':vacation', ':vacation:']
+    replace: "\U0001F379"
+    word: true
+  - triggers: [':champagne', ':champagne:']
+    replace: "\U0001F37E"
+    word: true
+  - triggers: [':bottle', ':bottle:']
+    replace: "\U0001F37E"
+    word: true
+  - triggers: [':bubbly', ':bubbly:']
+    replace: "\U0001F37E"
+    word: true
+  - triggers: [':celebration', ':celebration:']
+    replace: "\U0001F37E"
+    word: true
+  - triggers: [':spoon', ':spoon:']
+    replace: "\U0001F944"
+    word: true
+  - triggers: [':fork and knife', ':fork and knife:']
+    replace: "\U0001F374"
+    word: true
+  - triggers: [':cutlery', ':cutlery:']
+    replace: "\U0001F374"
+    word: true
+  - triggers: [':plate with cutlery', ':plate with cutlery:']
+    replace: "\U0001F37D"
+    word: true
+  - triggers: [':dining', ':dining:']
+    replace: "\U0001F37D"
+    word: true
+  - triggers: [':dinner', ':dinner:']
+    replace: "\U0001F37D"
+    word: true
+  - triggers: [':soccer', ':soccer:']
+    replace: ⚽️
+    word: true
+  - triggers: [':sports', ':sports:']
+    replace: ⚽️
+    word: true
+  - triggers: [':basketball', ':basketball:']
+    replace: "\U0001F3C0"
+    word: true
+  - triggers: [':football', ':football:']
+    replace: "\U0001F3C8"
+    word: true
+  - triggers: [':baseball', ':baseball:']
+    replace: ⚾️
+    word: true
+  - triggers: [':tennis', ':tennis:']
+    replace: "\U0001F3BE"
+    word: true
+  - triggers: [':volleyball', ':volleyball:']
+    replace: "\U0001F3D0"
+    word: true
+  - triggers: [':rugby football', ':rugby football:']
+    replace: "\U0001F3C9"
+    word: true
+  - triggers: [':8ball', ':8ball:']
+    replace: "\U0001F3B1"
+    word: true
+  - triggers: [':pool', ':pool:']
+    replace: "\U0001F3B1"
+    word: true
+  - triggers: [':billiards', ':billiards:']
+    replace: "\U0001F3B1"
+    word: true
+  - triggers: [':ping pong', ':ping pong:']
+    replace: "\U0001F3D3"
+    word: true
+  - triggers: [':badminton', ':badminton:']
+    replace: "\U0001F3F8"
+    word: true
+  - triggers: [':goal net', ':goal net:']
+    replace: "\U0001F945"
+    word: true
+  - triggers: [':ice hockey', ':ice hockey:']
+    replace: "\U0001F3D2"
+    word: true
+  - triggers: [':field hockey', ':field hockey:']
+    replace: "\U0001F3D1"
+    word: true
+  - triggers: [':cricket', ':cricket:']
+    replace: "\U0001F3CF"
+    word: true
+  - triggers: [':golf', ':golf:']
+    replace: ⛳️
+    word: true
+  - triggers: [':bow and arrow', ':bow and arrow:']
+    replace: "\U0001F3F9"
+    word: true
+  - triggers: [':archery', ':archery:']
+    replace: "\U0001F3F9"
+    word: true
+  - triggers: [':fishing pole and fish', ':fishing pole and fish:']
+    replace: "\U0001F3A3"
+    word: true
+  - triggers: [':boxing glove', ':boxing glove:']
+    replace: "\U0001F94A"
+    word: true
+  - triggers: [':martial arts uniform', ':martial arts uniform:']
+    replace: "\U0001F94B"
+    word: true
+  - triggers: [':ice skate', ':ice skate:']
+    replace: ⛸
+    word: true
+  - triggers: [':skating', ':skating:']
+    replace: ⛸
+    word: true
+  - triggers: [':ski', ':ski:']
+    replace: "\U0001F3BF"
+    word: true
+  - triggers: [':skier', ':skier:']
+    replace: ⛷
+    word: true
+  - triggers: [':snowboarder', ':snowboarder:']
+    replace: "\U0001F3C2"
+    word: true
+  - triggers: [':weight lifting woman', ':weight lifting woman:']
+    replace: "\U0001F3CB️‍♀️"
+    word: true
+  - triggers: [':gym', ':gym:']
+    replace: "\U0001F3CB️‍♀️"
+    word: true
+  - triggers: [':weight lifting man', ':weight lifting man:']
+    replace: "\U0001F3CB"
+    word: true
+  - triggers: [':person fencing', ':person fencing:']
+    replace: "\U0001F93A"
+    word: true
+  - triggers: [':women wrestling', ':women wrestling:']
+    replace: "\U0001F93C‍♀"
+    word: true
+  - triggers: [':men wrestling', ':men wrestling:']
+    replace: "\U0001F93C‍♂"
+    word: true
+  - triggers: [':woman cartwheeling', ':woman cartwheeling:']
+    replace: "\U0001F938‍♀"
+    word: true
+  - triggers: [':man cartwheeling', ':man cartwheeling:']
+    replace: "\U0001F938‍♂"
+    word: true
+  - triggers: [':basketball woman', ':basketball woman:']
+    replace: ⛹️‍♀️
+    word: true
+  - triggers: [':basketball man', ':basketball man:']
+    replace: ⛹
+    word: true
+  - triggers: [':woman playing handball', ':woman playing handball:']
+    replace: "\U0001F93E‍♀"
+    word: true
+  - triggers: [':man playing handball', ':man playing handball:']
+    replace: "\U0001F93E‍♂"
+    word: true
+  - triggers: [':golfing woman', ':golfing woman:']
+    replace: "\U0001F3CC️‍♀️"
+    word: true
+  - triggers: [':golfing man', ':golfing man:']
+    replace: "\U0001F3CC"
+    word: true
+  - triggers: [':surfing woman', ':surfing woman:']
+    replace: "\U0001F3C4‍♀"
+    word: true
+  - triggers: [':surfing man', ':surfing man:']
+    replace: "\U0001F3C4"
+    word: true
+  - triggers: [':surfer', ':surfer:']
+    replace: "\U0001F3C4"
+    word: true
+  - triggers: [':surfing man', ':surfing man:']
+    replace: "\U0001F3C4"
+    word: true
+  - triggers: [':swimming woman', ':swimming woman:']
+    replace: "\U0001F3CA‍♀"
+    word: true
+  - triggers: [':swimming man', ':swimming man:']
+    replace: "\U0001F3CA"
+    word: true
+  - triggers: [':swimmer', ':swimmer:']
+    replace: "\U0001F3CA"
+    word: true
+  - triggers: [':swimming man', ':swimming man:']
+    replace: "\U0001F3CA"
+    word: true
+  - triggers: [':woman playing water polo', ':woman playing water polo:']
+    replace: "\U0001F93D‍♀"
+    word: true
+  - triggers: [':man playing water polo', ':man playing water polo:']
+    replace: "\U0001F93D‍♂"
+    word: true
+  - triggers: [':rowing woman', ':rowing woman:']
+    replace: "\U0001F6A3‍♀"
+    word: true
+  - triggers: [':rowing man', ':rowing man:']
+    replace: "\U0001F6A3"
+    word: true
+  - triggers: [':rowboat', ':rowboat:']
+    replace: "\U0001F6A3"
+    word: true
+  - triggers: [':rowing man', ':rowing man:']
+    replace: "\U0001F6A3"
+    word: true
+  - triggers: [':horse racing', ':horse racing:']
+    replace: "\U0001F3C7"
+    word: true
+  - triggers: [':biking woman', ':biking woman:']
+    replace: "\U0001F6B4‍♀"
+    word: true
+  - triggers: [':biking man', ':biking man:']
+    replace: "\U0001F6B4"
+    word: true
+  - triggers: [':bicyclist', ':bicyclist:']
+    replace: "\U0001F6B4"
+    word: true
+  - triggers: [':biking man', ':biking man:']
+    replace: "\U0001F6B4"
+    word: true
+  - triggers: [':mountain biking woman', ':mountain biking woman:']
+    replace: "\U0001F6B5‍♀"
+    word: true
+  - triggers: [':mountain biking man', ':mountain biking man:']
+    replace: "\U0001F6B5"
+    word: true
+  - triggers: [':mountain bicyclist', ':mountain bicyclist:']
+    replace: "\U0001F6B5"
+    word: true
+  - triggers: [':mountain biking man', ':mountain biking man:']
+    replace: "\U0001F6B5"
+    word: true
+  - triggers: [':running shirt with sash', ':running shirt with sash:']
+    replace: "\U0001F3BD"
+    word: true
+  - triggers: [':medal sports', ':medal sports:']
+    replace: "\U0001F3C5"
+    word: true
+  - triggers: [':gold', ':gold:']
+    replace: "\U0001F3C5"
+    word: true
+  - triggers: [':winner', ':winner:']
+    replace: "\U0001F3C5"
+    word: true
+  - triggers: [':medal military', ':medal military:']
+    replace: "\U0001F396"
+    word: true
+  - triggers: [':1st place medal', ':1st place medal:']
+    replace: "\U0001F947"
+    word: true
+  - triggers: [':2nd place medal', ':2nd place medal:']
+    replace: "\U0001F948"
+    word: true
+  - triggers: [':silver', ':silver:']
+    replace: "\U0001F948"
+    word: true
+  - triggers: [':3rd place medal', ':3rd place medal:']
+    replace: "\U0001F949"
+    word: true
+  - triggers: [':bronze', ':bronze:']
+    replace: "\U0001F949"
+    word: true
+  - triggers: [':trophy', ':trophy:']
+    replace: "\U0001F3C6"
+    word: true
+  - triggers: [':award', ':award:']
+    replace: "\U0001F3C6"
+    word: true
+  - triggers: [':contest', ':contest:']
+    replace: "\U0001F3C6"
+    word: true
+  - triggers: [':rosette', ':rosette:']
+    replace: "\U0001F3F5"
+    word: true
+  - triggers: [':reminder ribbon', ':reminder ribbon:']
+    replace: "\U0001F397"
+    word: true
+  - triggers: [':ticket', ':ticket:']
+    replace: "\U0001F3AB"
+    word: true
+  - triggers: [':tickets', ':tickets:']
+    replace: "\U0001F39F"
+    word: true
+  - triggers: [':circus tent', ':circus tent:']
+    replace: "\U0001F3AA"
+    word: true
+  - triggers: [':woman juggling', ':woman juggling:']
+    replace: "\U0001F939‍♀"
+    word: true
+  - triggers: [':man juggling', ':man juggling:']
+    replace: "\U0001F939‍♂"
+    word: true
+  - triggers: [':performing arts', ':performing arts:']
+    replace: "\U0001F3AD"
+    word: true
+  - triggers: [':theater', ':theater:']
+    replace: "\U0001F3AD"
+    word: true
+  - triggers: [':drama', ':drama:']
+    replace: "\U0001F3AD"
+    word: true
+  - triggers: [':art', ':art:']
+    replace: "\U0001F3A8"
+    word: true
+  - triggers: [':design', ':design:']
+    replace: "\U0001F3A8"
+    word: true
+  - triggers: [':paint', ':paint:']
+    replace: "\U0001F3A8"
+    word: true
+  - triggers: [':clapper', ':clapper:']
+    replace: "\U0001F3AC"
+    word: true
+  - triggers: [':film', ':film:']
+    replace: "\U0001F3AC"
+    word: true
+  - triggers: [':microphone', ':microphone:']
+    replace: "\U0001F3A4"
+    word: true
+  - triggers: [':sing', ':sing:']
+    replace: "\U0001F3A4"
+    word: true
+  - triggers: [':headphones', ':headphones:']
+    replace: "\U0001F3A7"
+    word: true
+  - triggers: [':music', ':music:']
+    replace: "\U0001F3A7"
+    word: true
+  - triggers: [':earphones', ':earphones:']
+    replace: "\U0001F3A7"
+    word: true
+  - triggers: [':musical score', ':musical score:']
+    replace: "\U0001F3BC"
+    word: true
+  - triggers: [':musical keyboard', ':musical keyboard:']
+    replace: "\U0001F3B9"
+    word: true
+  - triggers: [':piano', ':piano:']
+    replace: "\U0001F3B9"
+    word: true
+  - triggers: [':drum', ':drum:']
+    replace: "\U0001F941"
+    word: true
+  - triggers: [':saxophone', ':saxophone:']
+    replace: "\U0001F3B7"
+    word: true
+  - triggers: [':trumpet', ':trumpet:']
+    replace: "\U0001F3BA"
+    word: true
+  - triggers: [':guitar', ':guitar:']
+    replace: "\U0001F3B8"
+    word: true
+  - triggers: [':rock', ':rock:']
+    replace: "\U0001F3B8"
+    word: true
+  - triggers: [':violin', ':violin:']
+    replace: "\U0001F3BB"
+    word: true
+  - triggers: [':game die', ':game die:']
+    replace: "\U0001F3B2"
+    word: true
+  - triggers: [':dice', ':dice:']
+    replace: "\U0001F3B2"
+    word: true
+  - triggers: [':gambling', ':gambling:']
+    replace: "\U0001F3B2"
+    word: true
+  - triggers: [':dart', ':dart:']
+    replace: "\U0001F3AF"
+    word: true
+  - triggers: [':target', ':target:']
+    replace: "\U0001F3AF"
+    word: true
+  - triggers: [':bowling', ':bowling:']
+    replace: "\U0001F3B3"
+    word: true
+  - triggers: [':video game', ':video game:']
+    replace: "\U0001F3AE"
+    word: true
+  - triggers: [':play', ':play:']
+    replace: "\U0001F3AE"
+    word: true
+  - triggers: [':controller', ':controller:']
+    replace: "\U0001F3AE"
+    word: true
+  - triggers: [':console', ':console:']
+    replace: "\U0001F3AE"
+    word: true
+  - triggers: [':slot machine', ':slot machine:']
+    replace: "\U0001F3B0"
+    word: true
+  - triggers: [':car', ':car:']
+    replace: "\U0001F697"
+    word: true
+  - triggers: [':red car', ':red car:']
+    replace: "\U0001F697"
+    word: true
+  - triggers: [':car', ':car:']
+    replace: "\U0001F697"
+    word: true
+  - triggers: [':taxi', ':taxi:']
+    replace: "\U0001F695"
+    word: true
+  - triggers: [':blue car', ':blue car:']
+    replace: "\U0001F699"
+    word: true
+  - triggers: [':bus', ':bus:']
+    replace: "\U0001F68C"
+    word: true
+  - triggers: [':trolleybus', ':trolleybus:']
+    replace: "\U0001F68E"
+    word: true
+  - triggers: [':racing car', ':racing car:']
+    replace: "\U0001F3CE"
+    word: true
+  - triggers: [':police car', ':police car:']
+    replace: "\U0001F693"
+    word: true
+  - triggers: [':ambulance', ':ambulance:']
+    replace: "\U0001F691"
+    word: true
+  - triggers: [':fire engine', ':fire engine:']
+    replace: "\U0001F692"
+    word: true
+  - triggers: [':minibus', ':minibus:']
+    replace: "\U0001F690"
+    word: true
+  - triggers: [':truck', ':truck:']
+    replace: "\U0001F69A"
+    word: true
+  - triggers: [':articulated lorry', ':articulated lorry:']
+    replace: "\U0001F69B"
+    word: true
+  - triggers: [':tractor', ':tractor:']
+    replace: "\U0001F69C"
+    word: true
+  - triggers: [':kick scooter', ':kick scooter:']
+    replace: "\U0001F6F4"
+    word: true
+  - triggers: [':bike', ':bike:']
+    replace: "\U0001F6B2"
+    word: true
+  - triggers: [':bicycle', ':bicycle:']
+    replace: "\U0001F6B2"
+    word: true
+  - triggers: [':motor scooter', ':motor scooter:']
+    replace: "\U0001F6F5"
+    word: true
+  - triggers: [':motorcycle', ':motorcycle:']
+    replace: "\U0001F3CD"
+    word: true
+  - triggers: [':rotating light', ':rotating light:']
+    replace: "\U0001F6A8"
+    word: true
+  - triggers: [':911', ':911:']
+    replace: "\U0001F6A8"
+    word: true
+  - triggers: [':emergency', ':emergency:']
+    replace: "\U0001F6A8"
+    word: true
+  - triggers: [':oncoming police car', ':oncoming police car:']
+    replace: "\U0001F694"
+    word: true
+  - triggers: [':oncoming bus', ':oncoming bus:']
+    replace: "\U0001F68D"
+    word: true
+  - triggers: [':oncoming automobile', ':oncoming automobile:']
+    replace: "\U0001F698"
+    word: true
+  - triggers: [':oncoming taxi', ':oncoming taxi:']
+    replace: "\U0001F696"
+    word: true
+  - triggers: [':aerial tramway', ':aerial tramway:']
+    replace: "\U0001F6A1"
+    word: true
+  - triggers: [':mountain cableway', ':mountain cableway:']
+    replace: "\U0001F6A0"
+    word: true
+  - triggers: [':suspension railway', ':suspension railway:']
+    replace: "\U0001F69F"
+    word: true
+  - triggers: [':railway car', ':railway car:']
+    replace: "\U0001F683"
+    word: true
+  - triggers: [':train', ':train:']
+    replace: "\U0001F68B"
+    word: true
+  - triggers: [':mountain railway', ':mountain railway:']
+    replace: "\U0001F69E"
+    word: true
+  - triggers: [':monorail', ':monorail:']
+    replace: "\U0001F69D"
+    word: true
+  - triggers: [':bullettrain side', ':bullettrain side:']
+    replace: "\U0001F684"
+    word: true
+  - triggers: [':bullettrain front', ':bullettrain front:']
+    replace: "\U0001F685"
+    word: true
+  - triggers: [':light rail', ':light rail:']
+    replace: "\U0001F688"
+    word: true
+  - triggers: [':steam locomotive', ':steam locomotive:']
+    replace: "\U0001F682"
+    word: true
+  - triggers: [':train2', ':train2:']
+    replace: "\U0001F686"
+    word: true
+  - triggers: [':metro', ':metro:']
+    replace: "\U0001F687"
+    word: true
+  - triggers: [':tram', ':tram:']
+    replace: "\U0001F68A"
+    word: true
+  - triggers: [':station', ':station:']
+    replace: "\U0001F689"
+    word: true
+  - triggers: [':helicopter', ':helicopter:']
+    replace: "\U0001F681"
+    word: true
+  - triggers: [':small airplane', ':small airplane:']
+    replace: "\U0001F6E9"
+    word: true
+  - triggers: [':flight', ':flight:']
+    replace: "\U0001F6E9"
+    word: true
+  - triggers: [':airplane', ':airplane:']
+    replace: ✈️
+    word: true
+  - triggers: [':flight departure', ':flight departure:']
+    replace: "\U0001F6EB"
+    word: true
+  - triggers: [':flight arrival', ':flight arrival:']
+    replace: "\U0001F6EC"
+    word: true
+  - triggers: [':rocket', ':rocket:']
+    replace: "\U0001F680"
+    word: true
+  - triggers: [':launch', ':launch:']
+    replace: "\U0001F680"
+    word: true
+  - triggers: [':artificial satellite', ':artificial satellite:']
+    replace: "\U0001F6F0"
+    word: true
+  - triggers: [':orbit', ':orbit:']
+    replace: "\U0001F6F0"
+    word: true
+  - triggers: [':seat', ':seat:']
+    replace: "\U0001F4BA"
+    word: true
+  - triggers: [':canoe', ':canoe:']
+    replace: "\U0001F6F6"
+    word: true
+  - triggers: [':boat', ':boat:']
+    replace: ⛵️
+    word: true
+  - triggers: [':sailboat', ':sailboat:']
+    replace: ⛵️
+    word: true
+  - triggers: [':boat', ':boat:']
+    replace: ⛵️
+    word: true
+  - triggers: [':motor boat', ':motor boat:']
+    replace: "\U0001F6E5"
+    word: true
+  - triggers: [':speedboat', ':speedboat:']
+    replace: "\U0001F6A4"
+    word: true
+  - triggers: [':passenger ship', ':passenger ship:']
+    replace: "\U0001F6F3"
+    word: true
+  - triggers: [':cruise', ':cruise:']
+    replace: "\U0001F6F3"
+    word: true
+  - triggers: [':ferry', ':ferry:']
+    replace: ⛴
+    word: true
+  - triggers: [':ship', ':ship:']
+    replace: "\U0001F6A2"
+    word: true
+  - triggers: [':anchor', ':anchor:']
+    replace: ⚓️
+    word: true
+  - triggers: [':construction', ':construction:']
+    replace: "\U0001F6A7"
+    word: true
+  - triggers: [':wip', ':wip:']
+    replace: "\U0001F6A7"
+    word: true
+  - triggers: [':fuelpump', ':fuelpump:']
+    replace: ⛽️
+    word: true
+  - triggers: [':busstop', ':busstop:']
+    replace: "\U0001F68F"
+    word: true
+  - triggers: [':vertical traffic light', ':vertical traffic light:']
+    replace: "\U0001F6A6"
+    word: true
+  - triggers: [':semaphore', ':semaphore:']
+    replace: "\U0001F6A6"
+    word: true
+  - triggers: [':traffic light', ':traffic light:']
+    replace: "\U0001F6A5"
+    word: true
+  - triggers: [':world map', ':world map:']
+    replace: "\U0001F5FA"
+    word: true
+  - triggers: [':travel', ':travel:']
+    replace: "\U0001F5FA"
+    word: true
+  - triggers: [':moyai', ':moyai:']
+    replace: "\U0001F5FF"
+    word: true
+  - triggers: [':stone', ':stone:']
+    replace: "\U0001F5FF"
+    word: true
+  - triggers: [':statue of liberty', ':statue of liberty:']
+    replace: "\U0001F5FD"
+    word: true
+  - triggers: [':fountain', ':fountain:']
+    replace: ⛲️
+    word: true
+  - triggers: [':tokyo tower', ':tokyo tower:']
+    replace: "\U0001F5FC"
+    word: true
+  - triggers: [':european castle', ':european castle:']
+    replace: "\U0001F3F0"
+    word: true
+  - triggers: [':japanese castle', ':japanese castle:']
+    replace: "\U0001F3EF"
+    word: true
+  - triggers: [':stadium', ':stadium:']
+    replace: "\U0001F3DF"
+    word: true
+  - triggers: [':ferris wheel', ':ferris wheel:']
+    replace: "\U0001F3A1"
+    word: true
+  - triggers: [':roller coaster', ':roller coaster:']
+    replace: "\U0001F3A2"
+    word: true
+  - triggers: [':carousel horse', ':carousel horse:']
+    replace: "\U0001F3A0"
+    word: true
+  - triggers: [':parasol on ground', ':parasol on ground:']
+    replace: ⛱
+    word: true
+  - triggers: [':beach umbrella', ':beach umbrella:']
+    replace: "\U0001F3D6"
+    word: true
+  - triggers: [':desert island', ':desert island:']
+    replace: "\U0001F3DD"
+    word: true
+  - triggers: [':mountain', ':mountain:']
+    replace: ⛰
+    word: true
+  - triggers: [':mountain snow', ':mountain snow:']
+    replace: "\U0001F3D4"
+    word: true
+  - triggers: [':mount fuji', ':mount fuji:']
+    replace: "\U0001F5FB"
+    word: true
+  - triggers: [':volcano', ':volcano:']
+    replace: "\U0001F30B"
+    word: true
+  - triggers: [':desert', ':desert:']
+    replace: "\U0001F3DC"
+    word: true
+  - triggers: [':camping', ':camping:']
+    replace: "\U0001F3D5"
+    word: true
+  - triggers: [':tent', ':tent:']
+    replace: ⛺️
+    word: true
+  - triggers: [':railway track', ':railway track:']
+    replace: "\U0001F6E4"
+    word: true
+  - triggers: [':motorway', ':motorway:']
+    replace: "\U0001F6E3"
+    word: true
+  - triggers: [':building construction', ':building construction:']
+    replace: "\U0001F3D7"
+    word: true
+  - triggers: [':factory', ':factory:']
+    replace: "\U0001F3ED"
+    word: true
+  - triggers: [':house', ':house:']
+    replace: "\U0001F3E0"
+    word: true
+  - triggers: [':house with garden', ':house with garden:']
+    replace: "\U0001F3E1"
+    word: true
+  - triggers: [':houses', ':houses:']
+    replace: "\U0001F3D8"
+    word: true
+  - triggers: [':derelict house', ':derelict house:']
+    replace: "\U0001F3DA"
+    word: true
+  - triggers: [':office', ':office:']
+    replace: "\U0001F3E2"
+    word: true
+  - triggers: [':department store', ':department store:']
+    replace: "\U0001F3EC"
+    word: true
+  - triggers: [':post office', ':post office:']
+    replace: "\U0001F3E3"
+    word: true
+  - triggers: [':european post office', ':european post office:']
+    replace: "\U0001F3E4"
+    word: true
+  - triggers: [':hospital', ':hospital:']
+    replace: "\U0001F3E5"
+    word: true
+  - triggers: [':bank', ':bank:']
+    replace: "\U0001F3E6"
+    word: true
+  - triggers: [':hotel', ':hotel:']
+    replace: "\U0001F3E8"
+    word: true
+  - triggers: [':convenience store', ':convenience store:']
+    replace: "\U0001F3EA"
+    word: true
+  - triggers: [':school', ':school:']
+    replace: "\U0001F3EB"
+    word: true
+  - triggers: [':love hotel', ':love hotel:']
+    replace: "\U0001F3E9"
+    word: true
+  - triggers: [':wedding', ':wedding:']
+    replace: "\U0001F492"
+    word: true
+  - triggers: [':classical building', ':classical building:']
+    replace: "\U0001F3DB"
+    word: true
+  - triggers: [':church', ':church:']
+    replace: ⛪️
+    word: true
+  - triggers: [':mosque', ':mosque:']
+    replace: "\U0001F54C"
+    word: true
+  - triggers: [':synagogue', ':synagogue:']
+    replace: "\U0001F54D"
+    word: true
+  - triggers: [':kaaba', ':kaaba:']
+    replace: "\U0001F54B"
+    word: true
+  - triggers: [':shinto shrine', ':shinto shrine:']
+    replace: ⛩
+    word: true
+  - triggers: [':japan', ':japan:']
+    replace: "\U0001F5FE"
+    word: true
+  - triggers: [':rice scene', ':rice scene:']
+    replace: "\U0001F391"
+    word: true
+  - triggers: [':national park', ':national park:']
+    replace: "\U0001F3DE"
+    word: true
+  - triggers: [':sunrise', ':sunrise:']
+    replace: "\U0001F305"
+    word: true
+  - triggers: [':sunrise over mountains', ':sunrise over mountains:']
+    replace: "\U0001F304"
+    word: true
+  - triggers: [':stars', ':stars:']
+    replace: "\U0001F320"
+    word: true
+  - triggers: [':sparkler', ':sparkler:']
+    replace: "\U0001F387"
+    word: true
+  - triggers: [':fireworks', ':fireworks:']
+    replace: "\U0001F386"
+    word: true
+  - triggers: [':festival', ':festival:']
+    replace: "\U0001F386"
+    word: true
+  - triggers: [':city sunrise', ':city sunrise:']
+    replace: "\U0001F307"
+    word: true
+  - triggers: [':city sunset', ':city sunset:']
+    replace: "\U0001F306"
+    word: true
+  - triggers: [':cityscape', ':cityscape:']
+    replace: "\U0001F3D9"
+    word: true
+  - triggers: [':skyline', ':skyline:']
+    replace: "\U0001F3D9"
+    word: true
+  - triggers: [':night with stars', ':night with stars:']
+    replace: "\U0001F303"
+    word: true
+  - triggers: [':milky way', ':milky way:']
+    replace: "\U0001F30C"
+    word: true
+  - triggers: [':bridge at night', ':bridge at night:']
+    replace: "\U0001F309"
+    word: true
+  - triggers: [':foggy', ':foggy:']
+    replace: "\U0001F301"
+    word: true
+  - triggers: [':karl', ':karl:']
+    replace: "\U0001F301"
+    word: true
+  - triggers: [':watch', ':watch:']
+    replace: ⌚️
+    word: true
+  - triggers: [':time', ':time:']
+    replace: ⌚️
+    word: true
+  - triggers: [':iphone', ':iphone:']
+    replace: "\U0001F4F1"
+    word: true
+  - triggers: [':smartphone', ':smartphone:']
+    replace: "\U0001F4F1"
+    word: true
+  - triggers: [':mobile', ':mobile:']
+    replace: "\U0001F4F1"
+    word: true
+  - triggers: [':calling', ':calling:']
+    replace: "\U0001F4F2"
+    word: true
+  - triggers: [':call', ':call:']
+    replace: "\U0001F4F2"
+    word: true
+  - triggers: [':incoming', ':incoming:']
+    replace: "\U0001F4F2"
+    word: true
+  - triggers: [':computer', ':computer:']
+    replace: "\U0001F4BB"
+    word: true
+  - triggers: [':desktop', ':desktop:']
+    replace: "\U0001F4BB"
+    word: true
+  - triggers: [':screen', ':screen:']
+    replace: "\U0001F4BB"
+    word: true
+  - triggers: [':keyboard', ':keyboard:']
+    replace: ⌨️
+    word: true
+  - triggers: [':desktop computer', ':desktop computer:']
+    replace: "\U0001F5A5"
+    word: true
+  - triggers: [':printer', ':printer:']
+    replace: "\U0001F5A8"
+    word: true
+  - triggers: [':computer mouse', ':computer mouse:']
+    replace: "\U0001F5B1"
+    word: true
+  - triggers: [':trackball', ':trackball:']
+    replace: "\U0001F5B2"
+    word: true
+  - triggers: [':joystick', ':joystick:']
+    replace: "\U0001F579"
+    word: true
+  - triggers: [':clamp', ':clamp:']
+    replace: "\U0001F5DC"
+    word: true
+  - triggers: [':minidisc', ':minidisc:']
+    replace: "\U0001F4BD"
+    word: true
+  - triggers: [':floppy disk', ':floppy disk:']
+    replace: "\U0001F4BE"
+    word: true
+  - triggers: [':save', ':save:']
+    replace: "\U0001F4BE"
+    word: true
+  - triggers: [':cd', ':cd:']
+    replace: "\U0001F4BF"
+    word: true
+  - triggers: [':dvd', ':dvd:']
+    replace: "\U0001F4C0"
+    word: true
+  - triggers: [':vhs', ':vhs:']
+    replace: "\U0001F4FC"
+    word: true
+  - triggers: [':camera', ':camera:']
+    replace: "\U0001F4F7"
+    word: true
+  - triggers: [':photo', ':photo:']
+    replace: "\U0001F4F7"
+    word: true
+  - triggers: [':camera flash', ':camera flash:']
+    replace: "\U0001F4F8"
+    word: true
+  - triggers: [':video camera', ':video camera:']
+    replace: "\U0001F4F9"
+    word: true
+  - triggers: [':movie camera', ':movie camera:']
+    replace: "\U0001F3A5"
+    word: true
+  - triggers: [':video', ':video:']
+    replace: "\U0001F3A5"
+    word: true
+  - triggers: [':film projector', ':film projector:']
+    replace: "\U0001F4FD"
+    word: true
+  - triggers: [':film strip', ':film strip:']
+    replace: "\U0001F39E"
+    word: true
+  - triggers: [':telephone receiver', ':telephone receiver:']
+    replace: "\U0001F4DE"
+    word: true
+  - triggers: [':phone', ':phone:']
+    replace: ☎️
+    word: true
+  - triggers: [':telephone', ':telephone:']
+    replace: ☎️
+    word: true
+  - triggers: [':phone', ':phone:']
+    replace: ☎️
+    word: true
+  - triggers: [':pager', ':pager:']
+    replace: "\U0001F4DF"
+    word: true
+  - triggers: [':fax', ':fax:']
+    replace: "\U0001F4E0"
+    word: true
+  - triggers: [':tv', ':tv:']
+    replace: "\U0001F4FA"
+    word: true
+  - triggers: [':radio', ':radio:']
+    replace: "\U0001F4FB"
+    word: true
+  - triggers: [':podcast', ':podcast:']
+    replace: "\U0001F4FB"
+    word: true
+  - triggers: [':studio microphone', ':studio microphone:']
+    replace: "\U0001F399"
+    word: true
+  - triggers: [':level slider', ':level slider:']
+    replace: "\U0001F39A"
+    word: true
+  - triggers: [':control knobs', ':control knobs:']
+    replace: "\U0001F39B"
+    word: true
+  - triggers: [':stopwatch', ':stopwatch:']
+    replace: ⏱
+    word: true
+  - triggers: [':timer clock', ':timer clock:']
+    replace: ⏲
+    word: true
+  - triggers: [':alarm clock', ':alarm clock:']
+    replace: ⏰
+    word: true
+  - triggers: [':morning', ':morning:']
+    replace: ⏰
+    word: true
+  - triggers: [':mantelpiece clock', ':mantelpiece clock:']
+    replace: "\U0001F570"
+    word: true
+  - triggers: [':hourglass', ':hourglass:']
+    replace: ⌛️
+    word: true
+  - triggers: [':hourglass flowing sand', ':hourglass flowing sand:']
+    replace: ⏳
+    word: true
+  - triggers: [':satellite', ':satellite:']
+    replace: "\U0001F4E1"
+    word: true
+  - triggers: [':signal', ':signal:']
+    replace: "\U0001F4E1"
+    word: true
+  - triggers: [':battery', ':battery:']
+    replace: "\U0001F50B"
+    word: true
+  - triggers: [':electric plug', ':electric plug:']
+    replace: "\U0001F50C"
+    word: true
+  - triggers: [':bulb', ':bulb:']
+    replace: "\U0001F4A1"
+    word: true
+  - triggers: [':idea', ':idea:']
+    replace: "\U0001F4A1"
+    word: true
+  - triggers: [':light', ':light:']
+    replace: "\U0001F4A1"
+    word: true
+  - triggers: [':flashlight', ':flashlight:']
+    replace: "\U0001F526"
+    word: true
+  - triggers: [':candle', ':candle:']
+    replace: "\U0001F56F"
+    word: true
+  - triggers: [':wastebasket', ':wastebasket:']
+    replace: "\U0001F5D1"
+    word: true
+  - triggers: [':trash', ':trash:']
+    replace: "\U0001F5D1"
+    word: true
+  - triggers: [':oil drum', ':oil drum:']
+    replace: "\U0001F6E2"
+    word: true
+  - triggers: [':money with wings', ':money with wings:']
+    replace: "\U0001F4B8"
+    word: true
+  - triggers: [':dollar', ':dollar:']
+    replace: "\U0001F4B5"
+    word: true
+  - triggers: [':money', ':money:']
+    replace: "\U0001F4B5"
+    word: true
+  - triggers: [':yen', ':yen:']
+    replace: "\U0001F4B4"
+    word: true
+  - triggers: [':euro', ':euro:']
+    replace: "\U0001F4B6"
+    word: true
+  - triggers: [':pound', ':pound:']
+    replace: "\U0001F4B7"
+    word: true
+  - triggers: [':moneybag', ':moneybag:']
+    replace: "\U0001F4B0"
+    word: true
+  - triggers: [':cream', ':cream:']
+    replace: "\U0001F4B0"
+    word: true
+  - triggers: [':credit card', ':credit card:']
+    replace: "\U0001F4B3"
+    word: true
+  - triggers: [':subscription', ':subscription:']
+    replace: "\U0001F4B3"
+    word: true
+  - triggers: [':gem', ':gem:']
+    replace: "\U0001F48E"
+    word: true
+  - triggers: [':diamond', ':diamond:']
+    replace: "\U0001F48E"
+    word: true
+  - triggers: [':balance scale', ':balance scale:']
+    replace: ⚖️
+    word: true
+  - triggers: [':wrench', ':wrench:']
+    replace: "\U0001F527"
+    word: true
+  - triggers: [':tool', ':tool:']
+    replace: "\U0001F527"
+    word: true
+  - triggers: [':hammer', ':hammer:']
+    replace: "\U0001F528"
+    word: true
+  - triggers: [':hammer and pick', ':hammer and pick:']
+    replace: ⚒
+    word: true
+  - triggers: [':hammer and wrench', ':hammer and wrench:']
+    replace: "\U0001F6E0"
+    word: true
+  - triggers: [':pick', ':pick:']
+    replace: ⛏
+    word: true
+  - triggers: [':nut and bolt', ':nut and bolt:']
+    replace: "\U0001F529"
+    word: true
+  - triggers: [':gear', ':gear:']
+    replace: ⚙️
+    word: true
+  - triggers: [':chains', ':chains:']
+    replace: ⛓
+    word: true
+  - triggers: [':gun', ':gun:']
+    replace: "\U0001F52B"
+    word: true
+  - triggers: [':shoot', ':shoot:']
+    replace: "\U0001F52B"
+    word: true
+  - triggers: [':weapon', ':weapon:']
+    replace: "\U0001F52B"
+    word: true
+  - triggers: [':bomb', ':bomb:']
+    replace: "\U0001F4A3"
+    word: true
+  - triggers: [':hocho', ':hocho:']
+    replace: "\U0001F52A"
+    word: true
+  - triggers: [':knife', ':knife:']
+    replace: "\U0001F52A"
+    word: true
+  - triggers: [':cut', ':cut:']
+    replace: "\U0001F52A"
+    word: true
+  - triggers: [':chop', ':chop:']
+    replace: "\U0001F52A"
+    word: true
+  - triggers: [':hocho', ':hocho:']
+    replace: "\U0001F52A"
+    word: true
+  - triggers: [':dagger', ':dagger:']
+    replace: "\U0001F5E1"
+    word: true
+  - triggers: [':crossed swords', ':crossed swords:']
+    replace: ⚔️
+    word: true
+  - triggers: [':shield', ':shield:']
+    replace: "\U0001F6E1"
+    word: true
+  - triggers: [':smoking', ':smoking:']
+    replace: "\U0001F6AC"
+    word: true
+  - triggers: [':cigarette', ':cigarette:']
+    replace: "\U0001F6AC"
+    word: true
+  - triggers: [':coffin', ':coffin:']
+    replace: ⚰️
+    word: true
+  - triggers: [':funeral', ':funeral:']
+    replace: ⚰️
+    word: true
+  - triggers: [':funeral urn', ':funeral urn:']
+    replace: ⚱️
+    word: true
+  - triggers: [':amphora', ':amphora:']
+    replace: "\U0001F3FA"
+    word: true
+  - triggers: [':crystal ball', ':crystal ball:']
+    replace: "\U0001F52E"
+    word: true
+  - triggers: [':fortune', ':fortune:']
+    replace: "\U0001F52E"
+    word: true
+  - triggers: [':prayer beads', ':prayer beads:']
+    replace: "\U0001F4FF"
+    word: true
+  - triggers: [':barber', ':barber:']
+    replace: "\U0001F488"
+    word: true
+  - triggers: [':alembic', ':alembic:']
+    replace: ⚗️
+    word: true
+  - triggers: [':telescope', ':telescope:']
+    replace: "\U0001F52D"
+    word: true
+  - triggers: [':microscope', ':microscope:']
+    replace: "\U0001F52C"
+    word: true
+  - triggers: [':science', ':science:']
+    replace: "\U0001F52C"
+    word: true
+  - triggers: [':laboratory', ':laboratory:']
+    replace: "\U0001F52C"
+    word: true
+  - triggers: [':investigate', ':investigate:']
+    replace: "\U0001F52C"
+    word: true
+  - triggers: [':hole', ':hole:']
+    replace: "\U0001F573"
+    word: true
+  - triggers: [':pill', ':pill:']
+    replace: "\U0001F48A"
+    word: true
+  - triggers: [':health', ':health:']
+    replace: "\U0001F48A"
+    word: true
+  - triggers: [':medicine', ':medicine:']
+    replace: "\U0001F48A"
+    word: true
+  - triggers: [':syringe', ':syringe:']
+    replace: "\U0001F489"
+    word: true
+  - triggers: [':needle', ':needle:']
+    replace: "\U0001F489"
+    word: true
+  - triggers: [':thermometer', ':thermometer:']
+    replace: "\U0001F321"
+    word: true
+  - triggers: [':toilet', ':toilet:']
+    replace: "\U0001F6BD"
+    word: true
+  - triggers: [':potable water', ':potable water:']
+    replace: "\U0001F6B0"
+    word: true
+  - triggers: [':shower', ':shower:']
+    replace: "\U0001F6BF"
+    word: true
+  - triggers: [':bathtub', ':bathtub:']
+    replace: "\U0001F6C1"
+    word: true
+  - triggers: [':bath', ':bath:']
+    replace: "\U0001F6C0"
+    word: true
+  - triggers: [':bellhop bell', ':bellhop bell:']
+    replace: "\U0001F6CE"
+    word: true
+  - triggers: [':key', ':key:']
+    replace: "\U0001F511"
+    word: true
+  - triggers: [':password', ':password:']
+    replace: "\U0001F511"
+    word: true
+  - triggers: [':old key', ':old key:']
+    replace: "\U0001F5DD"
+    word: true
+  - triggers: [':door', ':door:']
+    replace: "\U0001F6AA"
+    word: true
+  - triggers: [':couch and lamp', ':couch and lamp:']
+    replace: "\U0001F6CB"
+    word: true
+  - triggers: [':bed', ':bed:']
+    replace: "\U0001F6CF"
+    word: true
+  - triggers: [':sleeping bed', ':sleeping bed:']
+    replace: "\U0001F6CC"
+    word: true
+  - triggers: [':framed picture', ':framed picture:']
+    replace: "\U0001F5BC"
+    word: true
+  - triggers: [':shopping', ':shopping:']
+    replace: "\U0001F6CD"
+    word: true
+  - triggers: [':bags', ':bags:']
+    replace: "\U0001F6CD"
+    word: true
+  - triggers: [':shopping cart', ':shopping cart:']
+    replace: "\U0001F6D2"
+    word: true
+  - triggers: [':gift', ':gift:']
+    replace: "\U0001F381"
+    word: true
+  - triggers: [':present', ':present:']
+    replace: "\U0001F381"
+    word: true
+  - triggers: [':balloon', ':balloon:']
+    replace: "\U0001F388"
+    word: true
+  - triggers: [':flags', ':flags:']
+    replace: "\U0001F38F"
+    word: true
+  - triggers: [':ribbon', ':ribbon:']
+    replace: "\U0001F380"
+    word: true
+  - triggers: [':confetti ball', ':confetti ball:']
+    replace: "\U0001F38A"
+    word: true
+  - triggers: [':tada', ':tada:']
+    replace: "\U0001F389"
+    word: true
+  - triggers: [':dolls', ':dolls:']
+    replace: "\U0001F38E"
+    word: true
+  - triggers: [':izakaya lantern', ':izakaya lantern:']
+    replace: "\U0001F3EE"
+    word: true
+  - triggers: [':lantern', ':lantern:']
+    replace: "\U0001F3EE"
+    word: true
+  - triggers: [':izakaya lantern', ':izakaya lantern:']
+    replace: "\U0001F3EE"
+    word: true
+  - triggers: [':wind chime', ':wind chime:']
+    replace: "\U0001F390"
+    word: true
+  - triggers: [':email', ':email:']
+    replace: ✉️
+    word: true
+  - triggers: [':envelope', ':envelope:']
+    replace: ✉️
+    word: true
+  - triggers: [':letter', ':letter:']
+    replace: ✉️
+    word: true
+  - triggers: [':email', ':email:']
+    replace: ✉️
+    word: true
+  - triggers: [':envelope with arrow', ':envelope with arrow:']
+    replace: "\U0001F4E9"
+    word: true
+  - triggers: [':incoming envelope', ':incoming envelope:']
+    replace: "\U0001F4E8"
+    word: true
+  - triggers: [':e-mail', ':e-mail:']
+    replace: "\U0001F4E7"
+    word: true
+  - triggers: [':love letter', ':love letter:']
+    replace: "\U0001F48C"
+    word: true
+  - triggers: [':inbox tray', ':inbox tray:']
+    replace: "\U0001F4E5"
+    word: true
+  - triggers: [':outbox tray', ':outbox tray:']
+    replace: "\U0001F4E4"
+    word: true
+  - triggers: [':package', ':package:']
+    replace: "\U0001F4E6"
+    word: true
+  - triggers: [':shipping', ':shipping:']
+    replace: "\U0001F4E6"
+    word: true
+  - triggers: [':label', ':label:']
+    replace: "\U0001F3F7"
+    word: true
+  - triggers: [':tag', ':tag:']
+    replace: "\U0001F3F7"
+    word: true
+  - triggers: [':mailbox closed', ':mailbox closed:']
+    replace: "\U0001F4EA"
+    word: true
+  - triggers: [':mailbox', ':mailbox:']
+    replace: "\U0001F4EB"
+    word: true
+  - triggers: [':mailbox with mail', ':mailbox with mail:']
+    replace: "\U0001F4EC"
+    word: true
+  - triggers: [':mailbox with no mail', ':mailbox with no mail:']
+    replace: "\U0001F4ED"
+    word: true
+  - triggers: [':postbox', ':postbox:']
+    replace: "\U0001F4EE"
+    word: true
+  - triggers: [':postal horn', ':postal horn:']
+    replace: "\U0001F4EF"
+    word: true
+  - triggers: [':scroll', ':scroll:']
+    replace: "\U0001F4DC"
+    word: true
+  - triggers: [':document', ':document:']
+    replace: "\U0001F4DC"
+    word: true
+  - triggers: [':page with curl', ':page with curl:']
+    replace: "\U0001F4C3"
+    word: true
+  - triggers: [':page facing up', ':page facing up:']
+    replace: "\U0001F4C4"
+    word: true
+  - triggers: [':bookmark tabs', ':bookmark tabs:']
+    replace: "\U0001F4D1"
+    word: true
+  - triggers: [':bar chart', ':bar chart:']
+    replace: "\U0001F4CA"
+    word: true
+  - triggers: [':stats', ':stats:']
+    replace: "\U0001F4CA"
+    word: true
+  - triggers: [':metrics', ':metrics:']
+    replace: "\U0001F4CA"
+    word: true
+  - triggers: [':chart with upwards trend', ':chart with upwards trend:']
+    replace: "\U0001F4C8"
+    word: true
+  - triggers: [':graph', ':graph:']
+    replace: "\U0001F4C8"
+    word: true
+  - triggers: [':chart with downwards trend', ':chart with downwards trend:']
+    replace: "\U0001F4C9"
+    word: true
+  - triggers: [':spiral notepad', ':spiral notepad:']
+    replace: "\U0001F5D2"
+    word: true
+  - triggers: [':spiral calendar', ':spiral calendar:']
+    replace: "\U0001F5D3"
+    word: true
+  - triggers: [':calendar', ':calendar:']
+    replace: "\U0001F4C6"
+    word: true
+  - triggers: [':schedule', ':schedule:']
+    replace: "\U0001F4C6"
+    word: true
+  - triggers: [':date', ':date:']
+    replace: "\U0001F4C5"
+    word: true
+  - triggers: [':card index', ':card index:']
+    replace: "\U0001F4C7"
+    word: true
+  - triggers: [':card file box', ':card file box:']
+    replace: "\U0001F5C3"
+    word: true
+  - triggers: [':ballot box', ':ballot box:']
+    replace: "\U0001F5F3"
+    word: true
+  - triggers: [':file cabinet', ':file cabinet:']
+    replace: "\U0001F5C4"
+    word: true
+  - triggers: [':clipboard', ':clipboard:']
+    replace: "\U0001F4CB"
+    word: true
+  - triggers: [':file folder', ':file folder:']
+    replace: "\U0001F4C1"
+    word: true
+  - triggers: [':directory', ':directory:']
+    replace: "\U0001F4C1"
+    word: true
+  - triggers: [':open file folder', ':open file folder:']
+    replace: "\U0001F4C2"
+    word: true
+  - triggers: [':card index dividers', ':card index dividers:']
+    replace: "\U0001F5C2"
+    word: true
+  - triggers: [':newspaper roll', ':newspaper roll:']
+    replace: "\U0001F5DE"
+    word: true
+  - triggers: [':press', ':press:']
+    replace: "\U0001F5DE"
+    word: true
+  - triggers: [':newspaper', ':newspaper:']
+    replace: "\U0001F4F0"
+    word: true
+  - triggers: [':notebook', ':notebook:']
+    replace: "\U0001F4D3"
+    word: true
+  - triggers: [':notebook with decorative cover', ':notebook with decorative cover:']
+    replace: "\U0001F4D4"
+    word: true
+  - triggers: [':ledger', ':ledger:']
+    replace: "\U0001F4D2"
+    word: true
+  - triggers: [':closed book', ':closed book:']
+    replace: "\U0001F4D5"
+    word: true
+  - triggers: [':green book', ':green book:']
+    replace: "\U0001F4D7"
+    word: true
+  - triggers: [':blue book', ':blue book:']
+    replace: "\U0001F4D8"
+    word: true
+  - triggers: [':orange book', ':orange book:']
+    replace: "\U0001F4D9"
+    word: true
+  - triggers: [':books', ':books:']
+    replace: "\U0001F4DA"
+    word: true
+  - triggers: [':library', ':library:']
+    replace: "\U0001F4DA"
+    word: true
+  - triggers: [':book', ':book:']
+    replace: "\U0001F4D6"
+    word: true
+  - triggers: [':open book', ':open book:']
+    replace: "\U0001F4D6"
+    word: true
+  - triggers: [':book', ':book:']
+    replace: "\U0001F4D6"
+    word: true
+  - triggers: [':bookmark', ':bookmark:']
+    replace: "\U0001F516"
+    word: true
+  - triggers: [':link', ':link:']
+    replace: "\U0001F517"
+    word: true
+  - triggers: [':paperclip', ':paperclip:']
+    replace: "\U0001F4CE"
+    word: true
+  - triggers: [':paperclips', ':paperclips:']
+    replace: "\U0001F587"
+    word: true
+  - triggers: [':triangular ruler', ':triangular ruler:']
+    replace: "\U0001F4D0"
+    word: true
+  - triggers: [':straight ruler', ':straight ruler:']
+    replace: "\U0001F4CF"
+    word: true
+  - triggers: [':pushpin', ':pushpin:']
+    replace: "\U0001F4CC"
+    word: true
+  - triggers: [':location', ':location:']
+    replace: "\U0001F4CC"
+    word: true
+  - triggers: [':round pushpin', ':round pushpin:']
+    replace: "\U0001F4CD"
+    word: true
+  - triggers: [':scissors', ':scissors:']
+    replace: ✂️
+    word: true
+  - triggers: [':pen', ':pen:']
+    replace: "\U0001F58A"
+    word: true
+  - triggers: [':fountain pen', ':fountain pen:']
+    replace: "\U0001F58B"
+    word: true
+  - triggers: [':black nib', ':black nib:']
+    replace: ✒️
+    word: true
+  - triggers: [':paintbrush', ':paintbrush:']
+    replace: "\U0001F58C"
+    word: true
+  - triggers: [':crayon', ':crayon:']
+    replace: "\U0001F58D"
+    word: true
+  - triggers: [':memo', ':memo:']
+    replace: "\U0001F4DD"
+    word: true
+  - triggers: [':pencil', ':pencil:']
+    replace: "\U0001F4DD"
+    word: true
+  - triggers: [':note', ':note:']
+    replace: "\U0001F4DD"
+    word: true
+  - triggers: [':memo', ':memo:']
+    replace: "\U0001F4DD"
+    word: true
+  - triggers: [':pencil2', ':pencil2:']
+    replace: ✏️
+    word: true
+  - triggers: [':mag', ':mag:']
+    replace: "\U0001F50D"
+    word: true
+  - triggers: [':search', ':search:']
+    replace: "\U0001F50D"
+    word: true
+  - triggers: [':zoom', ':zoom:']
+    replace: "\U0001F50D"
+    word: true
+  - triggers: [':mag right', ':mag right:']
+    replace: "\U0001F50E"
+    word: true
+  - triggers: [':lock with ink pen', ':lock with ink pen:']
+    replace: "\U0001F50F"
+    word: true
+  - triggers: [':closed lock with key', ':closed lock with key:']
+    replace: "\U0001F510"
+    word: true
+  - triggers: [':security', ':security:']
+    replace: "\U0001F510"
+    word: true
+  - triggers: [':lock', ':lock:']
+    replace: "\U0001F512"
+    word: true
+  - triggers: [':private', ':private:']
+    replace: "\U0001F512"
+    word: true
+  - triggers: [':unlock', ':unlock:']
+    replace: "\U0001F513"
+    word: true
+  - triggers: [':heart', ':heart:']
+    replace: ❤️
+    word: true
+  - triggers: [':yellow heart', ':yellow heart:']
+    replace: "\U0001F49B"
+    word: true
+  - triggers: [':green heart', ':green heart:']
+    replace: "\U0001F49A"
+    word: true
+  - triggers: [':blue heart', ':blue heart:']
+    replace: "\U0001F499"
+    word: true
+  - triggers: [':purple heart', ':purple heart:']
+    replace: "\U0001F49C"
+    word: true
+  - triggers: [':black heart', ':black heart:']
+    replace: "\U0001F5A4"
+    word: true
+  - triggers: [':broken heart', ':broken heart:']
+    replace: "\U0001F494"
+    word: true
+  - triggers: [':heavy heart exclamation', ':heavy heart exclamation:']
+    replace: ❣️
+    word: true
+  - triggers: [':two hearts', ':two hearts:']
+    replace: "\U0001F495"
+    word: true
+  - triggers: [':revolving hearts', ':revolving hearts:']
+    replace: "\U0001F49E"
+    word: true
+  - triggers: [':heartbeat', ':heartbeat:']
+    replace: "\U0001F493"
+    word: true
+  - triggers: [':heartpulse', ':heartpulse:']
+    replace: "\U0001F497"
+    word: true
+  - triggers: [':sparkling heart', ':sparkling heart:']
+    replace: "\U0001F496"
+    word: true
+  - triggers: [':cupid', ':cupid:']
+    replace: "\U0001F498"
+    word: true
+  - triggers: [':gift heart', ':gift heart:']
+    replace: "\U0001F49D"
+    word: true
+  - triggers: [':chocolates', ':chocolates:']
+    replace: "\U0001F49D"
+    word: true
+  - triggers: [':heart decoration', ':heart decoration:']
+    replace: "\U0001F49F"
+    word: true
+  - triggers: [':peace symbol', ':peace symbol:']
+    replace: ☮️
+    word: true
+  - triggers: [':latin cross', ':latin cross:']
+    replace: ✝️
+    word: true
+  - triggers: [':star and crescent', ':star and crescent:']
+    replace: ☪️
+    word: true
+  - triggers: [':om', ':om:']
+    replace: "\U0001F549"
+    word: true
+  - triggers: [':wheel of dharma', ':wheel of dharma:']
+    replace: ☸️
+    word: true
+  - triggers: [':star of david', ':star of david:']
+    replace: ✡️
+    word: true
+  - triggers: [':six pointed star', ':six pointed star:']
+    replace: "\U0001F52F"
+    word: true
+  - triggers: [':menorah', ':menorah:']
+    replace: "\U0001F54E"
+    word: true
+  - triggers: [':yin yang', ':yin yang:']
+    replace: ☯️
+    word: true
+  - triggers: [':orthodox cross', ':orthodox cross:']
+    replace: ☦️
+    word: true
+  - triggers: [':place of worship', ':place of worship:']
+    replace: "\U0001F6D0"
+    word: true
+  - triggers: [':ophiuchus', ':ophiuchus:']
+    replace: ⛎
+    word: true
+  - triggers: [':aries', ':aries:']
+    replace: ♈️
+    word: true
+  - triggers: [':taurus', ':taurus:']
+    replace: ♉️
+    word: true
+  - triggers: [':gemini', ':gemini:']
+    replace: ♊️
+    word: true
+  - triggers: [':cancer', ':cancer:']
+    replace: ♋️
+    word: true
+  - triggers: [':leo', ':leo:']
+    replace: ♌️
+    word: true
+  - triggers: [':virgo', ':virgo:']
+    replace: ♍️
+    word: true
+  - triggers: [':libra', ':libra:']
+    replace: ♎️
+    word: true
+  - triggers: [':scorpius', ':scorpius:']
+    replace: ♏️
+    word: true
+  - triggers: [':sagittarius', ':sagittarius:']
+    replace: ♐️
+    word: true
+  - triggers: [':capricorn', ':capricorn:']
+    replace: ♑️
+    word: true
+  - triggers: [':aquarius', ':aquarius:']
+    replace: ♒️
+    word: true
+  - triggers: [':pisces', ':pisces:']
+    replace: ♓️
+    word: true
+  - triggers: [':id', ':id:']
+    replace: "\U0001F194"
+    word: true
+  - triggers: [':atom symbol', ':atom symbol:']
+    replace: ⚛️
+    word: true
+  - triggers: [':accept', ':accept:']
+    replace: "\U0001F251"
+    word: true
+  - triggers: [':radioactive', ':radioactive:']
+    replace: ☢️
+    word: true
+  - triggers: [':biohazard', ':biohazard:']
+    replace: ☣️
+    word: true
+  - triggers: [':mobile phone off', ':mobile phone off:']
+    replace: "\U0001F4F4"
+    word: true
+  - triggers: [':off', ':off:']
+    replace: "\U0001F4F4"
+    word: true
+  - triggers: [':vibration mode', ':vibration mode:']
+    replace: "\U0001F4F3"
+    word: true
+  - triggers: [':u6709', ':u6709:']
+    replace: "\U0001F236"
+    word: true
+  - triggers: [':u7121', ':u7121:']
+    replace: "\U0001F21A️"
+    word: true
+  - triggers: [':u7533', ':u7533:']
+    replace: "\U0001F238"
+    word: true
+  - triggers: [':u55b6', ':u55b6:']
+    replace: "\U0001F23A"
+    word: true
+  - triggers: [':u6708', ':u6708:']
+    replace: "\U0001F237️"
+    word: true
+  - triggers: [':eight pointed black star', ':eight pointed black star:']
+    replace: ✴️
+    word: true
+  - triggers: [':vs', ':vs:']
+    replace: "\U0001F19A"
+    word: true
+  - triggers: [':white flower', ':white flower:']
+    replace: "\U0001F4AE"
+    word: true
+  - triggers: [':ideograph advantage', ':ideograph advantage:']
+    replace: "\U0001F250"
+    word: true
+  - triggers: [':secret', ':secret:']
+    replace: ㊙️
+    word: true
+  - triggers: [':congratulations', ':congratulations:']
+    replace: ㊗️
+    word: true
+  - triggers: [':u5408', ':u5408:']
+    replace: "\U0001F234"
+    word: true
+  - triggers: [':u6e80', ':u6e80:']
+    replace: "\U0001F235"
+    word: true
+  - triggers: [':u5272', ':u5272:']
+    replace: "\U0001F239"
+    word: true
+  - triggers: [':u7981', ':u7981:']
+    replace: "\U0001F232"
+    word: true
+  - triggers: [':a', ':a:']
+    replace: "\U0001F170️"
+    word: true
+  - triggers: [':b', ':b:']
+    replace: "\U0001F171️"
+    word: true
+  - triggers: [':ab', ':ab:']
+    replace: "\U0001F18E"
+    word: true
+  - triggers: [':cl', ':cl:']
+    replace: "\U0001F191"
+    word: true
+  - triggers: [':o2', ':o2:']
+    replace: "\U0001F17E️"
+    word: true
+  - triggers: [':sos', ':sos:']
+    replace: "\U0001F198"
+    word: true
+  - triggers: [':help', ':help:']
+    replace: "\U0001F198"
+    word: true
+  - triggers: [':x', ':x:']
+    replace: ❌
+    word: true
+  - triggers: [':o', ':o:']
+    replace: ⭕️
+    word: true
+  - triggers: [':stop sign', ':stop sign:']
+    replace: "\U0001F6D1"
+    word: true
+  - triggers: [':no entry', ':no entry:']
+    replace: ⛔️
+    word: true
+  - triggers: [':limit', ':limit:']
+    replace: ⛔️
+    word: true
+  - triggers: [':name badge', ':name badge:']
+    replace: "\U0001F4DB"
+    word: true
+  - triggers: [':no entry sign', ':no entry sign:']
+    replace: "\U0001F6AB"
+    word: true
+  - triggers: [':block', ':block:']
+    replace: "\U0001F6AB"
+    word: true
+  - triggers: [':forbidden', ':forbidden:']
+    replace: "\U0001F6AB"
+    word: true
+  - triggers: [':anger', ':anger:']
+    replace: "\U0001F4A2"
+    word: true
+  - triggers: [':hotsprings', ':hotsprings:']
+    replace: ♨️
+    word: true
+  - triggers: [':no pedestrians', ':no pedestrians:']
+    replace: "\U0001F6B7"
+    word: true
+  - triggers: [':do not litter', ':do not litter:']
+    replace: "\U0001F6AF"
+    word: true
+  - triggers: [':no bicycles', ':no bicycles:']
+    replace: "\U0001F6B3"
+    word: true
+  - triggers: [':non-potable water', ':non-potable water:']
+    replace: "\U0001F6B1"
+    word: true
+  - triggers: [':underage', ':underage:']
+    replace: "\U0001F51E"
+    word: true
+  - triggers: [':no mobile phones', ':no mobile phones:']
+    replace: "\U0001F4F5"
+    word: true
+  - triggers: [':no smoking', ':no smoking:']
+    replace: "\U0001F6AD"
+    word: true
+  - triggers: [':exclamation', ':exclamation:']
+    replace: ❗️
+    word: true
+  - triggers: [':heavy exclamation mark', ':heavy exclamation mark:']
+    replace: ❗️
+    word: true
+  - triggers: [':bang', ':bang:']
+    replace: ❗️
+    word: true
+  - triggers: [':exclamation', ':exclamation:']
+    replace: ❗️
+    word: true
+  - triggers: [':grey exclamation', ':grey exclamation:']
+    replace: ❕
+    word: true
+  - triggers: [':question', ':question:']
+    replace: ❓
+    word: true
+  - triggers: [':grey question', ':grey question:']
+    replace: ❔
+    word: true
+  - triggers: [':bangbang', ':bangbang:']
+    replace: ‼️
+    word: true
+  - triggers: [':interrobang', ':interrobang:']
+    replace: ⁉️
+    word: true
+  - triggers: [':low brightness', ':low brightness:']
+    replace: "\U0001F505"
+    word: true
+  - triggers: [':high brightness', ':high brightness:']
+    replace: "\U0001F506"
+    word: true
+  - triggers: [':part alternation mark', ':part alternation mark:']
+    replace: 〽️
+    word: true
+  - triggers: [':warning', ':warning:']
+    replace: ⚠️
+    word: true
+  - triggers: [':children crossing', ':children crossing:']
+    replace: "\U0001F6B8"
+    word: true
+  - triggers: [':trident', ':trident:']
+    replace: "\U0001F531"
+    word: true
+  - triggers: [':fleur de lis', ':fleur de lis:']
+    replace: ⚜️
+    word: true
+  - triggers: [':beginner', ':beginner:']
+    replace: "\U0001F530"
+    word: true
+  - triggers: [':recycle', ':recycle:']
+    replace: ♻️
+    word: true
+  - triggers: [':environment', ':environment:']
+    replace: ♻️
+    word: true
+  - triggers: [':white check mark', ':white check mark:']
+    replace: ✅
+    word: true
+  - triggers: [':u6307', ':u6307:']
+    replace: "\U0001F22F️"
+    word: true
+  - triggers: [':chart', ':chart:']
+    replace: "\U0001F4B9"
+    word: true
+  - triggers: [':sparkle', ':sparkle:']
+    replace: ❇️
+    word: true
+  - triggers: [':eight spoked asterisk', ':eight spoked asterisk:']
+    replace: ✳️
+    word: true
+  - triggers: [':negative squared cross mark', ':negative squared cross mark:']
+    replace: ❎
+    word: true
+  - triggers: [':globe with meridians', ':globe with meridians:']
+    replace: "\U0001F310"
+    word: true
+  - triggers: [':global', ':global:']
+    replace: "\U0001F310"
+    word: true
+  - triggers: [':diamond shape with a dot inside', ':diamond shape with a dot inside:']
+    replace: "\U0001F4A0"
+    word: true
+  - triggers: [':m', ':m:']
+    replace: Ⓜ️
+    word: true
+  - triggers: [':cyclone', ':cyclone:']
+    replace: "\U0001F300"
+    word: true
+  - triggers: [':swirl', ':swirl:']
+    replace: "\U0001F300"
+    word: true
+  - triggers: [':zzz', ':zzz:']
+    replace: "\U0001F4A4"
+    word: true
+  - triggers: [':atm', ':atm:']
+    replace: "\U0001F3E7"
+    word: true
+  - triggers: [':wc', ':wc:']
+    replace: "\U0001F6BE"
+    word: true
+  - triggers: [':wheelchair', ':wheelchair:']
+    replace: ♿️
+    word: true
+  - triggers: [':accessibility', ':accessibility:']
+    replace: ♿️
+    word: true
+  - triggers: [':parking', ':parking:']
+    replace: "\U0001F17F️"
+    word: true
+  - triggers: [':u7a7a', ':u7a7a:']
+    replace: "\U0001F233"
+    word: true
+  - triggers: [':sa', ':sa:']
+    replace: "\U0001F202️"
+    word: true
+  - triggers: [':passport control', ':passport control:']
+    replace: "\U0001F6C2"
+    word: true
+  - triggers: [':customs', ':customs:']
+    replace: "\U0001F6C3"
+    word: true
+  - triggers: [':baggage claim', ':baggage claim:']
+    replace: "\U0001F6C4"
+    word: true
+  - triggers: [':airport', ':airport:']
+    replace: "\U0001F6C4"
+    word: true
+  - triggers: [':left luggage', ':left luggage:']
+    replace: "\U0001F6C5"
+    word: true
+  - triggers: [':mens', ':mens:']
+    replace: "\U0001F6B9"
+    word: true
+  - triggers: [':womens', ':womens:']
+    replace: "\U0001F6BA"
+    word: true
+  - triggers: [':baby symbol', ':baby symbol:']
+    replace: "\U0001F6BC"
+    word: true
+  - triggers: [':restroom', ':restroom:']
+    replace: "\U0001F6BB"
+    word: true
+  - triggers: [':put litter in its place', ':put litter in its place:']
+    replace: "\U0001F6AE"
+    word: true
+  - triggers: [':cinema', ':cinema:']
+    replace: "\U0001F3A6"
+    word: true
+  - triggers: [':movie', ':movie:']
+    replace: "\U0001F3A6"
+    word: true
+  - triggers: [':signal strength', ':signal strength:']
+    replace: "\U0001F4F6"
+    word: true
+  - triggers: [':wifi', ':wifi:']
+    replace: "\U0001F4F6"
+    word: true
+  - triggers: [':koko', ':koko:']
+    replace: "\U0001F201"
+    word: true
+  - triggers: [':symbols', ':symbols:']
+    replace: "\U0001F523"
+    word: true
+  - triggers: [':information source', ':information source:']
+    replace: ℹ️
+    word: true
+  - triggers: [':abc', ':abc:']
+    replace: "\U0001F524"
+    word: true
+  - triggers: [':alphabet', ':alphabet:']
+    replace: "\U0001F524"
+    word: true
+  - triggers: [':abcd', ':abcd:']
+    replace: "\U0001F521"
+    word: true
+  - triggers: [':capital abcd', ':capital abcd:']
+    replace: "\U0001F520"
+    word: true
+  - triggers: [':letters', ':letters:']
+    replace: "\U0001F520"
+    word: true
+  - triggers: [':ng', ':ng:']
+    replace: "\U0001F196"
+    word: true
+  - triggers: [':ok', ':ok:']
+    replace: "\U0001F197"
+    word: true
+  - triggers: [':yes', ':yes:']
+    replace: "\U0001F197"
+    word: true
+  - triggers: [':up', ':up:']
+    replace: "\U0001F199"
+    word: true
+  - triggers: [':cool', ':cool:']
+    replace: "\U0001F192"
+    word: true
+  - triggers: [':new', ':new:']
+    replace: "\U0001F195"
+    word: true
+  - triggers: [':fresh', ':fresh:']
+    replace: "\U0001F195"
+    word: true
+  - triggers: [':free', ':free:']
+    replace: "\U0001F193"
+    word: true
+  - triggers: [':zero', ':zero:']
+    replace: 0️⃣
+    word: true
+  - triggers: [':one', ':one:']
+    replace: 1️⃣
+    word: true
+  - triggers: [':two', ':two:']
+    replace: 2️⃣
+    word: true
+  - triggers: [':three', ':three:']
+    replace: 3️⃣
+    word: true
+  - triggers: [':four', ':four:']
+    replace: 4️⃣
+    word: true
+  - triggers: [':five', ':five:']
+    replace: 5️⃣
+    word: true
+  - triggers: [':six', ':six:']
+    replace: 6️⃣
+    word: true
+  - triggers: [':seven', ':seven:']
+    replace: 7️⃣
+    word: true
+  - triggers: [':eight', ':eight:']
+    replace: 8️⃣
+    word: true
+  - triggers: [':nine', ':nine:']
+    replace: 9️⃣
+    word: true
+  - triggers: [':keycap ten', ':keycap ten:']
+    replace: "\U0001F51F"
+    word: true
+  - triggers: [':hash', ':hash:']
+    replace: '#️⃣'
+    word: true
+  - triggers: [':number', ':number:']
+    replace: '#️⃣'
+    word: true
+  - triggers: [':asterisk', ':asterisk:']
+    replace: '*️⃣'
+    word: true
+  - triggers: [':arrow forward', ':arrow forward:']
+    replace: ▶️
+    word: true
+  - triggers: [':pause button', ':pause button:']
+    replace: ⏸
+    word: true
+  - triggers: [':play or pause button', ':play or pause button:']
+    replace: ⏯
+    word: true
+  - triggers: [':stop button', ':stop button:']
+    replace: ⏹
+    word: true
+  - triggers: [':record button', ':record button:']
+    replace: ⏺
+    word: true
+  - triggers: [':next track button', ':next track button:']
+    replace: ⏭
+    word: true
+  - triggers: [':previous track button', ':previous track button:']
+    replace: ⏮
+    word: true
+  - triggers: [':fast forward', ':fast forward:']
+    replace: ⏩
+    word: true
+  - triggers: [':rewind', ':rewind:']
+    replace: ⏪
+    word: true
+  - triggers: [':arrow double up', ':arrow double up:']
+    replace: ⏫
+    word: true
+  - triggers: [':arrow double down', ':arrow double down:']
+    replace: ⏬
+    word: true
+  - triggers: [':arrow backward', ':arrow backward:']
+    replace: ◀️
+    word: true
+  - triggers: [':arrow up small', ':arrow up small:']
+    replace: "\U0001F53C"
+    word: true
+  - triggers: [':arrow down small', ':arrow down small:']
+    replace: "\U0001F53D"
+    word: true
+  - triggers: [':arrow right', ':arrow right:']
+    replace: ➡️
+    word: true
+  - triggers: [':arrow left', ':arrow left:']
+    replace: ⬅️
+    word: true
+  - triggers: [':arrow up', ':arrow up:']
+    replace: ⬆️
+    word: true
+  - triggers: [':arrow down', ':arrow down:']
+    replace: ⬇️
+    word: true
+  - triggers: [':arrow upper right', ':arrow upper right:']
+    replace: ↗️
+    word: true
+  - triggers: [':arrow lower right', ':arrow lower right:']
+    replace: ↘️
+    word: true
+  - triggers: [':arrow lower left', ':arrow lower left:']
+    replace: ↙️
+    word: true
+  - triggers: [':arrow upper left', ':arrow upper left:']
+    replace: ↖️
+    word: true
+  - triggers: [':arrow up down', ':arrow up down:']
+    replace: ↕️
+    word: true
+  - triggers: [':left right arrow', ':left right arrow:']
+    replace: ↔️
+    word: true
+  - triggers: [':arrow right hook', ':arrow right hook:']
+    replace: ↪️
+    word: true
+  - triggers: [':leftwards arrow with hook', ':leftwards arrow with hook:']
+    replace: ↩️
+    word: true
+  - triggers: [':return', ':return:']
+    replace: ↩️
+    word: true
+  - triggers: [':arrow heading up', ':arrow heading up:']
+    replace: ⤴️
+    word: true
+  - triggers: [':arrow heading down', ':arrow heading down:']
+    replace: ⤵️
+    word: true
+  - triggers: [':twisted rightwards arrows', ':twisted rightwards arrows:']
+    replace: "\U0001F500"
+    word: true
+  - triggers: [':shuffle', ':shuffle:']
+    replace: "\U0001F500"
+    word: true
+  - triggers: [':repeat', ':repeat:']
+    replace: "\U0001F501"
+    word: true
+  - triggers: [':repeat one', ':repeat one:']
+    replace: "\U0001F502"
+    word: true
+  - triggers: [':arrows counterclockwise', ':arrows counterclockwise:']
+    replace: "\U0001F504"
+    word: true
+  - triggers: [':sync', ':sync:']
+    replace: "\U0001F504"
+    word: true
+  - triggers: [':arrows clockwise', ':arrows clockwise:']
+    replace: "\U0001F503"
+    word: true
+  - triggers: [':musical note', ':musical note:']
+    replace: "\U0001F3B5"
+    word: true
+  - triggers: [':notes', ':notes:']
+    replace: "\U0001F3B6"
+    word: true
+  - triggers: [':heavy plus sign', ':heavy plus sign:']
+    replace: ➕
+    word: true
+  - triggers: [':heavy minus sign', ':heavy minus sign:']
+    replace: ➖
+    word: true
+  - triggers: [':heavy division sign', ':heavy division sign:']
+    replace: ➗
+    word: true
+  - triggers: [':heavy multiplication x', ':heavy multiplication x:']
+    replace: ✖️
+    word: true
+  - triggers: [':heavy dollar sign', ':heavy dollar sign:']
+    replace: "\U0001F4B2"
+    word: true
+  - triggers: [':currency exchange', ':currency exchange:']
+    replace: "\U0001F4B1"
+    word: true
+  - triggers: [':tm', ':tm:']
+    replace: ™️
+    word: true
+  - triggers: [':trademark', ':trademark:']
+    replace: ™️
+    word: true
+  - triggers: [':copyright', ':copyright:']
+    replace: ©️
+    word: true
+  - triggers: [':registered', ':registered:']
+    replace: ®️
+    word: true
+  - triggers: [':wavy dash', ':wavy dash:']
+    replace: 〰️
+    word: true
+  - triggers: [':curly loop', ':curly loop:']
+    replace: ➰
+    word: true
+  - triggers: [':loop', ':loop:']
+    replace: ➿
+    word: true
+  - triggers: [':end', ':end:']
+    replace: "\U0001F51A"
+    word: true
+  - triggers: [':back', ':back:']
+    replace: "\U0001F519"
+    word: true
+  - triggers: [':on', ':on:']
+    replace: "\U0001F51B"
+    word: true
+  - triggers: [':top', ':top:']
+    replace: "\U0001F51D"
+    word: true
+  - triggers: [':soon', ':soon:']
+    replace: "\U0001F51C"
+    word: true
+  - triggers: [':heavy check mark', ':heavy check mark:']
+    replace: ✔️
+    word: true
+  - triggers: [':ballot box with check', ':ballot box with check:']
+    replace: ☑️
+    word: true
+  - triggers: [':radio button', ':radio button:']
+    replace: "\U0001F518"
+    word: true
+  - triggers: [':white circle', ':white circle:']
+    replace: ⚪️
+    word: true
+  - triggers: [':black circle', ':black circle:']
+    replace: ⚫️
+    word: true
+  - triggers: [':red circle', ':red circle:']
+    replace: "\U0001F534"
+    word: true
+  - triggers: [':large blue circle', ':large blue circle:']
+    replace: "\U0001F535"
+    word: true
+  - triggers: [':small red triangle', ':small red triangle:']
+    replace: "\U0001F53A"
+    word: true
+  - triggers: [':small red triangle down', ':small red triangle down:']
+    replace: "\U0001F53B"
+    word: true
+  - triggers: [':small orange diamond', ':small orange diamond:']
+    replace: "\U0001F538"
+    word: true
+  - triggers: [':small blue diamond', ':small blue diamond:']
+    replace: "\U0001F539"
+    word: true
+  - triggers: [':large orange diamond', ':large orange diamond:']
+    replace: "\U0001F536"
+    word: true
+  - triggers: [':large blue diamond', ':large blue diamond:']
+    replace: "\U0001F537"
+    word: true
+  - triggers: [':white square button', ':white square button:']
+    replace: "\U0001F533"
+    word: true
+  - triggers: [':black square button', ':black square button:']
+    replace: "\U0001F532"
+    word: true
+  - triggers: [':black small square', ':black small square:']
+    replace: ▪️
+    word: true
+  - triggers: [':white small square', ':white small square:']
+    replace: ▫️
+    word: true
+  - triggers: [':black medium small square', ':black medium small square:']
+    replace: ◾️
+    word: true
+  - triggers: [':white medium small square', ':white medium small square:']
+    replace: ◽️
+    word: true
+  - triggers: [':black medium square', ':black medium square:']
+    replace: ◼️
+    word: true
+  - triggers: [':white medium square', ':white medium square:']
+    replace: ◻️
+    word: true
+  - triggers: [':black large square', ':black large square:']
+    replace: ⬛️
+    word: true
+  - triggers: [':white large square', ':white large square:']
+    replace: ⬜️
+    word: true
+  - triggers: [':speaker', ':speaker:']
+    replace: "\U0001F508"
+    word: true
+  - triggers: [':mute', ':mute:']
+    replace: "\U0001F507"
+    word: true
+  - triggers: [':volume', ':volume:']
+    replace: "\U0001F507"
+    word: true
+  - triggers: [':sound', ':sound:']
+    replace: "\U0001F509"
+    word: true
+  - triggers: [':loud sound', ':loud sound:']
+    replace: "\U0001F50A"
+    word: true
+  - triggers: [':bell', ':bell:']
+    replace: "\U0001F514"
+    word: true
+  - triggers: [':notification', ':notification:']
+    replace: "\U0001F514"
+    word: true
+  - triggers: [':no bell', ':no bell:']
+    replace: "\U0001F515"
+    word: true
+  - triggers: [':mega', ':mega:']
+    replace: "\U0001F4E3"
+    word: true
+  - triggers: [':loudspeaker', ':loudspeaker:']
+    replace: "\U0001F4E2"
+    word: true
+  - triggers: [':announcement', ':announcement:']
+    replace: "\U0001F4E2"
+    word: true
+  - triggers: [':eye speech bubble', ':eye speech bubble:']
+    replace: "\U0001F441‍\U0001F5E8"
+    word: true
+  - triggers: [':speech balloon', ':speech balloon:']
+    replace: "\U0001F4AC"
+    word: true
+  - triggers: [':comment', ':comment:']
+    replace: "\U0001F4AC"
+    word: true
+  - triggers: [':thought balloon', ':thought balloon:']
+    replace: "\U0001F4AD"
+    word: true
+  - triggers: [':right anger bubble', ':right anger bubble:']
+    replace: "\U0001F5EF"
+    word: true
+  - triggers: [':spades', ':spades:']
+    replace: ♠️
+    word: true
+  - triggers: [':clubs', ':clubs:']
+    replace: ♣️
+    word: true
+  - triggers: [':hearts', ':hearts:']
+    replace: ♥️
+    word: true
+  - triggers: [':diamonds', ':diamonds:']
+    replace: ♦️
+    word: true
+  - triggers: [':black joker', ':black joker:']
+    replace: "\U0001F0CF"
+    word: true
+  - triggers: [':flower playing cards', ':flower playing cards:']
+    replace: "\U0001F3B4"
+    word: true
+  - triggers: [':mahjong', ':mahjong:']
+    replace: "\U0001F004️"
+    word: true
+  - triggers: [':clock1', ':clock1:']
+    replace: "\U0001F550"
+    word: true
+  - triggers: [':clock2', ':clock2:']
+    replace: "\U0001F551"
+    word: true
+  - triggers: [':clock3', ':clock3:']
+    replace: "\U0001F552"
+    word: true
+  - triggers: [':clock4', ':clock4:']
+    replace: "\U0001F553"
+    word: true
+  - triggers: [':clock5', ':clock5:']
+    replace: "\U0001F554"
+    word: true
+  - triggers: [':clock6', ':clock6:']
+    replace: "\U0001F555"
+    word: true
+  - triggers: [':clock7', ':clock7:']
+    replace: "\U0001F556"
+    word: true
+  - triggers: [':clock8', ':clock8:']
+    replace: "\U0001F557"
+    word: true
+  - triggers: [':clock9', ':clock9:']
+    replace: "\U0001F558"
+    word: true
+  - triggers: [':clock10', ':clock10:']
+    replace: "\U0001F559"
+    word: true
+  - triggers: [':clock11', ':clock11:']
+    replace: "\U0001F55A"
+    word: true
+  - triggers: [':clock12', ':clock12:']
+    replace: "\U0001F55B"
+    word: true
+  - triggers: [':clock130', ':clock130:']
+    replace: "\U0001F55C"
+    word: true
+  - triggers: [':clock230', ':clock230:']
+    replace: "\U0001F55D"
+    word: true
+  - triggers: [':clock330', ':clock330:']
+    replace: "\U0001F55E"
+    word: true
+  - triggers: [':clock430', ':clock430:']
+    replace: "\U0001F55F"
+    word: true
+  - triggers: [':clock530', ':clock530:']
+    replace: "\U0001F560"
+    word: true
+  - triggers: [':clock630', ':clock630:']
+    replace: "\U0001F561"
+    word: true
+  - triggers: [':clock730', ':clock730:']
+    replace: "\U0001F562"
+    word: true
+  - triggers: [':clock830', ':clock830:']
+    replace: "\U0001F563"
+    word: true
+  - triggers: [':clock930', ':clock930:']
+    replace: "\U0001F564"
+    word: true
+  - triggers: [':clock1030', ':clock1030:']
+    replace: "\U0001F565"
+    word: true
+  - triggers: [':clock1130', ':clock1130:']
+    replace: "\U0001F566"
+    word: true
+  - triggers: [':clock1230', ':clock1230:']
+    replace: "\U0001F567"
+    word: true
+  - triggers: [':white flag', ':white flag:']
+    replace: "\U0001F3F3️"
+    word: true
+  - triggers: [':black flag', ':black flag:']
+    replace: "\U0001F3F4"
+    word: true
+  - triggers: [':checkered flag', ':checkered flag:']
+    replace: "\U0001F3C1"
+    word: true
+  - triggers: [':milestone', ':milestone:']
+    replace: "\U0001F3C1"
+    word: true
+  - triggers: [':finish', ':finish:']
+    replace: "\U0001F3C1"
+    word: true
+  - triggers: [':triangular flag on post', ':triangular flag on post:']
+    replace: "\U0001F6A9"
+    word: true
+  - triggers: [':rainbow flag', ':rainbow flag:']
+    replace: "\U0001F3F3️‍\U0001F308"
+    word: true
+  - triggers: [':pride', ':pride:']
+    replace: "\U0001F3F3️‍\U0001F308"
+    word: true
+  - triggers: [':afghanistan', ':afghanistan:']
+    replace: "\U0001F1E6\U0001F1EB"
+    word: true
+  - triggers: [':aland islands', ':aland islands:']
+    replace: "\U0001F1E6\U0001F1FD"
+    word: true
+  - triggers: [':albania', ':albania:']
+    replace: "\U0001F1E6\U0001F1F1"
+    word: true
+  - triggers: [':algeria', ':algeria:']
+    replace: "\U0001F1E9\U0001F1FF"
+    word: true
+  - triggers: [':american samoa', ':american samoa:']
+    replace: "\U0001F1E6\U0001F1F8"
+    word: true
+  - triggers: [':andorra', ':andorra:']
+    replace: "\U0001F1E6\U0001F1E9"
+    word: true
+  - triggers: [':angola', ':angola:']
+    replace: "\U0001F1E6\U0001F1F4"
+    word: true
+  - triggers: [':anguilla', ':anguilla:']
+    replace: "\U0001F1E6\U0001F1EE"
+    word: true
+  - triggers: [':antarctica', ':antarctica:']
+    replace: "\U0001F1E6\U0001F1F6"
+    word: true
+  - triggers: [':antigua barbuda', ':antigua barbuda:']
+    replace: "\U0001F1E6\U0001F1EC"
+    word: true
+  - triggers: [':argentina', ':argentina:']
+    replace: "\U0001F1E6\U0001F1F7"
+    word: true
+  - triggers: [':armenia', ':armenia:']
+    replace: "\U0001F1E6\U0001F1F2"
+    word: true
+  - triggers: [':aruba', ':aruba:']
+    replace: "\U0001F1E6\U0001F1FC"
+    word: true
+  - triggers: [':australia', ':australia:']
+    replace: "\U0001F1E6\U0001F1FA"
+    word: true
+  - triggers: [':austria', ':austria:']
+    replace: "\U0001F1E6\U0001F1F9"
+    word: true
+  - triggers: [':azerbaijan', ':azerbaijan:']
+    replace: "\U0001F1E6\U0001F1FF"
+    word: true
+  - triggers: [':bahamas', ':bahamas:']
+    replace: "\U0001F1E7\U0001F1F8"
+    word: true
+  - triggers: [':bahrain', ':bahrain:']
+    replace: "\U0001F1E7\U0001F1ED"
+    word: true
+  - triggers: [':bangladesh', ':bangladesh:']
+    replace: "\U0001F1E7\U0001F1E9"
+    word: true
+  - triggers: [':barbados', ':barbados:']
+    replace: "\U0001F1E7\U0001F1E7"
+    word: true
+  - triggers: [':belarus', ':belarus:']
+    replace: "\U0001F1E7\U0001F1FE"
+    word: true
+  - triggers: [':belgium', ':belgium:']
+    replace: "\U0001F1E7\U0001F1EA"
+    word: true
+  - triggers: [':belize', ':belize:']
+    replace: "\U0001F1E7\U0001F1FF"
+    word: true
+  - triggers: [':benin', ':benin:']
+    replace: "\U0001F1E7\U0001F1EF"
+    word: true
+  - triggers: [':bermuda', ':bermuda:']
+    replace: "\U0001F1E7\U0001F1F2"
+    word: true
+  - triggers: [':bhutan', ':bhutan:']
+    replace: "\U0001F1E7\U0001F1F9"
+    word: true
+  - triggers: [':bolivia', ':bolivia:']
+    replace: "\U0001F1E7\U0001F1F4"
+    word: true
+  - triggers: [':caribbean netherlands', ':caribbean netherlands:']
+    replace: "\U0001F1E7\U0001F1F6"
+    word: true
+  - triggers: [':bosnia herzegovina', ':bosnia herzegovina:']
+    replace: "\U0001F1E7\U0001F1E6"
+    word: true
+  - triggers: [':botswana', ':botswana:']
+    replace: "\U0001F1E7\U0001F1FC"
+    word: true
+  - triggers: [':brazil', ':brazil:']
+    replace: "\U0001F1E7\U0001F1F7"
+    word: true
+  - triggers: [':british indian ocean territory', ':british indian ocean territory:']
+    replace: "\U0001F1EE\U0001F1F4"
+    word: true
+  - triggers: [':british virgin islands', ':british virgin islands:']
+    replace: "\U0001F1FB\U0001F1EC"
+    word: true
+  - triggers: [':brunei', ':brunei:']
+    replace: "\U0001F1E7\U0001F1F3"
+    word: true
+  - triggers: [':bulgaria', ':bulgaria:']
+    replace: "\U0001F1E7\U0001F1EC"
+    word: true
+  - triggers: [':burkina faso', ':burkina faso:']
+    replace: "\U0001F1E7\U0001F1EB"
+    word: true
+  - triggers: [':burundi', ':burundi:']
+    replace: "\U0001F1E7\U0001F1EE"
+    word: true
+  - triggers: [':cape verde', ':cape verde:']
+    replace: "\U0001F1E8\U0001F1FB"
+    word: true
+  - triggers: [':cambodia', ':cambodia:']
+    replace: "\U0001F1F0\U0001F1ED"
+    word: true
+  - triggers: [':cameroon', ':cameroon:']
+    replace: "\U0001F1E8\U0001F1F2"
+    word: true
+  - triggers: [':canada', ':canada:']
+    replace: "\U0001F1E8\U0001F1E6"
+    word: true
+  - triggers: [':canary islands', ':canary islands:']
+    replace: "\U0001F1EE\U0001F1E8"
+    word: true
+  - triggers: [':cayman islands', ':cayman islands:']
+    replace: "\U0001F1F0\U0001F1FE"
+    word: true
+  - triggers: [':central african republic', ':central african republic:']
+    replace: "\U0001F1E8\U0001F1EB"
+    word: true
+  - triggers: [':chad', ':chad:']
+    replace: "\U0001F1F9\U0001F1E9"
+    word: true
+  - triggers: [':chile', ':chile:']
+    replace: "\U0001F1E8\U0001F1F1"
+    word: true
+  - triggers: [':cn', ':cn:']
+    replace: "\U0001F1E8\U0001F1F3"
+    word: true
+  - triggers: [':china', ':china:']
+    replace: "\U0001F1E8\U0001F1F3"
+    word: true
+  - triggers: [':christmas island', ':christmas island:']
+    replace: "\U0001F1E8\U0001F1FD"
+    word: true
+  - triggers: [':cocos islands', ':cocos islands:']
+    replace: "\U0001F1E8\U0001F1E8"
+    word: true
+  - triggers: [':keeling', ':keeling:']
+    replace: "\U0001F1E8\U0001F1E8"
+    word: true
+  - triggers: [':colombia', ':colombia:']
+    replace: "\U0001F1E8\U0001F1F4"
+    word: true
+  - triggers: [':comoros', ':comoros:']
+    replace: "\U0001F1F0\U0001F1F2"
+    word: true
+  - triggers: [':congo brazzaville', ':congo brazzaville:']
+    replace: "\U0001F1E8\U0001F1EC"
+    word: true
+  - triggers: [':congo kinshasa', ':congo kinshasa:']
+    replace: "\U0001F1E8\U0001F1E9"
+    word: true
+  - triggers: [':cook islands', ':cook islands:']
+    replace: "\U0001F1E8\U0001F1F0"
+    word: true
+  - triggers: [':costa rica', ':costa rica:']
+    replace: "\U0001F1E8\U0001F1F7"
+    word: true
+  - triggers: [':cote divoire', ':cote divoire:']
+    replace: "\U0001F1E8\U0001F1EE"
+    word: true
+  - triggers: [':ivory', ':ivory:']
+    replace: "\U0001F1E8\U0001F1EE"
+    word: true
+  - triggers: [':croatia', ':croatia:']
+    replace: "\U0001F1ED\U0001F1F7"
+    word: true
+  - triggers: [':cuba', ':cuba:']
+    replace: "\U0001F1E8\U0001F1FA"
+    word: true
+  - triggers: [':curacao', ':curacao:']
+    replace: "\U0001F1E8\U0001F1FC"
+    word: true
+  - triggers: [':cyprus', ':cyprus:']
+    replace: "\U0001F1E8\U0001F1FE"
+    word: true
+  - triggers: [':czech republic', ':czech republic:']
+    replace: "\U0001F1E8\U0001F1FF"
+    word: true
+  - triggers: [':denmark', ':denmark:']
+    replace: "\U0001F1E9\U0001F1F0"
+    word: true
+  - triggers: [':djibouti', ':djibouti:']
+    replace: "\U0001F1E9\U0001F1EF"
+    word: true
+  - triggers: [':dominica', ':dominica:']
+    replace: "\U0001F1E9\U0001F1F2"
+    word: true
+  - triggers: [':dominican republic', ':dominican republic:']
+    replace: "\U0001F1E9\U0001F1F4"
+    word: true
+  - triggers: [':ecuador', ':ecuador:']
+    replace: "\U0001F1EA\U0001F1E8"
+    word: true
+  - triggers: [':egypt', ':egypt:']
+    replace: "\U0001F1EA\U0001F1EC"
+    word: true
+  - triggers: [':el salvador', ':el salvador:']
+    replace: "\U0001F1F8\U0001F1FB"
+    word: true
+  - triggers: [':equatorial guinea', ':equatorial guinea:']
+    replace: "\U0001F1EC\U0001F1F6"
+    word: true
+  - triggers: [':eritrea', ':eritrea:']
+    replace: "\U0001F1EA\U0001F1F7"
+    word: true
+  - triggers: [':estonia', ':estonia:']
+    replace: "\U0001F1EA\U0001F1EA"
+    word: true
+  - triggers: [':ethiopia', ':ethiopia:']
+    replace: "\U0001F1EA\U0001F1F9"
+    word: true
+  - triggers: [':eu', ':eu:']
+    replace: "\U0001F1EA\U0001F1FA"
+    word: true
+  - triggers: [':european union', ':european union:']
+    replace: "\U0001F1EA\U0001F1FA"
+    word: true
+  - triggers: [':eu', ':eu:']
+    replace: "\U0001F1EA\U0001F1FA"
+    word: true
+  - triggers: [':falkland islands', ':falkland islands:']
+    replace: "\U0001F1EB\U0001F1F0"
+    word: true
+  - triggers: [':faroe islands', ':faroe islands:']
+    replace: "\U0001F1EB\U0001F1F4"
+    word: true
+  - triggers: [':fiji', ':fiji:']
+    replace: "\U0001F1EB\U0001F1EF"
+    word: true
+  - triggers: [':finland', ':finland:']
+    replace: "\U0001F1EB\U0001F1EE"
+    word: true
+  - triggers: [':fr', ':fr:']
+    replace: "\U0001F1EB\U0001F1F7"
+    word: true
+  - triggers: [':france', ':france:']
+    replace: "\U0001F1EB\U0001F1F7"
+    word: true
+  - triggers: [':french', ':french:']
+    replace: "\U0001F1EB\U0001F1F7"
+    word: true
+  - triggers: [':french guiana', ':french guiana:']
+    replace: "\U0001F1EC\U0001F1EB"
+    word: true
+  - triggers: [':french polynesia', ':french polynesia:']
+    replace: "\U0001F1F5\U0001F1EB"
+    word: true
+  - triggers: [':french southern territories', ':french southern territories:']
+    replace: "\U0001F1F9\U0001F1EB"
+    word: true
+  - triggers: [':gabon', ':gabon:']
+    replace: "\U0001F1EC\U0001F1E6"
+    word: true
+  - triggers: [':gambia', ':gambia:']
+    replace: "\U0001F1EC\U0001F1F2"
+    word: true
+  - triggers: [':georgia', ':georgia:']
+    replace: "\U0001F1EC\U0001F1EA"
+    word: true
+  - triggers: [':de', ':de:']
+    replace: "\U0001F1E9\U0001F1EA"
+    word: true
+  - triggers: [':flag', ':flag:']
+    replace: "\U0001F1E9\U0001F1EA"
+    word: true
+  - triggers: [':germany', ':germany:']
+    replace: "\U0001F1E9\U0001F1EA"
+    word: true
+  - triggers: [':ghana', ':ghana:']
+    replace: "\U0001F1EC\U0001F1ED"
+    word: true
+  - triggers: [':gibraltar', ':gibraltar:']
+    replace: "\U0001F1EC\U0001F1EE"
+    word: true
+  - triggers: [':greece', ':greece:']
+    replace: "\U0001F1EC\U0001F1F7"
+    word: true
+  - triggers: [':greenland', ':greenland:']
+    replace: "\U0001F1EC\U0001F1F1"
+    word: true
+  - triggers: [':grenada', ':grenada:']
+    replace: "\U0001F1EC\U0001F1E9"
+    word: true
+  - triggers: [':guadeloupe', ':guadeloupe:']
+    replace: "\U0001F1EC\U0001F1F5"
+    word: true
+  - triggers: [':guam', ':guam:']
+    replace: "\U0001F1EC\U0001F1FA"
+    word: true
+  - triggers: [':guatemala', ':guatemala:']
+    replace: "\U0001F1EC\U0001F1F9"
+    word: true
+  - triggers: [':guernsey', ':guernsey:']
+    replace: "\U0001F1EC\U0001F1EC"
+    word: true
+  - triggers: [':guinea', ':guinea:']
+    replace: "\U0001F1EC\U0001F1F3"
+    word: true
+  - triggers: [':guinea bissau', ':guinea bissau:']
+    replace: "\U0001F1EC\U0001F1FC"
+    word: true
+  - triggers: [':guyana', ':guyana:']
+    replace: "\U0001F1EC\U0001F1FE"
+    word: true
+  - triggers: [':haiti', ':haiti:']
+    replace: "\U0001F1ED\U0001F1F9"
+    word: true
+  - triggers: [':honduras', ':honduras:']
+    replace: "\U0001F1ED\U0001F1F3"
+    word: true
+  - triggers: [':hong kong', ':hong kong:']
+    replace: "\U0001F1ED\U0001F1F0"
+    word: true
+  - triggers: [':hungary', ':hungary:']
+    replace: "\U0001F1ED\U0001F1FA"
+    word: true
+  - triggers: [':iceland', ':iceland:']
+    replace: "\U0001F1EE\U0001F1F8"
+    word: true
+  - triggers: [':india', ':india:']
+    replace: "\U0001F1EE\U0001F1F3"
+    word: true
+  - triggers: [':indonesia', ':indonesia:']
+    replace: "\U0001F1EE\U0001F1E9"
+    word: true
+  - triggers: [':iran', ':iran:']
+    replace: "\U0001F1EE\U0001F1F7"
+    word: true
+  - triggers: [':iraq', ':iraq:']
+    replace: "\U0001F1EE\U0001F1F6"
+    word: true
+  - triggers: [':ireland', ':ireland:']
+    replace: "\U0001F1EE\U0001F1EA"
+    word: true
+  - triggers: [':isle of man', ':isle of man:']
+    replace: "\U0001F1EE\U0001F1F2"
+    word: true
+  - triggers: [':israel', ':israel:']
+    replace: "\U0001F1EE\U0001F1F1"
+    word: true
+  - triggers: [':it', ':it:']
+    replace: "\U0001F1EE\U0001F1F9"
+    word: true
+  - triggers: [':italy', ':italy:']
+    replace: "\U0001F1EE\U0001F1F9"
+    word: true
+  - triggers: [':jamaica', ':jamaica:']
+    replace: "\U0001F1EF\U0001F1F2"
+    word: true
+  - triggers: [':jp', ':jp:']
+    replace: "\U0001F1EF\U0001F1F5"
+    word: true
+  - triggers: [':crossed flags', ':crossed flags:']
+    replace: "\U0001F38C"
+    word: true
+  - triggers: [':jersey', ':jersey:']
+    replace: "\U0001F1EF\U0001F1EA"
+    word: true
+  - triggers: [':jordan', ':jordan:']
+    replace: "\U0001F1EF\U0001F1F4"
+    word: true
+  - triggers: [':kazakhstan', ':kazakhstan:']
+    replace: "\U0001F1F0\U0001F1FF"
+    word: true
+  - triggers: [':kenya', ':kenya:']
+    replace: "\U0001F1F0\U0001F1EA"
+    word: true
+  - triggers: [':kiribati', ':kiribati:']
+    replace: "\U0001F1F0\U0001F1EE"
+    word: true
+  - triggers: [':kosovo', ':kosovo:']
+    replace: "\U0001F1FD\U0001F1F0"
+    word: true
+  - triggers: [':kuwait', ':kuwait:']
+    replace: "\U0001F1F0\U0001F1FC"
+    word: true
+  - triggers: [':kyrgyzstan', ':kyrgyzstan:']
+    replace: "\U0001F1F0\U0001F1EC"
+    word: true
+  - triggers: [':laos', ':laos:']
+    replace: "\U0001F1F1\U0001F1E6"
+    word: true
+  - triggers: [':latvia', ':latvia:']
+    replace: "\U0001F1F1\U0001F1FB"
+    word: true
+  - triggers: [':lebanon', ':lebanon:']
+    replace: "\U0001F1F1\U0001F1E7"
+    word: true
+  - triggers: [':lesotho', ':lesotho:']
+    replace: "\U0001F1F1\U0001F1F8"
+    word: true
+  - triggers: [':liberia', ':liberia:']
+    replace: "\U0001F1F1\U0001F1F7"
+    word: true
+  - triggers: [':libya', ':libya:']
+    replace: "\U0001F1F1\U0001F1FE"
+    word: true
+  - triggers: [':liechtenstein', ':liechtenstein:']
+    replace: "\U0001F1F1\U0001F1EE"
+    word: true
+  - triggers: [':lithuania', ':lithuania:']
+    replace: "\U0001F1F1\U0001F1F9"
+    word: true
+  - triggers: [':luxembourg', ':luxembourg:']
+    replace: "\U0001F1F1\U0001F1FA"
+    word: true
+  - triggers: [':macau', ':macau:']
+    replace: "\U0001F1F2\U0001F1F4"
+    word: true
+  - triggers: [':macedonia', ':macedonia:']
+    replace: "\U0001F1F2\U0001F1F0"
+    word: true
+  - triggers: [':madagascar', ':madagascar:']
+    replace: "\U0001F1F2\U0001F1EC"
+    word: true
+  - triggers: [':malawi', ':malawi:']
+    replace: "\U0001F1F2\U0001F1FC"
+    word: true
+  - triggers: [':malaysia', ':malaysia:']
+    replace: "\U0001F1F2\U0001F1FE"
+    word: true
+  - triggers: [':maldives', ':maldives:']
+    replace: "\U0001F1F2\U0001F1FB"
+    word: true
+  - triggers: [':mali', ':mali:']
+    replace: "\U0001F1F2\U0001F1F1"
+    word: true
+  - triggers: [':malta', ':malta:']
+    replace: "\U0001F1F2\U0001F1F9"
+    word: true
+  - triggers: [':marshall islands', ':marshall islands:']
+    replace: "\U0001F1F2\U0001F1ED"
+    word: true
+  - triggers: [':martinique', ':martinique:']
+    replace: "\U0001F1F2\U0001F1F6"
+    word: true
+  - triggers: [':mauritania', ':mauritania:']
+    replace: "\U0001F1F2\U0001F1F7"
+    word: true
+  - triggers: [':mauritius', ':mauritius:']
+    replace: "\U0001F1F2\U0001F1FA"
+    word: true
+  - triggers: [':mayotte', ':mayotte:']
+    replace: "\U0001F1FE\U0001F1F9"
+    word: true
+  - triggers: [':mexico', ':mexico:']
+    replace: "\U0001F1F2\U0001F1FD"
+    word: true
+  - triggers: [':micronesia', ':micronesia:']
+    replace: "\U0001F1EB\U0001F1F2"
+    word: true
+  - triggers: [':moldova', ':moldova:']
+    replace: "\U0001F1F2\U0001F1E9"
+    word: true
+  - triggers: [':monaco', ':monaco:']
+    replace: "\U0001F1F2\U0001F1E8"
+    word: true
+  - triggers: [':mongolia', ':mongolia:']
+    replace: "\U0001F1F2\U0001F1F3"
+    word: true
+  - triggers: [':montenegro', ':montenegro:']
+    replace: "\U0001F1F2\U0001F1EA"
+    word: true
+  - triggers: [':montserrat', ':montserrat:']
+    replace: "\U0001F1F2\U0001F1F8"
+    word: true
+  - triggers: [':morocco', ':morocco:']
+    replace: "\U0001F1F2\U0001F1E6"
+    word: true
+  - triggers: [':mozambique', ':mozambique:']
+    replace: "\U0001F1F2\U0001F1FF"
+    word: true
+  - triggers: [':myanmar', ':myanmar:']
+    replace: "\U0001F1F2\U0001F1F2"
+    word: true
+  - triggers: [':burma', ':burma:']
+    replace: "\U0001F1F2\U0001F1F2"
+    word: true
+  - triggers: [':namibia', ':namibia:']
+    replace: "\U0001F1F3\U0001F1E6"
+    word: true
+  - triggers: [':nauru', ':nauru:']
+    replace: "\U0001F1F3\U0001F1F7"
+    word: true
+  - triggers: [':nepal', ':nepal:']
+    replace: "\U0001F1F3\U0001F1F5"
+    word: true
+  - triggers: [':netherlands', ':netherlands:']
+    replace: "\U0001F1F3\U0001F1F1"
+    word: true
+  - triggers: [':new caledonia', ':new caledonia:']
+    replace: "\U0001F1F3\U0001F1E8"
+    word: true
+  - triggers: [':new zealand', ':new zealand:']
+    replace: "\U0001F1F3\U0001F1FF"
+    word: true
+  - triggers: [':nicaragua', ':nicaragua:']
+    replace: "\U0001F1F3\U0001F1EE"
+    word: true
+  - triggers: [':niger', ':niger:']
+    replace: "\U0001F1F3\U0001F1EA"
+    word: true
+  - triggers: [':nigeria', ':nigeria:']
+    replace: "\U0001F1F3\U0001F1EC"
+    word: true
+  - triggers: [':niue', ':niue:']
+    replace: "\U0001F1F3\U0001F1FA"
+    word: true
+  - triggers: [':norfolk island', ':norfolk island:']
+    replace: "\U0001F1F3\U0001F1EB"
+    word: true
+  - triggers: [':northern mariana islands', ':northern mariana islands:']
+    replace: "\U0001F1F2\U0001F1F5"
+    word: true
+  - triggers: [':north korea', ':north korea:']
+    replace: "\U0001F1F0\U0001F1F5"
+    word: true
+  - triggers: [':norway', ':norway:']
+    replace: "\U0001F1F3\U0001F1F4"
+    word: true
+  - triggers: [':oman', ':oman:']
+    replace: "\U0001F1F4\U0001F1F2"
+    word: true
+  - triggers: [':pakistan', ':pakistan:']
+    replace: "\U0001F1F5\U0001F1F0"
+    word: true
+  - triggers: [':palau', ':palau:']
+    replace: "\U0001F1F5\U0001F1FC"
+    word: true
+  - triggers: [':palestinian territories', ':palestinian territories:']
+    replace: "\U0001F1F5\U0001F1F8"
+    word: true
+  - triggers: [':panama', ':panama:']
+    replace: "\U0001F1F5\U0001F1E6"
+    word: true
+  - triggers: [':papua new guinea', ':papua new guinea:']
+    replace: "\U0001F1F5\U0001F1EC"
+    word: true
+  - triggers: [':paraguay', ':paraguay:']
+    replace: "\U0001F1F5\U0001F1FE"
+    word: true
+  - triggers: [':peru', ':peru:']
+    replace: "\U0001F1F5\U0001F1EA"
+    word: true
+  - triggers: [':philippines', ':philippines:']
+    replace: "\U0001F1F5\U0001F1ED"
+    word: true
+  - triggers: [':pitcairn islands', ':pitcairn islands:']
+    replace: "\U0001F1F5\U0001F1F3"
+    word: true
+  - triggers: [':poland', ':poland:']
+    replace: "\U0001F1F5\U0001F1F1"
+    word: true
+  - triggers: [':portugal', ':portugal:']
+    replace: "\U0001F1F5\U0001F1F9"
+    word: true
+  - triggers: [':puerto rico', ':puerto rico:']
+    replace: "\U0001F1F5\U0001F1F7"
+    word: true
+  - triggers: [':qatar', ':qatar:']
+    replace: "\U0001F1F6\U0001F1E6"
+    word: true
+  - triggers: [':reunion', ':reunion:']
+    replace: "\U0001F1F7\U0001F1EA"
+    word: true
+  - triggers: [':romania', ':romania:']
+    replace: "\U0001F1F7\U0001F1F4"
+    word: true
+  - triggers: [':ru', ':ru:']
+    replace: "\U0001F1F7\U0001F1FA"
+    word: true
+  - triggers: [':russia', ':russia:']
+    replace: "\U0001F1F7\U0001F1FA"
+    word: true
+  - triggers: [':rwanda', ':rwanda:']
+    replace: "\U0001F1F7\U0001F1FC"
+    word: true
+  - triggers: [':st barthelemy', ':st barthelemy:']
+    replace: "\U0001F1E7\U0001F1F1"
+    word: true
+  - triggers: [':st helena', ':st helena:']
+    replace: "\U0001F1F8\U0001F1ED"
+    word: true
+  - triggers: [':st kitts nevis', ':st kitts nevis:']
+    replace: "\U0001F1F0\U0001F1F3"
+    word: true
+  - triggers: [':st lucia', ':st lucia:']
+    replace: "\U0001F1F1\U0001F1E8"
+    word: true
+  - triggers: [':st pierre miquelon', ':st pierre miquelon:']
+    replace: "\U0001F1F5\U0001F1F2"
+    word: true
+  - triggers: [':st vincent grenadines', ':st vincent grenadines:']
+    replace: "\U0001F1FB\U0001F1E8"
+    word: true
+  - triggers: [':samoa', ':samoa:']
+    replace: "\U0001F1FC\U0001F1F8"
+    word: true
+  - triggers: [':san marino', ':san marino:']
+    replace: "\U0001F1F8\U0001F1F2"
+    word: true
+  - triggers: [':sao tome principe', ':sao tome principe:']
+    replace: "\U0001F1F8\U0001F1F9"
+    word: true
+  - triggers: [':saudi arabia', ':saudi arabia:']
+    replace: "\U0001F1F8\U0001F1E6"
+    word: true
+  - triggers: [':senegal', ':senegal:']
+    replace: "\U0001F1F8\U0001F1F3"
+    word: true
+  - triggers: [':serbia', ':serbia:']
+    replace: "\U0001F1F7\U0001F1F8"
+    word: true
+  - triggers: [':seychelles', ':seychelles:']
+    replace: "\U0001F1F8\U0001F1E8"
+    word: true
+  - triggers: [':sierra leone', ':sierra leone:']
+    replace: "\U0001F1F8\U0001F1F1"
+    word: true
+  - triggers: [':singapore', ':singapore:']
+    replace: "\U0001F1F8\U0001F1EC"
+    word: true
+  - triggers: [':sint maarten', ':sint maarten:']
+    replace: "\U0001F1F8\U0001F1FD"
+    word: true
+  - triggers: [':slovakia', ':slovakia:']
+    replace: "\U0001F1F8\U0001F1F0"
+    word: true
+  - triggers: [':slovenia', ':slovenia:']
+    replace: "\U0001F1F8\U0001F1EE"
+    word: true
+  - triggers: [':solomon islands', ':solomon islands:']
+    replace: "\U0001F1F8\U0001F1E7"
+    word: true
+  - triggers: [':somalia', ':somalia:']
+    replace: "\U0001F1F8\U0001F1F4"
+    word: true
+  - triggers: [':south africa', ':south africa:']
+    replace: "\U0001F1FF\U0001F1E6"
+    word: true
+  - triggers: [':south georgia south sandwich islands', ':south georgia south sandwich islands:']
+    replace: "\U0001F1EC\U0001F1F8"
+    word: true
+  - triggers: [':kr', ':kr:']
+    replace: "\U0001F1F0\U0001F1F7"
+    word: true
+  - triggers: [':korea', ':korea:']
+    replace: "\U0001F1F0\U0001F1F7"
+    word: true
+  - triggers: [':south sudan', ':south sudan:']
+    replace: "\U0001F1F8\U0001F1F8"
+    word: true
+  - triggers: [':es', ':es:']
+    replace: "\U0001F1EA\U0001F1F8"
+    word: true
+  - triggers: [':spain', ':spain:']
+    replace: "\U0001F1EA\U0001F1F8"
+    word: true
+  - triggers: [':sri lanka', ':sri lanka:']
+    replace: "\U0001F1F1\U0001F1F0"
+    word: true
+  - triggers: [':sudan', ':sudan:']
+    replace: "\U0001F1F8\U0001F1E9"
+    word: true
+  - triggers: [':suriname', ':suriname:']
+    replace: "\U0001F1F8\U0001F1F7"
+    word: true
+  - triggers: [':swaziland', ':swaziland:']
+    replace: "\U0001F1F8\U0001F1FF"
+    word: true
+  - triggers: [':sweden', ':sweden:']
+    replace: "\U0001F1F8\U0001F1EA"
+    word: true
+  - triggers: [':switzerland', ':switzerland:']
+    replace: "\U0001F1E8\U0001F1ED"
+    word: true
+  - triggers: [':syria', ':syria:']
+    replace: "\U0001F1F8\U0001F1FE"
+    word: true
+  - triggers: [':taiwan', ':taiwan:']
+    replace: "\U0001F1F9\U0001F1FC"
+    word: true
+  - triggers: [':tajikistan', ':tajikistan:']
+    replace: "\U0001F1F9\U0001F1EF"
+    word: true
+  - triggers: [':tanzania', ':tanzania:']
+    replace: "\U0001F1F9\U0001F1FF"
+    word: true
+  - triggers: [':thailand', ':thailand:']
+    replace: "\U0001F1F9\U0001F1ED"
+    word: true
+  - triggers: [':timor leste', ':timor leste:']
+    replace: "\U0001F1F9\U0001F1F1"
+    word: true
+  - triggers: [':togo', ':togo:']
+    replace: "\U0001F1F9\U0001F1EC"
+    word: true
+  - triggers: [':tokelau', ':tokelau:']
+    replace: "\U0001F1F9\U0001F1F0"
+    word: true
+  - triggers: [':tonga', ':tonga:']
+    replace: "\U0001F1F9\U0001F1F4"
+    word: true
+  - triggers: [':trinidad tobago', ':trinidad tobago:']
+    replace: "\U0001F1F9\U0001F1F9"
+    word: true
+  - triggers: [':tunisia', ':tunisia:']
+    replace: "\U0001F1F9\U0001F1F3"
+    word: true
+  - triggers: [':tr', ':tr:']
+    replace: "\U0001F1F9\U0001F1F7"
+    word: true
+  - triggers: [':turkmenistan', ':turkmenistan:']
+    replace: "\U0001F1F9\U0001F1F2"
+    word: true
+  - triggers: [':turks caicos islands', ':turks caicos islands:']
+    replace: "\U0001F1F9\U0001F1E8"
+    word: true
+  - triggers: [':tuvalu', ':tuvalu:']
+    replace: "\U0001F1F9\U0001F1FB"
+    word: true
+  - triggers: [':uganda', ':uganda:']
+    replace: "\U0001F1FA\U0001F1EC"
+    word: true
+  - triggers: [':ukraine', ':ukraine:']
+    replace: "\U0001F1FA\U0001F1E6"
+    word: true
+  - triggers: [':united arab emirates', ':united arab emirates:']
+    replace: "\U0001F1E6\U0001F1EA"
+    word: true
+  - triggers: [':gb', ':gb:']
+    replace: "\U0001F1EC\U0001F1E7"
+    word: true
+  - triggers: [':uk', ':uk:']
+    replace: "\U0001F1EC\U0001F1E7"
+    word: true
+  - triggers: [':british', ':british:']
+    replace: "\U0001F1EC\U0001F1E7"
+    word: true
+  - triggers: [':gb', ':gb:']
+    replace: "\U0001F1EC\U0001F1E7"
+    word: true
+  - triggers: [':us', ':us:']
+    replace: "\U0001F1FA\U0001F1F8"
+    word: true
+  - triggers: [':united', ':united:']
+    replace: "\U0001F1FA\U0001F1F8"
+    word: true
+  - triggers: [':america', ':america:']
+    replace: "\U0001F1FA\U0001F1F8"
+    word: true
+  - triggers: [':us virgin islands', ':us virgin islands:']
+    replace: "\U0001F1FB\U0001F1EE"
+    word: true
+  - triggers: [':uruguay', ':uruguay:']
+    replace: "\U0001F1FA\U0001F1FE"
+    word: true
+  - triggers: [':uzbekistan', ':uzbekistan:']
+    replace: "\U0001F1FA\U0001F1FF"
+    word: true
+  - triggers: [':vanuatu', ':vanuatu:']
+    replace: "\U0001F1FB\U0001F1FA"
+    word: true
+  - triggers: [':vatican city', ':vatican city:']
+    replace: "\U0001F1FB\U0001F1E6"
+    word: true
+  - triggers: [':venezuela', ':venezuela:']
+    replace: "\U0001F1FB\U0001F1EA"
+    word: true
+  - triggers: [':vietnam', ':vietnam:']
+    replace: "\U0001F1FB\U0001F1F3"
+    word: true
+  - triggers: [':wallis futuna', ':wallis futuna:']
+    replace: "\U0001F1FC\U0001F1EB"
+    word: true
+  - triggers: [':western sahara', ':western sahara:']
+    replace: "\U0001F1EA\U0001F1ED"
+    word: true
+  - triggers: [':yemen', ':yemen:']
+    replace: "\U0001F1FE\U0001F1EA"
+    word: true
+  - triggers: [':zambia', ':zambia:']
+    replace: "\U0001F1FF\U0001F1F2"
+    word: true
+  - triggers: [':zimbabwe', ':zimbabwe:']
+    replace: "\U0001F1FF\U0001F1FC"
+    word: true
