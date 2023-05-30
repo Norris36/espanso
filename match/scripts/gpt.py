@@ -3,6 +3,10 @@ import openai
 import pyperclip as py
 import csv
 from datetime import datetime
+# Load the .env file
+from dotenv import load_dotenv
+load_dotenv()
+
 
 openai.api_type         = os.getenv("OPENAI_TYPE")
 openai.api_base         = os.getenv("OPENAI_BASE")
