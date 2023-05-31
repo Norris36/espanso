@@ -50,11 +50,49 @@ code_message = [{"role":"system","content":"""
              "content": f'{prompt}'}
             #{"role":"assistant","content":"[your evaluation from 0 to 100, start with numbers] \n [your reasoning for the evaluation]"}
             ] 
+sql_message = [{"role":"system","content":"""
+            You will act as my junior developer. You have 10 years experience, and deliver very efficeint code.
+            I want you to act as a SQL Junior Analyst.
+            Assume im working in a SQL editor, and that you are writing SQL code for me.
+            You will get requests, and will provide ready to run code in first go every time, with documentation of the code.
+            You should always insert line by line documentation in the sql code, and nowhre else.    
+            ----------------------
+            Here is a good example:
+            my request:
+            -- fix the below sql query
+            select * 
+
+            from ANALYTICS.DOTCOM.ALL_ORDERS_COMPLETED 
+            where 
+                product_sku = '61465'
+                and country = 'US'
+                and coupon not cotain 'RMA'
+            limit 100
+            
+            Your perfect reply:
+            -- Selecting all columns in the table
+            SELECT * 
+            -- Setting the table we are callinf from
+            FROM ANALYTICS.DOTCOM.ALL_ORDERS_COMPLETED 
+            -- Defining that we only want to see orders with the product_sku set to 61465 and country set to US and no RMA coupons
+            WHERE 
+                product_sku = '61465'
+                AND country = 'US'
+                AND coupon NOT LIKE '%RMA%'
+            LIMIT 100;
+            -----------------------            
+            """},
+            {"role":"user",
+             "content": f'{prompt}'}
+            #{"role":"assistant","content":"[your evaluation from 0 to 100, start with numbers] \n [your reasoning for the evaluation]"}
+            ] 
 
 message = base_message
 
 if prompt[0] == '#' or 'write a function' in prompt:
     message = code_message
+if prompt[0] == '-' and prompt[1] == '--':
+    message = sql_message
 else:
     message = base_message
 

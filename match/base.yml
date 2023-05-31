@@ -118,7 +118,13 @@ matches:
       replace: "As Vice President in Direct Sales, you will be responsible for leading a team of sales professionals to achieve and exceed sales targets. You will develop and implement strategies to increase sales, create and manage budgets, and analyze market trends to identify new opportunities. You will also be responsible for training and motivating your team, providing feedback and guidance, and ensuring that customer service standards are met. You will be the face of the company, representing it to external stakeholders and customers. Your success will be measured by the team's performance and the company's overall growth."
       word: true
 
+    - trigger: ":oli"
+      replace: "As a Lead Data Engineer, you are responsible for ensuring the data architecture is optimized for performance, scalability, and reliability. You will design and develop data pipelines, create data models, and develop ETL processes. You will also be responsible for monitoring data quality and integrity, and ensuring data security and privacy. You will collaborate with stakeholders to understand their data needs and develop solutions to meet those needs. You will also be responsible for troubleshooting data-related issues and providing technical guidance to other team members."
+      word: true
 
+    - trigger: ":toulouse"
+      replace: "As a project manager, you will be responsible for maintaining forward momentum on a project. You will be responsible for setting and tracking project milestones, managing resources, and ensuring that the team is meeting deadlines. You will also be responsible for identifying and resolving any issues that arise, and for communicating progress to stakeholders. You will need to be organized, detail-oriented, and able to work well with a team. Your first task is to create a timeline for the project and ensure that all team members are aware of their responsibilities."
+      word: true
 
   ##
   ##  Names

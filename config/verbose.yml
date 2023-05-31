@@ -1,5 +1,4 @@
-# C:\Users\jbay\AppData\Roaming\espanso\config\Code.yml
-filter_exec: "^Code.exe$"
+filter_exec: "(Slack|OUTLOOK|Teams|firefox).(exe|EXE)$"
 enable: true
 extra_includes:
   - "../match/_email.yml"

@@ -3,7 +3,7 @@ import pyperclip as py
 
 path = r'C:\Users\jbay\OneDrive - GN Store Nord\Workspace\today.txt'
 
-with open(path, 'r') as f:
+with open(path, 'r', encoding = 'utf-8') as f:
     lines = f.readlines()
     
     
@@ -14,7 +14,7 @@ var = False
 
 end = ""
 
-with open(path, 'w') as f:
+with open(path, 'w', encoding = 'utf-8') as f:
     for i in range(len(lines)):
         line = lines[i]
         if 'Brain Dump' in line:
