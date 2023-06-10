@@ -18,7 +18,7 @@ matches:
         params:
           args:
             - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\my.py'
+            - '/Users/jensbay/Library/Application Support/espanso/match/scripts/my.py'
 
   - trigger: ":currency"
     replace: "{{output}}"
@@ -29,7 +29,7 @@ matches:
         params:
           args:
             - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\currency.py'
+            - '/Users/jensbay/Library/Application Support/espanso/match/scripts/currency.py'
 
   - trigger: ":gpt"
     replace: "{{output}}"
@@ -39,7 +39,7 @@ matches:
         params:
           args:
             - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\gpt.py'
+            - '/Users/jensbay/Library/Application Support/espanso/match/scripts/gpt.py'
 
   - trigger: ":add"
     replace: "{{output}}"
@@ -50,7 +50,7 @@ matches:
         params:
           args:
             - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\add line.py'
+            - '/Users/jensbay/Library/Application Support/espanso/match/scripts/add line.py'
 
   - trigger: ":dktime"
     replace: "{{output}}"
@@ -59,8 +59,11 @@ matches:
         type: script
         params:
           args:
-            - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\dk time.py'
+            - python3
+            #- '/Users/jensbay/Library/Application Support/espanso/match/scripts/dk time.py'
+            #- '$CONFIG/match/scripts/dk time.py'
+            - "/Users/jensbay/Library/Application Support/espanso/match/scripts/dk_time.py"
+            #- 'scripts/dk_time.py'
 
   - trigger: ":braindump"
     replace: "{{output}}"
@@ -70,4 +73,14 @@ matches:
         params:
           args:
             - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\braindump.py'
+            - '/Users/jensbay/Library/Application Support/espanso/match/scripts/braindump.py'
+
+  - trigger: ":lines"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python3
+            - '/Users/jensbay/Library/Application Support/espanso/match/scripts/lines.py'

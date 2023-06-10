@@ -1,0 +1,75 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+# And much more! For more information, visit the docs: https://espanso.org/docs/
+matches:
+  # Simple text replacement
+  - trigger: ":py"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\my.py'
+
+  - trigger: ":currency"
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\currency.py'
+
+  - trigger: ":gpt"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\gpt.py'
+
+  - trigger: ":add"
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\add line.py'
+
+  - trigger: ":dktime"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python3
+            #- 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\dk time.py'
+            - '$CONFIG/match/scripts/dk time.py'
+            #- 'scripts/dk_time.py'
+
+  - trigger: ":braindump"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\braindump.py'

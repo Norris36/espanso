@@ -1,0 +1,5 @@
+# C:\Users\jbay\AppData\Roaming\espanso\config\Code.yml
+filter_exec:  ".app"
+enable: true
+extra_includes:
+  - "../match/_mac_scripts.yml" 
