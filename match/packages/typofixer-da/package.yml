@@ -257,10 +257,6 @@ matches:
   replace: "separat"
   word: true
   propagate_case: true
-- trigger: "sku"
-  replace: "sgu"
-  word: true
-  propagate_case: true
 - trigger: "sindsygt"
   replace: "sindssygt"
   word: true

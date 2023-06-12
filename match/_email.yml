@@ -17,8 +17,8 @@ matches:
       word: true
       propagate_case: true
 
-    - triggers: ["i'd", "id", "iød"]
-      replace: "I'd"
+    - regex: (\s)(i'd|id|iød)
+      replace: " I'd"
       word: true
       propagate_case: true
 
@@ -39,6 +39,81 @@ matches:
 
     - trigger: 'ii'
       replace: 'i'
+      word: true
+      propagate_case: true
+
+    - triggers: ["hes", "heøs"]
+      replace: "he's"
+      word: true
+      propagate_case: true
+
+    - triggers: ["hell", "heøll"]
+      replace: "he'll"
+      word: true
+      propagate_case: true
+
+    - triggers: ["hed", "heød"]
+      replace: "he'd"
+      word: true
+      propagate_case: true
+
+    - triggers: ["shes", "sheøs"]
+      replace: "she's"
+      word: true
+      propagate_case: true
+
+    - triggers: ["shell", "sheøll"]
+      replace: "she'll"
+      word: true
+      propagate_case: true
+
+    - triggers: ["shed", "sheød"]
+      replace: "she'd"
+      word: true
+      propagate_case: true
+
+    - triggers: ["were", "weøre"]
+      replace: "we're"
+      word: true
+      propagate_case: true
+
+    - triggers: ["weve", "weøve"]
+      replace: "we've"
+      word: true
+      propagate_case: true
+
+    - triggers: ["wed", "weød"]
+      replace: "we'd"
+      word: true
+      propagate_case: true
+
+    - triggers: ["theyre", "theyøre"]
+      replace: "they're"
+      word: true
+      propagate_case: true
+
+    - triggers: ["theyve", "theyøve"]
+      replace: "they've"
+      word: true
+      propagate_case: true
+
+    - triggers: ["theyd", "theyød"]
+      replace: "they'd"
+      word: true
+      propagate_case: true
+
+    - triggers: ["youre", "youøre"]
+      replace: "you're"
+      word: true
+      propagate_case: true
+
+    - triggers: ["youve", "youøve"]
+      replace: "you've"
+      word: true
+      propagate_case: true
+
+    - triggers: ["youd", "youød"]
+      replace: "you'd"
       word: true
       propagate_case: true
 
@@ -103,10 +178,6 @@ matches:
 
     - trigger: "gnsn" 
       replace: "https://gnsn.service-now.com/sp?id=index"
-      propagate_case: true
-      word: true
-    - trigger: ":| Event         | Week enclosing date | Week of event in 2023 |" 
-      replace: "|---------------|---------------------|-----------------------|"
       propagate_case: true
       word: true
     - trigger: ":vis" 

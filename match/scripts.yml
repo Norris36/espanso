@@ -40,6 +40,15 @@ matches:
           args:
             - python
             - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\gpt.py'
+  - trigger: ":friday"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\friday.py'
 
   - trigger: ":add"
     replace: "{{output}}"
