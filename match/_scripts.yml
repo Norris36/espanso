@@ -68,8 +68,10 @@ matches:
         type: script
         params:
           args:
-            - python
-            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\dk time.py'
+            - python3
+            #- 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\dk time.py'
+            - '$CONFIG/match/scripts/dk time.py'
+            #- 'scripts/dk_time.py'
 
   - trigger: ":braindump"
     replace: "{{output}}"

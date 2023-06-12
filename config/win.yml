@@ -1,0 +1,5 @@
+# C:\Users\jbay\AppData\Roaming\espanso\config\Code.yml
+filter_exec:  ".exe"
+enable: true
+extra_includes:
+  - "../match/_scripts.yml"
