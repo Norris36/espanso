@@ -1769,3 +1769,27 @@ coupon.py; signals are defined and/or triggered: when the cartView func is calle
 ,"One example of how data flows from the front end to the database is through the ""submit form"" event. In the dotcom data, this event is named ""submit_form"". When a user submits a form on the front end, the data is sent to the ""views.py"" file located at dotcom\app\views.py. This file triggers the ""create"" function in the ""models.py"" file located at dotcom\app\models.py. The ""create"" function then saves the data to the database.",1686611479
 ,"One example of how the code triggers an event and sends data to the database is when a user submits a form on the front end. The event name is ""form submission"" and it is triggered by the file dotcom\app\views.py. This file calls a function in dotcom\app\forms.py to validate the form data, and then sends the data to the database through the file dotcom\app\models.py. The data is saved in the database table specified in the model file.",1686611506
 Event Name: Products Searched; Dotcom name: PRODUCTS_SEARCHED; declaring file calls: ; signals are defined and/or triggered:,"When a user searches for a product on the front end, the search query is sent to the ""search_products"" function in the ""views.py"" file located at dotcom\app\views.py. This function then triggers the ""search_products_signal"" signal, which is defined in the ""signals.py"" file located at dotcom\app\signals.py. The signal sends the search query data to the ""search_products_handler"" function in the ""handlers.py"" file located at dotcom\app\handlers.py. Finally, the ""search_products_handler"" function processes the data and saves it to the database.",1686611562
+write me a poem,"In the stillness of the night,
+When the world is dark and quiet,
+My thoughts take flight,
+And my heart feels light.
+
+The stars above twinkle bright,
+As I ponder life's great height,
+And all the wonders in sight,
+That make my heart ignite.
+
+The moon's soft glow,
+Casts a peaceful shadow,
+As I let my mind flow,
+And my spirit grow.
+
+In this moment of calm,
+I find my inner balm,
+And feel the world's charm,
+In a simple, soothing psalm.
+
+So let the night embrace,
+And let your soul find its place,
+In this peaceful, sacred space,
+Where love and light interlace.",1686689262

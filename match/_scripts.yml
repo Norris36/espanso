@@ -10,6 +10,8 @@
 # And much more! For more information, visit the docs: https://espanso.org/docs/
 matches:
   # Simple text replacement
+  - trigger: ':test'
+    replace: 'i work'
   - trigger: ":py"
     replace: "{{output}}"
     vars:
@@ -40,6 +42,7 @@ matches:
           args:
             - python
             - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\gpt.py'
+
   - trigger: ":friday"
     replace: "{{output}}"
     vars:
@@ -69,8 +72,8 @@ matches:
         params:
           args:
             - python3
-            #- 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\dk time.py'
-            - '$CONFIG/match/scripts/dk time.py'
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\dk_time.py'
+            #- '$CONFIG/match/scripts/dk time.py'
             #- 'scripts/dk_time.py'
 
   - trigger: ":braindump"
