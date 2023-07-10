@@ -21,6 +21,15 @@ matches:
           args:
             - python
             - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\my.py'
+  - trigger: ":docs"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\docs.py'
 
   - trigger: ":currency"
     replace: "{{output}}"
@@ -85,3 +94,37 @@ matches:
           args:
             - python
             - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\braindump.py'
+
+  - trigger: ":assistant"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - 'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\assistant.py'
+ 
+  # - regex: ":(dk|us)(\\d{2,4})"
+  #   replace: "{{my_time}}"
+  #   vars:
+  #     - name: my_time
+  #       type: shell
+  #       params:
+  #         cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\time_plus_seven.py \"$1\""
+
+
+  - regex: " :((?P<country>dk|us|ca)(?P<number>\\d{4}))"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\time_plus_seven.py"
+  - regex: " :((?P<country>pol)(?P<number>\\d{4}))"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\time_plus_seven.py"

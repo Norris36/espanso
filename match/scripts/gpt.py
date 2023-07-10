@@ -3,6 +3,7 @@ import openai
 import pyperclip as py
 import csv
 from datetime import datetime
+import re
 # Load the .env file
 from dotenv import load_dotenv
 load_dotenv()
@@ -12,6 +13,39 @@ openai.api_type         = os.getenv("OPENAI_TYPE")
 openai.api_base         = os.getenv("OPENAI_BASE")
 openai.api_version      = os.getenv("OPENAI_VERSION")
 openai.api_key          = os.getenv("OPENAI_KEY")
+
+
+
+from textwrap3 import wrap
+
+def process_text(text):
+    # Code tag to look for
+    code_tag = '```'
+
+    # If code tag is present in the text
+    if code_tag in text:
+        # Split the text by the code tag
+        parts = text.split(code_tag)
+
+        # Initialize an empty string to store the processed text
+        processed_text = ''
+
+        # Iterate over the parts
+        for i, part in enumerate(parts):
+            # If it's a code block, just append it as is
+            if i % 2 != 0:
+                processed_text += code_tag + part + code_tag
+            else:
+                # If it's not a code block, split into sentences and append with a line break
+                sentences = wrap(part, width=120)
+                processed_text += sentences+ "\n "
+
+        return processed_text
+    else:
+        # If there is no code_tag in the text, wrap the text to have a width of 120 characters per line
+        wrapped_text = wrap(text, width=120)
+        wrapped_text = '\n'.join(wrapped_text)
+        return wrapped_text
 
 
 def get_log_path():
@@ -118,5 +152,7 @@ path = r'C:\Users\jbay\AppData\Roaming\espanso\match\scripts\gpt_log.csv'
 with open(get_log_path(), mode='a', newline='') as file:
     writer = csv.writer(file)
     writer.writerow([prompt, response, timestamp])
+
+#response = process_text(response)
 
 print(response)

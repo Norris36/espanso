@@ -590,7 +590,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: Newyorker
-  replace: New_Yorker
+  replace: New Yorker
   propagate_case: true
   word: true
 - trigger: Foundland
@@ -902,7 +902,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: alot
-  replace: a_lot
+  replace: a lot
   propagate_case: true
   word: true
 - trigger: abondon
@@ -8686,7 +8686,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: groupsex
-  replace: group_sex
+  replace: group sex
   propagate_case: true
   word: true
 - trigger: grwo
@@ -9622,7 +9622,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: inspite
-  replace: in_spite
+  replace: in spite
   propagate_case: true
   word: true
 - trigger: inaccessable
@@ -11006,11 +11006,11 @@ matches:
   propagate_case: true
   word: true
 - trigger: lightyear
-  replace: light_year
+  replace: light year
   propagate_case: true
   word: true
 - trigger: lightyears
-  replace: light_year
+  replace: light year
   propagate_case: true
   word: true
 - trigger: liek
@@ -11450,7 +11450,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: massmedia
-  replace: mass_media
+  replace: mass media
   propagate_case: true
   word: true
 - trigger: masterbation
@@ -11930,7 +11930,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: famoust
-  replace: most_famous
+  replace: most famous
   propagate_case: true
   word: true
 - trigger: motiviated
@@ -12318,7 +12318,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: noone
-  replace: no_one
+  replace: no one
   propagate_case: true
   word: true
 - trigger: nomencalture
@@ -14222,7 +14222,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: protem
-  replace: pro_tem
+  replace: pro tem
   propagate_case: true
   word: true
 - trigger: probalibity
@@ -18006,7 +18006,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: tennisplayer
-  replace: tennis_player
+  replace: tennis player
   propagate_case: true
   word: true
 - trigger: tenacle
@@ -19638,7 +19638,7 @@ matches:
   propagate_case: true
   word: true
 - trigger: wanna
-  replace: want_to
+  replace: want to
   propagate_case: true
   word: true
 - trigger: wnated

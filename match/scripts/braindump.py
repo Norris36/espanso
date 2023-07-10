@@ -1,5 +1,6 @@
 import os
 import pyperclip as py
+import regex as re
 
 path = r'C:\Users\jbay\OneDrive - GN Store Nord\Workspace\today.txt'
 
@@ -21,16 +22,23 @@ with open(path, 'w', encoding = 'utf-8') as f:
             var = True
             
         if '[x]' in line:
+            #if line.startswith('    ['):
             end += line
             line = ''
-            
+            # elif line.startswith('['):
+            #     end += line.replace('[', '    [')
+            #     line = ''
+            # else:
+            #     new_line = re.sub(' {4,}[', '    [', line)
+            #     end += new_line
+            #     line = ''
             
         if var:
             if i == len(lines)-1:
                 f.write(line + '\n')
                 f.write(clip + '\n')
                 var = False
-            elif len(line.strip()) > 0:
+            elif len(line.strip()) > 0:         
                 f.write(line)
             else:
                 f.write(clip + '\n')

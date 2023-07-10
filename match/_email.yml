@@ -17,7 +17,7 @@ matches:
       word: true
       propagate_case: true
 
-    - regex: (\s)(i'd|id|iød)
+    - triggers:  ['id', 'iød']
       replace: " I'd"
       word: true
       propagate_case: true
@@ -184,3 +184,10 @@ matches:
       replace: "visualisations"
       propagate_case: true
       word: true
+
+  ##
+  ## Symbols
+  ##
+
+    - trigger: "["
+      replace: '[$|$]'

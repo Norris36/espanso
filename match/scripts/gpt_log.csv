@@ -1793,3 +1793,471 @@ So let the night embrace,
 And let your soul find its place,
 In this peaceful, sacred space,
 Where love and light interlace.",1686689262
+what is a Postgress database,"PostgreSQL is a powerful, open-source object-relational database system. It uses and extends the SQL language to provide a wide range of features, including support for transactions, subselects, and user-defined types. It is known for its reliability, scalability, and robustness, and is widely used in enterprise applications and web development.",1686774285
+"Oneline comments, Dont Chug an expensive Wine",Understood.,1686778558
+"write a paragraph on Oneline comments, Dont Chug an expensive Wine","Oneline comments are a great way to quickly express an opinion or thought without going into too much detail. They are often used on social media platforms such as Twitter or Instagram, where brevity is key. However, it is important to remember that sometimes a little context can go a long way. For example, simply saying ""Don't chug an expensive wine"" may not be enough to convince someone to savor their drink. Providing a brief explanation of why it's important to take your time with a nice bottle of wine, such as the complex flavors and aromas that can be missed when consumed too quickly, can help drive the point home.",1686778588
+"write a paragraph onOneline comments, Dont Chug an expensive Wine","Oneline comments are a great way to add quick notes or reminders to your code without cluttering it up with unnecessary details. They can be used to explain a particular line of code, provide context for future developers, or simply to remind yourself of something important. However, it's important to remember that just like with an expensive wine, you shouldn't chug through your code and hastily add comments without thought or consideration. Take the time to carefully craft your comments, ensuring they are clear, concise, and add value to your codebase. By doing so, you'll not only make your code easier to understand and maintain, but you'll also be able to appreciate the beauty and complexity of your work, just like you would with a fine wine.",1686778730
+"write a paragraph onOneline comments, Dont Chug an expensive Wine","Oneline comments are a great way to add quick and concise notes to your code. They can be used to explain what a particular line of code does, or to remind yourself of something you need to come back to later. However, it's important to remember that not all things should be rushed, such as chugging an expensive wine. Just like code, wine should be savored and appreciated for its complexity and depth. So take your time, enjoy the experience, and don't rush through the finer things in life.",1686778889
+"write a paragraph onOneline comments, Dont Chug an expensive Wine","One-line comments are a great way to quickly and succinctly express your thoughts or opinions on a particular topic. However, it's important to remember that sometimes a little more context is necessary to fully understand the message being conveyed. This is especially true when it comes to something like wine, where the quality and price can vary greatly. It's always a good idea to savor and appreciate an expensive wine, rather than chugging it down quickly. Not only will you be able to fully enjoy the flavors and aromas, but you'll also be showing respect for the craftsmanship and effort that went into creating the wine.",1686779044
+"write a paragraph onOneline comments, Dont Chug an expensive Wine","Oneline comments are a great way to add quick notes or reminders to your code without cluttering it up with unnecessary text. They can help you remember what certain sections of code do, or provide context for future developers who may be working on the same project. In addition, it's important to remember that just because a wine is expensive, it doesn't mean you should chug it. Savoring and enjoying the flavors and aromas of a fine wine is part of the experience, and rushing through it can diminish the enjoyment and appreciation of the wine.",1686779071
+"write a paragraph onOneline comments, Dont Chug an expensive Wine","Oneline comments are a great way to add quick and concise notes to your code. They can help you remember what a particular line of code does or provide context for future developers who may be working on the same project. However, it's important to remember that just like you wouldn't chug an expensive wine, you shouldn't rush through writing your code and neglect to add comments. Taking the time to add comments can save you and others a lot of time and frustration in the long run. So, take a moment to savor your code and add those helpful comments.",1686779141
+"header,text,length,tokens,summary,question,category,Author,last_score,last_run","I'm sorry, I'm not sure what task you are assigning me. Could you please provide more information or a specific task for me to complete?",1686780165
+"# 0 index the following list, so continue what im doing
+    # 0 header,
+    # 1 text,length,tokens,summary,question,category,Author,last_score,last_run","2 text
+3 length
+4 tokens
+5 summary
+6 question
+7 category
+8 Author
+9 last_score
+10 last_run",1686780200
+"# write documentation for this
+relevant_dates = pd.date_range(start = '2023-02-17', end= '2023-02-24').to_list()
+
+#df[df.timestamp.between(relevant_dates)]
+
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()
+
+
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'
+new_df = valentins_day.copy()
+new_df = new_df.append([presidents_day,march_madness,springs_savings,mothers_day])","This code creates a list of relevant dates and uses them to filter a DataFrame called ""df"" by timestamp. It creates five new DataFrames, each filtered by a specific date range and assigns a promotional name to each. Finally, it creates a new DataFrame called ""new_df"" by appending the five filtered DataFrames.",1686801701
+"# write line by line documentation for this
+relevant_dates = pd.date_range(start = '2023-02-17', end= '2023-02-24').to_list()
+
+#df[df.timestamp.between(relevant_dates)]
+
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()
+
+
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'
+new_df = valentins_day.copy()
+new_df = new_df.append([presidents_day,march_madness,springs_savings,mothers_day])","This code creates a list of relevant dates using the pandas date_range function with start and end dates. 
+
+Then, it creates five dataframes by filtering the original dataframe based on specific date ranges using the between function. Each dataframe is then copied to avoid modifying the original dataframe.
+
+Next, a new column 'promo' is added to each of the five dataframes with a corresponding promo name. 
+
+Finally, a new dataframe is created by appending the five dataframes together with the valentins_day dataframe as the starting point.",1686801726
+"# return this code with line by line documentation 
+relevant_dates = pd.date_range(start = '2023-02-17', end= '2023-02-24').to_list()
+
+#df[df.timestamp.between(relevant_dates)]
+
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()
+
+
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'
+new_df = valentins_day.copy()
+new_df = new_df.append([presidents_day,march_madness,springs_savings,mothers_day])","# Create a list of dates from February 17, 2023 to February 24, 2023
+relevant_dates = pd.date_range(start = '2023-02-17', end= '2023-02-24').to_list()
+
+# Create a new dataframe with rows that have a timestamp between February 17, 2023 and February 24, 2023
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+
+# Create a new dataframe with rows that have a timestamp between March 13, 2023 and March 20, 2023
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+
+# Create a new dataframe with rows that have a timestamp between April 10, 2023 and April 16, 2023
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+
+# Create a new dataframe with rows that have a timestamp between May 8, 2023 and May 15, 2023
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+
+# Create a new dataframe with rows that have a timestamp between January 27, 2023 and February 15, 2023
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()
+
+# Add a new column 'promo' to each of the dataframes created above
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'
+
+# Create a new dataframe by copying the valentins_day dataframe and appending the other dataframes to it
+new_df = valentins_day.copy()
+new_df = new_df.append([presidents_day,march_madness,springs_savings,mothers_day])",1686801761
+can you exempliy reverb?,"Reverb is an audio effect that simulates the sound of a space or room. It is commonly used in music production to add depth and dimension to recordings. For example, if you record a vocal track in a dry, acoustically dead room, it may sound flat and lifeless. By adding reverb, you can simulate the sound of a larger, more spacious room, giving the vocal track a more natural and pleasing sound.",1686854466
+can you exempliy reverb?,"Reverb is a sound effect that simulates the natural echo of a space. It is commonly used in music production to add depth and dimension to recordings. For example, if a vocalist records a track in a small, dry room, adding reverb can make it sound like they are singing in a larger, more spacious environment.",1686854494
+"as a ux expert
+ what is a modal?","A modal is a type of user interface component that appears on top of the main content and requires the user to interact with it before returning to the main content. It is often used to display important information or to prompt the user for input, such as confirming an action or entering data. Modals typically have a clear call-to-action and may include buttons or other interactive elements. They can be triggered by user actions, such as clicking a button or link, or by system events, such as an error message.",1686859032
+"As a Senior Developer, I have 5 years of experience in building web applications with Python and Django. I have a deep understanding of the frameworks and technologies used in web development, and I am able to quickly develop secure and reliable applications. I have a passion for creating intuitive user experiences and I am always looking for ways to improve the user experience. I am an expert in debugging and troubleshooting, and I am able to quickly identify and resolve any issues that arise. 
+
+So you wrote this documentation 3 months ago, please elaborate on it and explain in detail to me as a junior developer
+
+
+  By including this snippet, we ensure that any calls to segment functions (e.g.
+  analytics.track()) won't throw an error, even if we haven't set a write key.
+
+  It is the actual analytics.load() call which loads the javascript from segment.
+
+  This is going to get a little wild. Segment analytics.js does not support global
+  IP setting or anonymization, but we need it for GDPR compliance. So what we do here
+  is basically monkeypatch the analytics.js library.
+
+  The problem with monkeypatching is that everything that gets put in the analytics queue
+  will run before the monkeypatching can be done. So, in order to make sure that *every*
+  call has IP hardcoded, we override the analytics queue functions created by the
+  snippet.","This documentation explains how to ensure that calls to segment functions won't throw an error, even if a write key hasn't been set. The analytics.load() call loads the javascript from segment. 
+
+However, there is an issue with GDPR compliance because Segment analytics.js does not support global IP setting or anonymization. To solve this problem, the library is monkeypatched. Monkeypatching means that the code is modified at runtime, which can be risky because everything that gets put in the analytics queue will run before the monkeypatching can be done. 
+
+To ensure that every call has IP hardcoded, the analytics queue functions created by the snippet are overridden. This ensures that the code is GDPR compliant and that the IP is hardcoded for every call.",1686875797
+"write a description for a discord chat bot which is supposed to be Proof of Concept for a support AI assistant with the name inspired by the MCU character Friday, the text should be approximately 400 words long","Friday is a chat bot designed to provide support and assistance to users on Discord. Inspired by the MCU character of the same name, Friday is a proof of concept for an AI assistant that can help users with a wide range of tasks and questions.
+
+At its core, Friday is designed to be a helpful and intuitive tool for Discord users. Whether you need help with a technical issue, want to find information on a specific topic, or just need someone to talk to, Friday is there to assist you. With its advanced natural language processing capabilities, Friday can understand and respond to a wide range of user queries, making it easy to get the help you need.
+
+One of the key features of Friday is its ability to learn and adapt to user needs over time. As users interact with the bot and ask it questions, Friday is able to build up a database of information and responses, allowing it to provide more accurate and helpful support over time. This means that the more you use Friday, the better it becomes at helping you with your needs.
+
+In addition to its support capabilities, Friday also has a range of fun and engaging features designed to make using Discord more enjoyable. For example, Friday can play games with users, tell jokes, and even provide personalized recommendations based on user preferences.
+
+Overall, Friday is a powerful and versatile chat bot that is designed to be a valuable asset for any Discord user. Whether you need help with a technical issue, want to find information on a specific topic, or just want to have some fun, Friday is there to assist you every step of the way. So why not give it a try and see how it can help you today?",1686962995
+"write a description for a discord chat bot which is supposed to be Proof of Concept for a support AI assistant customer support bot  with the name inspired by the MCU character Friday, the text should be approximately 400 characters long","Friday is a cutting-edge AI chatbot designed to provide top-notch customer support. Inspired by the MCU character, Friday is the perfect proof of concept for businesses looking to enhance their customer service capabilities. With its advanced natural language processing and machine learning algorithms, Friday can quickly and accurately respond to customer inquiries, troubleshoot issues, and provide helpful solutions. Whether you're a small business or a large corporation, Friday is the ideal support assistant to help you streamline your customer service operations and improve customer satisfaction.",1686963053
+"# create copy of the dataframe, which is not between any of the below periods
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()","Here is the solution to create a copy of the dataframe, which is not between any of the given periods:
+
+```
+not_between_periods = df[~df.timestamp.between(""2023-02-17"", ""2023-02-24"") & 
+                         ~df.timestamp.between('2023-03-13','2023-03-20') & 
+                         ~df.timestamp.between('2023-04-10','2023-04-16') & 
+                         ~df.timestamp.between('2023-05-08','2023-05-15') & 
+                         ~df.timestamp.between('2023-01-27','2023-02-15')].copy()
+``` 
+
+This will create a copy of the dataframe that is not between any of the given periods.",1687308026
+"# create copy of the dataframe, which is not between any of the below periods
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()","To create a copy of the dataframe that is not between any of the specified periods, you can use the following code:
+
+```
+not_between_periods = df[~df.timestamp.between(""2023-02-17"", ""2023-02-24"") & 
+                         ~df.timestamp.between('2023-03-13','2023-03-20') &
+                         ~df.timestamp.between('2023-04-10','2023-04-16') &
+                         ~df.timestamp.between('2023-05-08','2023-05-15') &
+                         ~df.timestamp.between('2023-01-27','2023-02-15')].copy()
+```
+
+This will create a copy of the dataframe that is not between any of the specified periods by using the `~` operator to negate the conditions in the `between` method.",1687308035
+"# create copy of the dataframe, which is not between any of the below periods
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()","Here is the code to create a copy of the dataframe that is not between any of the specified periods:
+
+```
+not_special_periods = df[~df.timestamp.between(""2023-02-17"", ""2023-02-24"") & 
+                         ~df.timestamp.between('2023-03-13','2023-03-20') &
+                         ~df.timestamp.between('2023-04-10','2023-04-16') &
+                         ~df.timestamp.between('2023-05-08','2023-05-15') &
+                         ~df.timestamp.between('2023-01-27','2023-02-15')].copy()
+``` 
+
+This will create a new dataframe called `not_special_periods` that contains all rows from the original dataframe that are not between any of the specified periods.",1687308130
+"# re write this so that it adds a column with the colunm name 'promo' and the respective label per the period, and 'no_promo' if its not within any of the periods
+
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()
+
+
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'","The code adds a column named 'promo' to each of the dataframes 'presidents_day', 'march_madness', 'springs_savings', 'mothers_day', and 'valentins_day'. The column contains the respective label per the period, and 'no_promo' if it's not within any of the periods.
+
+```
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'
+```",1687308658
+"# re write this so that it adds a column to the df variable with the colunm name 'promo' and the respective label per the period, and 'no_promo' if its not within any of the periods
+
+presidents_day = df[df.timestamp.between(""2023-02-17"", ""2023-02-24"")].copy()
+march_madness = df[df.timestamp.between('2023-03-13','2023-03-20')].copy()
+springs_savings = df[df.timestamp.between('2023-04-10','2023-04-16')].copy()
+mothers_day = df[df.timestamp.between('2023-05-08','2023-05-15')].copy()
+valentins_day = df[df.timestamp.between('2023-01-27','2023-02-15')].copy()
+
+
+presidents_day['promo'] = 'presidents_day'
+march_madness['promo'] = 'march_madness'
+springs_savings['promo'] = 'springs_savings'
+mothers_day['promo'] = 'mothers_day'
+valentins_day['promo'] = 'valentins_day'","df['promo'] = 'no_promo'
+df.loc[df.timestamp.between(""2023-02-17"", ""2023-02-24""), 'promo'] = 'presidents_day'
+df.loc[df.timestamp.between('2023-03-13','2023-03-20'), 'promo'] = 'march_madness'
+df.loc[df.timestamp.between('2023-04-10','2023-04-16'), 'promo'] = 'springs_savings'
+df.loc[df.timestamp.between('2023-05-08','2023-05-15'), 'promo'] = 'mothers_day'
+df.loc[df.timestamp.between('2023-01-27','2023-02-15'), 'promo'] = 'valentins_day'",1687308696
+"# take the below list, and and ensure that each of their points are added to the scatter plot with different colours
+0       march_madness
+1        mothers_day
+2     presidents_day
+3     presidents_day
+4    springs_savings
+5      valentins_day
+
+plt.plot(non_sale.week, non_sale.customer_val)
+plt.scatter(promo[promo.promo == 'valentins_day'].week, promo[promo.promo == 'valentins_day'].customer_val, c='pink')
+plt.scatter(promo[promo.promo == 'valentins_day'].week, promo[promo.promo == 'valentins_day'].customer_val, c='pink')
+plt.scatter(promo[promo.promo == 'valentins_day'].week, promo[promo.promo == 'valentins_day'].customer_val, c='pink')
+plt.scatter(promo[promo.promo == 'valentins_day'].week, promo[promo.promo == 'valentins_day'].customer_val, c='pink')
+plt.scatter(promo[promo.promo == 'valentins_day'].week, promo[promo.promo == 'valentins_day'].customer_val, c='pink'","To add each point from the list with different colors to the scatter plot, you can use a loop to iterate through the list and use a dictionary to map each promotion to a specific color. Here's an example:
+
+promo_color = {'march_madness': 'blue', 'mothers_day': 'green', 'presidents_day': 'red', 'springs_savings': 'orange', 'valentins_day': 'pink'}
+
+for promo in non_sale.promo:
+    color = promo_color[promo]
+    plt.scatter(non_sale[non_sale.promo == promo].week, non_sale[non_sale.promo == promo].customer_val, c=color)
+
+This will plot each point with a different color based on the promotion in the list.",1687309259
+"Please write a nice reply to the below email, as Jens, and describing that I have not been able to find the email she is referring to
+
+
+From: Divya Kapoor <divyak@aiesecus.org> 
+Sent: 21. juni 2023 15:35
+To: Jens Bay <jbay@steelseries.gg>
+Cc: Chrysalin Stanko <chrysalins@aiesecus.org>
+Subject: Re: AIESEC US / Global Current Initial Evaluation
+
+Hi Jens,
+
+Sorry to hear! Is the issue still ongoing? For your awareness and the Host Company's, if you review the Handbook that was provided with your initial Welcome Email, on Page 15 it provides guidance to Host Companies on how they are able to pay the participants while they sort through SSN issues.
+
+Please let us know if you have any additional questions!","Dear Divya,
+
+Thank you for your email. Unfortunately, I have not been able to locate the email you are referring to. Could you please provide me with more information or resend the email?
+
+Thank you for your understanding.
+
+Best regards,
+Jens",1687560259
+"Write an introduction for a set of senior developers for a dataflow diagram, first with over view and then with more specific models","Overview: 
+I have assembled a team of senior developers who are experts in creating dataflow diagrams. They have extensive experience in designing and implementing complex dataflow systems for various industries. With their expertise, they can help you create a comprehensive dataflow diagram that accurately represents your organization's data flow and helps you optimize your business processes.
+
+Specific models:
+Our team of senior developers can create various types of dataflow diagrams, including context diagrams, level 0 diagrams, and detailed level diagrams. They can also create flowcharts, process maps, and other visual aids to help you understand your data flow better. With their expertise, they can identify bottlenecks and inefficiencies in your current data flow and suggest improvements to optimize your business processes.",1687827815
+"Above is an overview of the different events which we are currently tracking in Segment and Google  Tag Manager. From the left the events the various elements are categorised as to their respective activation. The majority is activated in the backend, however, a few is triggered in the front end and then send through google tag manager to segment database, tiktok, facebook and google analytics.",[ ] - Can you provide more details on which specific events are triggered in the front end and sent through Google Tag Manager to the different platforms?,1687829926
+"Above is an overview of the different events which we are currently tracking in Segment and Google  Tag Manager. From the left the events the various elements are categorised as to their respective activation. The majority is activated in the backend, however, a few is triggered in the front end and then send through google tag manager to segment database, tiktok, facebook and google analytics. This could be the GG Download event, which is not present in the codebase, but is present in the Google Tag Manager with 6 different tags which are triggered by different events, which then parses the signal to the various data stores. Add to that the Cart Viewed has both a Google Tag Manager trigger and a trigger in the codebase.","[ ] - Can you provide more details on the specific events that are triggered in the front end and sent through Google Tag Manager to the different data stores? 
+[ ] - Is there a reason why the GG Download event is not present in the codebase but is present in Google Tag Manager? 
+[ ] - Can you explain the difference between the triggers for Cart Viewed in the Google Tag Manager and the codebase?",1687830136
+"Above is an overview of the different events which we are currently tracking in Segment and Google  Tag Manager. From the left the events the various elements are categorised as to their respective activation. The majority is activated in the backend, however, a few is triggered in the front end and then send through google tag manager to segment database, tiktok, facebook and google analytics. This could be the GG Download event, which is not present in the codebase, but is present in the Google Tag Manager with 6 different tags which are triggered by different events, which then parses the signal to the various data stores [See the specific diagram for this]. Add to that the Cart Viewed has both a Google Tag Manager trigger and a trigger in the codebase [See the relavant diagram for this]. Lastly,  the events triggered by specific Django code, which parses certain pages as views, and then when they are activated they send a robust_signal or connect to a receiver in the ‘signal.py’ file to then send the data through to the segment database.","[ ] - Can you provide more specific details on the events that are triggered in the front end and sent through Google Tag Manager to the various data stores? 
+[ ] - Can you explain why the GG Download event is not present in the codebase but is present in Google Tag Manager with 6 different tags? 
+[ ] - Can you provide more information on how the Cart Viewed event is triggered both in Google Tag Manager and in the codebase? 
+[ ] - Can you explain how the Django code triggers specific events and sends data through to the segment database?",1687830298
+"what kind of format is this?
+Users
+=====
+
+Account Updated
+---------------
+
+This event is sent when a user updates their account. This happens from the profile section of the dashboard. The :ref:`segment-users` information will be updated accordingly.
+
+This event has no properties.
+
+
+Account Verified
+----------------
+
+This event is sent when a user verifies their email. It can happen either as part of the registration process, or it could be a user that was created before we required this, or it can also happen as part of the password reset process.
+
+Once the user has verified their email, their profile will be updated to reflect it (``is_verified`` will be ``true``)
+
+This event does not have any properties.
+
+
+Password Changed
+----------------
+
+This event is sent when a user changes their password.
+
+``source`` (tbd)
+    A string showing where the password change happened from, e.g. *profile* or *password_reset*
+
+
+
+Account Deleted
+---------------
+
+This event is sent when a user deletes their account. After this point, the user will no longer exist in our database.
+
+**TBD** The user will be suppressed and deleted on segment as well.
+
+
+Signed Up
+---------
+
+This event is sent when a user signs up. It is sent before the user has verified their email address. See :ref:`segment-users` for an overview of available user properties.
+
+``email``
+    The users email (normalized and lowercased)
+
+
+Signed In
+---------
+
+This event is sent whenever a user signs in. See :ref:`segment-users` for a full overview of available user properties.
+
+``email``
+    Users email (normalized and lowercased)
+
+``signin_type`` (tbd)
+    Login type, e.g. *website*, *oauth2*, *zendesk*
+
+``oauth2_client`` (tbd)
+    OAuth2 client (application) requesting the login if signin_type is *oauth2*, otherwise ``null``. E.g. *AimMaster*, *Engine*
+
+``oauth2_grant_type`` (tbd)
+    OAuth2 grant type or ``null``. E.g. *client_credentials*, *authorization_code*, *refresh_token*","This is a documentation format for events related to user actions in a software application. It provides a brief description of each event, including the properties associated with it.",1687831197
+"pitch
+
+Above is an overview of the different events which we are currently tracking in Segment and Google  Tag Manager. From the left the events the various elements are categorised as to their respective activation. The majority is activated in the backend, however, a few is triggered in the front end and then send through google tag manager to segment database, tiktok, facebook and google analytics. This could be the GG Download event, which is not present in the codebase, but is present in the Google Tag Manager with 6 different tags which are triggered by different events, which then parses the signal to the various data stores [See the specific diagram for this]. Add to that the Cart Viewed has both a Google Tag Manager trigger and a trigger in the codebase [See the relavant diagram for this]. Lastly,  the events triggered by specific Django code, which parses certain pages as views, and then when they are activated they send a robust_signal or connect to a receiver in the ‘signal.py’ file to then send the data through to the segment database.","[ ] - Can you provide more context on what the different events are and how they are relevant to the application? This would help readers understand the importance of tracking these events.
+[ ] - It would be helpful to include examples of the specific events that are triggered in the front end and sent through Google Tag Manager to the various data stores.
+[ ] - Can you provide more information on how the GG Download event is triggered and what it represents?
+[ ] - It would be helpful to include a diagram or visual representation of how the events are tracked and sent to the different data stores.
+[ ] - Can you provide more information on how the events triggered by specific Django code are relevant to the application and how they are used?",1687896514
+"Assume you are morten - what would your top 3 questions be to this, if you got this as your feedback?
+
+Recipient's Name: Morten
+1. Technical Skills:
+•	What strengths have you noticed in their technical skills?
+  - Getting through Azure Services
+  - Ensuring a good development environment
+  - 
+•	What areas could they improve upon?
+  - 
+2. Communication Skills:
+•	Can you share an instance where their communication skills stood out?
+  - Nope
+  - But i enjoyed the clear and precise communication
+•	What suggestions do you have for enhancing their communication skills?
+  - [This happened once, so nothing major]
+    There were one meeting where we were discussing potential solutions, and i couldn't figure out if i had to help. Until after a while you requested it. I would appreciate more directness
+
+3. Problem-Solving Skills:
+•	Can you recall a time when these skills were effectively utilized?
+  - Any and every issue in the Azure domain!
+  - It looked like a maze, and you got through it!
+•	What strategies would you recommend for improving their problem-solving abilities?
+  - No Clue.","As your personal assistant, I will not provide any follow-up questions or reflections. However, based on the feedback you received, your top 3 questions to the recipient could be:
+
+1. What specific Azure Services did I excel in, and how did it contribute to the project's success?
+2. How can I improve my communication skills to be more direct and efficient in meetings?
+3. Can you provide more details on how I utilized my problem-solving skills in the Azure domain, and how it impacted the project's outcome?",1687916146
+":Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations
+
+export function segmentSearchEvents(action: SearchAction) {
+  switch (action.type) {
+    case SEARCH_FETCH_SUCCESS:
+      return trackEvent((act: SearchFetchSuccessAction) => ({
+        name: 'Products Searched',
+        properties: {
+          query: act.query,
+        },
+      }));
+
+    default:
+      return [];
+  }
+}","# This function is called segmentSearchEvents and takes in an action of type SearchAction as a parameter.
+export function segmentSearchEvents(action: SearchAction) {
+
+  # A switch statement is used to check the type of the action passed in.
+  switch (action.type) {
+
+    # If the action type is SEARCH_FETCH_SUCCESS, the following code block will be executed.
+    case SEARCH_FETCH_SUCCESS:
+
+      # A function called trackEvent is called with a callback function as a parameter.
+      # The callback function takes in an action of type SearchFetchSuccessAction and returns an object with a name and properties.
+      # The name is set to 'Products Searched' and the properties object has a key of 'query' with a value of act.query.
+      return trackEvent((act: SearchFetchSuccessAction) => ({
+        name: 'Products Searched',
+        properties: {
+          query: act.query,
+        },
+      }));
+
+    # If the action type is not SEARCH_FETCH_SUCCESS, an empty array is returned.
+    default:
+      return [];
+  }
+}",1687995564
+"As a Senior Developer, I have 5 years of experience in building web applications with Python and Django. I have a deep understanding of the frameworks and technologies used in web development, and I am able to quickly develop secure and reliable applications. I have a passion for creating intuitive user experiences and I am always looking for ways to improve the user experience. I am an expert in debugging and troubleshooting, and I am able to quickly identify and resolve any issues that arise. 
+
+please write this so that my non-tech manager can comprehend this
+
+export function segmentSearchEvents(action: SearchAction) {
+  switch (action.type) {
+    case SEARCH_FETCH_SUCCESS:
+      return trackEvent((act: SearchFetchSuccessAction) => ({
+        name: 'Products Searched',
+        properties: {
+          query: act.query,
+        },
+      }));
+
+    default:
+      return [];
+  }
+}","I am able to write code using a programming language called Python, and a framework called Django, which is used to build web applications. I have experience in this field for 5 years, and I am very good at making sure that the applications I build are secure and reliable. I am also very good at making sure that the applications I build are easy to use for people who will be using them. 
+
+Regarding the code you provided, it is a function that searches for events related to a search action. It checks if the search was successful, and if it was, it tracks an event called ""Products Searched"" and includes the search query as a property. If the search was not successful, it returns an empty array.",1687995649
+"As a Senior Developer, I have 5 years of experience in building web applications with Python and Django. I have a deep understanding of the frameworks and technologies used in web development, and I am able to quickly develop secure and reliable applications. I have a passion for creating intuitive user experiences and I am always looking for ways to improve the user experience. I am an expert in debugging and troubleshooting, and I am able to quickly identify and resolve any issues that arise. 
+
+please write this so that my non-tech manager can comprehend this, focus on the tracking part!
+
+export function segmentSearchEvents(action: SearchAction) {
+  switch (action.type) {
+    case SEARCH_FETCH_SUCCESS:
+      return trackEvent((act: SearchFetchSuccessAction) => ({
+        name: 'Products Searched',
+        properties: {
+          query: act.query,
+        },
+      }));
+
+    default:
+      return [];
+  }
+}","I have written a code that helps track the search events on our website. This code is written in a programming language called JavaScript. It helps us keep track of the products that our customers search for on our website. This code is very efficient and reliable, and it quickly identifies and resolves any issues that may arise.",1687995682
