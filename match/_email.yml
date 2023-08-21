@@ -17,7 +17,7 @@ matches:
       word: true
       propagate_case: true
 
-    - triggers:  ['id', 'iød']
+    - regex: '(\s)(id|iød)'
       replace: " I'd"
       word: true
       propagate_case: true

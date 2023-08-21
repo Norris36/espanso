@@ -23,7 +23,7 @@ matches:
     replace: Oliviér
     word: true
   - regex: olivier
-    replace: Oliviér
+    replace: Olivier
     word: true
   - regex: illyan
     replace: Illyan

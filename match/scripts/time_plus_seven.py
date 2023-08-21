@@ -25,6 +25,14 @@ if __name__ == "__main__":
     number = os.getenv('ESPANSO_NUMBER')  # Get the number variable from the environment variables.
     country_code = os.getenv('ESPANSO_COUNTRY')  # Get the country code variable from the environment variables.
 
+
+    number = number.strip()  # Remove any whitespace from the number variable.
+
+    if number == 'now':
+        number = datetime.now().strftime('%H%M')
+    else:
+        number = number
+
     # If the country code is 'dk', we want to get the current time in Denmark and subtract 7 hours from it.
     if country_code == 'dk':
         dk_time = number  # The time is directly provided by the 'number' variable.

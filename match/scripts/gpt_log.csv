@@ -2261,3 +2261,68 @@ export function segmentSearchEvents(action: SearchAction) {
       return [];
   }
 }","I have written a code that helps track the search events on our website. This code is written in a programming language called JavaScript. It helps us keep track of the products that our customers search for on our website. This code is very efficient and reliable, and it quickly identifies and resolves any issues that may arise.",1687995682
+"-- comment all of the below text in an sql format
+select promotions_application.*, 
+    orders_ordersummary.total_charge,
+    (promotions_application.discount / (promotions_application.discount + orders_ordersummary.total_charge)) * 100 AS discount_percentage,
+    
+from promotions_application
+join orders_ordersummary
+    on promotions_application.order_id = orders_ordersummary.id
+where promotions_application.promotion_id = 146957
+
+limit 10;","-- This is an SQL query to retrieve data from two tables and calculate a discount percentage
+-- The select statement retrieves all columns from the promotions_application table, the total_charge column from the orders_ordersummary table, and calculates the discount_percentage
+SELECT promotions_application.*, 
+    orders_ordersummary.total_charge,
+    (promotions_application.discount / (promotions_application.discount + orders_ordersummary.total_charge)) * 100 AS discount_percentage
+-- The from statement specifies the two tables to retrieve data from and the join condition
+FROM promotions_application
+JOIN orders_ordersummary
+    ON promotions_application.order_id = orders_ordersummary.id
+-- The where statement filters the results to only include rows where the promotion_id is 146957
+WHERE promotions_application.promotion_id = 146957
+-- The limit statement limits the number of rows returned to 10
+LIMIT 10;",1691767442
+"-- comment out everything
+SELECT promotions_application.*, 
+--  orders_ordersummary.total_charge,
+--  (promotions_application.discount / (promotions_application.discount + orders_ordersummary.total_charge)) * 100 AS discount_percentage,
+    promotions_promotion.description as description
+-- The from statement specifies the two tables to retrieve data from and the join condition
+FROM promotions_application
+--JOIN orders_ordersummary
+--    ON promotions_application.order_id = intorders_ordersummary.id
+Join promotions_promotion
+    on promotions_application.order_id = int(promotions_promotion.id)
+--The where statement filters the results to only include rows where the promotion_id is 146957
+WHERE promotions_application.promotion_id = 146957
+-- The limit statement limits the number of rows returned to 10
+LIMIT 10;","SELECT promotions_application.*, promotions_promotion.description as description
+FROM promotions_application
+Join promotions_promotion
+    on promotions_application.order_id = int(promotions_promotion.id)
+WHERE promotions_application.promotion_id = 146957
+LIMIT 10;",1691771784
+"-- comment all the below code out
+select *
+from promotions_promotion 
+join promotions_benefit
+	on promotions_promotion.benefit_id = promotions_benefit.id 
+limit 10;",// This is SQL code that selects all columns from the promotions_promotion table and joins it with the promotions_benefit table based on the benefit_id column. The result is limited to 10 rows.,1692305880
+"-- uncomment all the below code out
+-- select *
+-- from promotions_promotion 
+-- join promotions_benefit
+-- 	on promotions_promotion.benefit_id = promotions_benefit.id 
+-- limit 10;","Uncommented code:
+
+```
+select *
+from promotions_promotion 
+join promotions_benefit
+	on promotions_promotion.benefit_id = promotions_benefit.id 
+limit 10;
+``` 
+
+This code will select all columns from the tables `promotions_promotion` and `promotions_benefit` and join them on the `benefit_id` column. It will then limit the results to 10 rows.",1692307585

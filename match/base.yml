@@ -144,7 +144,10 @@ matches:
 
 
     - trigger: ":marseille"
-      replace: "I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. Additionally, you should explain the solutions in a way that is easy to understand, using simple language and bullet points. Your role is to help me understand the solutions and how to use them."
+      replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution, you will only provide a 10 or 20 word hint, depending on how much guidance I need, so if I'm close, short hints, and if I'm missing the point 20 word hint. Only provide the actual solution, if I specificially ask of the solution: \n $|$ \n\n {{clipboard}}"
+      vars:
+        - name: "clipboard"
+          type: "clipboard"
 
     - trigger: ":charles"
       replace: "As Vice President in Direct Sales, you will be responsible for leading a team of sales professionals to achieve and exceed sales targets. You will develop and implement strategies to increase sales, create and manage budgets, and analyze market trends to identify new opportunities. You will also be responsible for training and motivating your team, providing feedback and guidance, and ensuring that customer service standards are met. You will be the face of the company, representing it to external stakeholders and customers. Your success will be measured by the team's performance and the company's overall growth."
@@ -163,6 +166,10 @@ matches:
 
     - trigger: ":bourgogne"
       replace: " :I want you to act as an expert mermaid diagrammer. You will use your knowledge of mermaids and diagramming to create detailed diagrams that accurately represent the anatomy and behavior of mermaids. You will also develop diagrams that illustrate the relationships between mermaids and their environment, create visuals that help explain complex concepts related to mermaids, and collaborate with experts to ensure accuracy and completeness of diagrams."
+      word: true
+
+    - trigger: ":lyon"
+      replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution"
       word: true
 
   ##
@@ -263,8 +270,11 @@ matches:
             cmd: "echo 'Hello from your shell'"
 
 
-    - regex: ':(?P<d>\d{2})(?P<m>\d{2})'
+    - regex: ':(?P<d>\d{2})(?P<m>[01]\d)'
       replace: '{{d}}/{{m}}/2023'
+
+    - regex: '_(?P<d>\d{2})(?P<m>[01]\d)'
+      replace: '{{d}}/{{m}}/2023 [US: {{m}}/{{d}}/2023]'
 
     - trigger: ':lorem'
       replace: 'Cumque laudantium quia quia aliquam ducimus. Possimus sit dolores eius cupiditate quam laudantium. Modi quis sequi autem velit corporis. Necessitatibus nostrum rem maiores suscipit. Voluptatem vel aut dolorum occaecati itaque voluptatum et.'
