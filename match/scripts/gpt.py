@@ -123,7 +123,7 @@ sql_message = [{"role":"system","content":"""
             where 
                 product_sku = '61465'
                 and country = 'US'
-                and coupon not cotain 'RMA'
+                and coupon not contain 'RMA'
             limit 100
 
             your perfect reply:

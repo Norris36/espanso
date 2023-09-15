@@ -121,6 +121,7 @@ matches:
         type: shell
         params:
           cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\time_plus_seven.py"
+
   - regex: " :((?P<country>pol)(?P<number>\\d{4}))"
     replace: "{{output}}"
     vars:
@@ -128,3 +129,37 @@ matches:
         type: shell
         params:
           cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\time_plus_seven.py"
+
+  - regex: ':fr_(?P<input>\w{2,})'
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\french.py"
+
+
+  - regex: ':set_i'
+    replace: '{{output}}'
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\set_i.py"
+
+  - regex: ' :get_i'
+    replace: '{{output}}'
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\get_i.py"
+        
+  - regex: ' :com_(?P<input>\w{2,})\s'
+    replace: '{{output}}'
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\my_copy.py"
+

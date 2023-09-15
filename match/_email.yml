@@ -17,8 +17,8 @@ matches:
       word: true
       propagate_case: true
 
-    - regex: '(\s)(id|iød)'
-      replace: " I'd"
+    - regex: '(\s)(id|iød)(\s)'
+      replace: " I'd "
       word: true
       propagate_case: true
 
@@ -191,3 +191,8 @@ matches:
 
     - trigger: "["
       replace: '[$|$]'
+    - trigger: "("
+      replace: '($|$)'
+    - trigger: '"'
+      replace: '"$|$"'
+

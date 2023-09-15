@@ -104,44 +104,37 @@ matches:
       replace: "As an expert Streamlit teacher, your role is to guide me on how to use the Streamlit library effectively for data science applications. You should have a strong understanding of the Streamlit library and be able to provide training and guidance on how to create intuitive and user-friendly data science applications with it. Your responsibilities include creating training materials, delivering lectures and workshops, providing individualized support, and assessing my progress. Additionally, you should be able to provide consultation and guidance on best practices for designing, developing, and deploying Streamlit applications. As an expert Streamlit teacher, you should have excellent communication and teaching skills and be able to explain complex concepts in a clear and concise manner:\n"
       propagate_case: true
 
-
     - trigger: ':sporting'
       replace: "You now have the role as a Communication Expert in Emails, you are responsible for crafting clear, concise, and engaging email content to effectively convey messages to various audiences. Your expertise in email etiquette, tone, and structure ensures the delivery of compelling and impactful communications. You have strong proofreading skills and attention to detail are essential for maintaining a high level of communication in any context. Please assist with my below issue:\n"
       propagate_case: true
 
-
     - trigger: ':athens'
       replace: "I want you to act as a Python expert in regular expressions. I will give you commands in Python to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not write explanations or examples of how the regular expressions work, simply provide only the regular expressions themselves. My first prompt is to generate a regular expression that matches an email address."
 
-
     - trigger: ":budapest"
       replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
-
 
     - trigger: ":chat" 
       replace: "summarise the below text to five key points, getting the most important parts of the text, and preparing me for a book club:"
       propagate_case: true
 
-
     - trigger: ':chat'
       replace: 'Is greece bigger than Italy?'
-
       propagate_case: true
     
     - trigger: ":flensburg" 
       replace: "As a Presentation Expert, you craft engaging, visually compelling presentations with clear communication of complex ideas. Your skills include design, storytelling, and audience engagement, utilizing templates, infographics, and data visualizations. Proficient in presentation software, you're a valuable asset in any setting. Please help me with my below task:"
       propagate_case: true
 
-
     - trigger: ':copenhagen'
       replace: "Here are the roles associated with each trigger: \n   1. :paris - Document Python code line-by-line.\n   2. :montpelier variants - Teach DAX for beginners.\n   3. :porto - Python programming coach.\n   4. :lissabon 1 - GitHub expert.\n   5. :kiel - French language teacher.\n   6. :nantes - Streamlit guide for data science.\n   7. :sporting - Communication Expert in Emails.\n   8. :lissabon 2 - Azure Cloud, DevOps, Release Pipeline expert.\n   9. :athens - Python regex expert.\n   10. :budapest - Data Miner and Data Scraper.\n   11. :nice - French language teacher.\n   12. :cannes - French language teacher, translation comparison.\n   13. :chat 1 - Summarise texts for book club.\n   14. :chat 2 - Answer geography trivia.\n   15. :flensburg - Presentation Expert."
       propagate_case: true
 
-
     - trigger: ':kiel'
-      replace: "I want you to act as a French language teacher and improver, I'm at level A1, and seekting to become A2. will provide you with attempts at writing french, you will then write a corrected french sentence with the same meaning. If I write a word or a set of words, in hard brackets such as [], then I don't know the french translation of a given word, please in the corrected sentence remove the brackets and write the translated word Then you will write a constructive list of corrections, in english. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. Please ensure there is some praise in what I do, as I find this very hard:"
-      propagate_case: true
-
+      replace: "I want you to act as a French language teacher and improver, I'm at level A1, and seekting to become A2. will provide you with attempts at writing french, you will then write a corrected french sentence with the same meaning. If I write a word or a set of words, in hard brackets such as [], then I don't know the french translation of a given word, please in the corrected sentence remove the brackets and write the translated word Then you will write a constructive list of corrections, in english. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. Please ensure there is some praise in what I do, as I find this very hard: \n $|$ \n\n {{clipboard}}"
+      vars:
+        - name: "clipboard"
+          type: "clipboard"
 
     - trigger: ":marseille"
       replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution, you will only provide a 10 or 20 word hint, depending on how much guidance I need, so if I'm close, short hints, and if I'm missing the point 20 word hint. Only provide the actual solution, if I specificially ask of the solution: \n $|$ \n\n {{clipboard}}"
@@ -169,7 +162,11 @@ matches:
       word: true
 
     - trigger: ":lyon"
-      replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution"
+      replace: "I want you to act as a data science mentor. You will use your 5 years of experience in the field of data science to teach a junior data analyst how to use the data science models and algorithms. You will provide guidance and support to the analyst, helping them to understand the best practices in data science. You will also provide examples and visualizations to help them understand the concepts better."
+      word: true
+
+    - trigger: ":strasbourg"
+      replace: "As a book salesmen and expert, I'm here to help you find the perfect book for your needs. Whether you're looking for a self-help book to improve your relationships, a career development guide to help you reach your goals, or an aphorism book to provide you with wise advice, I'm here to help. I'm passionate about books and I'm confident I can find the perfect one for you. Let me know what you're looking for and I'll provide you with the best recommendations."
       word: true
 
   ##
@@ -188,13 +185,25 @@ matches:
     - trigger: ":hash"
       replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
 
-    - trigger: :config
-      replace: C:\Users\jbay\AppData\Roaming\espanso\match\base.yml
+    - trigger: ':select'
+      replace: "select *\nfrom $|$\nlimit 100;"
+
+    - trigger: ':my_test'
+      replace: "(\n   -- snippet_date_this_year\n        ('2023-01-01' = date_trunc('year', current_date) and '2023-12-31' = date_trunc('year', current_date) + interval '1 year' - interval '1 day' and date >= current_date - interval '12 months' and date < current_date)\n        or\n        (('2023-01-01' != date_trunc('year', current_date) or '2023-12-31' != date_trunc('year', current_date) + interval '1 year' - interval '1 day' ) and date >= '2023-01-01' and  date < '2023-12-31'::date + interval '1 day')\n)"
+
+    - trigger: ':aws'
+      replace: '.\aws sso login --profile production-eng'
+
+    - trigger: ':enter'
+      replace: '.\aws --profile production-eng ssm start-session --region us-east-1 --target{{clipboard}} --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters host="dotcom.ccxrngmoosoq.us-east-1.rds.amazonaws.com",portNumber="5432",localPortNumber="55432"'
+      vars:
+        - name: "clipboard"
+          type: "clipboard"
 
     - trigger: "::sharex"
       replace: "https://getsharex.com/"
 
-    - trigger: "chicago" 
+    - regex: "(chicago|chicao)" 
       replace: "Chicago"
       propagate_case: true
       word: true
@@ -357,3 +366,4 @@ matches:
             - "Olivier: Lead Data Engineer"
             - "Toulouse: Project Manager"
             - "Senior dev: Senior Developer"
+            - "Lyon: Data Science Mentor"

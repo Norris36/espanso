@@ -1,0 +1,7 @@
+matches:
+    - trigger: ':select'
+      replace: "select *\nfrom $|$\nlimit 100;"
+    - trigger: ':ex_w'
+      replace: "extract(week from $|$) as week,"
+    - trigger: ':ex_y'
+      replace: "extract(year from $|$) as year,"
