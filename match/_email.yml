@@ -151,7 +151,7 @@ matches:
   ##
 
     - trigger: ":apr"
-      replace: "Thank you, I really appreciate this!"
+      replace: "Thank you, I really appreciate it!"
       word: true
 
     - trigger: ":pty"

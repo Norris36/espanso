@@ -313,3 +313,7 @@ matches:
   replace: "ærgerlig"
   word: true
   propagate_case: true
+- trigger: "erfarring"
+  replace: "erfaring"
+  word: true
+  propagate_case: true

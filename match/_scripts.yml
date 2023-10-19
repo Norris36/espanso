@@ -114,7 +114,7 @@ matches:
   #         cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\time_plus_seven.py \"$1\""
 
 
-  - regex: " :((?P<country>dk|us|ca)(?P<number>\\d{4}|now))"
+  - regex: " :((?P<country>dk|chi|us|ca)(?P<number>\\d{4}|now))"
     replace: "{{output}}"
     vars:
       - name: output

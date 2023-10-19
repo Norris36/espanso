@@ -59,3 +59,9 @@ if __name__ == "__main__":
 
         # Print the times in the desired format.
         print(f"CHI {dk_time} [CALI {chi_minus_7}]")
+    elif country_code == 'chi':
+        chi_time = number  # The time is directly provided by the 'number' variable.
+        dk_time, chi_minus_7 = time_plus_seven(chi_time)  # Subtract 7 hours from the Chicago time.
+
+        # Print the times in the desired format.
+        print(f"CHI {dk_time} [Lens  {chi_minus_7}]")

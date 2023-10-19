@@ -1,2000 +1,2259 @@
-# - trigger: "_f_as"
-#   replace: "comme"
-# - trigger: "_f_I"
-#   replace: "je"
-# - trigger: "_f_his"
-#   replace: "son"
-# - trigger: "_f_that"
-#   replace: "que"
-# - trigger: "_f_he"
-#   replace: "il"
-# - trigger: "_f_was"
-#   replace: "était"
-# - trigger: "_f_for"
-#   replace: "pour"
-# - trigger: "_f_on"
-#   replace: "sur"
-# - trigger: "_f_are"
-#   replace: "sont"
-# - trigger: "_f_with"
-#   replace: "avec"
-# - trigger: "_f_they"
-#   replace: "ils"
-# - trigger: "_f_be"
-#   replace: "être"
-# - trigger: "_f_at"
-#   replace: "à"
-# - trigger: "_f_one"
-#   replace: "un"
-# - trigger: "_f_have"
-#   replace: "avoir"
-# - trigger: "_f_this"
-#   replace: "ce"
-# - trigger: "_f_from"
-#   replace: "à partir de"
-# - trigger: "_f_by"
-#   replace: "par"
-# - trigger: "_f_hot"
-#   replace: "chaud"
-# - trigger: "_f_word"
-#   replace: "mot"
-# - trigger: "_f_but"
-#   replace: "mais"
-# - trigger: "_f_what"
-#   replace: "que"
-# - trigger: "_f_some"
-#   replace: "certains"
-# - trigger: "_f_is"
-#   replace: "est"
-# - trigger: "_f_it"
-#   replace: "il"
-# - trigger: "_f_you"
-#   replace: "vous"
-# - trigger: "_f_or"
-#   replace: "ou"
-# - trigger: "_f_had"
-#   replace: "eu"
-# - trigger: "_f_the"
-#   replace: "la"
-# - trigger: "_f_of"
-#   replace: "de"
-# - trigger: "_f_to"
-#   replace: "à"
-# - trigger: "_f_and"
-#   replace: "et"
-# - trigger: "_f_a"
-#   replace: "un"
-# - trigger: "_f_in"
-#   replace: "dans"
-# - trigger: "_f_we"
-#   replace: "nous"
-# - trigger: "_f_can"
-#   replace: "boîte"
-# - trigger: "_f_out"
-#   replace: "dehors"
-# - trigger: "_f_other"
-#   replace: "autre"
-# - trigger: "_f_were"
-#   replace: "étaient"
-# - trigger: "_f_which"
-#   replace: "qui"
-# - trigger: "_f_do"
-#   replace: "faire"
-# - trigger: "_f_their"
-#   replace: "leur"
-# - trigger: "_f_time"
-#   replace: "temps"
-# - trigger: "_f_if"
-#   replace: "si"
-# - trigger: "_f_will"
-#   replace: "volonté"
-# - trigger: "_f_how"
-#   replace: "comment"
-# - trigger: "_f_said"
-#   replace: "dit"
-# - trigger: "_f_an"
-#   replace: "un"
-# - trigger: "_f_each"
-#   replace: "chaque"
-# - trigger: "_f_tell"
-#   replace: "dire"
-# - trigger: "_f_does"
-#   replace: "ne"
-# - trigger: "_f_set"
-#   replace: "ensemble"
-# - trigger: "_f_three"
-#   replace: "trois"
-# - trigger: "_f_want"
-#   replace: "vouloir"
-# - trigger: "_f_air"
-#   replace: "air"
-# - trigger: "_f_well"
-#   replace: "bien"
-# - trigger: "_f_also"
-#   replace: "aussi"
-# - trigger: "_f_play"
-#   replace: "jouer"
-# - trigger: "_f_small"
-#   replace: "petit"
-# - trigger: "_f_end"
-#   replace: "fin"
-# - trigger: "_f_put"
-#   replace: "mettre"
-# - trigger: "_f_home"
-#   replace: "maison"
-# - trigger: "_f_read"
-#   replace: "lire"
-# - trigger: "_f_hand"
-#   replace: "main"
-# - trigger: "_f_port"
-#   replace: "port"
-# - trigger: "_f_large"
-#   replace: "grand"
-# - trigger: "_f_spell"
-#   replace: "épeler"
-# - trigger: "_f_add"
-#   replace: "ajouter"
-# - trigger: "_f_even"
-#   replace: "même"
-# - trigger: "_f_land"
-#   replace: "terre"
-# - trigger: "_f_here"
-#   replace: "ici"
-# - trigger: "_f_must"
-#   replace: "il faut"
-# - trigger: "_f_big"
-#   replace: "grand"
-# - trigger: "_f_high"
-#   replace: "haut"
-# - trigger: "_f_such"
-#   replace: "tel"
-# - trigger: "_f_follow"
-#   replace: "suivre"
-# - trigger: "_f_act"
-#   replace: "acte"
-# - trigger: "_f_why"
-#   replace: "pourquoi"
-# - trigger: "_f_ask"
-#   replace: "interroger"
-# - trigger: "_f_men"
-#   replace: "hommes"
-# - trigger: "_f_change"
-#   replace: "changement"
-# - trigger: "_f_went"
-#   replace: "est allé"
-# - trigger: "_f_light"
-#   replace: "lumière"
-# - trigger: "_f_kind"
-#   replace: "genre"
-# - trigger: "_f_off"
-#   replace: "de"
-# - trigger: "_f_need"
-#   replace: "besoin"
-# - trigger: "_f_house"
-#   replace: "maison"
-# - trigger: "_f_picture"
-#   replace: "image"
-# - trigger: "_f_try"
-#   replace: "essayer"
-# - trigger: "_f_us"
-#   replace: "nous"
-# - trigger: "_f_again"
-#   replace: "encore"
-# - trigger: "_f_animal"
-#   replace: "animal"
-# - trigger: "_f_point"
-#   replace: "point"
-# - trigger: "_f_mother"
-#   replace: "mère"
-# - trigger: "_f_world"
-#   replace: "monde"
-# - trigger: "_f_near"
-#   replace: "près de"
-# - trigger: "_f_build"
-#   replace: "construire"
-# - trigger: "_f_self"
-#   replace: "soi"
-# - trigger: "_f_earth"
-#   replace: "terre"
-# - trigger: "_f_father"
-#   replace: "père"
-# - trigger: "_f_any"
-#   replace: "tout"
-# - trigger: "_f_new"
-#   replace: "nouveau"
-# - trigger: "_f_work"
-#   replace: "travail"
-# - trigger: "_f_part"
-#   replace: "partie"
-# - trigger: "_f_take"
-#   replace: "prendre"
-# - trigger: "_f_get"
-#   replace: "obtenir"
-# - trigger: "_f_place"
-#   replace: "lieu"
-# - trigger: "_f_made"
-#   replace: "fabriqué"
-# - trigger: "_f_live"
-#   replace: "vivre"
-# - trigger: "_f_where"
-#   replace: "où"
-# - trigger: "_f_after"
-#   replace: "après"
-# - trigger: "_f_back"
-#   replace: "arrière"
-# - trigger: "_f_little"
-#   replace: "peu"
-# - trigger: "_f_only"
-#   replace: "seulement"
-# - trigger: "_f_round"
-#   replace: "tour"
-# - trigger: "_f_man"
-#   replace: "homme"
-# - trigger: "_f_year"
-#   replace: "année"
-# - trigger: "_f_came"
-#   replace: "est venu"
-# - trigger: "_f_show"
-#   replace: "montrer"
-# - trigger: "_f_every"
-#   replace: "tous"
-# - trigger: "_f_good"
-#   replace: "bon"
-# - trigger: "_f_me"
-#   replace: "moi"
-# - trigger: "_f_give"
-#   replace: "donner"
-# - trigger: "_f_our"
-#   replace: "notre"
-# - trigger: "_f_under"
-#   replace: "sous"
-# - trigger: "_f_name"
-#   replace: "nom"
-# - trigger: "_f_very"
-#   replace: "très"
-# - trigger: "_f_through"
-#   replace: "par"
-# - trigger: "_f_just"
-#   replace: "juste"
-# - trigger: "_f_form"
-#   replace: "forme"
-# - trigger: "_f_sentence"
-#   replace: "phrase"
-# - trigger: "_f_great"
-#   replace: "grand"
-# - trigger: "_f_think"
-#   replace: "penser"
-# - trigger: "_f_say"
-#   replace: "dire"
-# - trigger: "_f_help"
-#   replace: "aider"
-# - trigger: "_f_low"
-#   replace: "faible"
-# - trigger: "_f_line"
-#   replace: "ligne"
-# - trigger: "_f_differ"
-#   replace: "différer"
-# - trigger: "_f_turn"
-#   replace: "tour"
-# - trigger: "_f_cause"
-#   replace: "la cause"
-# - trigger: "_f_much"
-#   replace: "beaucoup"
-# - trigger: "_f_mean"
-#   replace: "signifier"
-# - trigger: "_f_before"
-#   replace: "avant"
-# - trigger: "_f_move"
-#   replace: "déménagement"
-# - trigger: "_f_right"
-#   replace: "droit"
-# - trigger: "_f_boy"
-#   replace: "garçon"
-# - trigger: "_f_old"
-#   replace: "vieux"
-# - trigger: "_f_too"
-#   replace: "trop"
-# - trigger: "_f_same"
-#   replace: "même"
-# - trigger: "_f_she"
-#   replace: "elle"
-# - trigger: "_f_all"
-#   replace: "tous"
-# - trigger: "_f_there"
-#   replace: "là"
-# - trigger: "_f_when"
-#   replace: "quand"
-# - trigger: "_f_up"
-#   replace: "jusqu’à"
-# - trigger: "_f_use"
-#   replace: "utiliser"
-# - trigger: "_f_your"
-#   replace: "votre"
-# - trigger: "_f_way"
-#   replace: "manière"
-# - trigger: "_f_about"
-#   replace: "sur"
-# - trigger: "_f_many"
-#   replace: "beaucoup"
-# - trigger: "_f_then"
-#   replace: "puis"
-# - trigger: "_f_them"
-#   replace: "les"
-# - trigger: "_f_write"
-#   replace: "écrire"
-# - trigger: "_f_would"
-#   replace: "voudrais"
-# - trigger: "_f_like"
-#   replace: "comme"
-# - trigger: "_f_so"
-#   replace: "si"
-# - trigger: "_f_these"
-#   replace: "ces"
-# - trigger: "_f_her"
-#   replace: "son"
-# - trigger: "_f_long"
-#   replace: "long"
-# - trigger: "_f_make"
-#   replace: "faire"
-# - trigger: "_f_thing"
-#   replace: "chose"
-# - trigger: "_f_see"
-#   replace: "voir"
-# - trigger: "_f_him"
-#   replace: "lui"
-# - trigger: "_f_two"
-#   replace: "deux"
-# - trigger: "_f_has"
-#   replace: "a"
-# - trigger: "_f_look"
-#   replace: "regarder"
-# - trigger: "_f_more"
-#   replace: "plus"
-# - trigger: "_f_day"
-#   replace: "jour"
-# - trigger: "_f_could"
-#   replace: "pourrait"
-# - trigger: "_f_go"
-#   replace: "aller"
-# - trigger: "_f_come"
-#   replace: "venir"
-# - trigger: "_f_did"
-#   replace: "fait"
-# - trigger: "_f_number"
-#   replace: "nombre"
-# - trigger: "_f_sound"
-#   replace: "son"
-# - trigger: "_f_no"
-#   replace: "aucun"
-# - trigger: "_f_most"
-#   replace: "plus"
-# - trigger: "_f_people"
-#   replace: "personnes"
-# - trigger: "_f_my"
-#   replace: "ma"
-# - trigger: "_f_over"
-#   replace: "sur"
-# - trigger: "_f_know"
-#   replace: "savoir"
-# - trigger: "_f_water"
-#   replace: "eau"
-# - trigger: "_f_than"
-#   replace: "que"
-# - trigger: "_f_call"
-#   replace: "appel"
-# - trigger: "_f_first"
-#   replace: "première"
-# - trigger: "_f_who"
-#   replace: "qui"
-# - trigger: "_f_may"
-#   replace: "peut"
-# - trigger: "_f_down"
-#   replace: "vers le bas"
-# - trigger: "_f_side"
-#   replace: "côté"
-# - trigger: "_f_been"
-#   replace: "été"
-# - trigger: "_f_now"
-#   replace: "maintenant"
-# - trigger: "_f_find"
-#   replace: "trouver"
-# - trigger: "_f_head"
-#   replace: "tête"
-# - trigger: "_f_stand"
-#   replace: "supporter"
-# - trigger: "_f_own"
-#   replace: "propre"
-# - trigger: "_f_page"
-#   replace: "page"
-# - trigger: "_f_should"
-#   replace: "devrait"
-# - trigger: "_f_country"
-#   replace: "pays"
-# - trigger: "_f_found"
-#   replace: "trouvé"
-# - trigger: "_f_answer"
-#   replace: "réponse"
-# - trigger: "_f_school"
-#   replace: "école"
-# - trigger: "_f_grow"
-#   replace: "croître"
-# - trigger: "_f_study"
-#   replace: "étude"
-# - trigger: "_f_still"
-#   replace: "encore"
-# - trigger: "_f_learn"
-#   replace: "apprendre"
-# - trigger: "_f_plant"
-#   replace: "usine"
-# - trigger: "_f_cover"
-#   replace: "couvercle"
-# - trigger: "_f_food"
-#   replace: "nourriture"
-# - trigger: "_f_sun"
-#   replace: "soleil"
-# - trigger: "_f_four"
-#   replace: "quatre"
-# - trigger: "_f_between"
-#   replace: "entre"
-# - trigger: "_f_state"
-#   replace: "état"
-# - trigger: "_f_keep"
-#   replace: "garder"
-# - trigger: "_f_eye"
-#   replace: "œil"
-# - trigger: "_f_never"
-#   replace: "jamais"
-# - trigger: "_f_last"
-#   replace: "dernier"
-# - trigger: "_f_let"
-#   replace: "laisser"
-# - trigger: "_f_thought"
-#   replace: "pensée"
-# - trigger: "_f_city"
-#   replace: "ville"
-# - trigger: "_f_tree"
-#   replace: "arbre"
-# - trigger: "_f_cross"
-#   replace: "traverser"
-# - trigger: "_f_farm"
-#   replace: "ferme"
-# - trigger: "_f_hard"
-#   replace: "dur"
-# - trigger: "_f_start"
-#   replace: "début"
-# - trigger: "_f_might"
-#   replace: "puissance"
-# - trigger: "_f_story"
-#   replace: "histoire"
-# - trigger: "_f_saw"
-#   replace: "scie"
-# - trigger: "_f_far"
-#   replace: "loin"
-# - trigger: "_f_sea"
-#   replace: "mer"
-# - trigger: "_f_draw"
-#   replace: "tirer"
-# - trigger: "_f_left"
-#   replace: "gauche"
-# - trigger: "_f_late"
-#   replace: "tard"
-# - trigger: "_f_run"
-#   replace: "courir"
-# - trigger: "_f_don’t"
-#   replace: "needs a context"
-# - trigger: "_f_while"
-#   replace: "tandis que"
-# - trigger: "_f_press"
-#   replace: "presse"
-# - trigger: "_f_close"
-#   replace: "proche"
-# - trigger: "_f_night"
-#   replace: "nuit"
-# - trigger: "_f_real"
-#   replace: "réel"
-# - trigger: "_f_life"
-#   replace: "vie"
-# - trigger: "_f_few"
-#   replace: "peu"
-# - trigger: "_f_north"
-#   replace: "nord"
-# - trigger: "_f_book"
-#   replace: "livre"
-# - trigger: "_f_carry"
-#   replace: "porter"
-# - trigger: "_f_took"
-#   replace: "a pris"
-# - trigger: "_f_science"
-#   replace: "science"
-# - trigger: "_f_eat"
-#   replace: "manger"
-# - trigger: "_f_room"
-#   replace: "chambre"
-# - trigger: "_f_friend"
-#   replace: "ami"
-# - trigger: "_f_began"
-#   replace: "a commencé"
-# - trigger: "_f_idea"
-#   replace: "idée"
-# - trigger: "_f_fish"
-#   replace: "poisson"
-# - trigger: "_f_mountain"
-#   replace: "montagne"
-# - trigger: "_f_stop"
-#   replace: "Arrêtez"
-# - trigger: "_f_once"
-#   replace: "une fois"
-# - trigger: "_f_base"
-#   replace: "base"
-# - trigger: "_f_hear"
-#   replace: "entendre"
-# - trigger: "_f_horse"
-#   replace: "cheval"
-# - trigger: "_f_cut"
-#   replace: "coupe"
-# - trigger: "_f_sure"
-#   replace: "sûr"
-# - trigger: "_f_watch"
-#   replace: "regarder"
-# - trigger: "_f_color"
-#   replace: "couleur"
-# - trigger: "_f_face"
-#   replace: "face"
-# - trigger: "_f_wood"
-#   replace: "bois"
-# - trigger: "_f_main"
-#   replace: "principal"
-# - trigger: "_f_open"
-#   replace: "ouvert"
-# - trigger: "_f_seem"
-#   replace: "paraître"
-# - trigger: "_f_together"
-#   replace: "ensemble"
-# - trigger: "_f_next"
-#   replace: "suivant"
-# - trigger: "_f_white"
-#   replace: "blanc"
-# - trigger: "_f_children"
-#   replace: "enfants"
-# - trigger: "_f_begin"
-#   replace: "commencer"
-# - trigger: "_f_got"
-#   replace: "eu"
-# - trigger: "_f_walk"
-#   replace: "marcher"
-# - trigger: "_f_example"
-#   replace: "exemple"
-# - trigger: "_f_ease"
-#   replace: "facilité"
-# - trigger: "_f_paper"
-#   replace: "papier"
-# - trigger: "_f_group"
-#   replace: "groupe"
-# - trigger: "_f_always"
-#   replace: "toujours"
-# - trigger: "_f_music"
-#   replace: "musique"
-# - trigger: "_f_those"
-#   replace: "ceux"
-# - trigger: "_f_both"
-#   replace: "tous les deux"
-# - trigger: "_f_mark"
-#   replace: "marque"
-# - trigger: "_f_often"
-#   replace: "souvent"
-# - trigger: "_f_letter"
-#   replace: "lettre"
-# - trigger: "_f_until"
-#   replace: "jusqu’à ce que"
-# - trigger: "_f_mile"
-#   replace: "mile"
-# - trigger: "_f_river"
-#   replace: "rivière"
-# - trigger: "_f_car"
-#   replace: "voiture"
-# - trigger: "_f_feet"
-#   replace: "pieds"
-# - trigger: "_f_care"
-#   replace: "soins"
-# - trigger: "_f_second"
-#   replace: "deuxième"
-# - trigger: "_f_enough"
-#   replace: "assez"
-# - trigger: "_f_plain"
-#   replace: "plaine"
-# - trigger: "_f_girl"
-#   replace: "fille"
-# - trigger: "_f_usual"
-#   replace: "habituel"
-# - trigger: "_f_young"
-#   replace: "jeune"
-# - trigger: "_f_ready"
-#   replace: "prêt"
-# - trigger: "_f_above"
-#   replace: "au-dessus"
-# - trigger: "_f_ever"
-#   replace: "jamais"
-# - trigger: "_f_red"
-#   replace: "rouge"
-# - trigger: "_f_list"
-#   replace: "liste"
-# - trigger: "_f_though"
-#   replace: "bien que"
-# - trigger: "_f_feel"
-#   replace: "sentir"
-# - trigger: "_f_talk"
-#   replace: "parler"
-# - trigger: "_f_bird"
-#   replace: "oiseau"
-# - trigger: "_f_soon"
-#   replace: "bientôt"
-# - trigger: "_f_body"
-#   replace: "corps"
-# - trigger: "_f_dog"
-#   replace: "chien"
-# - trigger: "_f_family"
-#   replace: "famille"
-# - trigger: "_f_direct"
-#   replace: "direct"
-# - trigger: "_f_pose"
-#   replace: "pose"
-# - trigger: "_f_leave"
-#   replace: "laisser"
-# - trigger: "_f_song"
-#   replace: "chanson"
-# - trigger: "_f_measure"
-#   replace: "mesurer"
-# - trigger: "_f_door"
-#   replace: "porte"
-# - trigger: "_f_product"
-#   replace: "produit"
-# - trigger: "_f_black"
-#   replace: "noir"
-# - trigger: "_f_short"
-#   replace: "court"
-# - trigger: "_f_numeral"
-#   replace: "chiffre"
-# - trigger: "_f_class"
-#   replace: "classe"
-# - trigger: "_f_wind"
-#   replace: "vent"
-# - trigger: "_f_question"
-#   replace: "question"
-# - trigger: "_f_happen"
-#   replace: "arriver"
-# - trigger: "_f_complete"
-#   replace: "complète"
-# - trigger: "_f_ship"
-#   replace: "navire"
-# - trigger: "_f_area"
-#   replace: "zone"
-# - trigger: "_f_half"
-#   replace: "moitié"
-# - trigger: "_f_rock"
-#   replace: "rock"
-# - trigger: "_f_order"
-#   replace: "ordre"
-# - trigger: "_f_fire"
-#   replace: "feu"
-# - trigger: "_f_south"
-#   replace: "sud"
-# - trigger: "_f_problem"
-#   replace: "problème"
-# - trigger: "_f_piece"
-#   replace: "pièce"
-# - trigger: "_f_told"
-#   replace: "dit"
-# - trigger: "_f_knew"
-#   replace: "savait"
-# - trigger: "_f_pass"
-#   replace: "passer"
-# - trigger: "_f_since"
-#   replace: "depuis"
-# - trigger: "_f_top"
-#   replace: "haut"
-# - trigger: "_f_whole"
-#   replace: "ensemble"
-# - trigger: "_f_king"
-#   replace: "roi"
-# - trigger: "_f_street"
-#   replace: "rue"
-# - trigger: "_f_inch"
-#   replace: "pouce"
-# - trigger: "_f_multiply"
-#   replace: "multiplier"
-# - trigger: "_f_nothing"
-#   replace: "rien"
-# - trigger: "_f_course"
-#   replace: "cours"
-# - trigger: "_f_stay"
-#   replace: "rester"
-# - trigger: "_f_wheel"
-#   replace: "roue"
-# - trigger: "_f_full"
-#   replace: "plein"
-# - trigger: "_f_force"
-#   replace: "force"
-# - trigger: "_f_blue"
-#   replace: "bleu"
-# - trigger: "_f_object"
-#   replace: "objet"
-# - trigger: "_f_decide"
-#   replace: "décider"
-# - trigger: "_f_surface"
-#   replace: "surface"
-# - trigger: "_f_deep"
-#   replace: "profond"
-# - trigger: "_f_moon"
-#   replace: "lune"
-# - trigger: "_f_island"
-#   replace: "île"
-# - trigger: "_f_foot"
-#   replace: "pied"
-# - trigger: "_f_system"
-#   replace: "système"
-# - trigger: "_f_busy"
-#   replace: "occupé"
-# - trigger: "_f_test"
-#   replace: "test"
-# - trigger: "_f_record"
-#   replace: "record"
-# - trigger: "_f_boat"
-#   replace: "bateau"
-# - trigger: "_f_common"
-#   replace: "commun"
-# - trigger: "_f_gold"
-#   replace: "or"
-# - trigger: "_f_possible"
-#   replace: "possible"
-# - trigger: "_f_plane"
-#   replace: "plan"
-# - trigger: "_f_stead"
-#   replace: "place"
-# - trigger: "_f_dry"
-#   replace: "sec"
-# - trigger: "_f_wonder"
-#   replace: "se demander"
-# - trigger: "_f_laugh"
-#   replace: "rire"
-# - trigger: "_f_thousand"
-#   replace: "mille"
-# - trigger: "_f_ago"
-#   replace: "il ya"
-# - trigger: "_f_ran"
-#   replace: "ran"
-# - trigger: "_f_check"
-#   replace: "vérifier"
-# - trigger: "_f_game"
-#   replace: "jeu"
-# - trigger: "_f_shape"
-#   replace: "forme"
-# - trigger: "_f_equate"
-#   replace: "assimiler"
-# - trigger: "_f_hot"
-#   replace: "chaud"
-# - trigger: "_f_miss"
-#   replace: "manquer"
-# - trigger: "_f_brought"
-#   replace: "apporté"
-# - trigger: "_f_heat"
-#   replace: "chaleur"
-# - trigger: "_f_snow"
-#   replace: "neige"
-# - trigger: "_f_tire"
-#   replace: "pneu"
-# - trigger: "_f_bring"
-#   replace: "apporter"
-# - trigger: "_f_yes"
-#   replace: "oui"
-# - trigger: "_f_distant"
-#   replace: "lointain"
-# - trigger: "_f_fill"
-#   replace: "remplir"
-# - trigger: "_f_east"
-#   replace: "est"
-# - trigger: "_f_paint"
-#   replace: "peindre"
-# - trigger: "_f_language"
-#   replace: "langue"
-# - trigger: "_f_among"
-#   replace: "entre"
-# - trigger: "_f_unit"
-#   replace: "unité"
-# - trigger: "_f_power"
-#   replace: "puissance"
-# - trigger: "_f_town"
-#   replace: "ville"
-# - trigger: "_f_fine"
-#   replace: "fin"
-# - trigger: "_f_certain"
-#   replace: "certain"
-# - trigger: "_f_fly"
-#   replace: "voler"
-# - trigger: "_f_fall"
-#   replace: "tomber"
-# - trigger: "_f_lead"
-#   replace: "conduire"
-# - trigger: "_f_cry"
-#   replace: "cri"
-# - trigger: "_f_dark"
-#   replace: "sombre"
-# - trigger: "_f_machine"
-#   replace: "machine"
-# - trigger: "_f_note"
-#   replace: "Note"
-# - trigger: "_f_wait"
-#   replace: "patienter"
-# - trigger: "_f_plan"
-#   replace: "plan"
-# - trigger: "_f_figure"
-#   replace: "figure"
-# - trigger: "_f_star"
-#   replace: "étoile"
-# - trigger: "_f_box"
-#   replace: "boîte"
-# - trigger: "_f_noun"
-#   replace: "nom"
-# - trigger: "_f_field"
-#   replace: "domaine"
-# - trigger: "_f_rest"
-#   replace: "reste"
-# - trigger: "_f_correct"
-#   replace: "correct"
-# - trigger: "_f_able"
-#   replace: "capable"
-# - trigger: "_f_pound"
-#   replace: "livre"
-# - trigger: "_f_done"
-#   replace: "Terminé"
-# - trigger: "_f_beauty"
-#   replace: "beauté"
-# - trigger: "_f_drive"
-#   replace: "entraînement"
-# - trigger: "_f_stood"
-#   replace: "résisté"
-# - trigger: "_f_contain"
-#   replace: "contenir"
-# - trigger: "_f_front"
-#   replace: "avant"
-# - trigger: "_f_teach"
-#   replace: "enseigner"
-# - trigger: "_f_week"
-#   replace: "semaine"
-# - trigger: "_f_final"
-#   replace: "finale"
-# - trigger: "_f_gave"
-#   replace: "donné"
-# - trigger: "_f_green"
-#   replace: "vert"
-# - trigger: "_f_oh"
-#   replace: "oh"
-# - trigger: "_f_quick"
-#   replace: "rapide"
-# - trigger: "_f_develop"
-#   replace: "développer"
-# - trigger: "_f_ocean"
-#   replace: "océan"
-# - trigger: "_f_warm"
-#   replace: "chaud"
-# - trigger: "_f_free"
-#   replace: "gratuit"
-# - trigger: "_f_minute"
-#   replace: "minute"
-# - trigger: "_f_strong"
-#   replace: "fort"
-# - trigger: "_f_special"
-#   replace: "spécial"
-# - trigger: "_f_mind"
-#   replace: "esprit"
-# - trigger: "_f_behind"
-#   replace: "derrière"
-# - trigger: "_f_clear"
-#   replace: "clair"
-# - trigger: "_f_tail"
-#   replace: "queue"
-# - trigger: "_f_produce"
-#   replace: "produire"
-# - trigger: "_f_fact"
-#   replace: "fait"
-# - trigger: "_f_space"
-#   replace: "espace"
-# - trigger: "_f_heard"
-#   replace: "entendu"
-# - trigger: "_f_best"
-#   replace: "meilleur"
-# - trigger: "_f_hour"
-#   replace: "heure"
-# - trigger: "_f_better"
-#   replace: "mieux"
-# - trigger: "_f_true"
-#   replace: "vrai"
-# - trigger: "_f_during"
-#   replace: "pendant"
-# - trigger: "_f_hundred"
-#   replace: "cent"
-# - trigger: "_f_five"
-#   replace: "cinq"
-# - trigger: "_f_remember"
-#   replace: "rappeler"
-# - trigger: "_f_step"
-#   replace: "étape"
-# - trigger: "_f_early"
-#   replace: "tôt"
-# - trigger: "_f_hold"
-#   replace: "tenir"
-# - trigger: "_f_west"
-#   replace: "ouest"
-# - trigger: "_f_ground"
-#   replace: "sol"
-# - trigger: "_f_interest"
-#   replace: "intérêt"
-# - trigger: "_f_reach"
-#   replace: "atteindre"
-# - trigger: "_f_fast"
-#   replace: "rapide"
-# - trigger: "_f_verb"
-#   replace: "verbe"
-# - trigger: "_f_sing"
-#   replace: "chanter"
-# - trigger: "_f_listen"
-#   replace: "écouter"
-# - trigger: "_f_six"
-#   replace: "six"
-# - trigger: "_f_table"
-#   replace: "table"
-# - trigger: "_f_travel"
-#   replace: "Voyage"
-# - trigger: "_f_less"
-#   replace: "moins"
-# - trigger: "_f_morning"
-#   replace: "matin"
-# - trigger: "_f_ten"
-#   replace: "dix"
-# - trigger: "_f_simple"
-#   replace: "simple"
-# - trigger: "_f_several"
-#   replace: "plusieurs"
-# - trigger: "_f_vowel"
-#   replace: "voyelle"
-# - trigger: "_f_toward"
-#   replace: "vers"
-# - trigger: "_f_war"
-#   replace: "guerre"
-# - trigger: "_f_lay"
-#   replace: "poser"
-# - trigger: "_f_against"
-#   replace: "contre"
-# - trigger: "_f_pattern"
-#   replace: "modèle"
-# - trigger: "_f_slow"
-#   replace: "lent"
-# - trigger: "_f_center"
-#   replace: "centre"
-# - trigger: "_f_love"
-#   replace: "amour"
-# - trigger: "_f_person"
-#   replace: "personne"
-# - trigger: "_f_money"
-#   replace: "argent"
-# - trigger: "_f_serve"
-#   replace: "servir"
-# - trigger: "_f_appear"
-#   replace: "apparaître"
-# - trigger: "_f_road"
-#   replace: "route"
-# - trigger: "_f_map"
-#   replace: "carte"
-# - trigger: "_f_rain"
-#   replace: "pluie"
-# - trigger: "_f_rule"
-#   replace: "règle"
-# - trigger: "_f_govern"
-#   replace: "gouverner"
-# - trigger: "_f_pull"
-#   replace: "tirer"
-# - trigger: "_f_cold"
-#   replace: "froid"
-# - trigger: "_f_notice"
-#   replace: "avis"
-# - trigger: "_f_voice"
-#   replace: "voix"
-# - trigger: "_f_energy"
-#   replace: "énergie"
-# - trigger: "_f_hunt"
-#   replace: "chasse"
-# - trigger: "_f_probable"
-#   replace: "probable"
-# - trigger: "_f_bed"
-#   replace: "lit"
-# - trigger: "_f_brother"
-#   replace: "frère"
-# - trigger: "_f_egg"
-#   replace: "œuf"
-# - trigger: "_f_ride"
-#   replace: "tour"
-# - trigger: "_f_cell"
-#   replace: "cellule"
-# - trigger: "_f_believe"
-#   replace: "croire"
-# - trigger: "_f_perhaps"
-#   replace: "peut-être"
-# - trigger: "_f_pick"
-#   replace: "choisir"
-# - trigger: "_f_sudden"
-#   replace: "soudain"
-# - trigger: "_f_count"
-#   replace: "compter"
-# - trigger: "_f_square"
-#   replace: "carré"
-# - trigger: "_f_reason"
-#   replace: "raison"
-# - trigger: "_f_length"
-#   replace: "longueur"
-# - trigger: "_f_represent"
-#   replace: "représenter"
-# - trigger: "_f_art"
-#   replace: "art"
-# - trigger: "_f_subject"
-#   replace: "sujet"
-# - trigger: "_f_region"
-#   replace: "région"
-# - trigger: "_f_size"
-#   replace: "taille"
-# - trigger: "_f_vary"
-#   replace: "varier"
-# - trigger: "_f_settle"
-#   replace: "régler"
-# - trigger: "_f_speak"
-#   replace: "parler"
-# - trigger: "_f_weight"
-#   replace: "poids"
-# - trigger: "_f_general"
-#   replace: "général"
-# - trigger: "_f_ice"
-#   replace: "glace"
-# - trigger: "_f_matter"
-#   replace: "question"
-# - trigger: "_f_circle"
-#   replace: "cercle"
-# - trigger: "_f_pair"
-#   replace: "paire"
-# - trigger: "_f_include"
-#   replace: "inclure"
-# - trigger: "_f_divide"
-#   replace: "fracture"
-# - trigger: "_f_syllable"
-#   replace: "syllabe"
-# - trigger: "_f_felt"
-#   replace: "feutre"
-# - trigger: "_f_grand"
-#   replace: "grandiose"
-# - trigger: "_f_ball"
-#   replace: "balle"
-# - trigger: "_f_yet"
-#   replace: "encore"
-# - trigger: "_f_wave"
-#   replace: "vague"
-# - trigger: "_f_drop"
-#   replace: "tomber"
-# - trigger: "_f_heart"
-#   replace: "cœur"
-# - trigger: "_f_am"
-#   replace: "h"
-# - trigger: "_f_present"
-#   replace: "présent"
-# - trigger: "_f_heavy"
-#   replace: "lourd"
-# - trigger: "_f_dance"
-#   replace: "danse"
-# - trigger: "_f_engine"
-#   replace: "moteur"
-# - trigger: "_f_position"
-#   replace: "position"
-# - trigger: "_f_arm"
-#   replace: "bras"
-# - trigger: "_f_wide"
-#   replace: "large"
-# - trigger: "_f_sail"
-#   replace: "voile"
-# - trigger: "_f_material"
-#   replace: "matériel"
-# - trigger: "_f_fraction"
-#   replace: "fraction"
-# - trigger: "_f_forest"
-#   replace: "forêt"
-# - trigger: "_f_sit"
-#   replace: "s’asseoir"
-# - trigger: "_f_race"
-#   replace: "course"
-# - trigger: "_f_window"
-#   replace: "fenêtre"
-# - trigger: "_f_store"
-#   replace: "magasin"
-# - trigger: "_f_summer"
-#   replace: "été"
-# - trigger: "_f_train"
-#   replace: "train"
-# - trigger: "_f_sleep"
-#   replace: "sommeil"
-# - trigger: "_f_prove"
-#   replace: "prouver"
-# - trigger: "_f_lone"
-#   replace: "seul"
-# - trigger: "_f_leg"
-#   replace: "jambe"
-# - trigger: "_f_exercise"
-#   replace: "exercice"
-# - trigger: "_f_wall"
-#   replace: "mur"
-# - trigger: "_f_catch"
-#   replace: "capture"
-# - trigger: "_f_mount"
-#   replace: "monture"
-# - trigger: "_f_wish"
-#   replace: "souhaiter"
-# - trigger: "_f_sky"
-#   replace: "ciel"
-# - trigger: "_f_board"
-#   replace: "conseil"
-# - trigger: "_f_joy"
-#   replace: "joie"
-# - trigger: "_f_winter"
-#   replace: "hiver"
-# - trigger: "_f_sat"
-#   replace: "sat"
-# - trigger: "_f_written"
-#   replace: "écrit"
-# - trigger: "_f_wild"
-#   replace: "sauvage"
-# - trigger: "_f_instrument"
-#   replace: "instrument"
-# - trigger: "_f_kept"
-#   replace: "conservé"
-# - trigger: "_f_glass"
-#   replace: "verre"
-# - trigger: "_f_grass"
-#   replace: "herbe"
-# - trigger: "_f_cow"
-#   replace: "vache"
-# - trigger: "_f_job"
-#   replace: "emploi"
-# - trigger: "_f_edge"
-#   replace: "bord"
-# - trigger: "_f_sign"
-#   replace: "signe"
-# - trigger: "_f_visit"
-#   replace: "visite"
-# - trigger: "_f_past"
-#   replace: "passé"
-# - trigger: "_f_soft"
-#   replace: "doux"
-# - trigger: "_f_fun"
-#   replace: "amusement"
-# - trigger: "_f_bright"
-#   replace: "clair"
-# - trigger: "_f_gas"
-#   replace: "gaz"
-# - trigger: "_f_weather"
-#   replace: "temps"
-# - trigger: "_f_month"
-#   replace: "mois"
-# - trigger: "_f_million"
-#   replace: "million"
-# - trigger: "_f_bear"
-#   replace: "porter"
-# - trigger: "_f_finish"
-#   replace: "finition"
-# - trigger: "_f_happy"
-#   replace: "heureux"
-# - trigger: "_f_hope"
-#   replace: "espoir"
-# - trigger: "_f_flower"
-#   replace: "fleur"
-# - trigger: "_f_clothe"
-#   replace: "vêtir"
-# - trigger: "_f_strange"
-#   replace: "étrange"
-# - trigger: "_f_gone"
-#   replace: "disparu"
-# - trigger: "_f_trade"
-#   replace: "commerce"
-# - trigger: "_f_melody"
-#   replace: "mélodie"
-# - trigger: "_f_trip"
-#   replace: "voyage"
-# - trigger: "_f_office"
-#   replace: "bureau"
-# - trigger: "_f_receive"
-#   replace: "recevoir"
-# - trigger: "_f_row"
-#   replace: "rangée"
-# - trigger: "_f_mouth"
-#   replace: "bouche"
-# - trigger: "_f_exact"
-#   replace: "exact"
-# - trigger: "_f_symbol"
-#   replace: "symbole"
-# - trigger: "_f_die"
-#   replace: "mourir"
-# - trigger: "_f_least"
-#   replace: "moins"
-# - trigger: "_f_trouble"
-#   replace: "difficulté"
-# - trigger: "_f_shout"
-#   replace: "cri"
-# - trigger: "_f_except"
-#   replace: "sauf"
-# - trigger: "_f_wrote"
-#   replace: "écrit"
-# - trigger: "_f_seed"
-#   replace: "semence"
-# - trigger: "_f_tone"
-#   replace: "ton"
-# - trigger: "_f_join"
-#   replace: "joindre"
-# - trigger: "_f_suggest"
-#   replace: "suggérer"
-# - trigger: "_f_clean"
-#   replace: "propre"
-# - trigger: "_f_break"
-#   replace: "pause"
-# - trigger: "_f_lady"
-#   replace: "dame"
-# - trigger: "_f_yard"
-#   replace: "cour"
-# - trigger: "_f_rise"
-#   replace: "augmenter"
-# - trigger: "_f_bad"
-#   replace: "mauvais"
-# - trigger: "_f_blow"
-#   replace: "coup"
-# - trigger: "_f_oil"
-#   replace: "huile"
-# - trigger: "_f_blood"
-#   replace: "sang"
-# - trigger: "_f_touch"
-#   replace: "toucher"
-# - trigger: "_f_grew"
-#   replace: "a augmenté"
-# - trigger: "_f_cent"
-#   replace: "cent"
-# - trigger: "_f_mix"
-#   replace: "mélanger"
-# - trigger: "_f_team"
-#   replace: "équipe"
-# - trigger: "_f_wire"
-#   replace: "fil"
-# - trigger: "_f_cost"
-#   replace: "coût"
-# - trigger: "_f_lost"
-#   replace: "perdu"
-# - trigger: "_f_brown"
-#   replace: "brun"
-# - trigger: "_f_wear"
-#   replace: "porter"
-# - trigger: "_f_garden"
-#   replace: "jardin"
-# - trigger: "_f_equal"
-#   replace: "égal"
-# - trigger: "_f_sent"
-#   replace: "expédié"
-# - trigger: "_f_choose"
-#   replace: "choisir"
-# - trigger: "_f_fell"
-#   replace: "est tombé"
-# - trigger: "_f_fit"
-#   replace: "s’adapter"
-# - trigger: "_f_flow"
-#   replace: "débit"
-# - trigger: "_f_fair"
-#   replace: "juste"
-# - trigger: "_f_bank"
-#   replace: "banque"
-# - trigger: "_f_collect"
-#   replace: "recueillir"
-# - trigger: "_f_save"
-#   replace: "sauver"
-# - trigger: "_f_control"
-#   replace: "contrôle"
-# - trigger: "_f_decimal"
-#   replace: "décimal"
-# - trigger: "_f_ear"
-#   replace: "oreille"
-# - trigger: "_f_else"
-#   replace: "autre"
-# - trigger: "_f_quite"
-#   replace: "tout à fait"
-# - trigger: "_f_broke"
-#   replace: "cassé"
-# - trigger: "_f_case"
-#   replace: "cas"
-# - trigger: "_f_middle"
-#   replace: "milieu"
-# - trigger: "_f_kill"
-#   replace: "tuer"
-# - trigger: "_f_son"
-#   replace: "fils"
-# - trigger: "_f_lake"
-#   replace: "lac"
-# - trigger: "_f_moment"
-#   replace: "moment"
-# - trigger: "_f_scale"
-#   replace: "échelle"
-# - trigger: "_f_loud"
-#   replace: "fort"
-# - trigger: "_f_spring"
-#   replace: "printemps"
-# - trigger: "_f_observe"
-#   replace: "observer"
-# - trigger: "_f_child"
-#   replace: "enfant"
-# - trigger: "_f_straight"
-#   replace: "droit"
-# - trigger: "_f_consonant"
-#   replace: "consonne"
-# - trigger: "_f_nation"
-#   replace: "nation"
-# - trigger: "_f_dictionary"
-#   replace: "dictionnaire"
-# - trigger: "_f_milk"
-#   replace: "lait"
-# - trigger: "_f_speed"
-#   replace: "vitesse"
-# - trigger: "_f_method"
-#   replace: "méthode"
-# - trigger: "_f_organ"
-#   replace: "organe"
-# - trigger: "_f_pay"
-#   replace: "payer"
-# - trigger: "_f_age"
-#   replace: "âge"
-# - trigger: "_f_section"
-#   replace: "section"
-# - trigger: "_f_dress"
-#   replace: "robe"
-# - trigger: "_f_cloud"
-#   replace: "nuage"
-# - trigger: "_f_surprise"
-#   replace: "surprise"
-# - trigger: "_f_quiet"
-#   replace: "calme"
-# - trigger: "_f_stone"
-#   replace: "pierre"
-# - trigger: "_f_tiny"
-#   replace: "minuscule"
-# - trigger: "_f_climb"
-#   replace: "montée"
-# - trigger: "_f_cool"
-#   replace: "frais"
-# - trigger: "_f_design"
-#   replace: "conception"
-# - trigger: "_f_poor"
-#   replace: "pauvres"
-# - trigger: "_f_lot"
-#   replace: "lot"
-# - trigger: "_f_experiment"
-#   replace: "expérience"
-# - trigger: "_f_bottom"
-#   replace: "bas"
-# - trigger: "_f_key"
-#   replace: "clé"
-# - trigger: "_f_iron"
-#   replace: "fer"
-# - trigger: "_f_single"
-#   replace: "unique"
-# - trigger: "_f_stick"
-#   replace: "bâton"
-# - trigger: "_f_flat"
-#   replace: "plat"
-# - trigger: "_f_twenty"
-#   replace: "vingt"
-# - trigger: "_f_skin"
-#   replace: "peau"
-# - trigger: "_f_smile"
-#   replace: "sourire"
-# - trigger: "_f_crease"
-#   replace: "pli"
-# - trigger: "_f_hole"
-#   replace: "trou"
-# - trigger: "_f_jump"
-#   replace: "sauter"
-# - trigger: "_f_baby"
-#   replace: "bébé"
-# - trigger: "_f_eight"
-#   replace: "huit"
-# - trigger: "_f_village"
-#   replace: "village"
-# - trigger: "_f_meet"
-#   replace: "se rencontrent"
-# - trigger: "_f_root"
-#   replace: "racine"
-# - trigger: "_f_buy"
-#   replace: "acheter"
-# - trigger: "_f_raise"
-#   replace: "augmenter"
-# - trigger: "_f_solve"
-#   replace: "résoudre"
-# - trigger: "_f_metal"
-#   replace: "métal"
-# - trigger: "_f_whether"
-#   replace: "si"
-# - trigger: "_f_push"
-#   replace: "pousser"
-# - trigger: "_f_seven"
-#   replace: "sept"
-# - trigger: "_f_paragraph"
-#   replace: "paragraphe"
-# - trigger: "_f_third"
-#   replace: "troisième"
-# - trigger: "_f_shall"
-#   replace: "doit"
-# - trigger: "_f_held"
-#   replace: "en attente"
-# - trigger: "_f_hair"
-#   replace: "cheveux"
-# - trigger: "_f_describe"
-#   replace: "décrire"
-# - trigger: "_f_cook"
-#   replace: "cuisinier"
-# - trigger: "_f_floor"
-#   replace: "étage"
-# - trigger: "_f_either"
-#   replace: "chaque"
-# - trigger: "_f_result"
-#   replace: "résultat"
-# - trigger: "_f_burn"
-#   replace: "brûler"
-# - trigger: "_f_hill"
-#   replace: "colline"
-# - trigger: "_f_safe"
-#   replace: "coffre-fort"
-# - trigger: "_f_cat"
-#   replace: "chat"
-# - trigger: "_f_century"
-#   replace: "siècle"
-# - trigger: "_f_consider"
-#   replace: "envisager"
-# - trigger: "_f_type"
-#   replace: "type"
-# - trigger: "_f_law"
-#   replace: "droit"
-# - trigger: "_f_bit"
-#   replace: "peu"
-# - trigger: "_f_coast"
-#   replace: "côte"
-# - trigger: "_f_copy"
-#   replace: "copie"
-# - trigger: "_f_phrase"
-#   replace: "phrase"
-# - trigger: "_f_silent"
-#   replace: "silencieux"
-# - trigger: "_f_tall"
-#   replace: "haut"
-# - trigger: "_f_sand"
-#   replace: "sable"
-# - trigger: "_f_soil"
-#   replace: "sol"
-# - trigger: "_f_roll"
-#   replace: "rouleau"
-# - trigger: "_f_temperature"
-#   replace: "température"
-# - trigger: "_f_finger"
-#   replace: "doigt"
-# - trigger: "_f_industry"
-#   replace: "industrie"
-# - trigger: "_f_value"
-#   replace: "valeur"
-# - trigger: "_f_fight"
-#   replace: "lutte"
-# - trigger: "_f_lie"
-#   replace: "mensonge"
-# - trigger: "_f_beat"
-#   replace: "battre"
-# - trigger: "_f_excite"
-#   replace: "exciter"
-# - trigger: "_f_natural"
-#   replace: "naturel"
-# - trigger: "_f_view"
-#   replace: "vue"
-# - trigger: "_f_sense"
-#   replace: "sens"
-# - trigger: "_f_capital"
-#   replace: "capital"
-# - trigger: "_f_won’t"
-#   replace: "ne sera pas"
-# - trigger: "_f_chair"
-#   replace: "chaise"
-# - trigger: "_f_danger"
-#   replace: "danger"
-# - trigger: "_f_fruit"
-#   replace: "fruit"
-# - trigger: "_f_rich"
-#   replace: "riche"
-# - trigger: "_f_thick"
-#   replace: "épais"
-# - trigger: "_f_soldier"
-#   replace: "soldat"
-# - trigger: "_f_process"
-#   replace: "processus"
-# - trigger: "_f_operate"
-#   replace: "fonctionner"
-# - trigger: "_f_practice"
-#   replace: "pratique"
-# - trigger: "_f_separate"
-#   replace: "séparé"
-# - trigger: "_f_difficult"
-#   replace: "difficile"
-# - trigger: "_f_doctor"
-#   replace: "médecin"
-# - trigger: "_f_please"
-#   replace: "s’il vous plaît"
-# - trigger: "_f_protect"
-#   replace: "protéger"
-# - trigger: "_f_noon"
-#   replace: "midi"
-# - trigger: "_f_crop"
-#   replace: "récolte"
-# - trigger: "_f_modern"
-#   replace: "moderne"
-# - trigger: "_f_element"
-#   replace: "élément"
-# - trigger: "_f_hit"
-#   replace: "frapper"
-# - trigger: "_f_student"
-#   replace: "étudiant"
-# - trigger: "_f_corner"
-#   replace: "coin"
-# - trigger: "_f_party"
-#   replace: "partie"
-# - trigger: "_f_supply"
-#   replace: "alimentation"
-# - trigger: "_f_whose"
-#   replace: "dont"
-# - trigger: "_f_locate"
-#   replace: "localiser"
-# - trigger: "_f_ring"
-#   replace: "anneau"
-# - trigger: "_f_character"
-#   replace: "caractère"
-# - trigger: "_f_insect"
-#   replace: "insecte"
-# - trigger: "_f_caught"
-#   replace: "pris"
-# - trigger: "_f_period"
-#   replace: "période"
-# - trigger: "_f_indicate"
-#   replace: "indiquer"
-# - trigger: "_f_radio"
-#   replace: "radio"
-# - trigger: "_f_spoke"
-#   replace: "rayon"
-# - trigger: "_f_atom"
-#   replace: "atome"
-# - trigger: "_f_human"
-#   replace: "humain"
-# - trigger: "_f_history"
-#   replace: "histoire"
-# - trigger: "_f_effect"
-#   replace: "effet"
-# - trigger: "_f_electric"
-#   replace: "électrique"
-# - trigger: "_f_expect"
-#   replace: "attendre"
-# - trigger: "_f_bone"
-#   replace: "os"
-# - trigger: "_f_rail"
-#   replace: "rail"
-# - trigger: "_f_imagine"
-#   replace: "imaginer"
-# - trigger: "_f_provide"
-#   replace: "fournir"
-# - trigger: "_f_agree"
-#   replace: "se mettre d’accord"
-# - trigger: "_f_thus"
-#   replace: "ainsi"
-# - trigger: "_f_gentle"
-#   replace: "doux"
-# - trigger: "_f_woman"
-#   replace: "femme"
-# - trigger: "_f_captain"
-#   replace: "capitaine"
-# - trigger: "_f_guess"
-#   replace: "deviner"
-# - trigger: "_f_necessary"
-#   replace: "nécessaire"
-# - trigger: "_f_sharp"
-#   replace: "net"
-# - trigger: "_f_wing"
-#   replace: "aile"
-# - trigger: "_f_create"
-#   replace: "créer"
-# - trigger: "_f_neighbor"
-#   replace: "voisin"
-# - trigger: "_f_wash"
-#   replace: "lavage"
-# - trigger: "_f_bat"
-#   replace: "chauve-souris"
-# - trigger: "_f_rather"
-#   replace: "plutôt"
-# - trigger: "_f_crowd"
-#   replace: "foule"
-# - trigger: "_f_corn"
-#   replace: "blé"
-# - trigger: "_f_compare"
-#   replace: "comparer"
-# - trigger: "_f_poem"
-#   replace: "poème"
-# - trigger: "_f_string"
-#   replace: "chaîne"
-# - trigger: "_f_bell"
-#   replace: "cloche"
-# - trigger: "_f_depend"
-#   replace: "dépendre"
-# - trigger: "_f_meat"
-#   replace: "viande"
-# - trigger: "_f_rub"
-#   replace: "rub"
-# - trigger: "_f_tube"
-#   replace: "tube"
-# - trigger: "_f_famous"
-#   replace: "célèbre"
-# - trigger: "_f_dollar"
-#   replace: "dollar"
-# - trigger: "_f_stream"
-#   replace: "courant"
-# - trigger: "_f_fear"
-#   replace: "peur"
-# - trigger: "_f_sight"
-#   replace: "vue"
-# - trigger: "_f_thin"
-#   replace: "mince"
-# - trigger: "_f_triangle"
-#   replace: "triangle"
-# - trigger: "_f_planet"
-#   replace: "planète"
-# - trigger: "_f_hurry"
-#   replace: "se dépêcher"
-# - trigger: "_f_chief"
-#   replace: "chef"
-# - trigger: "_f_colony"
-#   replace: "colonie"
-# - trigger: "_f_clock"
-#   replace: "horloge"
-# - trigger: "_f_mine"
-#   replace: "mine"
-# - trigger: "_f_tie"
-#   replace: "lien"
-# - trigger: "_f_enter"
-#   replace: "entrer"
-# - trigger: "_f_major"
-#   replace: "majeur"
-# - trigger: "_f_fresh"
-#   replace: "frais"
-# - trigger: "_f_search"
-#   replace: "recherche"
-# - trigger: "_f_send"
-#   replace: "envoyer"
-# - trigger: "_f_yellow"
-#   replace: "jaune"
-# - trigger: "_f_gun"
-#   replace: "pistolet"
-# - trigger: "_f_allow"
-#   replace: "permettre"
-# - trigger: "_f_print"
-#   replace: "impression"
-# - trigger: "_f_dead"
-#   replace: "mort"
-# - trigger: "_f_spot"
-#   replace: "place"
-# - trigger: "_f_desert"
-#   replace: "désert"
-# - trigger: "_f_suit"
-#   replace: "costume"
-# - trigger: "_f_current"
-#   replace: "courant"
-# - trigger: "_f_lift"
-#   replace: "ascenseur"
-# - trigger: "_f_rose"
-#   replace: "rose"
-# - trigger: "_f_arrive"
-#   replace: "arriver"
-# - trigger: "_f_master"
-#   replace: "maître"
-# - trigger: "_f_track"
-#   replace: "piste"
-# - trigger: "_f_parent"
-#   replace: "mère"
-# - trigger: "_f_shore"
-#   replace: "rivage"
-# - trigger: "_f_division"
-#   replace: "division"
-# - trigger: "_f_sheet"
-#   replace: "feuille"
-# - trigger: "_f_substance"
-#   replace: "substance"
-# - trigger: "_f_favor"
-#   replace: "favoriser"
-# - trigger: "_f_connect"
-#   replace: "relier"
-# - trigger: "_f_post"
-#   replace: "poste"
-# - trigger: "_f_spend"
-#   replace: "passer"
-# - trigger: "_f_chord"
-#   replace: "corde"
-# - trigger: "_f_fat"
-#   replace: "graisse"
-# - trigger: "_f_glad"
-#   replace: "heureux"
-# - trigger: "_f_original"
-#   replace: "original"
-# - trigger: "_f_share"
-#   replace: "part"
-# - trigger: "_f_station"
-#   replace: "station"
-# - trigger: "_f_dad"
-#   replace: "papa"
-# - trigger: "_f_bread"
-#   replace: "pain"
-# - trigger: "_f_charge"
-#   replace: "charger"
-# - trigger: "_f_proper"
-#   replace: "propre"
-# - trigger: "_f_bar"
-#   replace: "bar"
-# - trigger: "_f_offer"
-#   replace: "proposition"
-# - trigger: "_f_segment"
-#   replace: "segment"
-# - trigger: "_f_slave"
-#   replace: "esclave"
-# - trigger: "_f_duck"
-#   replace: "canard"
-# - trigger: "_f_instant"
-#   replace: "instant"
-# - trigger: "_f_market"
-#   replace: "marché"
-# - trigger: "_f_degree"
-#   replace: "degré"
-# - trigger: "_f_populate"
-#   replace: "peupler"
-# - trigger: "_f_chick"
-#   replace: "poussin"
-# - trigger: "_f_dear"
-#   replace: "cher"
-# - trigger: "_f_enemy"
-#   replace: "ennemi"
-# - trigger: "_f_reply"
-#   replace: "répondre"
-# - trigger: "_f_drink"
-#   replace: "boisson"
-# - trigger: "_f_occur"
-#   replace: "se produire"
-# - trigger: "_f_support"
-#   replace: "support"
-# - trigger: "_f_speech"
-#   replace: "discours"
-# - trigger: "_f_nature"
-#   replace: "nature"
-# - trigger: "_f_range"
-#   replace: "gamme"
-# - trigger: "_f_steam"
-#   replace: "vapeur"
-# - trigger: "_f_motion"
-#   replace: "mouvement"
-# - trigger: "_f_path"
-#   replace: "chemin"
-# - trigger: "_f_liquid"
-#   replace: "liquide"
-# - trigger: "_f_log"
-#   replace: "enregistrer"
-# - trigger: "_f_meant"
-#   replace: "signifiait"
-# - trigger: "_f_quotient"
-#   replace: "quotient"
-# - trigger: "_f_teeth"
-#   replace: "dents"
-# - trigger: "_f_shell"
-#   replace: "coquille"
-# - trigger: "_f_neck"
-#   replace: "cou"
-# - trigger: "_f_oxygen"
-#   replace: "oxygène"
-# - trigger: "_f_sugar"
-#   replace: "sucre"
-# - trigger: "_f_death"
-#   replace: "décès"
-# - trigger: "_f_pretty"
-#   replace: "assez"
-# - trigger: "_f_skill"
-#   replace: "compétence"
-# - trigger: "_f_women"
-#   replace: "femmes"
-# - trigger: "_f_season"
-#   replace: "saison"
-# - trigger: "_f_solution"
-#   replace: "solution"
-# - trigger: "_f_magnet"
-#   replace: "aimant"
-# - trigger: "_f_silver"
-#   replace: "argent"
-# - trigger: "_f_thank"
-#   replace: "merci"
-# - trigger: "_f_branch"
-#   replace: "branche"
-# - trigger: "_f_match"
-#   replace: "rencontre"
-# - trigger: "_f_suffix"
-#   replace: "suffixe"
-# - trigger: "_f_especially"
-#   replace: "particulièrement"
-# - trigger: "_f_fig"
-#   replace: "figue"
-# - trigger: "_f_afraid"
-#   replace: "peur"
-# - trigger: "_f_huge"
-#   replace: "énorme"
-# - trigger: "_f_sister"
-#   replace: "sœur"
-# - trigger: "_f_steel"
-#   replace: "acier"
-# - trigger: "_f_discuss"
-#   replace: "discuter"
-# - trigger: "_f_forward"
-#   replace: "avant"
-# - trigger: "_f_similar"
-#   replace: "similaire"
-# - trigger: "_f_guide"
-#   replace: "guider"
-# - trigger: "_f_experience"
-#   replace: "expérience"
-# - trigger: "_f_score"
-#   replace: "score"
-# - trigger: "_f_apple"
-#   replace: "pomme"
-# - trigger: "_f_bought"
-#   replace: "acheté"
-# - trigger: "_f_led"
-#   replace: "LED"
-# - trigger: "_f_pitch"
-#   replace: "pas"
-# - trigger: "_f_coat"
-#   replace: "manteau"
-# - trigger: "_f_mass"
-#   replace: "masse"
-# - trigger: "_f_card"
-#   replace: "carte"
-# - trigger: "_f_band"
-#   replace: "bande"
-# - trigger: "_f_rope"
-#   replace: "corde"
-# - trigger: "_f_slip"
-#   replace: "glissement"
-# - trigger: "_f_win"
-#   replace: "gagner"
-# - trigger: "_f_dream"
-#   replace: "rêver"
-# - trigger: "_f_evening"
-#   replace: "soirée"
-# - trigger: "_f_condition"
-#   replace: "condition"
-# - trigger: "_f_feed"
-#   replace: "alimentation"
-# - trigger: "_f_tool"
-#   replace: "outil"
-# - trigger: "_f_total"
-#   replace: "total"
-# - trigger: "_f_basic"
-#   replace: "de base"
-# - trigger: "_f_smell"
-#   replace: "odeur"
-# - trigger: "_f_valley"
-#   replace: "vallée"
-# - trigger: "_f_nor"
-#   replace: "ni"
-# - trigger: "_f_double"
-#   replace: "double"
-# - trigger: "_f_seat"
-#   replace: "siège"
-# - trigger: "_f_continue"
-#   replace: "continuer"
-# - trigger: "_f_block"
-#   replace: "bloc"
-# - trigger: "_f_chart"
-#   replace: "graphique"
-# - trigger: "_f_hat"
-#   replace: "chapeau"
-# - trigger: "_f_sell"
-#   replace: "vendre"
-# - trigger: "_f_success"
-#   replace: "succès"
-# - trigger: "_f_company"
-#   replace: "entreprise"
-# - trigger: "_f_subtract"
-#   replace: "soustraire"
-# - trigger: "_f_event"
-#   replace: "événement"
-# - trigger: "_f_particular"
-#   replace: "particulier"
-# - trigger: "_f_deal"
-#   replace: "accord"
-# - trigger: "_f_swim"
-#   replace: "baignade"
-# - trigger: "_f_term"
-#   replace: "terme"
-# - trigger: "_f_opposite"
-#   replace: "opposé"
-# - trigger: "_f_wife"
-#   replace: "femme"
-# - trigger: "_f_shoe"
-#   replace: "chaussure"
-# - trigger: "_f_shoulder"
-#   replace: "épaule"
-# - trigger: "_f_spread"
-#   replace: "propagation"
-# - trigger: "_f_arrange"
-#   replace: "organiser"
-# - trigger: "_f_camp"
-#   replace: "camp"
-# - trigger: "_f_invent"
-#   replace: "inventer"
-# - trigger: "_f_cotton"
-#   replace: "coton"
-# - trigger: "_f_born"
-#   replace: "né"
-# - trigger: "_f_determine"
-#   replace: "déterminer"
-# - trigger: "_f_quart"
-#   replace: "litre"
-# - trigger: "_f_nine"
-#   replace: "neuf"
-# - trigger: "_f_truck"
-#   replace: "camion"
-# - trigger: "_f_noise"
-#   replace: "bruit"
-# - trigger: "_f_level"
-#   replace: "niveau"
-# - trigger: "_f_chance"
-#   replace: "chance"
-# - trigger: "_f_gather"
-#   replace: "recueillir"
-# - trigger: "_f_shop"
-#   replace: "boutique"
-# - trigger: "_f_stretch"
-#   replace: "tronçon"
-# - trigger: "_f_throw"
-#   replace: "jeter"
-# - trigger: "_f_shine"
-#   replace: "éclat"
-# - trigger: "_f_property"
-#   replace: "propriété"
-# - trigger: "_f_column"
-#   replace: "colonne"
-# - trigger: "_f_molecule"
-#   replace: "molécule"
-# - trigger: "_f_select"
-#   replace: "sélectionner"
-# - trigger: "_f_wrong"
-#   replace: "mal"
-# - trigger: "_f_gray"
-#   replace: "gris"
-# - trigger: "_f_repeat"
-#   replace: "répétition"
-# - trigger: "_f_require"
-#   replace: "exiger"
-# - trigger: "_f_broad"
-#   replace: "large"
-# - trigger: "_f_prepare"
-#   replace: "préparer"
-# - trigger: "_f_salt"
-#   replace: "sel"
-# - trigger: "_f_nose"
-#   replace: "nez"
-# - trigger: "_f_plural"
-#   replace: "pluriel"
-# - trigger: "_f_anger"
-#   replace: "colère"
-# - trigger: "_f_claim"
-#   replace: "revendication"
-# - trigger: "_f_continent"
-#   replace: "continent…"
+name: typofixer-da
+parent: default
+matches:
+- trigger: etre
+  replace: "être"
+  word: true
+  propagate_case: true
+- trigger: epeler
+  replace: "épeler"
+  word: true
+  propagate_case: true
+- trigger: differer
+  replace: "différer"
+  word: true
+  propagate_case: true
+- trigger: ecrire
+  replace: "écrire"
+  word: true
+  propagate_case: true
+- trigger: decider
+  replace: "décider"
+  word: true
+  propagate_case: true
+- trigger: verifier
+  replace: "vérifier"
+  word: true
+  propagate_case: true
+- trigger: developper
+  replace: "développer"
+  word: true
+  propagate_case: true
+- trigger: ecouter
+  replace: "écouter"
+  word: true
+  propagate_case: true
+- trigger: representer
+  replace: "représenter"
+  word: true
+  propagate_case: true
+- trigger: regler
+  replace: "régler"
+  word: true
+  propagate_case: true
+- trigger: vetir
+  replace: "vêtir"
+  word: true
+  propagate_case: true
+- trigger: suggerer
+  replace: "suggérer"
+  word: true
+  propagate_case: true
+- trigger: melanger
+  replace: "mélanger"
+  word: true
+  propagate_case: true
+- trigger: resoudre
+  replace: "résoudre"
+  word: true
+  propagate_case: true
+- trigger: decrire
+  replace: "décrire"
+  word: true
+  propagate_case: true
+- trigger: proteger
+  replace: "protéger"
+  word: true
+  propagate_case: true
+- trigger: creer
+  replace: "créer"
+  word: true
+  propagate_case: true
+- trigger: dependre
+  replace: "dépendre"
+  word: true
+  propagate_case: true
+- trigger: depecher
+  replace: "dépêcher"
+  word: true
+  propagate_case: true
+- trigger: repondre
+  replace: "répondre"
+  word: true
+  propagate_case: true
+- trigger: rever
+  replace: "rêver"
+  word: true
+  propagate_case: true
+- trigger: determiner
+  replace: "déterminer"
+  word: true
+  propagate_case: true
+- trigger: selectionner
+  replace: "sélectionner"
+  word: true
+  propagate_case: true
+- trigger: preparer
+  replace: "préparer"
+  word: true
+  propagate_case: true
+- trigger: epelle
+  replace: "épelle"
+  word: true
+  propagate_case: true
+- trigger: differe
+  replace: "diffère"
+  word: true
+  propagate_case: true
+- trigger: ecris
+  replace: "écris"
+  word: true
+  propagate_case: true
+- trigger: decide
+  replace: "décide"
+  word: true
+  propagate_case: true
+- trigger: verifie
+  replace: "vérifie"
+  word: true
+  propagate_case: true
+- trigger: developpe
+  replace: "développe"
+  word: true
+  propagate_case: true
+- trigger: ecoute
+  replace: "écoute"
+  word: true
+  propagate_case: true
+- trigger: represente
+  replace: "représente"
+  word: true
+  propagate_case: true
+- trigger: regle
+  replace: "règle"
+  word: true
+  propagate_case: true
+- trigger: vets
+  replace: "vêts"
+  word: true
+  propagate_case: true
+- trigger: suggere
+  replace: "suggère"
+  word: true
+  propagate_case: true
+- trigger: melange
+  replace: "mélange"
+  word: true
+  propagate_case: true
+- trigger: resous
+  replace: "résous"
+  word: true
+  propagate_case: true
+- trigger: decris
+  replace: "décris"
+  word: true
+  propagate_case: true
+- trigger: protege
+  replace: "protège"
+  word: true
+  propagate_case: true
+- trigger: cree
+  replace: "crée"
+  word: true
+  propagate_case: true
+- trigger: depends
+  replace: "dépends"
+  word: true
+  propagate_case: true
+- trigger: depeche
+  replace: "dépêche"
+  word: true
+  propagate_case: true
+- trigger: reponds
+  replace: "réponds"
+  word: true
+  propagate_case: true
+- trigger: reve
+  replace: "rêve"
+  word: true
+  propagate_case: true
+- trigger: determine
+  replace: "détermine"
+  word: true
+  propagate_case: true
+- trigger: selectionne
+  replace: "sélectionne"
+  word: true
+  propagate_case: true
+- trigger: prepare
+  replace: "prépare"
+  word: true
+  propagate_case: true
+- trigger: eles
+  replace: "èles"
+  word: true
+  propagate_case: true
+- trigger: differes
+  replace: "diffères"
+  word: true
+  propagate_case: true
+- trigger: decides
+  replace: "décides"
+  word: true
+  propagate_case: true
+- trigger: verifies
+  replace: "vérifies"
+  word: true
+  propagate_case: true
+- trigger: developpes
+  replace: "développes"
+  word: true
+  propagate_case: true
+- trigger: ecoutes
+  replace: "écoutes"
+  word: true
+  propagate_case: true
+- trigger: representes
+  replace: "représentes"
+  word: true
+  propagate_case: true
+- trigger: regles
+  replace: "règles"
+  word: true
+  propagate_case: true
+- trigger: suggeres
+  replace: "suggères"
+  word: true
+  propagate_case: true
+- trigger: melanges
+  replace: "mélanges"
+  word: true
+  propagate_case: true
+- trigger: proteges
+  replace: "protèges"
+  word: true
+  propagate_case: true
+- trigger: crees
+  replace: "crées"
+  word: true
+  propagate_case: true
+- trigger: depeches
+  replace: "dépêches"
+  word: true
+  propagate_case: true
+- trigger: reves
+  replace: "rêves"
+  word: true
+  propagate_case: true
+- trigger: determines
+  replace: "détermines"
+  word: true
+  propagate_case: true
+- trigger: selectionnes
+  replace: "sélectionnes"
+  word: true
+  propagate_case: true
+- trigger: prepares
+  replace: "prépares"
+  word: true
+  propagate_case: true
+- trigger: ele
+  replace: "èle"
+  word: true
+  propagate_case: true
+- trigger: ecrit
+  replace: "écrit"
+  word: true
+  propagate_case: true
+- trigger: vet
+  replace: "vêt"
+  word: true
+  propagate_case: true
+- trigger: resout
+  replace: "résout"
+  word: true
+  propagate_case: true
+- trigger: decrit
+  replace: "décrit"
+  word: true
+  propagate_case: true
+- trigger: depend
+  replace: "dépend"
+  word: true
+  propagate_case: true
+- trigger: repond
+  replace: "répond"
+  word: true
+  propagate_case: true
+- trigger: epelons
+  replace: "épelons"
+  word: true
+  propagate_case: true
+- trigger: differons
+  replace: "différons"
+  word: true
+  propagate_case: true
+- trigger: ecrivons
+  replace: "écrivons"
+  word: true
+  propagate_case: true
+- trigger: decidons
+  replace: "décidons"
+  word: true
+  propagate_case: true
+- trigger: verifions
+  replace: "vérifions"
+  word: true
+  propagate_case: true
+- trigger: developpons
+  replace: "développons"
+  word: true
+  propagate_case: true
+- trigger: ecoutons
+  replace: "écoutons"
+  word: true
+  propagate_case: true
+- trigger: representons
+  replace: "représentons"
+  word: true
+  propagate_case: true
+- trigger: reglons
+  replace: "réglons"
+  word: true
+  propagate_case: true
+- trigger: vetons
+  replace: "vêtons"
+  word: true
+  propagate_case: true
+- trigger: suggerons
+  replace: "suggérons"
+  word: true
+  propagate_case: true
+- trigger: melangeons
+  replace: "mélangeons"
+  word: true
+  propagate_case: true
+- trigger: resolvons
+  replace: "résolvons"
+  word: true
+  propagate_case: true
+- trigger: decrivons
+  replace: "décrivons"
+  word: true
+  propagate_case: true
+- trigger: protegeons
+  replace: "protégeons"
+  word: true
+  propagate_case: true
+- trigger: creons
+  replace: "créons"
+  word: true
+  propagate_case: true
+- trigger: dependons
+  replace: "dépendons"
+  word: true
+  propagate_case: true
+- trigger: depechons
+  replace: "dépêchons"
+  word: true
+  propagate_case: true
+- trigger: repondons
+  replace: "répondons"
+  word: true
+  propagate_case: true
+- trigger: revons
+  replace: "rêvons"
+  word: true
+  propagate_case: true
+- trigger: determinons
+  replace: "déterminons"
+  word: true
+  propagate_case: true
+- trigger: selectionnons
+  replace: "sélectionnons"
+  word: true
+  propagate_case: true
+- trigger: preparons
+  replace: "préparons"
+  word: true
+  propagate_case: true
+- trigger: etes
+  replace: "êtes"
+  word: true
+  propagate_case: true
+- trigger: epelez
+  replace: "épelez"
+  word: true
+  propagate_case: true
+- trigger: differez
+  replace: "différez"
+  word: true
+  propagate_case: true
+- trigger: ecrivez
+  replace: "écrivez"
+  word: true
+  propagate_case: true
+- trigger: decidez
+  replace: "décidez"
+  word: true
+  propagate_case: true
+- trigger: verifiez
+  replace: "vérifiez"
+  word: true
+  propagate_case: true
+- trigger: developpez
+  replace: "développez"
+  word: true
+  propagate_case: true
+- trigger: ecoutez
+  replace: "écoutez"
+  word: true
+  propagate_case: true
+- trigger: representez
+  replace: "représentez"
+  word: true
+  propagate_case: true
+- trigger: reglez
+  replace: "réglez"
+  word: true
+  propagate_case: true
+- trigger: vetez
+  replace: "vêtez"
+  word: true
+  propagate_case: true
+- trigger: suggerez
+  replace: "suggérez"
+  word: true
+  propagate_case: true
+- trigger: melangez
+  replace: "mélangez"
+  word: true
+  propagate_case: true
+- trigger: resolvez
+  replace: "résolvez"
+  word: true
+  propagate_case: true
+- trigger: decrivez
+  replace: "décrivez"
+  word: true
+  propagate_case: true
+- trigger: protegez
+  replace: "protégez"
+  word: true
+  propagate_case: true
+- trigger: creez
+  replace: "créez"
+  word: true
+  propagate_case: true
+- trigger: dependez
+  replace: "dépendez"
+  word: true
+  propagate_case: true
+- trigger: depechez
+  replace: "dépêchez"
+  word: true
+  propagate_case: true
+- trigger: repondez
+  replace: "répondez"
+  word: true
+  propagate_case: true
+- trigger: revez
+  replace: "rêvez"
+  word: true
+  propagate_case: true
+- trigger: determinez
+  replace: "déterminez"
+  word: true
+  propagate_case: true
+- trigger: selectionnez
+  replace: "sélectionnez"
+  word: true
+  propagate_case: true
+- trigger: preparez
+  replace: "préparez"
+  word: true
+  propagate_case: true
+- trigger: elent
+  replace: "èlent"
+  word: true
+  propagate_case: true
+- trigger: different
+  replace: "diffèrent"
+  word: true
+  propagate_case: true
+- trigger: ecrivent
+  replace: "écrivent"
+  word: true
+  propagate_case: true
+- trigger: decident
+  replace: "décident"
+  word: true
+  propagate_case: true
+- trigger: verifient
+  replace: "vérifient"
+  word: true
+  propagate_case: true
+- trigger: developpent
+  replace: "développent"
+  word: true
+  propagate_case: true
+- trigger: ecoutent
+  replace: "écoutent"
+  word: true
+  propagate_case: true
+- trigger: representent
+  replace: "représentent"
+  word: true
+  propagate_case: true
+- trigger: reglent
+  replace: "règlent"
+  word: true
+  propagate_case: true
+- trigger: vetent
+  replace: "vêtent"
+  word: true
+  propagate_case: true
+- trigger: suggerent
+  replace: "suggèrent"
+  word: true
+  propagate_case: true
+- trigger: melangent
+  replace: "mélangent"
+  word: true
+  propagate_case: true
+- trigger: resolvent
+  replace: "résolvent"
+  word: true
+  propagate_case: true
+- trigger: decrivent
+  replace: "décrivent"
+  word: true
+  propagate_case: true
+- trigger: protegent
+  replace: "protègent"
+  word: true
+  propagate_case: true
+- trigger: creent
+  replace: "créent"
+  word: true
+  propagate_case: true
+- trigger: dependent
+  replace: "dépendent"
+  word: true
+  propagate_case: true
+- trigger: depechent
+  replace: "dépêchent"
+  word: true
+  propagate_case: true
+- trigger: repondent
+  replace: "répondent"
+  word: true
+  propagate_case: true
+- trigger: revent
+  replace: "rêvent"
+  word: true
+  propagate_case: true
+- trigger: determinent
+  replace: "déterminent"
+  word: true
+  propagate_case: true
+- trigger: selectionnent
+  replace: "sélectionnent"
+  word: true
+  propagate_case: true
+- trigger: preparent
+  replace: "préparent"
+  word: true
+  propagate_case: true
+- trigger: etais
+  replace: "étais"
+  word: true
+  propagate_case: true
+- trigger: epelais
+  replace: "épelais"
+  word: true
+  propagate_case: true
+- trigger: differais
+  replace: "différais"
+  word: true
+  propagate_case: true
+- trigger: ecrivais
+  replace: "écrivais"
+  word: true
+  propagate_case: true
+- trigger: decidais
+  replace: "décidais"
+  word: true
+  propagate_case: true
+- trigger: verifiais
+  replace: "vérifiais"
+  word: true
+  propagate_case: true
+- trigger: developpais
+  replace: "développais"
+  word: true
+  propagate_case: true
+- trigger: ecoutais
+  replace: "écoutais"
+  word: true
+  propagate_case: true
+- trigger: representais
+  replace: "représentais"
+  word: true
+  propagate_case: true
+- trigger: reglais
+  replace: "réglais"
+  word: true
+  propagate_case: true
+- trigger: vetais
+  replace: "vêtais"
+  word: true
+  propagate_case: true
+- trigger: suggerais
+  replace: "suggérais"
+  word: true
+  propagate_case: true
+- trigger: melangeais
+  replace: "mélangeais"
+  word: true
+  propagate_case: true
+- trigger: resolvais
+  replace: "résolvais"
+  word: true
+  propagate_case: true
+- trigger: decrivais
+  replace: "décrivais"
+  word: true
+  propagate_case: true
+- trigger: protegeais
+  replace: "protégeais"
+  word: true
+  propagate_case: true
+- trigger: creais
+  replace: "créais"
+  word: true
+  propagate_case: true
+- trigger: dependais
+  replace: "dépendais"
+  word: true
+  propagate_case: true
+- trigger: depechais
+  replace: "dépêchais"
+  word: true
+  propagate_case: true
+- trigger: repondais
+  replace: "répondais"
+  word: true
+  propagate_case: true
+- trigger: revais
+  replace: "rêvais"
+  word: true
+  propagate_case: true
+- trigger: determinais
+  replace: "déterminais"
+  word: true
+  propagate_case: true
+- trigger: selectionnais
+  replace: "sélectionnais"
+  word: true
+  propagate_case: true
+- trigger: preparais
+  replace: "préparais"
+  word: true
+  propagate_case: true
+- trigger: etait
+  replace: "était"
+  word: true
+  propagate_case: true
+- trigger: epelait
+  replace: "épelait"
+  word: true
+  propagate_case: true
+- trigger: differait
+  replace: "différait"
+  word: true
+  propagate_case: true
+- trigger: ecrivait
+  replace: "écrivait"
+  word: true
+  propagate_case: true
+- trigger: decidait
+  replace: "décidait"
+  word: true
+  propagate_case: true
+- trigger: verifiait
+  replace: "vérifiait"
+  word: true
+  propagate_case: true
+- trigger: developpait
+  replace: "développait"
+  word: true
+  propagate_case: true
+- trigger: ecoutait
+  replace: "écoutait"
+  word: true
+  propagate_case: true
+- trigger: representait
+  replace: "représentait"
+  word: true
+  propagate_case: true
+- trigger: reglait
+  replace: "réglait"
+  word: true
+  propagate_case: true
+- trigger: vetait
+  replace: "vêtait"
+  word: true
+  propagate_case: true
+- trigger: suggerait
+  replace: "suggérait"
+  word: true
+  propagate_case: true
+- trigger: melangeait
+  replace: "mélangeait"
+  word: true
+  propagate_case: true
+- trigger: resolvait
+  replace: "résolvait"
+  word: true
+  propagate_case: true
+- trigger: decrivait
+  replace: "décrivait"
+  word: true
+  propagate_case: true
+- trigger: protegeait
+  replace: "protégeait"
+  word: true
+  propagate_case: true
+- trigger: creait
+  replace: "créait"
+  word: true
+  propagate_case: true
+- trigger: dependait
+  replace: "dépendait"
+  word: true
+  propagate_case: true
+- trigger: depechait
+  replace: "dépêchait"
+  word: true
+  propagate_case: true
+- trigger: repondait
+  replace: "répondait"
+  word: true
+  propagate_case: true
+- trigger: revait
+  replace: "rêvait"
+  word: true
+  propagate_case: true
+- trigger: determinait
+  replace: "déterminait"
+  word: true
+  propagate_case: true
+- trigger: selectionnait
+  replace: "sélectionnait"
+  word: true
+  propagate_case: true
+- trigger: preparait
+  replace: "préparait"
+  word: true
+  propagate_case: true
+- trigger: etions
+  replace: "étions"
+  word: true
+  propagate_case: true
+- trigger: epelions
+  replace: "épelions"
+  word: true
+  propagate_case: true
+- trigger: differions
+  replace: "différions"
+  word: true
+  propagate_case: true
+- trigger: ecrivions
+  replace: "écrivions"
+  word: true
+  propagate_case: true
+- trigger: decidions
+  replace: "décidions"
+  word: true
+  propagate_case: true
+- trigger: verifiions
+  replace: "vérifiions"
+  word: true
+  propagate_case: true
+- trigger: developpions
+  replace: "développions"
+  word: true
+  propagate_case: true
+- trigger: ecoutions
+  replace: "écoutions"
+  word: true
+  propagate_case: true
+- trigger: representions
+  replace: "représentions"
+  word: true
+  propagate_case: true
+- trigger: reglions
+  replace: "réglions"
+  word: true
+  propagate_case: true
+- trigger: vetions
+  replace: "vêtions"
+  word: true
+  propagate_case: true
+- trigger: suggerions
+  replace: "suggérions"
+  word: true
+  propagate_case: true
+- trigger: melangions
+  replace: "mélangions"
+  word: true
+  propagate_case: true
+- trigger: resolvions
+  replace: "résolvions"
+  word: true
+  propagate_case: true
+- trigger: decrivions
+  replace: "décrivions"
+  word: true
+  propagate_case: true
+- trigger: protegions
+  replace: "protégions"
+  word: true
+  propagate_case: true
+- trigger: creions
+  replace: "créions"
+  word: true
+  propagate_case: true
+- trigger: dependions
+  replace: "dépendions"
+  word: true
+  propagate_case: true
+- trigger: depechions
+  replace: "dépêchions"
+  word: true
+  propagate_case: true
+- trigger: repondions
+  replace: "répondions"
+  word: true
+  propagate_case: true
+- trigger: revions
+  replace: "rêvions"
+  word: true
+  propagate_case: true
+- trigger: determinions
+  replace: "déterminions"
+  word: true
+  propagate_case: true
+- trigger: selectionnions
+  replace: "sélectionnions"
+  word: true
+  propagate_case: true
+- trigger: preparions
+  replace: "préparions"
+  word: true
+  propagate_case: true
+- trigger: etiez
+  replace: "étiez"
+  word: true
+  propagate_case: true
+- trigger: epeliez
+  replace: "épeliez"
+  word: true
+  propagate_case: true
+- trigger: differiez
+  replace: "différiez"
+  word: true
+  propagate_case: true
+- trigger: ecriviez
+  replace: "écriviez"
+  word: true
+  propagate_case: true
+- trigger: decidiez
+  replace: "décidiez"
+  word: true
+  propagate_case: true
+- trigger: verifiiez
+  replace: "vérifiiez"
+  word: true
+  propagate_case: true
+- trigger: developpiez
+  replace: "développiez"
+  word: true
+  propagate_case: true
+- trigger: ecoutiez
+  replace: "écoutiez"
+  word: true
+  propagate_case: true
+- trigger: representiez
+  replace: "représentiez"
+  word: true
+  propagate_case: true
+- trigger: regliez
+  replace: "régliez"
+  word: true
+  propagate_case: true
+- trigger: vetiez
+  replace: "vêtiez"
+  word: true
+  propagate_case: true
+- trigger: suggeriez
+  replace: "suggériez"
+  word: true
+  propagate_case: true
+- trigger: melangiez
+  replace: "mélangiez"
+  word: true
+  propagate_case: true
+- trigger: resolviez
+  replace: "résolviez"
+  word: true
+  propagate_case: true
+- trigger: decriviez
+  replace: "décriviez"
+  word: true
+  propagate_case: true
+- trigger: protegiez
+  replace: "protégiez"
+  word: true
+  propagate_case: true
+- trigger: creiez
+  replace: "créiez"
+  word: true
+  propagate_case: true
+- trigger: dependiez
+  replace: "dépendiez"
+  word: true
+  propagate_case: true
+- trigger: depechiez
+  replace: "dépêchiez"
+  word: true
+  propagate_case: true
+- trigger: repondiez
+  replace: "répondiez"
+  word: true
+  propagate_case: true
+- trigger: reviez
+  replace: "rêviez"
+  word: true
+  propagate_case: true
+- trigger: determiniez
+  replace: "déterminiez"
+  word: true
+  propagate_case: true
+- trigger: selectionniez
+  replace: "sélectionniez"
+  word: true
+  propagate_case: true
+- trigger: prepariez
+  replace: "prépariez"
+  word: true
+  propagate_case: true
+- trigger: etaient
+  replace: "étaient"
+  word: true
+  propagate_case: true
+- trigger: epelaient
+  replace: "épelaient"
+  word: true
+  propagate_case: true
+- trigger: differaient
+  replace: "différaient"
+  word: true
+  propagate_case: true
+- trigger: ecrivaient
+  replace: "écrivaient"
+  word: true
+  propagate_case: true
+- trigger: decidaient
+  replace: "décidaient"
+  word: true
+  propagate_case: true
+- trigger: verifiaient
+  replace: "vérifiaient"
+  word: true
+  propagate_case: true
+- trigger: developpaient
+  replace: "développaient"
+  word: true
+  propagate_case: true
+- trigger: ecoutaient
+  replace: "écoutaient"
+  word: true
+  propagate_case: true
+- trigger: representaient
+  replace: "représentaient"
+  word: true
+  propagate_case: true
+- trigger: reglaient
+  replace: "réglaient"
+  word: true
+  propagate_case: true
+- trigger: vetaient
+  replace: "vêtaient"
+  word: true
+  propagate_case: true
+- trigger: suggeraient
+  replace: "suggéraient"
+  word: true
+  propagate_case: true
+- trigger: melangeaient
+  replace: "mélangeaient"
+  word: true
+  propagate_case: true
+- trigger: resolvaient
+  replace: "résolvaient"
+  word: true
+  propagate_case: true
+- trigger: decrivaient
+  replace: "décrivaient"
+  word: true
+  propagate_case: true
+- trigger: protegeaient
+  replace: "protégeaient"
+  word: true
+  propagate_case: true
+- trigger: creaient
+  replace: "créaient"
+  word: true
+  propagate_case: true
+- trigger: dependaient
+  replace: "dépendaient"
+  word: true
+  propagate_case: true
+- trigger: depechaient
+  replace: "dépêchaient"
+  word: true
+  propagate_case: true
+- trigger: repondaient
+  replace: "répondaient"
+  word: true
+  propagate_case: true
+- trigger: revaient
+  replace: "rêvaient"
+  word: true
+  propagate_case: true
+- trigger: determinaient
+  replace: "déterminaient"
+  word: true
+  propagate_case: true
+- trigger: selectionnaient
+  replace: "sélectionnaient"
+  word: true
+  propagate_case: true
+- trigger: preparaient
+  replace: "préparaient"
+  word: true
+  propagate_case: true
+- trigger: epelai
+  replace: "épelai"
+  word: true
+  propagate_case: true
+- trigger: differai
+  replace: "différai"
+  word: true
+  propagate_case: true
+- trigger: ecrivis
+  replace: "écrivis"
+  word: true
+  propagate_case: true
+- trigger: decidai
+  replace: "décidai"
+  word: true
+  propagate_case: true
+- trigger: verifiai
+  replace: "vérifiai"
+  word: true
+  propagate_case: true
+- trigger: developpai
+  replace: "développai"
+  word: true
+  propagate_case: true
+- trigger: ecoutai
+  replace: "écoutai"
+  word: true
+  propagate_case: true
+- trigger: representai
+  replace: "représentai"
+  word: true
+  propagate_case: true
+- trigger: reglai
+  replace: "réglai"
+  word: true
+  propagate_case: true
+- trigger: vetis
+  replace: "vêtis"
+  word: true
+  propagate_case: true
+- trigger: suggerai
+  replace: "suggérai"
+  word: true
+  propagate_case: true
+- trigger: melangeai
+  replace: "mélangeai"
+  word: true
+  propagate_case: true
+- trigger: resolus
+  replace: "résolus"
+  word: true
+  propagate_case: true
+- trigger: decrivis
+  replace: "décrivis"
+  word: true
+  propagate_case: true
+- trigger: protegeai
+  replace: "protégeai"
+  word: true
+  propagate_case: true
+- trigger: creai
+  replace: "créai"
+  word: true
+  propagate_case: true
+- trigger: dependis
+  replace: "dépendis"
+  word: true
+  propagate_case: true
+- trigger: depechai
+  replace: "dépêchai"
+  word: true
+  propagate_case: true
+- trigger: repondis
+  replace: "répondis"
+  word: true
+  propagate_case: true
+- trigger: revai
+  replace: "rêvai"
+  word: true
+  propagate_case: true
+- trigger: determinai
+  replace: "déterminai"
+  word: true
+  propagate_case: true
+- trigger: selectionnai
+  replace: "sélectionnai"
+  word: true
+  propagate_case: true
+- trigger: preparai
+  replace: "préparai"
+  word: true
+  propagate_case: true
+- trigger: epelas
+  replace: "épelas"
+  word: true
+  propagate_case: true
+- trigger: differas
+  replace: "différas"
+  word: true
+  propagate_case: true
+- trigger: decidas
+  replace: "décidas"
+  word: true
+  propagate_case: true
+- trigger: verifias
+  replace: "vérifias"
+  word: true
+  propagate_case: true
+- trigger: developpas
+  replace: "développas"
+  word: true
+  propagate_case: true
+- trigger: ecoutas
+  replace: "écoutas"
+  word: true
+  propagate_case: true
+- trigger: representas
+  replace: "représentas"
+  word: true
+  propagate_case: true
+- trigger: reglas
+  replace: "réglas"
+  word: true
+  propagate_case: true
+- trigger: suggeras
+  replace: "suggéras"
+  word: true
+  propagate_case: true
+- trigger: melangeas
+  replace: "mélangeas"
+  word: true
+  propagate_case: true
+- trigger: protegeas
+  replace: "protégeas"
+  word: true
+  propagate_case: true
+- trigger: creas
+  replace: "créas"
+  word: true
+  propagate_case: true
+- trigger: depechas
+  replace: "dépêchas"
+  word: true
+  propagate_case: true
+- trigger: revas
+  replace: "rêvas"
+  word: true
+  propagate_case: true
+- trigger: determinas
+  replace: "déterminas"
+  word: true
+  propagate_case: true
+- trigger: selectionnas
+  replace: "sélectionnas"
+  word: true
+  propagate_case: true
+- trigger: preparas
+  replace: "préparas"
+  word: true
+  propagate_case: true
+- trigger: epela
+  replace: "épela"
+  word: true
+  propagate_case: true
+- trigger: differa
+  replace: "différa"
+  word: true
+  propagate_case: true
+- trigger: ecrivit
+  replace: "écrivit"
+  word: true
+  propagate_case: true
+- trigger: decida
+  replace: "décida"
+  word: true
+  propagate_case: true
+- trigger: verifia
+  replace: "vérifia"
+  word: true
+  propagate_case: true
+- trigger: developpa
+  replace: "développa"
+  word: true
+  propagate_case: true
+- trigger: ecouta
+  replace: "écouta"
+  word: true
+  propagate_case: true
+- trigger: representa
+  replace: "représenta"
+  word: true
+  propagate_case: true
+- trigger: regla
+  replace: "régla"
+  word: true
+  propagate_case: true
+- trigger: vetit
+  replace: "vêtit"
+  word: true
+  propagate_case: true
+- trigger: suggera
+  replace: "suggéra"
+  word: true
+  propagate_case: true
+- trigger: melangea
+  replace: "mélangea"
+  word: true
+  propagate_case: true
+- trigger: resolut
+  replace: "résolut"
+  word: true
+  propagate_case: true
+- trigger: decrivit
+  replace: "décrivit"
+  word: true
+  propagate_case: true
+- trigger: protegea
+  replace: "protégea"
+  word: true
+  propagate_case: true
+- trigger: crea
+  replace: "créa"
+  word: true
+  propagate_case: true
+- trigger: dependit
+  replace: "dépendit"
+  word: true
+  propagate_case: true
+- trigger: depecha
+  replace: "dépêcha"
+  word: true
+  propagate_case: true
+- trigger: repondit
+  replace: "répondit"
+  word: true
+  propagate_case: true
+- trigger: reva
+  replace: "rêva"
+  word: true
+  propagate_case: true
+- trigger: determina
+  replace: "détermina"
+  word: true
+  propagate_case: true
+- trigger: selectionna
+  replace: "sélectionna"
+  word: true
+  propagate_case: true
+- trigger: prepara
+  replace: "prépara"
+  word: true
+  propagate_case: true
+- trigger: epelâmes
+  replace: "épelâmes"
+  word: true
+  propagate_case: true
+- trigger: differâmes
+  replace: "différâmes"
+  word: true
+  propagate_case: true
+- trigger: ecrivîmes
+  replace: "écrivîmes"
+  word: true
+  propagate_case: true
+- trigger: decidâmes
+  replace: "décidâmes"
+  word: true
+  propagate_case: true
+- trigger: verifiâmes
+  replace: "vérifiâmes"
+  word: true
+  propagate_case: true
+- trigger: developpâmes
+  replace: "développâmes"
+  word: true
+  propagate_case: true
+- trigger: ecoutâmes
+  replace: "écoutâmes"
+  word: true
+  propagate_case: true
+- trigger: representâmes
+  replace: "représentâmes"
+  word: true
+  propagate_case: true
+- trigger: reglâmes
+  replace: "réglâmes"
+  word: true
+  propagate_case: true
+- trigger: vetîmes
+  replace: "vêtîmes"
+  word: true
+  propagate_case: true
+- trigger: suggerâmes
+  replace: "suggérâmes"
+  word: true
+  propagate_case: true
+- trigger: melangeâmes
+  replace: "mélangeâmes"
+  word: true
+  propagate_case: true
+- trigger: resolûmes
+  replace: "résolûmes"
+  word: true
+  propagate_case: true
+- trigger: decrivîmes
+  replace: "décrivîmes"
+  word: true
+  propagate_case: true
+- trigger: protegeâmes
+  replace: "protégeâmes"
+  word: true
+  propagate_case: true
+- trigger: creâmes
+  replace: "créâmes"
+  word: true
+  propagate_case: true
+- trigger: dependîmes
+  replace: "dépendîmes"
+  word: true
+  propagate_case: true
+- trigger: depechâmes
+  replace: "dépêchâmes"
+  word: true
+  propagate_case: true
+- trigger: repondîmes
+  replace: "répondîmes"
+  word: true
+  propagate_case: true
+- trigger: revâmes
+  replace: "rêvâmes"
+  word: true
+  propagate_case: true
+- trigger: determinâmes
+  replace: "déterminâmes"
+  word: true
+  propagate_case: true
+- trigger: selectionnâmes
+  replace: "sélectionnâmes"
+  word: true
+  propagate_case: true
+- trigger: preparâmes
+  replace: "préparâmes"
+  word: true
+  propagate_case: true
+- trigger: epelâtes
+  replace: "épelâtes"
+  word: true
+  propagate_case: true
+- trigger: differâtes
+  replace: "différâtes"
+  word: true
+  propagate_case: true
+- trigger: ecrivîtes
+  replace: "écrivîtes"
+  word: true
+  propagate_case: true
+- trigger: decidâtes
+  replace: "décidâtes"
+  word: true
+  propagate_case: true
+- trigger: verifiâtes
+  replace: "vérifiâtes"
+  word: true
+  propagate_case: true
+- trigger: developpâtes
+  replace: "développâtes"
+  word: true
+  propagate_case: true
+- trigger: ecoutâtes
+  replace: "écoutâtes"
+  word: true
+  propagate_case: true
+- trigger: representâtes
+  replace: "représentâtes"
+  word: true
+  propagate_case: true
+- trigger: reglâtes
+  replace: "réglâtes"
+  word: true
+  propagate_case: true
+- trigger: vetîtes
+  replace: "vêtîtes"
+  word: true
+  propagate_case: true
+- trigger: suggerâtes
+  replace: "suggérâtes"
+  word: true
+  propagate_case: true
+- trigger: melangeâtes
+  replace: "mélangeâtes"
+  word: true
+  propagate_case: true
+- trigger: resolûtes
+  replace: "résolûtes"
+  word: true
+  propagate_case: true
+- trigger: decrivîtes
+  replace: "décrivîtes"
+  word: true
+  propagate_case: true
+- trigger: protegeâtes
+  replace: "protégeâtes"
+  word: true
+  propagate_case: true
+- trigger: creâtes
+  replace: "créâtes"
+  word: true
+  propagate_case: true
+- trigger: dependîtes
+  replace: "dépendîtes"
+  word: true
+  propagate_case: true
+- trigger: depechâtes
+  replace: "dépêchâtes"
+  word: true
+  propagate_case: true
+- trigger: repondîtes
+  replace: "répondîtes"
+  word: true
+  propagate_case: true
+- trigger: revâtes
+  replace: "rêvâtes"
+  word: true
+  propagate_case: true
+- trigger: determinâtes
+  replace: "déterminâtes"
+  word: true
+  propagate_case: true
+- trigger: selectionnâtes
+  replace: "sélectionnâtes"
+  word: true
+  propagate_case: true
+- trigger: preparâtes
+  replace: "préparâtes"
+  word: true
+  propagate_case: true
+- trigger: epelerent
+  replace: "épelèrent"
+  word: true
+  propagate_case: true
+- trigger: differerent
+  replace: "différèrent"
+  word: true
+  propagate_case: true
+- trigger: ecrivirent
+  replace: "écrivirent"
+  word: true
+  propagate_case: true
+- trigger: deciderent
+  replace: "décidèrent"
+  word: true
+  propagate_case: true
+- trigger: verifierent
+  replace: "vérifièrent"
+  word: true
+  propagate_case: true
+- trigger: developperent
+  replace: "développèrent"
+  word: true
+  propagate_case: true
+- trigger: ecouterent
+  replace: "écoutèrent"
+  word: true
+  propagate_case: true
+- trigger: representerent
+  replace: "représentèrent"
+  word: true
+  propagate_case: true
+- trigger: reglerent
+  replace: "réglèrent"
+  word: true
+  propagate_case: true
+- trigger: vetirent
+  replace: "vêtirent"
+  word: true
+  propagate_case: true
+- trigger: suggererent
+  replace: "suggérèrent"
+  word: true
+  propagate_case: true
+- trigger: melangerent
+  replace: "mélangèrent"
+  word: true
+  propagate_case: true
+- trigger: resolurent
+  replace: "résolurent"
+  word: true
+  propagate_case: true
+- trigger: decrivirent
+  replace: "décrivirent"
+  word: true
+  propagate_case: true
+- trigger: protegerent
+  replace: "protégèrent"
+  word: true
+  propagate_case: true
+- trigger: creerent
+  replace: "créèrent"
+  word: true
+  propagate_case: true
+- trigger: dependirent
+  replace: "dépendirent"
+  word: true
+  propagate_case: true
+- trigger: depecherent
+  replace: "dépêchèrent"
+  word: true
+  propagate_case: true
+- trigger: repondirent
+  replace: "répondirent"
+  word: true
+  propagate_case: true
+- trigger: reverent
+  replace: "rêvèrent"
+  word: true
+  propagate_case: true
+- trigger: determinerent
+  replace: "déterminèrent"
+  word: true
+  propagate_case: true
+- trigger: selectionnerent
+  replace: "sélectionnèrent"
+  word: true
+  propagate_case: true
+- trigger: preparerent
+  replace: "préparèrent"
+  word: true
+  propagate_case: true
+- trigger: epellerai
+  replace: "épellerai"
+  word: true
+  propagate_case: true
+- trigger: ererai
+  replace: "èrerai"
+  word: true
+  propagate_case: true
+- trigger: ecrirai
+  replace: "écrirai"
+  word: true
+  propagate_case: true
+- trigger: deciderai
+  replace: "déciderai"
+  word: true
+  propagate_case: true
+- trigger: verifierai
+  replace: "vérifierai"
+  word: true
+  propagate_case: true
+- trigger: developperai
+  replace: "développerai"
+  word: true
+  propagate_case: true
+- trigger: ecouterai
+  replace: "écouterai"
+  word: true
+  propagate_case: true
+- trigger: representerai
+  replace: "représenterai"
+  word: true
+  propagate_case: true
+- trigger: eglerai
+  replace: "èglerai"
+  word: true
+  propagate_case: true
+- trigger: vetirai
+  replace: "vêtirai"
+  word: true
+  propagate_case: true
+- trigger: melangerai
+  replace: "mélangerai"
+  word: true
+  propagate_case: true
+- trigger: resoudrai
+  replace: "résoudrai"
+  word: true
+  propagate_case: true
+- trigger: decrirai
+  replace: "décrirai"
+  word: true
+  propagate_case: true
+- trigger: egerai
+  replace: "ègerai"
+  word: true
+  propagate_case: true
+- trigger: creerai
+  replace: "créerai"
+  word: true
+  propagate_case: true
+- trigger: dependrai
+  replace: "dépendrai"
+  word: true
+  propagate_case: true
+- trigger: depecherai
+  replace: "dépêcherai"
+  word: true
+  propagate_case: true
+- trigger: repondrai
+  replace: "répondrai"
+  word: true
+  propagate_case: true
+- trigger: reverai
+  replace: "rêverai"
+  word: true
+  propagate_case: true
+- trigger: determinerai
+  replace: "déterminerai"
+  word: true
+  propagate_case: true
+- trigger: selectionnerai
+  replace: "sélectionnerai"
+  word: true
+  propagate_case: true
+- trigger: preparerai
+  replace: "préparerai"
+  word: true
+  propagate_case: true
+- trigger: eleras
+  replace: "èleras"
+  word: true
+  propagate_case: true
+- trigger: ereras
+  replace: "èreras"
+  word: true
+  propagate_case: true
+- trigger: ecriras
+  replace: "écriras"
+  word: true
+  propagate_case: true
+- trigger: decideras
+  replace: "décideras"
+  word: true
+  propagate_case: true
+- trigger: verifieras
+  replace: "vérifieras"
+  word: true
+  propagate_case: true
+- trigger: developperas
+  replace: "développeras"
+  word: true
+  propagate_case: true
+- trigger: ecouteras
+  replace: "écouteras"
+  word: true
+  propagate_case: true
+- trigger: representeras
+  replace: "représenteras"
+  word: true
+  propagate_case: true
+- trigger: egleras
+  replace: "ègleras"
+  word: true
+  propagate_case: true
+- trigger: vetiras
+  replace: "vêtiras"
+  word: true
+  propagate_case: true
+- trigger: melangeras
+  replace: "mélangeras"
+  word: true
+  propagate_case: true
+- trigger: resoudras
+  replace: "résoudras"
+  word: true
+  propagate_case: true
+- trigger: decriras
+  replace: "décriras"
+  word: true
+  propagate_case: true
+- trigger: egeras
+  replace: "ègeras"
+  word: true
+  propagate_case: true
+- trigger: creeras
+  replace: "créeras"
+  word: true
+  propagate_case: true
+- trigger: dependras
+  replace: "dépendras"
+  word: true
+  propagate_case: true
+- trigger: depecheras
+  replace: "dépêcheras"
+  word: true
+  propagate_case: true
+- trigger: repondras
+  replace: "répondras"
+  word: true
+  propagate_case: true
+- trigger: reveras
+  replace: "rêveras"
+  word: true
+  propagate_case: true
+- trigger: determineras
+  replace: "détermineras"
+  word: true
+  propagate_case: true
+- trigger: selectionneras
+  replace: "sélectionneras"
+  word: true
+  propagate_case: true
+- trigger: prepareras
+  replace: "prépareras"
+  word: true
+  propagate_case: true
+- trigger: elera
+  replace: "èlera"
+  word: true
+  propagate_case: true
+- trigger: erera
+  replace: "èrera"
+  word: true
+  propagate_case: true
+- trigger: ecrira
+  replace: "écrira"
+  word: true
+  propagate_case: true
+- trigger: decidera
+  replace: "décidera"
+  word: true
+  propagate_case: true
+- trigger: verifiera
+  replace: "vérifiera"
+  word: true
+  propagate_case: true
+- trigger: developpera
+  replace: "développera"
+  word: true
+  propagate_case: true
+- trigger: ecoutera
+  replace: "écoutera"
+  word: true
+  propagate_case: true
+- trigger: representera
+  replace: "représentera"
+  word: true
+  propagate_case: true
+- trigger: eglera
+  replace: "èglera"
+  word: true
+  propagate_case: true
+- trigger: vetira
+  replace: "vêtira"
+  word: true
+  propagate_case: true
+- trigger: melangera
+  replace: "mélangera"
+  word: true
+  propagate_case: true
+- trigger: resoudra
+  replace: "résoudra"
+  word: true
+  propagate_case: true
+- trigger: decrira
+  replace: "décrira"
+  word: true
+  propagate_case: true
+- trigger: egera
+  replace: "ègera"
+  word: true
+  propagate_case: true
+- trigger: creera
+  replace: "créera"
+  word: true
+  propagate_case: true
+- trigger: dependra
+  replace: "dépendra"
+  word: true
+  propagate_case: true
+- trigger: depechera
+  replace: "dépêchera"
+  word: true
+  propagate_case: true
+- trigger: repondra
+  replace: "répondra"
+  word: true
+  propagate_case: true
+- trigger: revera
+  replace: "rêvera"
+  word: true
+  propagate_case: true
+- trigger: determinera
+  replace: "déterminera"
+  word: true
+  propagate_case: true
+- trigger: selectionnera
+  replace: "sélectionnera"
+  word: true
+  propagate_case: true
+- trigger: preparera
+  replace: "préparera"
+  word: true
+  propagate_case: true
+- trigger: elerons
+  replace: "èlerons"
+  word: true
+  propagate_case: true
+- trigger: ererons
+  replace: "èrerons"
+  word: true
+  propagate_case: true
+- trigger: ecrirons
+  replace: "écrirons"
+  word: true
+  propagate_case: true
+- trigger: deciderons
+  replace: "déciderons"
+  word: true
+  propagate_case: true
+- trigger: verifierons
+  replace: "vérifierons"
+  word: true
+  propagate_case: true
+- trigger: developperons
+  replace: "développerons"
+  word: true
+  propagate_case: true
+- trigger: ecouterons
+  replace: "écouterons"
+  word: true
+  propagate_case: true
+- trigger: representerons
+  replace: "représenterons"
+  word: true
+  propagate_case: true
+- trigger: eglerons
+  replace: "èglerons"
+  word: true
+  propagate_case: true
+- trigger: vetirons
+  replace: "vêtirons"
+  word: true
+  propagate_case: true
+- trigger: melangerons
+  replace: "mélangerons"
+  word: true
+  propagate_case: true
+- trigger: resoudrons
+  replace: "résoudrons"
+  word: true
+  propagate_case: true
+- trigger: decrirons
+  replace: "décrirons"
+  word: true
+  propagate_case: true
+- trigger: egerons
+  replace: "ègerons"
+  word: true
+  propagate_case: true
+- trigger: creerons
+  replace: "créerons"
+  word: true
+  propagate_case: true
+- trigger: dependrons
+  replace: "dépendrons"
+  word: true
+  propagate_case: true
+- trigger: depecherons
+  replace: "dépêcherons"
+  word: true
+  propagate_case: true
+- trigger: repondrons
+  replace: "répondrons"
+  word: true
+  propagate_case: true
+- trigger: reverons
+  replace: "rêverons"
+  word: true
+  propagate_case: true
+- trigger: determinerons
+  replace: "déterminerons"
+  word: true
+  propagate_case: true
+- trigger: selectionnerons
+  replace: "sélectionnerons"
+  word: true
+  propagate_case: true
+- trigger: preparerons
+  replace: "préparerons"
+  word: true
+  propagate_case: true
+- trigger: elerez
+  replace: "èlerez"
+  word: true
+  propagate_case: true
+- trigger: ererez
+  replace: "èrerez"
+  word: true
+  propagate_case: true
+- trigger: ecrirez
+  replace: "écrirez"
+  word: true
+  propagate_case: true
+- trigger: deciderez
+  replace: "déciderez"
+  word: true
+  propagate_case: true
+- trigger: verifierez
+  replace: "vérifierez"
+  word: true
+  propagate_case: true
+- trigger: developperez
+  replace: "développerez"
+  word: true
+  propagate_case: true
+- trigger: ecouterez
+  replace: "écouterez"
+  word: true
+  propagate_case: true
+- trigger: representerez
+  replace: "représenterez"
+  word: true
+  propagate_case: true
+- trigger: eglerez
+  replace: "èglerez"
+  word: true
+  propagate_case: true
+- trigger: vetirez
+  replace: "vêtirez"
+  word: true
+  propagate_case: true
+- trigger: melangerez
+  replace: "mélangerez"
+  word: true
+  propagate_case: true
+- trigger: resoudrez
+  replace: "résoudrez"
+  word: true
+  propagate_case: true
+- trigger: decrirez
+  replace: "décrirez"
+  word: true
+  propagate_case: true
+- trigger: egerez
+  replace: "ègerez"
+  word: true
+  propagate_case: true
+- trigger: creerez
+  replace: "créerez"
+  word: true
+  propagate_case: true
+- trigger: dependrez
+  replace: "dépendrez"
+  word: true
+  propagate_case: true
+- trigger: depecherez
+  replace: "dépêcherez"
+  word: true
+  propagate_case: true
+- trigger: repondrez
+  replace: "répondrez"
+  word: true
+  propagate_case: true
+- trigger: reverez
+  replace: "rêverez"
+  word: true
+  propagate_case: true
+- trigger: determinerez
+  replace: "déterminerez"
+  word: true
+  propagate_case: true
+- trigger: selectionnerez
+  replace: "sélectionnerez"
+  word: true
+  propagate_case: true
+- trigger: preparerez
+  replace: "préparerez"
+  word: true
+  propagate_case: true
+- trigger: eleront
+  replace: "èleront"
+  word: true
+  propagate_case: true
+- trigger: ereront
+  replace: "èreront"
+  word: true
+  propagate_case: true
+- trigger: ecriront
+  replace: "écriront"
+  word: true
+  propagate_case: true
+- trigger: decideront
+  replace: "décideront"
+  word: true
+  propagate_case: true
+- trigger: verifieront
+  replace: "vérifieront"
+  word: true
+  propagate_case: true
+- trigger: developperont
+  replace: "développeront"
+  word: true
+  propagate_case: true
+- trigger: ecouteront
+  replace: "écouteront"
+  word: true
+  propagate_case: true
+- trigger: representeront
+  replace: "représenteront"
+  word: true
+  propagate_case: true
+- trigger: egleront
+  replace: "ègleront"
+  word: true
+  propagate_case: true
+- trigger: vetiront
+  replace: "vêtiront"
+  word: true
+  propagate_case: true
+- trigger: melangeront
+  replace: "mélangeront"
+  word: true
+  propagate_case: true
+- trigger: resoudront
+  replace: "résoudront"
+  word: true
+  propagate_case: true
+- trigger: decriront
+  replace: "décriront"
+  word: true
+  propagate_case: true
+- trigger: egeront
+  replace: "ègeront"
+  word: true
+  propagate_case: true
+- trigger: creeront
+  replace: "créeront"
+  word: true
+  propagate_case: true
+- trigger: dependront
+  replace: "dépendront"
+  word: true
+  propagate_case: true
+- trigger: depecheront
+  replace: "dépêcheront"
+  word: true
+  propagate_case: true
+- trigger: repondront
+  replace: "répondront"
+  word: true
+  propagate_case: true
+- trigger: reveront
+  replace: "rêveront"
+  word: true
+  propagate_case: true
+- trigger: determineront
+  replace: "détermineront"
+  word: true
+  propagate_case: true
+- trigger: selectionneront
+  replace: "sélectionneront"
+  word: true
+  propagate_case: true
+- trigger: prepareront
+  replace: "prépareront"
+  word: true
+  propagate_case: true
+- trigger: depeche
+  replace: "dépêché"
+  word: true
+  propagate_case: true
+- trigger: ete
+  replace: "été"
+  word: true
+  propagate_case: true
+- trigger: epele
+  replace: "épelé"
+  word: true
+  propagate_case: true
+- trigger: differe
+  replace: "différé"
+  word: true
+  propagate_case: true
+- trigger: decide
+  replace: "décidé"
+  word: true
+  propagate_case: true
+- trigger: verifie
+  replace: "vérifié"
+  word: true
+  propagate_case: true
+- trigger: developpe
+  replace: "développé"
+  word: true
+  propagate_case: true
+- trigger: ecoute
+  replace: "écouté"
+  word: true
+  propagate_case: true
+- trigger: represente
+  replace: "représenté"
+  word: true
+  propagate_case: true
+- trigger: regle
+  replace: "réglé"
+  word: true
+  propagate_case: true
+- trigger: vetu
+  replace: "vêtu"
+  word: true
+  propagate_case: true
+- trigger: suggere
+  replace: "suggéré"
+  word: true
+  propagate_case: true
+- trigger: melange
+  replace: "mélangé"
+  word: true
+  propagate_case: true
+- trigger: resolu
+  replace: "résolu"
+  word: true
+  propagate_case: true
+- trigger: protege
+  replace: "protégé"
+  word: true
+  propagate_case: true
+- trigger: cree
+  replace: "créé"
+  word: true
+  propagate_case: true
+- trigger: dependu
+  replace: "dépendu"
+  word: true
+  propagate_case: true
+- trigger: repondu
+  replace: "répondu"
+  word: true
+  propagate_case: true
+- trigger: reve
+  replace: "rêvé"
+  word: true
+  propagate_case: true
+- trigger: determine
+  replace: "déterminé"
+  word: true
+  propagate_case: true
+- trigger: selectionne
+  replace: "sélectionné"
+  word: true
+  propagate_case: true
+- trigger: prepare
+  replace: "préparé"
+  word: true
+  propagate_case: true
+- trigger: depeches
+  replace: "dépêchés"
+  word: true
+  propagate_case: true
+- trigger: depeche-toi
+  replace: "dépêche-toi"
+  word: true
+  propagate_case: true
+- trigger: depechons-nous
+  replace: "dépêchons-nous"
+  word: true
+  propagate_case: true
+- trigger: depechez-vous
+  replace: "dépêchez-vous"
+  word: true
+  propagate_case: true
+- trigger: vete
+  replace: "vête"
+  word: true
+  propagate_case: true
+- trigger: resolve
+  replace: "résolve"
+  word: true
+  propagate_case: true
+- trigger: decrive
+  replace: "décrive"
+  word: true
+  propagate_case: true
+- trigger: depende
+  replace: "dépende"
+  word: true
+  propagate_case: true
+- trigger: reponde
+  replace: "réponde"
+  word: true
+  propagate_case: true
+- trigger: epelles
+  replace: "épelles"
+  word: true
+  propagate_case: true
+- trigger: ecrives
+  replace: "écrives"
+  word: true
+  propagate_case: true
+- trigger: vetes
+  replace: "vêtes"
+  word: true
+  propagate_case: true
+- trigger: resolves
+  replace: "résolves"
+  word: true
+  propagate_case: true
+- trigger: decrives
+  replace: "décrives"
+  word: true
+  propagate_case: true
+- trigger: dependes
+  replace: "dépendes"
+  word: true
+  propagate_case: true
+- trigger: repondes
+  replace: "répondes"
+  word: true
+  propagate_case: true
+- trigger: ecrive
+  replace: "écrive"
+  word: true
+  propagate_case: true

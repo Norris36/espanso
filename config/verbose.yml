@@ -1,4 +1,4 @@
-filter_exec: "(Slack|OUTLOOK|Teams|firefox)"
+filter_exec: "(Slack|OUTLOOK|Teams|firefox|olk)"
 enable: true
 extra_includes:
   - "../match/_email.yml"

@@ -617,7 +617,7 @@ matches:
   - triggers: [':fist right', ':fist right:']
     replace: "\U0001F91C"
     word: true
-  - triggers: [':crossed fingers', ':crossed fingers:']
+  - triggers: [':crossed fingers', ':crossed fingers:', ':crossed_fingers']
     replace: "\U0001F91E"
     word: true
   - triggers: [':luck', ':luck:']

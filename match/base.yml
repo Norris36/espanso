@@ -24,24 +24,6 @@ matches:
       word: true
       propagate_case: true
 
-    - trigger: ':run'
-      replace: streamlit run paideia\paideia.py
-      word: true
-      propagate_case: true
-
-    - trigger: ':table'
-      replace: 'ANALYTICS.DOTCOM.ALL_ORDERS_COMPLETED'
-      word: true
-      propagate_case: true
-    
-    - trigger: ':flake'
-      replace: 'bua83601.us-east-1.snowflakecomputing.com'
-      word: true
-      propagate_case: true
-
-    - trigger: ':server'
-      replace: 'QUERY_WH'
-    
     - trigger: ':parent'
       replace: "parent = my.get_current_path()\n\nquery = '$|$'\n\npaths = my.hygin(path = parent, query = query)"
     
@@ -73,9 +55,6 @@ matches:
     - triggers: [':g4', ':G4']
       replace: 'Google Analytics 4'
       word: true
-
-
-  
   ##
   ##  Prompt Engineering Base Prompts
   ##
@@ -102,22 +81,15 @@ matches:
 
     - trigger: ':nantes'
       replace: "As an expert Streamlit teacher, your role is to guide me on how to use the Streamlit library effectively for data science applications. You should have a strong understanding of the Streamlit library and be able to provide training and guidance on how to create intuitive and user-friendly data science applications with it. Your responsibilities include creating training materials, delivering lectures and workshops, providing individualized support, and assessing my progress. Additionally, you should be able to provide consultation and guidance on best practices for designing, developing, and deploying Streamlit applications. As an expert Streamlit teacher, you should have excellent communication and teaching skills and be able to explain complex concepts in a clear and concise manner:\n"
-      propagate_case: true
 
     - trigger: ':sporting'
       replace: "You now have the role as a Communication Expert in Emails, you are responsible for crafting clear, concise, and engaging email content to effectively convey messages to various audiences. Your expertise in email etiquette, tone, and structure ensures the delivery of compelling and impactful communications. You have strong proofreading skills and attention to detail are essential for maintaining a high level of communication in any context. Please assist with my below issue:\n"
-      propagate_case: true
 
     - trigger: ':athens'
       replace: "I want you to act as a Python expert in regular expressions. I will give you commands in Python to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not write explanations or examples of how the regular expressions work, simply provide only the regular expressions themselves. My first prompt is to generate a regular expression that matches an email address."
 
     - trigger: ":budapest"
       replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
-
-    - trigger: ":chat" 
-      replace: "summarise the below text to five key points, getting the most important parts of the text, and preparing me for a book club:"
-      propagate_case: true
-
     - trigger: ':chat'
       replace: 'Is greece bigger than Italy?'
       propagate_case: true
@@ -128,7 +100,6 @@ matches:
 
     - trigger: ':copenhagen'
       replace: "Here are the roles associated with each trigger: \n   1. :paris - Document Python code line-by-line.\n   2. :montpelier variants - Teach DAX for beginners.\n   3. :porto - Python programming coach.\n   4. :lissabon 1 - GitHub expert.\n   5. :kiel - French language teacher.\n   6. :nantes - Streamlit guide for data science.\n   7. :sporting - Communication Expert in Emails.\n   8. :lissabon 2 - Azure Cloud, DevOps, Release Pipeline expert.\n   9. :athens - Python regex expert.\n   10. :budapest - Data Miner and Data Scraper.\n   11. :nice - French language teacher.\n   12. :cannes - French language teacher, translation comparison.\n   13. :chat 1 - Summarise texts for book club.\n   14. :chat 2 - Answer geography trivia.\n   15. :flensburg - Presentation Expert."
-      propagate_case: true
 
     - trigger: ':kiel'
       replace: "I want you to act as a French language teacher and improver, I'm at level A1, and seekting to become A2. will provide you with attempts at writing french, you will then write a corrected french sentence with the same meaning. If I write a word or a set of words, in hard brackets such as [], then I don't know the french translation of a given word, please in the corrected sentence remove the brackets and write the translated word Then you will write a constructive list of corrections, in english. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. Please ensure there is some praise in what I do, as I find this very hard: \n $|$ \n\n {{clipboard}}"
@@ -145,30 +116,29 @@ matches:
     - trigger: ":charles"
       replace: "As Vice President in Direct Sales, you will be responsible for leading a team of sales professionals to achieve and exceed sales targets. You will develop and implement strategies to increase sales, create and manage budgets, and analyze market trends to identify new opportunities. You will also be responsible for training and motivating your team, providing feedback and guidance, and ensuring that customer service standards are met. You will be the face of the company, representing it to external stakeholders and customers. Your success will be measured by the team's performance and the company's overall growth."
 
-    - trigger: ":olivier"
+    - trigger: ":lens"
       replace: "As a Lead Data Engineer, you are responsible for ensuring the data architecture is optimized for performance, scalability, and reliability. You will design and develop data pipelines, create data models, and develop ETL processes. You will also be responsible for monitoring data quality and integrity, and ensuring data security and privacy. You will collaborate with stakeholders to understand their data needs and develop solutions to meet those needs. You will also be responsible for troubleshooting data-related issues and providing technical guidance to other team members."
-      word: true
 
     - trigger: ":toulouse"
       replace: "As a project manager, you will be responsible for maintaining forward momentum on a project. You will be responsible for setting and tracking project milestones, managing resources, and ensuring that the team is meeting deadlines. You will also be responsible for identifying and resolving any issues that arise, and for communicating progress to stakeholders. You will need to be organized, detail-oriented, and able to work well with a team. Your first task is to create a timeline for the project and ensure that all team members are aware of their responsibilities."
-      word: true
 
     - trigger: ":senior_dev"
       replace: "As a Senior Developer, I have 5 years of experience in building web applications with Python and Django. I have a deep understanding of the frameworks and technologies used in web development, and I am able to quickly develop secure and reliable applications. I have a passion for creating intuitive user experiences and I am always looking for ways to improve the user experience. I am an expert in debugging and troubleshooting, and I am able to quickly identify and resolve any issues that arise."
-      word: true
 
     - trigger: ":bourgogne"
       replace: " :I want you to act as an expert mermaid diagrammer. You will use your knowledge of mermaids and diagramming to create detailed diagrams that accurately represent the anatomy and behavior of mermaids. You will also develop diagrams that illustrate the relationships between mermaids and their environment, create visuals that help explain complex concepts related to mermaids, and collaborate with experts to ensure accuracy and completeness of diagrams."
-      word: true
 
     - trigger: ":lyon"
       replace: "I want you to act as a data science mentor. You will use your 5 years of experience in the field of data science to teach a junior data analyst how to use the data science models and algorithms. You will provide guidance and support to the analyst, helping them to understand the best practices in data science. You will also provide examples and visualizations to help them understand the concepts better."
-      word: true
 
     - trigger: ":strasbourg"
       replace: "As a book salesmen and expert, I'm here to help you find the perfect book for your needs. Whether you're looking for a self-help book to improve your relationships, a career development guide to help you reach your goals, or an aphorism book to provide you with wise advice, I'm here to help. I'm passionate about books and I'm confident I can find the perfect one for you. Let me know what you're looking for and I'll provide you with the best recommendations."
-      word: true
 
+    - trigger: ":lille"
+      replace: "Write a question which I can search to hit applicable examples in stack exchange, The question should be in a technical language increasing the probability of hitting applicable examples"
+
+    - trigger: ":provence"
+      replace: "Create a generally applicable example of the solution to my issue, do not provide the direct solution to my code. The example should be specific enough to convey the solution, but general enough to not be applicable to my code. Please provide line by line documentation of the code, and explain the issue in the documentation"
   ##
   ##  Names
   ##
@@ -176,29 +146,11 @@ matches:
     - trigger: ":ado"
       replace: "Azure DevOps"
 
-    - trigger: ":ms"
-      replace: "Microsoft"
-
     - trigger: ":ss"
       replace: "SteelSeries"
 
     - trigger: ":hash"
       replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
-
-    - trigger: ':select'
-      replace: "select *\nfrom $|$\nlimit 100;"
-
-    - trigger: ':my_test'
-      replace: "(\n   -- snippet_date_this_year\n        ('2023-01-01' = date_trunc('year', current_date) and '2023-12-31' = date_trunc('year', current_date) + interval '1 year' - interval '1 day' and date >= current_date - interval '12 months' and date < current_date)\n        or\n        (('2023-01-01' != date_trunc('year', current_date) or '2023-12-31' != date_trunc('year', current_date) + interval '1 year' - interval '1 day' ) and date >= '2023-01-01' and  date < '2023-12-31'::date + interval '1 day')\n)"
-
-    - trigger: ':aws'
-      replace: '.\aws sso login --profile production-eng'
-
-    - trigger: ':enter'
-      replace: '.\aws --profile production-eng ssm start-session --region us-east-1 --target{{clipboard}} --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters host="dotcom.ccxrngmoosoq.us-east-1.rds.amazonaws.com",portNumber="5432",localPortNumber="55432"'
-      vars:
-        - name: "clipboard"
-          type: "clipboard"
 
     - trigger: "::sharex"
       replace: "https://getsharex.com/"
@@ -207,6 +159,9 @@ matches:
       replace: "Chicago"
       propagate_case: true
       word: true
+
+    - regex: "(ballerup|balerup)" 
+      replace: "Ballerup"
 
     - trigger: "resound" 
       replace: "ReSound"
@@ -218,7 +173,7 @@ matches:
       propagate_case: true
       word: true
 
-    - trigges: ["jabra"] 
+    - triggers: ["jabra"] 
       replace: "Jabra"
       propagate_case: true
       word: true
@@ -227,7 +182,6 @@ matches:
       replace: "SteelSeries"
       propagate_case: true
       word: true
-
   ##
   ##  To be sorted
   ##
@@ -239,6 +193,13 @@ matches:
     
     - trigger: ":gnsp"
       replace: "https://gnsn.service-now.com/sp?id=sc_cat_item&sys_id=9fab39e2d7532100a9ad1e173e24d484"
+
+    - trigger: ":service_ticket"
+      replace: "Hi, \n, [Please contact me on Teams if I need to provide input or I can aid the process in any way]"
+
+    - triggers: [":d:", ":D:"]
+      replace: ":set default apps"
+      word: true
 
     - trigger: ":env"
       replace: '.\venv\Scripts\activate'
@@ -278,7 +239,6 @@ matches:
           params:
             cmd: "echo 'Hello from your shell'"
 
-
     - regex: ':(?P<d>\d{2})(?P<m>[01]\d)'
       replace: '{{d}}/{{m}}/2023'
 
@@ -298,23 +258,8 @@ matches:
     - trigger: ":ticket"
       replace: "$|$\n\nUser story:\n\nI as a [type of user] should be able to [action] [item]\n\nAcceptance Criteria:\n - The solution must be able to [criteria]"
 
-    - trigger: ":pbx" 
-      replace: "1280"
-      propagate_case: true
-      word: true
-
     - trigger: ":-" 
       replace: "----------------------------------------------------------------"
-      propagate_case: true
-      word: true
-
-    - trigger: ":pby" 
-      replace: "720"
-      propagate_case: true
-      word: true
-
-    - trigger: "ar" 
-      replace: "are"
       propagate_case: true
       word: true
     
@@ -327,7 +272,10 @@ matches:
       replace: "|"
       propagate_case: true
       word: true
-    
+
+    ##
+    ##  Forms
+    ##   
     - trigger: ":greet"
       form: |
         Hey [[name]],
@@ -342,6 +290,7 @@ matches:
           values:
             - First choice
             - Second choice
+    
     - trigger: ":my_assistant"
       form: |
         [[role]]

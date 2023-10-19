@@ -1,7 +1,40 @@
 matches:
-    - trigger: ':select'
+    # - trigger: ':select'
+    #   replace: "select *\nfrom $|$\nlimit 100;"
+    - regex: ':select_(?P<person>[\w\._]+)\s'
+      replace: "select *\nfrom {{person}}\nlimit 100;"
+
+    - regex: ':select_clip'
+      replace: "select *\nfrom {{clipboard}}\nlimit 100;"
+      vars:
+        - name: "clipboard"
+          type: "clipboard"
+
+    - regex: ':s:'
       replace: "select *\nfrom $|$\nlimit 100;"
+
     - trigger: ':ex_w'
       replace: "extract(week from $|$) as week,"
+
     - trigger: ':ex_y'
       replace: "extract(year from $|$) as year,"
+    
+    - trigger: ':flake'
+      replace: 'bua83601.us-east-1.snowflakecomputing.com'
+      word: true
+      propagate_case: true
+
+    - trigger: ':server'
+      replace: 'QUERY_WH'
+    
+    - trigger: ':example_snippet'
+      replace: "(\n   -- snippet_date_this_year\n        ('2023-01-01' = date_trunc('year', current_date) and '2023-12-31' = date_trunc('year', current_date) + interval '1 year' - interval '1 day' and date >= current_date - interval '12 months' and date < current_date)\n        or\n        (('2023-01-01' != date_trunc('year', current_date) or '2023-12-31' != date_trunc('year', current_date) + interval '1 year' - interval '1 day' ) and date >= '2023-01-01' and  date < '2023-12-31'::date + interval '1 day')\n)"
+
+    - trigger: ':aws'
+      replace: '.\aws sso login --profile production-eng'
+
+    - trigger: ':enter'
+      replace: '.\aws --profile production-eng ssm start-session --region us-east-1 --target{{clipboard}} --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters host="dotcom.ccxrngmoosoq.us-east-1.rds.amazonaws.com",portNumber="5432",localPortNumber="55432"'
+      vars:
+        - name: "clipboard"
+          type: "clipboard"
