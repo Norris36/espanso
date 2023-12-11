@@ -31,3 +31,130 @@ matches:
   - regex: toni
     replace: Toni
     word: true
+## Graduates
+  - regex: eleni
+    replace: Eleni
+    word: true
+  - regex: ray
+    replace: Ray
+    word: true
+  - trigger: lisa
+    replace: Lisa
+    word: true
+  - regex: laura
+    replace: Laura
+    word: true
+  - regex: shan
+    replace: Shan
+    word: true
+  - regex: jeffrey
+    replace: Jeffrey
+    word: true
+  - regex: maria
+    replace: Maria 
+    word: true
+  - regex: mathias
+    replace: Mathias
+    word: true
+  - regex: luyao
+    replace: Luyao
+    word: true
+  - trigger: "anne sophie"
+    replace: "Anne Sophie"
+    word: true
+  - regex: johan
+    replace: Johan
+    word: true
+## Digital Innovation 
+  - regex: thomas 
+    replace: Thomas
+    word: true
+  - regex: bex
+    replace: Bex
+    word: true
+  - regex: bergdis
+    replace: Bergdis
+    word: true
+  - regex: morten
+    replace: Morten
+    word: true
+  - regex: xiang
+    replace: Xiang
+    word: true
+  - regex: spyridon
+    replace: Spyridon
+    word: true
+## Digital Platforms
+  - regex: troels
+    replace: Troels
+    word: true
+  - regex: lasse
+    replace: Lasse
+    word: true
+  - regex: himanshu
+    replace: Himanshu
+    word: true
+  - regex: cornelia
+    replace: Cornelia
+    word: true
+  - regex: salik
+    replace: Salik
+    word: true
+## Valuable people
+  - regex: stefan
+    replace: Stefan
+    word: true
+  - regex: kenneth
+    replace: Kenneth
+    word: true
+## Places
+  - regex: chicago
+    replace: Chicago
+    word: true
+  - regex: chiago
+    replace: Chicago
+    word: true
+  - regex: ballerup
+    replace: Ballerup
+    word: true
+  - regex: balerup
+    replace: Ballerup
+    word: true
+
+  - trigger: 'mountain view'
+    replace: 'Mountain View'
+
+  - trigger: 'san francisco'
+    replace: 'San Francisco'
+
+  - trigger: 'new york'
+    replace: 'New York'
+
+## Companies
+
+  - trigger: "resound" 
+    replace: "ReSound"
+    propagate_case: true
+    word: true
+
+  - triggers: ["jabra"] 
+    replace: "Jabra"
+    propagate_case: true
+    word: true
+
+  - triggers: ["steelseries", "steelseeries", "stelseries"]
+    replace: "SteelSeries"
+    propagate_case: true
+    word: true
+
+  - regex: microsoft
+    replace: Microsoft
+    word: true
+    
+  - regex: windows
+    replace: Windows
+    word: true
+    
+  - trigger: 'digital platform architecture'
+    replace: 'Digital Platform Architecture'
+

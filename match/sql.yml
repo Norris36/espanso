@@ -33,6 +33,10 @@ matches:
     - trigger: ':aws'
       replace: '.\aws sso login --profile production-eng'
 
+    - trigger: '_<'
+      replace: '</br>'
+      word: true
+
     - trigger: ':enter'
       replace: '.\aws --profile production-eng ssm start-session --region us-east-1 --target{{clipboard}} --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters host="dotcom.ccxrngmoosoq.us-east-1.rds.amazonaws.com",portNumber="5432",localPortNumber="55432"'
       vars:

@@ -1,10 +1,10 @@
 # C:\Users\jbay\AppData\Roaming\espanso\config\Code.yml
-filter_exec:  "Code.exe"
-enable: true
-extra_excludes:
-  - "../match/_email.yml"
-extra_includes:
-  - "../match/_scripts.yml"
+# filter_exec:  "Code.exe"
+# enable: true
+# extra_excludes:
+#   - "../match/_email.yml"
+# extra_includes:
+#   - "../match/_scripts.yml"
 
 
 

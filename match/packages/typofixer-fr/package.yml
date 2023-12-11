@@ -2257,3 +2257,11 @@ matches:
   replace: "écrive"
   word: true
   propagate_case: true
+- trigger: premiere
+  replace: "première"
+  word: true
+  propagate_case: true
+- trigger: probleme
+  replace: "problème"
+  word: true
+  propagate_case: true

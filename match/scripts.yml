@@ -163,3 +163,27 @@ matches:
       params:
         cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\my_copy.py"
 
+  - regex: ':cliplist'
+    replace: '{{output}}'
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\fun_w_clip.py"
+
+  - regex: ':add_name'
+    replace: '{{output}}'
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\name_add.py"
+
+  - regex: ':index'
+    replace: '{{output}}'
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "python3 C:\\Users\\jbay\\AppData\\Roaming\\espanso\\match\\scripts\\indexer.py"
+

@@ -2326,3 +2326,96 @@ limit 10;
 ``` 
 
 This code will select all columns from the tables `promotions_promotion` and `promotions_benefit` and join them on the `benefit_id` column. It will then limit the results to 10 rows.",1692307585
+please write a  poem,"In the stillness of the night,
+When the world is calm and quiet,
+I sit and ponder on life's delight,
+And all the wonders that ignite.
+
+The stars above twinkle and shine,
+A reminder of the beauty divine,
+Of all the things that are truly fine,
+And the joys that we can find.
+
+The moon casts a gentle glow,
+As the night breeze begins to blow,
+And I feel my spirit start to grow,
+As I let my thoughts freely flow.
+
+In this moment of peace and grace,
+I find solace in this sacred space,
+And I know that in life's race,
+I'll always find my rightful place.",1698790386
+write a poem,"The sun sets in the west,
+As the birds fly to their nest,
+The stars twinkle in the sky,
+As the night passes by.
+
+The moon shines bright,
+As the world sleeps tight,
+The wind whispers in the trees,
+As the leaves dance with ease.
+
+The world is calm and still,
+As the night takes its fill,
+The darkness brings peace,
+As the worries cease.
+
+The night is a beautiful sight,
+As it brings a sense of delight,
+The world is a magical place,
+As we embrace its grace.",1698790460
+"-- provide feedback on my sql calculations
+select
+    mean_sales_1.product_name,
+    mean_sales_1.mean_sales,
+    mean_sales_2.mean_sales,
+    mean_sales_2.mean_sales / mean_sales_1.mean_sales as percentage
+from
+    mean_sales_1
+inner join mean_sales_2 on mean_sales_1.product_name = mean_sales_2.product_name
+where
+    mean_sales_1.mean_sales > 4
+order by
+    percentage desc","The SQL calculations you provided seem to be correct. The query selects the product name, mean sales from two tables, calculates the percentage difference between the two mean sales, and orders the results in descending order based on the percentage. The WHERE clause filters out any products with mean sales less than 4. Overall, the query looks good and should provide the desired results.",1699999549
+-- please write a poem in sql for me,"SELECT 
+    roses.are_red, 
+    violets.are_blue, 
+    sugar.is_sweet, 
+    and_so_are_you 
+FROM 
+    my_heart 
+JOIN 
+    yours 
+ON 
+    forever = true",1699999588
+"Please take this and rank the items mentioned in this text from 1 to however many
+
+organization's strategy and goals to drive business success, deliver revenue growth, improve operational efficiency, and enhance customer experience, all while ensuring scalability, security, and compliance.","1. Drive business success
+2. Deliver revenue growth
+3. Improve operational efficiency
+4. Enhance customer experience
+5. Ensure scalability
+6. Ensure security
+7. Ensure compliance",1700104012
+what is 6 * le6,"6 * le6 is equal to 6,000,000.",1700171984
+"please index this list
+Lego: Mandolorian	[75328]
+Lego: Tusindsårsfalken	[75257]
+Lego: NASA Apollo 11-månelandingsfartøj [10266]
+Thing Explainer	        -> https://www.saxo.com/dk/thing-explainer_hardback_9780544668256
+Blondinens betragninger	-> https://www.saxo.com/dk/blondinens-betragtninger_helle-thorning-schmidt_haeftet_9788793982420
+Thermalist	            -> https://www.saxo.com/dk/thermalist_bog_9788773390641
+Falske sandheder i livet-> https://www.saxo.com/dk/ni-falske-sandheder-der-forhindrer-dig-i-at-leve-et-meningsfuldt-liv_morten-albaek_haeftet_9788702316407	
+Twilight of the Elites	-> https://www.saxo.com/dk/twilight-of-the-elites_christophe-guilluy_paperback_9780300248425
+Den rystede republik	-> https://www.saxo.com/dk/den-rystede-republik_aske-munck_haeftet_9788793982062","1. Lego: Mandolorian [75328]
+2. Lego: Tusindsårsfalken [75257]
+3. Lego: NASA Apollo 11-månelandingsfartøj [10266]
+4. Thing Explainer -> https://www.saxo.com/dk/thing-explainer_hardback_9780544668256
+5. Blondinens betragninger -> https://www.saxo.com/dk/blondinens-betragtninger_helle-thorning-schmidt_haeftet_9788793982420
+6. Thermalist -> https://www.saxo.com/dk/thermalist_bog_9788773390641
+7. Falske sandheder i livet -> https://www.saxo.com/dk/ni-falske-sandheder-der-forhindrer-dig-i-at-leve-et-meningsfuldt-liv_morten-albaek_haeftet_9788702316407
+8. Twilight of the Elites -> https://www.saxo.com/dk/twilight-of-the-elites_christophe-guilluy_paperback_9780300248425
+9. Den rystede republik -> https://www.saxo.com/dk/den-rystede-republik_aske-munck_haeftet_9788793982062",1700253126
+"give me three strings consisting of one word under 10 chars, one with over 10 chars and a space, and one with over 10 chars and two spaces","""cat"", ""dog"", ""car"", ""basketball"", ""television "", ""   refrigerator  """,1700262164
+"separate these items by the ‘,’
+Rambøll, Cowi, Sweco, Artelia, Norconsult, Niras, Søren Jensen.","Rambøll, Cowi, Sweco, Artelia, Norconsult, Niras, Søren Jensen.",1701293252

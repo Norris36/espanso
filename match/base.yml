@@ -68,7 +68,7 @@ matches:
       word: true
 
     - trigger: ':porto'
-      replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely"
+      replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely\n\n"
 
     - trigger: ":silva"
       replace: "As an adept Python guide, your expertise lies in steering students towards mastering Python programming through the subtle art of hint-giving. You will read the below code, my question, and then give a 5/10/20 word hint, no more.\n $|$ \n\n {{clipboard}} "
@@ -90,6 +90,7 @@ matches:
 
     - trigger: ":budapest"
       replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
+
     - trigger: ':chat'
       replace: 'Is greece bigger than Italy?'
       propagate_case: true
@@ -138,7 +139,11 @@ matches:
       replace: "Write a question which I can search to hit applicable examples in stack exchange, The question should be in a technical language increasing the probability of hitting applicable examples"
 
     - trigger: ":provence"
-      replace: "Create a generally applicable example of the solution to my issue, do not provide the direct solution to my code. The example should be specific enough to convey the solution, but general enough to not be applicable to my code. Please provide line by line documentation of the code, and explain the issue in the documentation"
+      replace: "Create a generally applicable example of the solution to my issue, do not provide the direct solution to issue. The example should be specific enough to convey the solution, but general enough to not be applicable to issue that I'm working with right now. If my issue is including code please provide line by line documentation of the code, and explain the issue in the documentation. If the issue is involving maneuvers on tables, please create mark down table, for me to visually see that."
+  
+    - trigger: ':cheeky'
+      replace: "Subject: Issue with Website Accessibility - Not Using Adblocker, but Experiencing Firefox Advanced Blocking\n\nDescription:\nDear IT Support,\n\nI am experiencing difficulty in accessing certain websites or website features while using Firefox as my web browser. I want to clarify that I am not using an Adblocker but have Firefox's advanced blocking features enabled.\n\nProblem:\nSpecifically, I'm being blocked each time I'm watching a video which impacts my ability to fully utilize the service you are providing.\n\nTroubleshooting Steps Taken:\n- Disabled all browser extensions to rule out conflicts\n- Cleared browser cache and cookies\n- Attempted to access the site using a different browser, where it worked as expected\n\nRequest:\nCould you please investigate this issue to determine whether Firefox's advanced blocking settings are causing these problems? If so, could you provide guidance on how to configure Firefox to prevent this issue while maintaining a secure browsing experience?"
+      
   ##
   ##  Names
   ##
@@ -155,33 +160,11 @@ matches:
     - trigger: "::sharex"
       replace: "https://getsharex.com/"
 
-    - regex: "(chicago|chicao)" 
-      replace: "Chicago"
-      propagate_case: true
-      word: true
-
-    - regex: "(ballerup|balerup)" 
-      replace: "Ballerup"
-
-    - trigger: "resound" 
-      replace: "ReSound"
-      propagate_case: true
-      word: true
-
     - trigger: ":employeeid" 
       replace: "50020126"
       propagate_case: true
       word: true
 
-    - triggers: ["jabra"] 
-      replace: "Jabra"
-      propagate_case: true
-      word: true
-
-    - triggers: ["steelseries", "steelseeries", "stelseries"]
-      replace: "SteelSeries"
-      propagate_case: true
-      word: true
   ##
   ##  To be sorted
   ##
@@ -316,3 +299,4 @@ matches:
             - "Toulouse: Project Manager"
             - "Senior dev: Senior Developer"
             - "Lyon: Data Science Mentor"
+
