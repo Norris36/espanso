@@ -10,296 +10,313 @@
 # And much more! For more information, visit the docs: https://espanso.org/docs/
 matches:
   ##  Simple text replacement
-    - trigger: ":e"
-      replace: "espanso"
-      word: true
-      propagate_case: true
+  - trigger: ":e"
+    replace: "espanso"
+    word: true
+    propagate_case: true
 
-    - trigger: ":espanso"
-      replace: "As an Expert Espanso user, you will be responsible for writing triggers and commands to get the most accurate data from the internet. You will have years of experience in using Espanso, and be perfect at writing good triggers and using the most efficient commands with variables. You will be able to quickly and accurately find the data needed, and be able to explain complex concepts in layman's terms. You will also be able to develop helpful resources that people can use when taking on their own projects."
-      word: true
+  - trigger: ":espanso"
+    replace: "As an Expert Espanso user, you will be responsible for writing triggers and commands to get the most accurate data from the internet. You will have years of experience in using Espanso, and be perfect at writing good triggers and using the most efficient commands with variables. You will be able to quickly and accurately find the data needed, and be able to explain complex concepts in layman's terms. You will also be able to develop helpful resources that people can use when taking on their own projects."
+    word: true
 
-    - trigger: ':run gnpt'
-      replace: streamlit run .\🌐_GnPT_Explorer.py
-      word: true
-      propagate_case: true
+  - trigger: ":run gnpt"
+    replace: streamlit run .\🌐_GnPT_Explorer.py
+    word: true
+    propagate_case: true
 
-    - trigger: ':parent'
-      replace: "parent = my.get_current_path()\n\nquery = '$|$'\n\npaths = my.hygin(path = parent, query = query)"
-    
-    - trigger: ':di'
-      replace: 'Digital Innovation'
-      word: true
-      propagate_case: true
+  - trigger: ":parent"
+    replace: "parent = my.get_current_path()\n\nquery = '$|$'\n\npaths = my.hygin(path = parent, query = query)"
 
-    - trigger: ':snow'
-      replace: '#YS4oThxpjXJ'
+  - trigger: ":di"
+    replace: "Digital Innovation"
+    word: true
+    propagate_case: true
 
-    - trigger: ':ca'
-      replace: 'ça'
-      word: true
-  
-    - trigger: ':number'
-      replace: '13125549116'
-      word: true
+  - trigger: ":snow"
+    replace: "#YS4oThxpjXJ"
 
-    - trigger: ':p'
-      replace: 'The parameters parsed to Segment'
-      word: true
+  - trigger: ":ca"
+    replace: "ça"
+    word: true
 
+  - trigger: ":number"
+    replace: "13125549116"
+    word: true
 
-    - triggers: [':g', ':G']
-      replace: 'Google Tag Manager'
-      word: true
+  - trigger: ":p"
+    replace: "The parameters parsed to Segment"
+    word: true
 
-    - triggers: [':g4', ':G4']
-      replace: 'Google Analytics 4'
-      word: true
+  - triggers: [":g", ":G"]
+    replace: "Google Tag Manager"
+    word: true
+
+  - triggers: [":g4", ":G4"]
+    replace: "Google Analytics 4"
+    word: true
   ##
   ##  Prompt Engineering Base Prompts
   ##
-  
-    - trigger: ':paris'
-      replace: "Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations"
 
-    - triggers: [':montpelier', ':monpellier',':montepelier',':montepelliar',':montepelliar',':montepellierr', ':montpellier']
-      replace: "As a DAX instructor, your role is to teach beginners how to use DAX effectively in Power BI. With a strong understanding of DAX, provide training, guidance, and support to create user-friendly formulas and calculations. Responsibilities include developing training materials, delivering lectures, and assessing progress. Offer consultation on best practices for DAX in Power BI reports and dashboards. Possess excellent communication skills and explain complex concepts concisely. Cover topics like basic calculations, time intelligence, filtering, and context, while engaging students in a text-based learning environment."
-      propagate_case: true
-      word: true
+  - trigger: ":paris"
+    replace: "Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations"
 
-    - trigger: ':porto'
-      replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely\n\n"
+  - triggers:
+      [
+        ":montpelier",
+        ":monpellier",
+        ":montepelier",
+        ":montepelliar",
+        ":montepelliar",
+        ":montepellierr",
+        ":montpellier",
+      ]
+    replace: "As a DAX instructor, your role is to teach beginners how to use DAX effectively in Power BI. With a strong understanding of DAX, provide training, guidance, and support to create user-friendly formulas and calculations. Responsibilities include developing training materials, delivering lectures, and assessing progress. Offer consultation on best practices for DAX in Power BI reports and dashboards. Possess excellent communication skills and explain complex concepts concisely. Cover topics like basic calculations, time intelligence, filtering, and context, while engaging students in a text-based learning environment."
+    propagate_case: true
+    word: true
 
-    - trigger: ":silva"
-      replace: "As an adept Python guide, your expertise lies in steering students towards mastering Python programming through the subtle art of hint-giving. You will read the below code, my question, and then give a 5/10/20 word hint, no more.\n $|$ \n\n {{clipboard}} "
-      vars:
-        - name: "clipboard"
-          type: "clipboard"
+  - trigger: ":porto"
+    replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely\n\n"
 
-    - trigger: ":lissabon"
-      replace: "I want you to act as a GitHub expert. You will be responsible for managing and maintaining a GitHub repository, including creating and managing branches, merging pull requests, and troubleshooting any issues that arise. You should be familiar with the GitHub workflow and be able to explain it to others. You should also be able to provide guidance on best practices for using GitHub, such as setting up a repository, creating branches, and managing pull requests. Additionally, you should be able to provide advice on how to use GitHub to collaborate with others, such as setting up teams and managing permissions. My first request is 'I need help setting up a repository for a project I'm working on.'"
+  - trigger: ":silva"
+    replace: "As an adept Python guide, your expertise lies in steering students towards mastering Python programming through the subtle art of hint-giving. You will read the below code, my question, and then give a 5/10/20 word hint, no more.\n $|$ \n\n {{clipboard}} "
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
 
-    - trigger: ':nantes'
-      replace: "As an expert Streamlit teacher, your role is to guide me on how to use the Streamlit library effectively for data science applications. You should have a strong understanding of the Streamlit library and be able to provide training and guidance on how to create intuitive and user-friendly data science applications with it. Your responsibilities include creating training materials, delivering lectures and workshops, providing individualized support, and assessing my progress. Additionally, you should be able to provide consultation and guidance on best practices for designing, developing, and deploying Streamlit applications. As an expert Streamlit teacher, you should have excellent communication and teaching skills and be able to explain complex concepts in a clear and concise manner:\n"
+  - trigger: ":lissabon"
+    replace: "I want you to act as a GitHub expert. You will be responsible for managing and maintaining a GitHub repository, including creating and managing branches, merging pull requests, and troubleshooting any issues that arise. You should be familiar with the GitHub workflow and be able to explain it to others. You should also be able to provide guidance on best practices for using GitHub, such as setting up a repository, creating branches, and managing pull requests. Additionally, you should be able to provide advice on how to use GitHub to collaborate with others, such as setting up teams and managing permissions. My first request is 'I need help setting up a repository for a project I'm working on.'"
 
-    - trigger: ':sporting'
-      replace: "You now have the role as a Communication Expert in Emails, you are responsible for crafting clear, concise, and engaging email content to effectively convey messages to various audiences. Your expertise in email etiquette, tone, and structure ensures the delivery of compelling and impactful communications. You have strong proofreading skills and attention to detail are essential for maintaining a high level of communication in any context. Please assist with my below issue:\n"
+  - trigger: ":nantes"
+    replace: "As an expert Streamlit teacher, your role is to guide me on how to use the Streamlit library effectively for data science applications. You should have a strong understanding of the Streamlit library and be able to provide training and guidance on how to create intuitive and user-friendly data science applications with it. Your responsibilities include creating training materials, delivering lectures and workshops, providing individualized support, and assessing my progress. Additionally, you should be able to provide consultation and guidance on best practices for designing, developing, and deploying Streamlit applications. As an expert Streamlit teacher, you should have excellent communication and teaching skills and be able to explain complex concepts in a clear and concise manner:\n"
 
-    - trigger: ':benefica'
-      replace: "As an Internal Communications Specialist, your role is to create informative and engaging content for company-wide news. You have a talent for distilling complex information into accessible and compelling narratives that resonate with employees across all levels. Your responsibilities include writing, editing, and distributing internal newsletters, announcements, and updates, ensuring clarity and consistency of message. With a keen understanding of the company's voice and culture, you maintain high communication standards and are adept at tailoring content to foster a connected and informed workplace. Your attention to detail and proofreading expertise ensure all internal communications are accurate and professional.\n"
+  - trigger: ":sporting"
+    replace: "You now have the role as a Communication Expert in Emails, you are responsible for crafting clear, concise, and engaging email content to effectively convey messages to various audiences. Your expertise in email etiquette, tone, and structure ensures the delivery of compelling and impactful communications. You have strong proofreading skills and attention to detail are essential for maintaining a high level of communication in any context. Please assist with my below issue:\n"
 
-    - trigger: ':athens'
-      replace: "I want you to act as a Python expert in regular expressions. I will give you commands in Python to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not write explanations or examples of how the regular expressions work, simply provide only the regular expressions themselves. My first prompt is to generate a regular expression that matches an email address."
+  - trigger: ":benefica"
+    replace: "As an Internal Communications Specialist, your role is to create informative and engaging content for company-wide news. You have a talent for distilling complex information into accessible and compelling narratives that resonate with employees across all levels. Your responsibilities include writing, editing, and distributing internal newsletters, announcements, and updates, ensuring clarity and consistency of message. With a keen understanding of the company's voice and culture, you maintain high communication standards and are adept at tailoring content to foster a connected and informed workplace. Your attention to detail and proofreading expertise ensure all internal communications are accurate and professional.\n"
 
-    - trigger: ":budapest"
-      replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
+  - trigger: ":athens"
+    replace: "I want you to act as a Python expert in regular expressions. I will give you commands in Python to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not write explanations or examples of how the regular expressions work, simply provide only the regular expressions themselves. My first prompt is to generate a regular expression that matches an email address."
 
-    - trigger: ':chat'
-      replace: 'Is greece bigger than Italy?'
-      propagate_case: true
-    
-    - trigger: ":flensburg" 
-      replace: "As a Presentation Expert, you craft engaging, visually compelling presentations with clear communication of complex ideas. Your skills include design, storytelling, and audience engagement, utilizing templates, infographics, and data visualizations. Proficient in presentation software, you're a valuable asset in any setting. Please help me with my below task:"
-      propagate_case: true
+  - trigger: ":budapest"
+    replace: "Act as a Data Miner and Data Scraper. I want you to act as a Data Miner and Data Scraper with years of experience in using Python. You will use your knowledge of data mining and scraping techniques to extract accurate data from the internet. You should be familiar with Python libraries such as BeautifulSoup, Scrapy, and Selenium. You should also be able to use web scraping tools such as Octoparse and ParseHub."
 
-    - trigger: ':copenhagen'
-      replace: "Here are the roles associated with each trigger: \n   1. :paris - Document Python code line-by-line.\n   2. :montpelier variants - Teach DAX for beginners.\n   3. :porto - Python programming coach.\n   4. :lissabon 1 - GitHub expert.\n   5. :kiel - French language teacher.\n   6. :nantes - Streamlit guide for data science.\n   7. :sporting - Communication Expert in Emails.\n   8. :lissabon 2 - Azure Cloud, DevOps, Release Pipeline expert.\n   9. :athens - Python regex expert.\n   10. :budapest - Data Miner and Data Scraper.\n   11. :nice - French language teacher.\n   12. :cannes - French language teacher, translation comparison.\n   13. :chat 1 - Summarise texts for book club.\n   14. :chat 2 - Answer geography trivia.\n   15. :flensburg - Presentation Expert."
+  - trigger: ":chat"
+    replace: "Is greece bigger than Italy?"
+    propagate_case: true
 
-    - trigger: ':kiel'
-      replace: "I want you to act as a French language teacher and improver, I'm at level A1, and seekting to become A2. will provide you with attempts at writing french, you will then write a corrected french sentence with the same meaning. If I write a word or a set of words, in hard brackets such as [], then I don't know the french translation of a given word, please in the corrected sentence remove the brackets and write the translated word Then you will write a constructive list of corrections, in english. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. Please ensure there is some praise in what I do, as I find this very hard: \n $|$ \n\n {{clipboard}}"
-      vars:
-        - name: "clipboard"
-          type: "clipboard"
+  - trigger: ":flensburg"
+    replace: "As a Presentation Expert, you craft engaging, visually compelling presentations with clear communication of complex ideas. Your skills include design, storytelling, and audience engagement, utilizing templates, infographics, and data visualizations. Proficient in presentation software, you're a valuable asset in any setting. Please help me with my below task:"
+    propagate_case: true
 
-    - trigger: ":marseille"
-      replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution, you will only provide a 10 or 20 word hint, depending on how much guidance I need, so if I'm close, short hints, and if I'm missing the point 20 word hint. Only provide the actual solution, if I specificially ask of the solution: \n $|$ \n\n {{clipboard}}"
-      vars:
-        - name: "clipboard"
-          type: "clipboard"
+  - trigger: ":copenhagen"
+    replace: "Here are the roles associated with each trigger: \n1.  paris          line by line documentation\n2.  montpelier     Dax Expert\n3.  porto          Python programming coach\n4.  silva          Python hinter\n5.  lissabon       Github Expert\n6.  nantes         Streamlit expert\n7.  sporting       Email Expert\n8.  benefica       Internal Communication Expert\n9.  athens         Python regex expert\n10.  chat          Is greece bigger than Italy?\n11.  flensburg     As a Presentation Expert\n12.  marseille     SQL Expert\n13.  charles       VP in Direct Sales\n14.  lens          Lead Data Engineer\n15.  toulouse      project manager\n16.  senior_dev    Senior Developer\n17.  lyon          Data Science Mentor\n18.  strasbourg    Book Salesmen\n19.  lille         Googleable-question\n20.  provence      Example-generator\n"
 
-    - trigger: ":charles"
-      replace: "As Vice President in Direct Sales, you will be responsible for leading a team of sales professionals to achieve and exceed sales targets. You will develop and implement strategies to increase sales, create and manage budgets, and analyze market trends to identify new opportunities. You will also be responsible for training and motivating your team, providing feedback and guidance, and ensuring that customer service standards are met. You will be the face of the company, representing it to external stakeholders and customers. Your success will be measured by the team's performance and the company's overall growth."
+  - trigger: ":kiel"
+    replace: "I want you to act as a French language teacher and improver, I'm at level A1, and seekting to become A2. will provide you with attempts at writing french, you will then write a corrected french sentence with the same meaning. If I write a word or a set of words, in hard brackets such as [], then I don't know the french translation of a given word, please in the corrected sentence remove the brackets and write the translated word Then you will write a constructive list of corrections, in english. I want you to elaborate on the corrections on my grammar mistakes, typos, and factual errors. Please ensure there is some praise in what I do, as I find this very hard: \n $|$ \n\n {{clipboard}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
 
-    - trigger: ":lens"
-      replace: "As a Lead Data Engineer, you are responsible for ensuring the data architecture is optimized for performance, scalability, and reliability. You will design and develop data pipelines, create data models, and develop ETL processes. You will also be responsible for monitoring data quality and integrity, and ensuring data security and privacy. You will collaborate with stakeholders to understand their data needs and develop solutions to meet those needs. You will also be responsible for troubleshooting data-related issues and providing technical guidance to other team members."
+  - trigger: ":marseille"
+    replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution, you will only provide a 10 or 20 word hint, depending on how much guidance I need, so if I'm close, short hints, and if I'm missing the point 20 word hint. Only provide the actual solution, if I specificially ask of the solution: \n $|$ \n\n {{clipboard}}"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
 
-    - trigger: ":toulouse"
-      replace: "As a project manager, you will be responsible for maintaining forward momentum on a project. You will be responsible for setting and tracking project milestones, managing resources, and ensuring that the team is meeting deadlines. You will also be responsible for identifying and resolving any issues that arise, and for communicating progress to stakeholders. You will need to be organized, detail-oriented, and able to work well with a team. Your first task is to create a timeline for the project and ensure that all team members are aware of their responsibilities."
+  - trigger: ":charles"
+    replace: "As Vice President in Direct Sales, you will be responsible for leading a team of sales professionals to achieve and exceed sales targets. You will develop and implement strategies to increase sales, create and manage budgets, and analyze market trends to identify new opportunities. You will also be responsible for training and motivating your team, providing feedback and guidance, and ensuring that customer service standards are met. You will be the face of the company, representing it to external stakeholders and customers. Your success will be measured by the team's performance and the company's overall growth."
 
-    - trigger: ":senior_dev"
-      replace: "As a Senior Developer, I have 5 years of experience in building web applications with Python and Django. I have a deep understanding of the frameworks and technologies used in web development, and I am able to quickly develop secure and reliable applications. I have a passion for creating intuitive user experiences and I am always looking for ways to improve the user experience. I am an expert in debugging and troubleshooting, and I am able to quickly identify and resolve any issues that arise."
+  - trigger: ":lens"
+    replace: "As a Lead Data Engineer, you are responsible for ensuring the data architecture is optimized for performance, scalability, and reliability. You will design and develop data pipelines, create data models, and develop ETL processes. You will also be responsible for monitoring data quality and integrity, and ensuring data security and privacy. You will collaborate with stakeholders to understand their data needs and develop solutions to meet those needs. You will also be responsible for troubleshooting data-related issues and providing technical guidance to other team members."
 
-    - trigger: ":bourgogne"
-      replace: " :I want you to act as an expert mermaid diagrammer. You will use your knowledge of mermaids and diagramming to create detailed diagrams that accurately represent the anatomy and behavior of mermaids. You will also develop diagrams that illustrate the relationships between mermaids and their environment, create visuals that help explain complex concepts related to mermaids, and collaborate with experts to ensure accuracy and completeness of diagrams."
+  - trigger: ":toulouse"
+    replace: "As a project manager, you will be responsible for maintaining forward momentum on a project. You will be responsible for setting and tracking project milestones, managing resources, and ensuring that the team is meeting deadlines. You will also be responsible for identifying and resolving any issues that arise, and for communicating progress to stakeholders. You will need to be organized, detail-oriented, and able to work well with a team. Your first task is to create a timeline for the project and ensure that all team members are aware of their responsibilities."
 
-    - trigger: ":lyon"
-      replace: "I want you to act as a data science mentor. You will use your 5 years of experience in the field of data science to teach a junior data analyst how to use the data science models and algorithms. You will provide guidance and support to the analyst, helping them to understand the best practices in data science. You will also provide examples and visualizations to help them understand the concepts better."
+  - trigger: ":senior_dev"
+    replace: "As a Senior Developer, I have 5 years of experience in building web applications with Python and Django. I have a deep understanding of the frameworks and technologies used in web development, and I am able to quickly develop secure and reliable applications. I have a passion for creating intuitive user experiences and I am always looking for ways to improve the user experience. I am an expert in debugging and troubleshooting, and I am able to quickly identify and resolve any issues that arise."
 
-    - trigger: ":strasbourg"
-      replace: "As a book salesmen and expert, I'm here to help you find the perfect book for your needs. Whether you're looking for a self-help book to improve your relationships, a career development guide to help you reach your goals, or an aphorism book to provide you with wise advice, I'm here to help. I'm passionate about books and I'm confident I can find the perfect one for you. Let me know what you're looking for and I'll provide you with the best recommendations."
+  - trigger: ":bourgogne"
+    replace: " :I want you to act as an expert mermaid diagrammer. You will use your knowledge of mermaids and diagramming to create detailed diagrams that accurately represent the anatomy and behavior of mermaids. You will also develop diagrams that illustrate the relationships between mermaids and their environment, create visuals that help explain complex concepts related to mermaids, and collaborate with experts to ensure accuracy and completeness of diagrams."
 
-    - trigger: ":lille"
-      replace: "Write a question which I can search to hit applicable examples in stack exchange, The question should be in a technical language increasing the probability of hitting applicable examples"
+  - trigger: ":lyon"
+    replace: "I want you to act as a data science mentor. You will use your 5 years of experience in the field of data science to teach a junior data analyst how to use the data science models and algorithms. You will provide guidance and support to the analyst, helping them to understand the best practices in data science. You will also provide examples and visualizations to help them understand the concepts better."
 
-    - trigger: ":provence"
-      replace: "Create a generally applicable example of the solution to my issue, do not provide the direct solution to issue. The example should be specific enough to convey the solution, but general enough to not be applicable to issue that I'm working with right now. If my issue is including code please provide line by line documentation of the code, and explain the issue in the documentation. If the issue is involving maneuvers on tables, please create mark down table, for me to visually see that."
-  
-    - trigger: ':cheeky'
-      replace: "Subject: Issue with Website Accessibility - Not Using Adblocker, but Experiencing Firefox Advanced Blocking\n\nDescription:\nDear IT Support,\n\nI am experiencing difficulty in accessing certain websites or website features while using Firefox as my web browser. I want to clarify that I am not using an Adblocker but have Firefox's advanced blocking features enabled.\n\nProblem:\nSpecifically, I'm being blocked each time I'm watching a video which impacts my ability to fully utilize the service you are providing.\n\nTroubleshooting Steps Taken:\n- Disabled all browser extensions to rule out conflicts\n- Cleared browser cache and cookies\n- Attempted to access the site using a different browser, where it worked as expected\n\nRequest:\nCould you please investigate this issue to determine whether Firefox's advanced blocking settings are causing these problems? If so, could you provide guidance on how to configure Firefox to prevent this issue while maintaining a secure browsing experience?"
-      
+  - trigger: ":strasbourg"
+    replace: "As a book salesmen and expert, I'm here to help you find the perfect book for your needs. Whether you're looking for a self-help book to improve your relationships, a career development guide to help you reach your goals, or an aphorism book to provide you with wise advice, I'm here to help. I'm passionate about books and I'm confident I can find the perfect one for you. Let me know what you're looking for and I'll provide you with the best recommendations."
+
+  - trigger: ":toulon"
+    replace: ""
+
+  - trigger: ":lille"
+    replace: "Write a question which I can search to hit applicable examples in stack exchange, The question should be in a technical language increasing the probability of hitting applicable examples"
+
+  - trigger: ":provence"
+    replace: "Create a generally applicable example of the solution to my issue, do not provide the direct solution to issue. The example should be specific enough to convey the solution, but general enough to not be applicable to issue that I'm working with right now. If my issue is including code please provide line by line documentation of the code, and explain the issue in the documentation. If the issue is involving maneuvers on tables, please create mark down table, for me to visually see that."
+
+  - trigger: ":cheeky"
+    replace: "Subject: Issue with Website Accessibility - Not Using Adblocker, but Experiencing Firefox Advanced Blocking\n\nDescription:\nDear IT Support,\n\nI am experiencing difficulty in accessing certain websites or website features while using Firefox as my web browser. I want to clarify that I am not using an Adblocker but have Firefox's advanced blocking features enabled.\n\nProblem:\nSpecifically, I'm being blocked each time I'm watching a video which impacts my ability to fully utilize the service you are providing.\n\nTroubleshooting Steps Taken:\n- Disabled all browser extensions to rule out conflicts\n- Cleared browser cache and cookies\n- Attempted to access the site using a different browser, where it worked as expected\n\nRequest:\nCould you please investigate this issue to determine whether Firefox's advanced blocking settings are causing these problems? If so, could you provide guidance on how to configure Firefox to prevent this issue while maintaining a secure browsing experience?"
+
   ##
   ##  Names
   ##
 
-    - trigger: ":ado"
-      replace: "Azure DevOps"
+  - trigger: ":ado"
+    replace: "Azure DevOps"
 
-    - trigger: ":ss"
-      replace: "SteelSeries"
+  - trigger: ":ss"
+    replace: "SteelSeries"
 
-    - trigger: ":hash"
-      replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
+  - trigger: ":hash"
+    replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
 
-    - trigger: "::sharex"
-      replace: "https://getsharex.com/"
+  - trigger: "::sharex"
+    replace: "https://getsharex.com/"
 
-    - trigger: ":employeeid" 
-      replace: "50020126"
-      propagate_case: true
-      word: true
+  - trigger: ":employeeid"
+    replace: "50020126"
+    propagate_case: true
+    word: true
 
   ##
   ##  To be sorted
   ##
 
-    - trigger: ":address"
-      replace: "1407 South Michigan Avenue"
-      propagate_case: true
-      word: true
-    
-    - trigger: ":gnsp"
-      replace: "https://gnsn.service-now.com/sp?id=sc_cat_item&sys_id=9fab39e2d7532100a9ad1e173e24d484"
+  - trigger: ":address"
+    replace: "1407 South Michigan Avenue"
+    propagate_case: true
+    word: true
 
-    - trigger: ":service_ticket"
-      replace: "Hi, \n, [Please contact me on Teams if I need to provide input or I can aid the process in any way]"
+  - trigger: ":gnsp"
+    replace: "https://gnsn.service-now.com/sp?id=sc_cat_item&sys_id=9fab39e2d7532100a9ad1e173e24d484"
 
-    - triggers: [":d:", ":D:"]
-      replace: ":set default apps"
-      word: true
+  - trigger: ":service_ticket"
+    replace: "Hi, \n, [Please contact me on Teams if I need to provide input or I can aid the process in any way]"
 
-    - trigger: ":env"
-      replace: '.\venv\Scripts\activate'
-      word: true
-      propagate_case: true
+  - triggers: [":d:", ":D:"]
+    replace: ":set default apps"
+    word: true
 
-    - trigger: ":today"
-      replace: "{{mydate}}"
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%d/%m/%y"
-  
-    - trigger: ":usday"
-      replace: "{{mydate}}"
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%m/%d/%y"
+  - trigger: ":env"
+    replace: '.\venv\Scripts\activate'
+    word: true
+    propagate_case: true
+  - trigger: ":run"
+    replace: 'streamlit run paideia\\paideia.py'
+    word: true
+    propagate_case: true
 
-    - trigger: ":longday"
-      replace: "{{mydate}}"
-      vars:
-        - name: mydate
-          type: date
-          params:
-            format: "%a %d/%m/%y"
+  - trigger: ":today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d/%m/%y"
 
-    #Print the output of a shell command
-    - trigger: ":shell"
-      replace: "{{output}}"
-      vars:
-        - name: output
-          type: python
-          params:
-            cmd: "echo 'Hello from your shell'"
+  - trigger: ":usday"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%y"
 
-    - regex: ':(?P<d>\d{2})(?P<m>[01]\d)'
-      replace: '{{d}}/{{m}}/2023'
+  - trigger: ":longday"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%a %d/%m/%y"
 
-    - regex: '_(?P<d>\d{2})(?P<m>[01]\d)'
-      replace: '{{d}}/{{m}}/2023 [US: {{m}}/{{d}}/2023]'
+  #Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: python
+        params:
+          cmd: "echo 'Hello from your shell'"
 
-    - trigger: ':lorem'
-      replace: 'Cumque laudantium quia quia aliquam ducimus. Possimus sit dolores eius cupiditate quam laudantium. Modi quis sequi autem velit corporis. Necessitatibus nostrum rem maiores suscipit. Voluptatem vel aut dolorum occaecati itaque voluptatum et.'
+  - regex: ':(?P<d>\d{2})(?P<m>[01]\d)'
+    replace: "{{d}}/{{m}}/2023"
 
-    - regex: ':8'
-      replace: "[ ] - "
-      word: true
+  - regex: '_(?P<d>\d{2})(?P<m>[01]\d)'
+    replace: "{{d}}/{{m}}/2023 [US: {{m}}/{{d}}/2023]"
 
-    - trigger: ":monthswitch" 
-      replace: 'Switch(function; 1; "Janaury"; 2; "Febuary"; 3; "March"; 4; "April"; 5; "May"; 6; "June"; 7; "July"; 8; "August"; 9; "September"; 10; "October"; 11; "November"; 12; "December";)'
+  - trigger: ":lorem"
+    replace: "Cumque laudantium quia quia aliquam ducimus. Possimus sit dolores eius cupiditate quam laudantium. Modi quis sequi autem velit corporis. Necessitatibus nostrum rem maiores suscipit. Voluptatem vel aut dolorum occaecati itaque voluptatum et."
 
-    - trigger: ":ticket"
-      replace: "$|$\n\nUser story:\n\nI as a [type of user] should be able to [action] [item]\n\nAcceptance Criteria:\n - The solution must be able to [criteria]"
+  - regex: ":8"
+    replace: "[ ] - "
+    word: true
 
-    - trigger: ":-" 
-      replace: "----------------------------------------------------------------"
-      propagate_case: true
-      word: true
-    
-    - trigger: ":import" 
-      replace: "import utilities as my\n#import pandas as pd\n#import regex as re\n#import os\n#from datetime import datetime\n#from tqdm import tqdm\n#import matplotlib.pyplot as plt\n#import seaborn as sns\n#import numpy as np\n%autosave 60"
-      propagate_case: true
-      word: true
-    
-    - trigger: ":or" 
-      replace: "|"
-      propagate_case: true
-      word: true
+  - trigger: ":monthswitch"
+    replace: 'Switch(function; 1; "Janaury"; 2; "Febuary"; 3; "March"; 4; "April"; 5; "May"; 6; "June"; 7; "July"; 8; "August"; 9; "September"; 10; "October"; 11; "November"; 12; "December";)'
 
-    ##
-    ##  Forms
-    ##   
-    - trigger: ":greet"
-      form: |
-        Hey [[name]],
-        Happy Birthday!
+  - trigger: ":ticket"
+    replace: "$|$\n\nUser story:\n\nI as a [type of user] should be able to [action] [item]\n\nAcceptance Criteria:\n - The solution must be able to [criteria]"
 
-    - trigger: ":form"
-      form: |
-        [[choices]]
-      form_fields:
-        choices:
-          type: list
-          values:
-            - First choice
-            - Second choice
-    
-    - trigger: ":my_assistant"
-      form: |
-        [[role]]
-      form_fields:
-        role:
-          type: choice
-          values:
-            - "Paris: Python Code Documenter"
-            - "Montpelier: DAX Instructor"
-            - "Porto: Python Coach"
-            - "Silva: Python Guide"
-            - "Lissabon: GitHub Expert"
-            - "Kiel: French Language Teacher"
-            - "Nantes: Streamlit Teacher"
-            - "Sporting: Communication Expert in Emails"
-            - "Athens: Python Regex Expert"
-            - "Budapest: Data Miner and Scraper"
-            - "chat: Summary Writer"
-            - "Flensburg: Presentation Expert"
-            - "Marseille: SQL Teacher"
-            - "Charles: Vice President in Direct Sales"
-            - "Olivier: Lead Data Engineer"
-            - "Toulouse: Project Manager"
-            - "Senior dev: Senior Developer"
-            - "Lyon: Data Science Mentor"
+  - trigger: ":-"
+    replace: "----------------------------------------------------------------"
+    propagate_case: true
+    word: true
 
+  - trigger: ":import"
+    replace: "import utilities as my\n#import pandas as pd\n#import regex as re\n#import os\n#from datetime import datetime\n#from tqdm import tqdm\n#import matplotlib.pyplot as plt\n#import seaborn as sns\n#import numpy as np\n%autosave 60"
+    propagate_case: true
+    word: true
+
+  - trigger: ":or"
+    replace: "|"
+    propagate_case: true
+    word: true
+
+  - trigger: "''w"
+    replace: C:\Users\jbay\OneDrive - GN Store Nord\Workspace\
+
+  ##
+  ##  Forms
+  ##
+  - trigger: ":greet"
+    form: |
+      Hey [[name]],
+      Happy Birthday!
+
+  - trigger: ":form"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+          - First choice
+          - Second choice
+
+  - trigger: ":my_assistant"
+    form: |
+      [[role]]
+    form_fields:
+      role:
+        type: choice
+        values:
+          - "Paris: Python Code Documenter"
+          - "Montpelier: DAX Instructor"
+          - "Porto: Python Coach"
+          - "Silva: Python Guide"
+          - "Lissabon: GitHub Expert"
+          - "Kiel: French Language Teacher"
+          - "Nantes: Streamlit Teacher"
+          - "Sporting: Communication Expert in Emails"
+          - "Athens: Python Regex Expert"
+          - "Budapest: Data Miner and Scraper"
+          - "chat: Summary Writer"
+          - "Flensburg: Presentation Expert"
+          - "Marseille: SQL Teacher"
+          - "Charles: Vice President in Direct Sales"
+          - "Olivier: Lead Data Engineer"
+          - "Toulouse: Project Manager"
+          - "Senior dev: Senior Developer"
+          - "Lyon: Data Science Mentor"

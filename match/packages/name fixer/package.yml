@@ -1,143 +1,143 @@
 name: name fixer
 parent: default
 matches:
-  - regex: travis
+  - trigger: "travis"
     replace: Travis
     word: true
-  - regex: timmy
+  - trigger: "timmy"
     replace: Timmy
     word: true
-  - regex: jackson
+  - trigger: "jackson"
     replace: Jackson
     word: true
-  - regex: alex
+  - trigger: "alex"
     replace: Alex
     word: true
-  - regex: artur
+  - trigger: "artur"
     replace: Artur
     word: true
-  - regex: davis
+  - trigger: "davis"
     replace: Davis
     word: true
-  - regex: oliviér
+  - trigger: "oliviér"
     replace: Oliviér
     word: true
-  - regex: olivier
+  - trigger: "olivier"
     replace: Olivier
     word: true
-  - regex: illyan
+  - trigger: "illyan"
     replace: Illyan
     word: true
-  - regex: toni
+  - trigger: "toni"
     replace: Toni
     word: true
-## Graduates
-  - regex: eleni
+  ## Graduates
+  - trigger: "eleni"
     replace: Eleni
     word: true
-  - regex: ray
+  - trigger: "ray"
     replace: Ray
     word: true
   - trigger: lisa
     replace: Lisa
     word: true
-  - regex: laura
+  - trigger: "laura"
     replace: Laura
     word: true
-  - regex: shan
+  - trigger: "shan"
     replace: Shan
     word: true
-  - regex: jeffrey
+  - trigger: "jeffrey"
     replace: Jeffrey
     word: true
-  - regex: maria
-    replace: Maria 
+  - trigger: "maria"
+    replace: Maria
     word: true
-  - regex: mathias
+  - trigger: "mathias"
     replace: Mathias
     word: true
-  - regex: luyao
+  - trigger: "luyao"
     replace: Luyao
     word: true
   - trigger: "anne sophie"
     replace: "Anne Sophie"
     word: true
-  - regex: johan
+  - trigger: "johan"
     replace: Johan
     word: true
-## Digital Innovation 
-  - regex: thomas 
+  ## Digital Innovation
+  - trigger: "thomas"
     replace: Thomas
     word: true
-  - regex: bex
+  - trigger: "bex"
     replace: Bex
     word: true
-  - regex: bergdis
+  - trigger: "bergdis"
     replace: Bergdis
     word: true
-  - regex: morten
+  - trigger: "morten"
     replace: Morten
     word: true
-  - regex: xiang
+  - trigger: "xiang"
     replace: Xiang
     word: true
-  - regex: spyridon
+  - trigger: "spyridon"
     replace: Spyridon
     word: true
-## Digital Platforms
-  - regex: troels
+  ## Digital Platforms
+  - trigger: "troels"
     replace: Troels
     word: true
-  - regex: lasse
+  - trigger: "lasse"
     replace: Lasse
     word: true
-  - regex: himanshu
+  - trigger: "himanshu"
     replace: Himanshu
     word: true
-  - regex: cornelia
+  - trigger: "cornelia"
     replace: Cornelia
     word: true
-  - regex: salik
+  - trigger: "salik"
     replace: Salik
     word: true
-## Valuable people
-  - regex: stefan
+  ## Valuable people
+  - trigger: "stefan"
     replace: Stefan
     word: true
-  - regex: kenneth
+  - trigger: "kenneth"
     replace: Kenneth
     word: true
-## Places
-  - regex: chicago
+  ## Places
+  - trigger: "chicago"
     replace: Chicago
     word: true
-  - regex: chiago
+  - trigger: "chiago"
     replace: Chicago
     word: true
-  - regex: ballerup
+  - trigger: "ballerup"
     replace: Ballerup
     word: true
-  - regex: balerup
+  - trigger: "balerup"
     replace: Ballerup
     word: true
 
-  - trigger: 'mountain view'
-    replace: 'Mountain View'
+  - trigger: "mountain view"
+    replace: "Mountain View"
 
-  - trigger: 'san francisco'
-    replace: 'San Francisco'
+  - trigger: "san francisco"
+    replace: "San Francisco"
 
-  - trigger: 'new york'
-    replace: 'New York'
+  - trigger: "new york"
+    replace: "New York"
 
-## Companies
+  ## Companies
 
-  - trigger: "resound" 
+  - trigger: "resound"
     replace: "ReSound"
     propagate_case: true
     word: true
 
-  - triggers: ["jabra"] 
+  - triggers: ["jabra"]
     replace: "Jabra"
     propagate_case: true
     word: true
@@ -147,14 +147,13 @@ matches:
     propagate_case: true
     word: true
 
-  - regex: microsoft
+  - trigger: "microsoft"
     replace: Microsoft
     word: true
-    
-  - regex: windows
+
+  - trigger: "windows"
     replace: Windows
     word: true
-    
-  - trigger: 'digital platform architecture'
-    replace: 'Digital Platform Architecture'
 
+  - trigger: "digital platform architecture"
+    replace: "Digital Platform Architecture"
