@@ -2,197 +2,194 @@ matches:
   ##
   ## Often used words in english
   ##
-    - triggers: ["i'm", "im", "iøm"]
-      replace: "I'm"
-      word: true
-      propagate_case: true
+  - triggers: ["i'm", "im", "iøm"]
+    replace: "I'm"
+    word: true
+    propagate_case: true
 
-    - triggers: ["i've", "ive", "iøve"]
-      replace: "I've"
-      word: true
-      propagate_case: true
+  - triggers: ["i've", "ive", "iøve"]
+    replace: "I've"
+    word: true
+    propagate_case: true
 
-    - triggers: ["i'll", "ill", "iøll"]
-      replace: "I'll"
-      word: true
-      propagate_case: true
+  - triggers: ["i'll", "ill", "iøll"]
+    replace: "I'll"
+    word: true
+    propagate_case: true
 
-    - regex: '(\s)(id|iød)(\s)'
-      replace: " I'd "
-      word: true
-      propagate_case: true
+  - regex: '(\s)(id|iød)(\s)'
+    replace: " I'd "
+    word: true
+    propagate_case: true
 
-    - triggers: ["dont", "donøt"]
-      replace: "don't"
-      word: true
-      propagate_case: true
+  - triggers: ["dont", "donøt"]
+    replace: "don't"
+    word: true
+    propagate_case: true
 
-    - trigger: 'i'
-      replace: 'I'
-      word: true
-      propagate_case: true
+  # - trigger: 'i'
+  #   replace: 'I'
+  #   word: true
+  #   propagate_case: true
 
-    - trigger: 'idq'
-      replace: 'id'
-      word: true
-      propagate_case: true
+  - trigger: "idq"
+    replace: "id"
+    word: true
+    propagate_case: true
 
-    - trigger: 'ii'
-      replace: 'i'
-      word: true
-      propagate_case: true
+  - trigger: "ii"
+    replace: "I"
+    word: true
+    propagate_case: true
 
-    - triggers: ["hes", "heøs"]
-      replace: "he's"
-      word: true
-      propagate_case: true
+  - triggers: ["hes", "heøs"]
+    replace: "he's"
+    word: true
+    propagate_case: true
 
-    - triggers: ["hell", "heøll"]
-      replace: "he'll"
-      word: true
-      propagate_case: true
+  - triggers: ["hell", "heøll"]
+    replace: "he'll"
+    word: true
+    propagate_case: true
 
-    - triggers: ["hed", "heød"]
-      replace: "he'd"
-      word: true
-      propagate_case: true
+  - triggers: ["hed", "heød"]
+    replace: "he'd"
+    word: true
+    propagate_case: true
 
-    - triggers: ["shes", "sheøs"]
-      replace: "she's"
-      word: true
-      propagate_case: true
+  - triggers: ["shes", "sheøs"]
+    replace: "she's"
+    word: true
+    propagate_case: true
 
-    - triggers: ["shell", "sheøll"]
-      replace: "she'll"
-      word: true
-      propagate_case: true
+  - triggers: ["shell", "sheøll"]
+    replace: "she'll"
+    word: true
+    propagate_case: true
 
-    - triggers: ["shed", "sheød"]
-      replace: "she'd"
-      word: true
-      propagate_case: true
+  - triggers: ["shed", "sheød"]
+    replace: "she'd"
+    word: true
+    propagate_case: true
 
-    - triggers: ["were", "weøre"]
-      replace: "we're"
-      word: true
-      propagate_case: true
+  - triggers: ["were", "weøre"]
+    replace: "we're"
+    word: true
+    propagate_case: true
 
-    - triggers: ["weve", "weøve"]
-      replace: "we've"
-      word: true
-      propagate_case: true
+  - triggers: ["weve", "weøve"]
+    replace: "we've"
+    word: true
+    propagate_case: true
 
-    - triggers: ["wed", "weød"]
-      replace: "we'd"
-      word: true
-      propagate_case: true
+  - triggers: ["wed", "weød"]
+    replace: "we'd"
+    word: true
+    propagate_case: true
 
-    - triggers: ["theyre", "theyøre"]
-      replace: "they're"
-      word: true
-      propagate_case: true
+  - triggers: ["theyre", "theyøre"]
+    replace: "they're"
+    word: true
+    propagate_case: true
 
-    - triggers: ["theyve", "theyøve"]
-      replace: "they've"
-      word: true
-      propagate_case: true
+  - triggers: ["theyve", "theyøve"]
+    replace: "they've"
+    word: true
+    propagate_case: true
 
-    - triggers: ["theyd", "theyød"]
-      replace: "they'd"
-      word: true
-      propagate_case: true
+  - triggers: ["theyd", "theyød"]
+    replace: "they'd"
+    word: true
+    propagate_case: true
 
-    - triggers: ["youre", "youøre"]
-      replace: "you're"
-      word: true
-      propagate_case: true
+  - triggers: ["youre", "youøre"]
+    replace: "you're"
+    word: true
+    propagate_case: true
 
-    - triggers: ["youve", "youøve"]
-      replace: "you've"
-      word: true
-      propagate_case: true
+  - triggers: ["youve", "youøve"]
+    replace: "you've"
+    word: true
+    propagate_case: true
 
-    - triggers: ["youd", "youød"]
-      replace: "you'd"
-      word: true
-      propagate_case: true
-
+  - triggers: ["youd", "youød"]
+    replace: "you'd"
+    word: true
+    propagate_case: true
 
   ##
   ##  Email stuff
   ##
 
-    - trigger: ":gm"
-      replace: "Good Morning"
-      word: true
+  - trigger: ":gm"
+    replace: "Good Morning"
+    word: true
 
-    - trigger: "slef"
-      replace: "selvfølgelig"
-      propagate_case: true
-  
+  - trigger: "slef"
+    replace: "selvfølgelig"
+    propagate_case: true
 
-    - triggers: [":br", ":Br"]
-      replace: "Best Regards,\nJens"
-      word: true
+  - triggers: [":br", ":Br"]
+    replace: "Best Regards,\nJens"
+    word: true
 
-    - trigger: ":bh"
-      replace: "Bedste Hilsner,\nJens"
-      word: true
+  - trigger: ":bh"
+    replace: "Bedste Hilsner,\nJens"
+    word: true
 
-    - trigger: ":kh"
-      replace: "Kærlig Hilsen,\nJens"
-      word: true
+  - trigger: ":kh"
+    replace: "Kærlig Hilsen,\nJens"
+    word: true
 
-    - trigger: "j@"
-      replace: "jbay@steelseries.gg"
+  - trigger: "j@"
+    replace: "jbay@steelseries.gg"
 
   ##
   ##  Apprisals
   ##
 
-    - trigger: ":apr"
-      replace: "Thank you, I really appreciate it!"
-      word: true
+  - trigger: ":apr"
+    replace: "Thank you, I really appreciate it!"
+    word: true
 
-    - trigger: ":pty"
-      replace: "Perfect - thank you very much!"
+  - trigger: ":pty"
+    replace: "Perfect - thank you very much!"
 
-    - trigger: ":ta"
-      replace: "Thanks a lot, $|$, you've been a great help!"
-      word: true
+  - trigger: ":ta"
+    replace: "Thanks a lot, $|$, you've been a great help!"
+    word: true
 
-    - trigger: ":am:"
-      replace: "You did an amazing job, $|$!"
+  - trigger: ":am:"
+    replace: "You did an amazing job, $|$!"
 
-    - trigger: ":ti"
-      replace: "Thank you for your input! :D "
+  - trigger: ":ti"
+    replace: "Thank you for your input! :D "
 
-    - trigger: ":gj"
-      replace: "Good Job - I appreciate it!"
+  - trigger: ":gj"
+    replace: "Good Job - I appreciate it!"
 
-    - trigger: ":gaf"
-      replace: "Great, I appreciate the feedback!"
+  - trigger: ":gaf"
+    replace: "Great, I appreciate the feedback!"
 
-    - trigger: ":tfd"
-      replace: "Tak for det! 😃"
+  - trigger: ":tfd"
+    replace: "Tak for det! 😃"
 
-    - trigger: "gnsn" 
-      replace: "https://gnsn.service-now.com/sp?id=index"
-      propagate_case: true
-      word: true
-    - trigger: ":vis" 
-      replace: "visualisations"
-      propagate_case: true
-      word: true
+  - trigger: "gnsn"
+    replace: "https://gnsn.service-now.com/sp?id=index"
+    propagate_case: true
+    word: true
+  - trigger: ":vis"
+    replace: "visualisations"
+    propagate_case: true
+    word: true
 
   ##
   ## Symbols
   ##
 
-    - trigger: "["
-      replace: '[$|$]'
-    - trigger: "("
-      replace: '($|$)'
-    - trigger: '"'
-      replace: '"$|$"'
-
+  - trigger: "["
+    replace: "[$|$]"
+  - trigger: "("
+    replace: "($|$)"
+  - trigger: '"'
+    replace: '"$|$"'

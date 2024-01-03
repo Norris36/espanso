@@ -9,14 +9,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-openai.api_type         = os.getenv("OPENAI_TYPE")
-openai.api_base         = os.getenv("OPENAI_BASE")
-openai.api_version      = os.getenv("OPENAI_VERSION")
-openai.api_key          = os.getenv("OPENAI_KEY")
+# openai.api_type         = os.getenv("OPENAI_TYPE")
+# openai.api_base         = os.getenv("OPENAI_BASE")
+# openai.api_version      = os.getenv("OPENAI_VERSION")
+# openai.api_key          = os.getenv("OPENAI_KEY")
 
 
 
-from textwrap3 import wrap
+# from textwrap3 import wrap
 
 def process_text(text):
     # Code tag to look for
@@ -171,19 +171,21 @@ else:
     message = base_message
 
 
-response = openai.ChatCompletion.create(
-    deployment_id = 'gpt-35-turbo',
-    engine = 'gpt-35-turbo',
-    messages = message,
-    temperature = 0.2,
-    max_tokens = 2000,
-    top_p = 0.95,
-    frequency_penalty = 0,
-    presence_penalty = 0,
-    stop = None
-)
+# response = openai.ChatCompletion.create(
+#     deployment_id = 'gpt-35-turbo',
+#     engine = 'gpt-35-turbo',
+#     messages = message,
+#     temperature = 0.2,
+#     max_tokens = 2000,
+#     top_p = 0.95,
+#     frequency_penalty = 0,
+#     presence_penalty = 0,
+#     stop = None
+# )
 
-response = response['choices'][0]['message']['content']
+# response = response['choices'][0]['message']['content']
+
+response = 'dont use this'
 
 timestamp = int(datetime.utcnow().timestamp())
 

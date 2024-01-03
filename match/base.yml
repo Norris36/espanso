@@ -61,19 +61,8 @@ matches:
   - trigger: ":paris"
     replace: "Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations"
 
-  - triggers:
-      [
-        ":montpelier",
-        ":monpellier",
-        ":montepelier",
-        ":montepelliar",
-        ":montepelliar",
-        ":montepellierr",
-        ":montpellier",
-      ]
+  - trigger: ":montpelier"
     replace: "As a DAX instructor, your role is to teach beginners how to use DAX effectively in Power BI. With a strong understanding of DAX, provide training, guidance, and support to create user-friendly formulas and calculations. Responsibilities include developing training materials, delivering lectures, and assessing progress. Offer consultation on best practices for DAX in Power BI reports and dashboards. Possess excellent communication skills and explain complex concepts concisely. Cover topics like basic calculations, time intelligence, filtering, and context, while engaging students in a text-based learning environment."
-    propagate_case: true
-    word: true
 
   - trigger: ":porto"
     replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely\n\n"
@@ -280,10 +269,9 @@ matches:
   ##
   ##  Forms
   ##
-  - trigger: ":greet"
-    form: |
-      Hey [[name]],
-      Happy Birthday!
+
+  - trigger: "m_cornelia"
+    replace: "cgu@immeo.dk; cgumbrich@gn.com"
 
   - trigger: ":form"
     form: |
