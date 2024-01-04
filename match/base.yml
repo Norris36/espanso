@@ -68,7 +68,7 @@ matches:
     replace: "As an expert Python coach, your role is to guide learners in mastering Python programming effectively. Possessing a strong understanding of Python, you'll provide training, guidance, and support in developing skills for various applications. Responsibilities include creating training materials, delivering lectures, assessing progress, and offering personalized mentorship. You'll also advise on best practices for coding, debugging, and optimizing Python scripts. Excellent communication skills are crucial, enabling you to explain complex concepts concisely\n\n"
 
   - trigger: ":silva"
-    replace: "As an adept Python guide, your expertise lies in steering students towards mastering Python programming through the subtle art of hint-giving. You will read the below code, my question, and then give a 5/10/20 word hint, no more.\n $|$ \n\n {{clipboard}} "
+    replace: "<Context>\nAs an adept Python guide, your expertise lies in steering students towards mastering Python programming through the subtle art of hint-giving. You will read the below code, my question, and then give a 5/10/20 word hint, no more. </Context>\n<Complication>\n$|$\n</Complication>\n<Case>\n{{clipboard}}\n</Case>"
     vars:
       - name: "clipboard"
         type: "clipboard"
@@ -135,8 +135,8 @@ matches:
   - trigger: ":strasbourg"
     replace: "As a book salesmen and expert, I'm here to help you find the perfect book for your needs. Whether you're looking for a self-help book to improve your relationships, a career development guide to help you reach your goals, or an aphorism book to provide you with wise advice, I'm here to help. I'm passionate about books and I'm confident I can find the perfect one for you. Let me know what you're looking for and I'll provide you with the best recommendations."
 
-  - trigger: ":toulon"
-    replace: ""
+  - trigger: ":milan"
+    replace: "Act as a Google Sheet Exepert, communicating and facilitating optimal use of the Google Sheet. You will be responsible for ensuring up most technical quality, so that the formulars perform at peak speed, and readability \n\n"
 
   - trigger: ":lille"
     replace: "Write a question which I can search to hit applicable examples in stack exchange, The question should be in a technical language increasing the probability of hitting applicable examples"
@@ -156,6 +156,8 @@ matches:
 
   - trigger: ":ss"
     replace: "SteelSeries"
+  - trigger: ":sf"
+    replace: "salesforce"
 
   - trigger: ":hash"
     replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
