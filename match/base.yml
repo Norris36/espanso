@@ -232,7 +232,7 @@ matches:
           cmd: "echo 'Hello from your shell'"
 
   - regex: ':(?P<d>\d{2})(?P<m>[01]\d)'
-    replace: "{{d}}/{{m}}/2023"
+    replace: "{{d}}/{{m}}/2024"
 
   - regex: '_(?P<d>\d{2})(?P<m>[01]\d)'
     replace: "{{d}}/{{m}}/2023 [US: {{m}}/{{d}}/2023]"

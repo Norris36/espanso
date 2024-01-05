@@ -155,6 +155,9 @@ matches:
   - trigger: ":pty"
     replace: "Perfect - thank you very much!"
 
+  - trigger: ":ptd"
+    replace: "Perfekt - tak for det!"
+
   - trigger: ":ta"
     replace: "Thanks a lot, $|$, you've been a great help!"
     word: true
@@ -193,3 +196,10 @@ matches:
     replace: "($|$)"
   - trigger: '"'
     replace: '"$|$"'
+
+  ##
+  ## ADO Magic
+  ##
+
+  - trigger: "a_ticket"
+    replace: "**Assumptions**\n - \n**Dependencies**\n - "
