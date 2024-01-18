@@ -81,8 +81,8 @@ matches:
   - trigger: "xiang"
     replace: Xiang
     word: true
-  - trigger: "spyridon"
-    replace: Spyridon
+  - trigger: "spyros"
+    replace: Spyros
     word: true
   ## Digital Platforms
   - trigger: "troels"

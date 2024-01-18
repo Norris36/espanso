@@ -147,6 +147,10 @@ matches:
   - trigger: ":cheeky"
     replace: "Subject: Issue with Website Accessibility - Not Using Adblocker, but Experiencing Firefox Advanced Blocking\n\nDescription:\nDear IT Support,\n\nI am experiencing difficulty in accessing certain websites or website features while using Firefox as my web browser. I want to clarify that I am not using an Adblocker but have Firefox's advanced blocking features enabled.\n\nProblem:\nSpecifically, I'm being blocked each time I'm watching a video which impacts my ability to fully utilize the service you are providing.\n\nTroubleshooting Steps Taken:\n- Disabled all browser extensions to rule out conflicts\n- Cleared browser cache and cookies\n- Attempted to access the site using a different browser, where it worked as expected\n\nRequest:\nCould you please investigate this issue to determine whether Firefox's advanced blocking settings are causing these problems? If so, could you provide guidance on how to configure Firefox to prevent this issue while maintaining a secure browsing experience?"
 
+  - trigger: ":icon"
+    replace: "User
+I need you to as a corporate visual  desinger ,  desing an icon as a light drawn image with an orange lines, and a white backgorund. The background must be white, and the lines must be drawnt with a light orange, and only a light orange. The style of the image needs to be simple and minimalistic. The drawing is simple, and with no shading or other gradients of white.\n\n Please provide an icon of a "
+
   ##
   ##  Names
   ##
@@ -183,7 +187,7 @@ matches:
     replace: "https://gnsn.service-now.com/sp?id=sc_cat_item&sys_id=9fab39e2d7532100a9ad1e173e24d484"
 
   - trigger: ":service_ticket"
-    replace: "Hi, \n, [Please contact me on Teams if I need to provide input or I can aid the process in any way]"
+    replace: "Hi,\n\n[Please contact me on Teams if I need to provide input or I can aid the process in any way]\n\n"
 
   - triggers: [":d:", ":D:"]
     replace: ":set default apps"

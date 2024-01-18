@@ -144,6 +144,26 @@ matches:
   - trigger: "j@"
     replace: "jbay@steelseries.gg"
 
+  - trigger: "friday"
+    replace: "Friday"
+    word: true
+
+  - trigger: "monday"
+    replace: "Monday"
+    word: true
+
+  - trigger: "tuesday"
+    replace: "Tuesday"
+    word: true
+
+  - trigger: "wednesday"
+    replace: "Wednesday"
+    word: true
+
+  - trigger: "thursday"
+    replace: "Thursday"
+    word: true
+
   ##
   ##  Apprisals
   ##
@@ -173,6 +193,9 @@ matches:
 
   - trigger: ":gaf"
     replace: "Great, I appreciate the feedback!"
+
+  - trigger: ":tfd"
+    replace: "Tak for det! 😃"
 
   - trigger: ":tfd"
     replace: "Tak for det! 😃"
