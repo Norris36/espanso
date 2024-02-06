@@ -125,6 +125,10 @@ matches:
     replace: "Good Morning"
     word: true
 
+  - trigger: "cep"
+    replace: "Customer Engagement Platforms"
+    word: true
+
   - trigger: "slef"
     replace: "selvfølgelig"
     propagate_case: true
@@ -194,11 +198,17 @@ matches:
   - trigger: ":gaf"
     replace: "Great, I appreciate the feedback!"
 
-  - trigger: ":tfd"
-    replace: "Tak for det! 😃"
+  - trigger: ":att"
+    replace: "Appreciate you taking the time to help me out! 😃"
+
+  - trigger: ":sptt"
+    replace: "Sætter pris på at du tog dig tid til det! 😃"
 
   - trigger: ":tfd"
     replace: "Tak for det! 😃"
+
+  # - trigger: ":tfd"
+  #   replace: "Tak for det! 😃"
 
   - trigger: "gnsn"
     replace: "https://gnsn.service-now.com/sp?id=index"

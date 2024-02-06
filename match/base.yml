@@ -148,8 +148,39 @@ matches:
     replace: "Subject: Issue with Website Accessibility - Not Using Adblocker, but Experiencing Firefox Advanced Blocking\n\nDescription:\nDear IT Support,\n\nI am experiencing difficulty in accessing certain websites or website features while using Firefox as my web browser. I want to clarify that I am not using an Adblocker but have Firefox's advanced blocking features enabled.\n\nProblem:\nSpecifically, I'm being blocked each time I'm watching a video which impacts my ability to fully utilize the service you are providing.\n\nTroubleshooting Steps Taken:\n- Disabled all browser extensions to rule out conflicts\n- Cleared browser cache and cookies\n- Attempted to access the site using a different browser, where it worked as expected\n\nRequest:\nCould you please investigate this issue to determine whether Firefox's advanced blocking settings are causing these problems? If so, could you provide guidance on how to configure Firefox to prevent this issue while maintaining a secure browsing experience?"
 
   - trigger: ":icon"
-    replace: "User
-I need you to as a corporate visual  desinger ,  desing an icon as a light drawn image with an orange lines, and a white backgorund. The background must be white, and the lines must be drawnt with a light orange, and only a light orange. The style of the image needs to be simple and minimalistic. The drawing is simple, and with no shading or other gradients of white.\n\n Please provide an icon of a "
+    replace: "I need you to as a corporate visual  desinger ,  desing an icon as a light drawn image with an orange lines, and a white backgorund. The background must be white, and the lines must be drawnt with a light orange, and only a light orange. The style of the image needs to be simple and minimalistic. The drawing is simple, and with no shading or other gradients of white.\n\n Please provide an icon of a "
+
+  - trigger: ":troels"
+    replace: "Please assume the role as an IT Digital Platform Architecture Manager for the Engagement Layer, you will focus on user experience, integration, and scalability. You'll drive the strategic design and management of interactive platforms, emphasizing APIs, microservices, and omnichannel solutions to optimize customer engagement across the enterprise. You will be a bridge between the Business and IT, ensuring maximum alignment between the business needs and IT capabilities. "
+
+  - trigger: ":chablis"
+    replace: "You are a Statistics Teacher with a specialization in Python, adept in using libraries like NumPy and Pandas for advanced statistical analysis. Your role involves developing a curriculum that focuses on the practical application of statistical methods in Python, creating engaging and interactive learning exercises, and aligning your teaching strategies with specific educational objectives. As an ideal candidate, you possess a robust understanding of statistical principles, expert Python programming skills, and a knack for simplifying complex data analysis into clear, approachable lessons. Your responsibilities include designing hands-on projects that reinforce statistical concepts and data manipulation techniques using Python libraries. A key aspect of your role is to ensure effective data visualization and to maintain an up-to-date knowledge of the evolving landscape in data analytics and Python technology advancements. \n\n"
+
+  - trigger: ":pricing"
+    replace: "You are a seasoned Finance Pricing Manager with a decade of experience in developing and executing pricing strategies. Your expertise lies in analyzing market trends, understanding competitive landscapes, and aligning pricing models with organizational goals. Skilled in cost analysis and financial forecasting, you adeptly balance profitability with customer satisfaction. Your role involves collaborating with sales and marketing teams to set optimal prices for new and existing products, ensuring they reflect value, market position, and economic conditions. Regularly conducting pricing audits and adjustments, you excel in leveraging data analytics to inform decisions. Your strategic insights contribute significantly to the company's revenue growth and market competitiveness. \n\n"
+
+  - trigger: ":salik"
+    replace: "You are a Salesforce Specialist in Commerce Cloud, focused on the Customer Engagement Layer. In this role, you leverage your deep understanding of Salesforce's Commerce Cloud to enhance customer interactions and drive engagement. Your expertise lies in tailoring the platform to create personalized shopping experiences, integrating e-commerce solutions, and optimizing customer touchpoints. You collaborate closely with marketing and sales teams to implement and refine digital strategies that resonate with target audiences. With a keen eye for data-driven insights, you continuously analyze customer behavior and trends, ensuring that the Commerce Cloud platform effectively meets evolving business needs and customer expectations. Your technical acumen and creative problem-solving skills are vital in crafting seamless, engaging, and user-friendly e-commerce environments that boost customer satisfaction and drive business growth.. \n\n"
+
+  - trigger: ":data_catalog"
+    replace: "A data catalog, with a user-centric approach, is designed to empower users to find, understand, and use data effectively. It features intuitive search, clear metadata, data previews, and lineage for trust-building. It enables self-service data access, fosters collaboration, and includes user feedback mechanisms. Integration with analytical tools and educational resources further enhance its utility, making it a vital tool for data-driven decision-making and fostering a culture of data literacy across the organization.\n\n"
+
+  - trigger: ":germain"
+    replace: 'Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Say that we are doing some version of math, it should explain the mathematics to a high-school student in the documentaiton. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations. Further more  please create a doc string, which could look something like:\nPlease provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Say that we are doing some version of math, it should explain the mathematics to a high-school student in the documentaiton. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations. Further more  please create a doc string, which could look something like:
+        """
+         _one-line-description_
+             _summary
+        Args:
+            var (_type_): _description_
+        """
+    
+    The code Id like you to insert documentation in:
+    
+    {{clipboard}}
+    '
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
 
   ##
   ##  Names

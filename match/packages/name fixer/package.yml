@@ -157,6 +157,9 @@ matches:
   - trigger: "denmark"
     replace: Denmark
     word: true
+  - trigger: "leanix"
+    replace: LeanIX
+    word: true
 
   - trigger: "digital platform architecture"
     replace: "Digital Platform Architecture"
