@@ -203,6 +203,8 @@ matches:
 
   - trigger: ":sptt"
     replace: "Sætter pris på at du tog dig tid til det! 😃"
+  - trigger: ":spd"
+    replace: "Sætter pris på det! 😃"
 
   - trigger: ":tfd"
     replace: "Tak for det! 😃"
