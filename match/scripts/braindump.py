@@ -1,57 +1,58 @@
+# Importing necessary modules
 import os
 import pyperclip as py
 import regex as re
 
+import pyperclip
+
+# Get the content of the clipboard
+clipboard = pyperclip.paste()
+
+# Split the clipboard content into lines
+lines = clipboard.split('\n')
+
+# Get the first line from the clipboard content
+important_line = lines[0]
+
+# Define the path to the file to be read
 path = r'C:\Users\jbay\OneDrive - GN Store Nord\Workspace\today.txt'
 
-with open(path, 'r', encoding = 'utf-8') as f:
-    lines = f.readlines()
-    
-    
-    
-in_clip =py.paste().strip()
-clip = '\t[ ] - ' + in_clip
-var = False
+# Read the content of the file
+with open(path, 'r') as file:
+    data = file.read().split('\n')
 
-end = ""
+# Remove the first line from the data
+data = data[1:]
 
-with open(path, 'w', encoding = 'utf-8') as f:
-    for i in range(len(lines)):
-        line = lines[i]
-        if 'Brain Dump' in line:
-            var = True
-            
-        if '[x]' in line:
-            #if line.startswith('    ['):
-            end += line
-            line = ''
-            # elif line.startswith('['):
-            #     end += line.replace('[', '    [')
-            #     line = ''
-            # else:
-            #     new_line = re.sub(' {4,}[', '    [', line)
-            #     end += new_line
-            #     line = ''
-            
-        if var:
-            if i == len(lines)-1:
-                f.write(line + '\n')
-                f.write(clip + '\n')
-                var = False
-            elif len(line.strip()) > 0:         
-                f.write(line)
-            else:
-                f.write(clip + '\n')
-                var = False
-        else:
-            
-            f.write(line)
-            
-    #done_stuff = len(end.split('\n'))
-    #f.write(f'----------------------------------------------------------------')
-    f.write(end)
+# This line sorts the 'data' list. The key for sorting is a lambda function that checks if '[x]' is in the string.
+# The 'in' operator returns True if '[x]' is found in the string, and False otherwise.
+# The 'lower()' function ensures the comparison is case-insensitive.
+# The 'sorted()' function sorts the list in ascending order, so elements with '[x]' will be at the end of the list.
+data = sorted(data, key=lambda x: '[x]' in x.lower())
+
+# This line filters out empty lines from the 'data' list.
+# The 'filter()' function applies a lambda function to each element in the 'data' list.
+# The lambda function checks if the stripped string is not empty.
+# The 'strip()' function removes leading and trailing whitespace from the string.
+# The 'filter()' function returns an iterator, so 'list()' is used to convert it back to a list.
+data = list(filter(lambda x: x.strip() != '', data))
+
+# This 'if' statement checks if the string "braindump" is in 'important_line', ignoring case.
+# If "braindump" is found, 'new_data' is set to the current 'data' list.
+if "braindump" in important_line.lower():
+    new_data = data
+# If "braindump" is not found, a new line is added at the beginning of the 'data' list.
+# The new line is formatted as '[ ] - {important_line.title()}', where 'important_line.title()' is the title-cased 'important_line'.
+# The 'title()' function converts the first character of each word to uppercase and the rest to lowercase.
+else:
+    new_data = ['    [ ] - ' + important_line.title()] + data
+
+# Add a separator line to the new_data list
+new_data = ['--------------------------Brain Dump--------------------------------------'] + new_data
+
+# Write the new_data to the file
+with open(path, 'w') as file:
+    file.write('\n'.join(new_data))
+
+# Printing a message to indicate that the task has been completed
 print('i added it to the list')
-# Oneline comments, Dont Chug an expensive Wine
-# :i added it to the list
-# :i added it to the list
-# i added it to the list

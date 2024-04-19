@@ -23,37 +23,26 @@ matches:
     replace: streamlit run .\🌐_GnPT_Explorer.py
     word: true
     propagate_case: true
+  - trigger: ":run multi"
+    replace: streamlit run multiple_choice.py
+    word: true
+    propagate_case: true
 
   - trigger: ":parent"
     replace: "parent = my.get_current_path()\n\nquery = '$|$'\n\npaths = my.hygin(path = parent, query = query)"
 
   - trigger: ":di"
-    replace: "Digital Innovation"
+    replace: "Digital Incubation and AI"
     word: true
     propagate_case: true
 
   - trigger: ":snow"
     replace: "#YS4oThxpjXJ"
 
-  - trigger: ":ca"
-    replace: "ça"
-    word: true
-
   - trigger: ":number"
     replace: "13125549116"
     word: true
 
-  - trigger: ":p"
-    replace: "The parameters parsed to Segment"
-    word: true
-
-  - triggers: [":g", ":G"]
-    replace: "Google Tag Manager"
-    word: true
-
-  - triggers: [":g4", ":G4"]
-    replace: "Google Analytics 4"
-    word: true
   ##
   ##  Prompt Engineering Base Prompts
   ##
@@ -168,6 +157,12 @@ matches:
   - trigger: ":data_catalog"
     replace: "A data catalog, with a user-centric approach, is designed to empower users to find, understand, and use data effectively. It features intuitive search, clear metadata, data previews, and lineage for trust-building. It enables self-service data access, fosters collaboration, and includes user feedback mechanisms. Integration with analytical tools and educational resources further enhance its utility, making it a vital tool for data-driven decision-making and fostering a culture of data literacy across the organization.\n\n"
 
+  - trigger: ":alt_text"
+    replace: "You are a valuable member of our team, and we appreciate your contributions. Your ability to accurately extract information from images related to hearing aids and describe it clearly in alt text is impressive. Your dedication to crafting compelling alt text that enhances accessibility is commendable. Your commitment to maintaining accessible standards and best practices for alt text implementation is essential to ensuring that our content is accessible to all users. Your ability to collaborate effectively with designers, product managers, and accessibility specialists is a vital part of our team's success. Your strong reading and writing skills are a significant asset to our team. Your expertise in accessibility and your understanding of WCAG guidelines and best practices for alt text implementation are invaluable. Your excellent communication and collaboration skills enable you to work effectively with a wide range of stakeholders. Your meticulous attention to detail helps ensure that our content is accurate and error-free."
+
+  - trigger: "::grammar"
+    replace: "You are sought as an expert English communicator with a specialty in written British English, tasked with creating content free from errors, demonstrating flawless grammar and spelling. Your role is pivotal in all written communications, guaranteeing that each message upholds the utmost standards of clarity and precision. Your proficiency in the subtleties of British English and your meticulous attention to detail are crucial in maintaining the integrity of our written outputs. You must have the unparalleled skill to present complex concepts in a straightforward and effective manner, ensuring excellence is reflected in every communication you craft.\n\nPlease allways write the corrected in a format in a code cell so that i can copy it directly\n\n"
+
   - trigger: ":germain"
     replace: 'Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Say that we are doing some version of math, it should explain the mathematics to a high-school student in the documentaiton. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations. Further more  please create a doc string, which could look something like:\nPlease provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Say that we are doing some version of math, it should explain the mathematics to a high-school student in the documentaiton. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations. Further more  please create a doc string, which could look something like:
         """
@@ -194,8 +189,7 @@ matches:
 
   - trigger: ":ss"
     replace: "SteelSeries"
-  - trigger: ":sf"
-    replace: "salesforce"
+
 
   - trigger: ":hash"
     replace: "4f199b68446c274dd534617ee56c5edc61e255d84dc3a8d5dd8757f817d156dfa9e551fe896d6fa3e9719233e157e2f8c9d1b1b59cdd74ec69c37db57bd8e03e"
@@ -305,6 +299,15 @@ matches:
 
   - trigger: "''w"
     replace: C:\Users\jbay\OneDrive - GN Store Nord\Workspace\
+
+  - trigger: "_2020"
+    replace: "2020-01-01"
+  - trigger: "_2060"
+    replace: "2060-01-01"
+  - trigger: "_2035"
+    replace: "2035-01-01"
+  - trigger: ":pace"
+    replace: "Navision prints a report to a Network Drive and a Batch server runs a AZCopy to synchronize the data to the Blob Storage"
 
   ##
   ##  Forms
