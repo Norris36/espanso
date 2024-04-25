@@ -28,7 +28,22 @@ data = data[1:]
 # The 'in' operator returns True if '[x]' is found in the string, and False otherwise.
 # The 'lower()' function ensures the comparison is case-insensitive.
 # The 'sorted()' function sorts the list in ascending order, so elements with '[x]' will be at the end of the list.
-data = sorted(data, key=lambda x: '[x]' in x.lower())
+data = sorted(data, key=lambda x: '[x]' in x.lower())   
+
+# Now lets ensure that there are no more than 20 items which contain '[x]' in the list
+# Separate items with '[x]' and without '[x]'
+items_with_x = [item for item in data if '[x]' in item.lower()]
+items_without_x = [item for item in data if '[x]' not in item.lower()]
+
+# If there are more than 20 items with '[x]', keep only the first 20
+if len(items_with_x) > 20:
+    items_with_x = items_with_x[:20]
+
+# Combine the items without '[x]' and the limited items with '[x]'
+data = items_without_x + items_with_x
+
+# # Continue with the rest of the code
+# data = list(filter(lambda x: x.strip() != '', data))
 
 # This line filters out empty lines from the 'data' list.
 # The 'filter()' function applies a lambda function to each element in the 'data' list.
