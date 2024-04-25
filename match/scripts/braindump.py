@@ -6,7 +6,7 @@ import regex as re
 import pyperclip
 
 # Get the content of the clipboard
-clipboard = pyperclip.paste()
+clipboard = pyperclip.paste().encode('utf-8').decode('utf-8')
 
 # Split the clipboard content into lines
 lines = clipboard.split('\n')
