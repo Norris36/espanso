@@ -1,8 +1,8 @@
 """opencode skills -> espanso mirror: convert SKILL.md files into a static match file.
 ~~~
-- parse frontmatter (name, description) from a SKILL.md file
+- parse a SKILL.md file into its frontmatter (name, description) and its full body
 - collect every skill under the opencode skills directory (including nested folders)
-- render each skill name as an espanso trigger (":<name>") whose replacement is its description
+- render each skill name as an espanso trigger (":<name>") whose replacement is the FULL body
 - write the generated mirror to match/skills.yml (auto-loaded by espanso, no shell vars)
 - expose a tiny CLI (sync / show) for the daily cron and manual runs
 ~~~
@@ -20,17 +20,17 @@ from typing import Dict, List, Optional
 DEFAULT_SKILLS_DIR = Path.home() / ".config" / "opencode" / "skills"
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_OUTPUT = REPO_ROOT / "match" / "skills.yml"
-MIRROR_VERSION = "1.1.0"
+MIRROR_VERSION = "1.2.0"
 
 
-def parse_frontmatter(skill_md: Path) -> Optional[Dict[str, str]]:
-    """Read a SKILL.md file and extract its YAML frontmatter keys.
+def parse_skill(skill_md: Path) -> Optional[Dict[str, str]]:
+    """Read a SKILL.md file into its frontmatter fields plus the full markdown body.
     ~~~
-    - open the file and locate the leading --- fenced frontmatter block
-    - split each line into key/value and strip surrounding quotes from values
-    - stop at the closing --- fence
+    - locate the leading --- fenced frontmatter block and its closing fence
+    - split frontmatter lines into key/value and strip surrounding quotes from values
+    - take everything after the closing fence as the body (the part that carries the value)
     ~~~
-    returns type: dict | None -- {"name": ..., "description": ...} or None if no frontmatter
+    returns type: dict | None -- {"name": ..., "description": ..., "body": ...} or None if no frontmatter
     """
     try:
         text = skill_md.read_text(encoding="utf-8")
@@ -39,10 +39,11 @@ def parse_frontmatter(skill_md: Path) -> Optional[Dict[str, str]]:
     lines = text.splitlines()
     if not lines or lines[0].strip() != "---":
         return None
+    end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    if end is None:
+        return None
     data: Dict[str, str] = {}
-    for line in lines[1:]:
-        if line.strip() == "---":
-            break
+    for line in lines[1:end]:
         if ":" not in line:
             continue
         key, _, value = line.partition(":")
@@ -52,23 +53,26 @@ def parse_frontmatter(skill_md: Path) -> Optional[Dict[str, str]]:
             value = value[1:-1]
         if key in ("name", "description"):
             data[key] = value
-    return data or None
+    if "name" not in data:
+        return None
+    data["body"] = "\n".join(lines[end + 1:]).strip("\n")
+    return data
 
 
 def collect_skills(skills_dir: Path = DEFAULT_SKILLS_DIR) -> List[Dict[str, str]]:
-    """Walk the opencode skills directory and gather every SKILL.md's metadata.
+    """Walk the opencode skills directory and gather every SKILL.md's metadata and body.
     ~~~
     - glob recursively for SKILL.md under skills_dir
-    - parse each file's frontmatter for name and description
+    - parse each file for name, description, and full body
     - derive a lookup id from the relative folder path (e.g. engineering/tdd)
     - skip files whose frontmatter cannot be parsed
     ~~~
-    returns type: list -- [{"id": "brainstorming", "name": "brainstorming", "description": "...", "path": "..."}]
+    returns type: list -- [{"id": "tdd", "name": "tdd", "description": "...", "body": "...", "path": "..."}]
     """
     skills: List[Dict[str, str]] = []
     for md in sorted(skills_dir.rglob("SKILL.md")):
-        meta = parse_frontmatter(md)
-        if not meta or "name" not in meta:
+        meta = parse_skill(md)
+        if not meta:
             continue
         rel = md.parent.relative_to(skills_dir)
         skills.append(
@@ -76,6 +80,7 @@ def collect_skills(skills_dir: Path = DEFAULT_SKILLS_DIR) -> List[Dict[str, str]
                 "id": str(rel).replace(os.sep, "/"),
                 "name": meta["name"],
                 "description": meta.get("description", ""),
+                "body": meta.get("body", ""),
                 "path": str(md),
             }
         )
@@ -107,17 +112,17 @@ def generate_skills_yml(
 ) -> Path:
     """Convert the collected skills into a static espanso match file (md -> yml mirror).
     ~~~
-    - build a "matches:" list with one entry per skill: trigger ":<name>", replace its description
+    - build a "matches:" list with one entry per skill: trigger ":<name>", replace its FULL body
     - prepend a ":skills" entry that lists every trigger with a short summary
-    - quote all values as JSON strings so YAML stays valid for any description content
+    - quote all values as JSON strings so YAML stays valid for any body content (code fences, quotes, newlines)
     - write the file to output_path and create parent directories if needed
     ~~~
     returns type: Path -- the path that was written
     """
     lines = [
         "# AUTO-GENERATED by skills_lib.py -- do not edit by hand.",
-        "# Mirror of ~/.config/opencode/skills (md -> yml). Regenerate daily via sync-daily.sh",
-        f"# or manually: python3 {Path(__file__).name} sync",
+        "# Mirror of ~/.config/opencode/skills (md -> yml). Each :<name> trigger expands the FULL skill body.",
+        f"# Regenerated daily via sync-daily.sh, or: python3 {Path(__file__).name} sync",
         f"# version: {version} | skills at generation time ({len(skills)}): "
         + ", ".join(sorted(s["name"] for s in skills)),
         "matches:",
@@ -127,7 +132,7 @@ def generate_skills_yml(
     ]
     for s in sorted(skills, key=lambda x: x["name"]):
         lines.append(f"  - trigger: {json.dumps(':' + s['name'], ensure_ascii=False)}")
-        lines.append(f"    replace: {json.dumps(s['description'], ensure_ascii=False)}")
+        lines.append(f"    replace: {json.dumps(s['body'], ensure_ascii=False)}")
         lines.append("    word: true")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

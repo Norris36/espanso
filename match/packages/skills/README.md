@@ -1,8 +1,9 @@
 # skills (espanso mirror)
 
 Mirror of your opencode skills (`~/.config/opencode/skills`) as **static espanso
-triggers**. Each skill's name becomes a trigger whose replacement is its
-description — so typing `:tdd` expands instantly (no shell round-trip).
+triggers**. Each skill's name becomes a trigger whose replacement is the **full
+skill body** (everything after the `SKILL.md` frontmatter) — so typing `:tdd`
+expands the entire skill instantly (no shell round-trip).
 
 `match/skills.yml` is auto-generated from the `SKILL.md` frontmatter and is
 refreshed daily by `scripts/sync-daily.sh`.
@@ -12,7 +13,7 @@ refreshed daily by `scripts/sync-daily.sh`.
 | Trigger | Expands to |
 |---------|-----------|
 | `:skills` | List of every skill and a one-line summary |
-| `:<skill-name>` | That skill's description, e.g. `:tdd`, `:brainstorming`, `:tdd` |
+| `:<skill-name>` | That skill's **full body**, e.g. `:tdd`, `:brainstorming` |
 
 Nested skills use their bare name (`engineering/tdd` -> `:tdd`).
 
