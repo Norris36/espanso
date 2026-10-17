@@ -18,4 +18,7 @@ test.py
 script.py
 
 #txt
-text_env.txt.sync.log
+text_env.txt
+
+# runtime sync log
+.sync.log.sync.log
