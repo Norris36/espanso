@@ -203,14 +203,18 @@ matches:
 
   - trigger: ":sptt"
     replace: "Sætter pris på at du tog dig tid til det! 😃"
+
   - trigger: ":spd"
     replace: "Sætter pris på det! 😃"
 
   - trigger: ":tfd"
     replace: "Tak for det! 😃"
 
-  # - trigger: ":tfd"
-  #   replace: "Tak for det! 😃"
+  - trigger: ":tfa"
+    replace: "Tak for afklaring! 😃"
+
+  - trigger: "hcp"
+    replace: "Hearing Care Professional"
 
   - trigger: "gnsn"
     replace: "https://gnsn.service-now.com/sp?id=index"
