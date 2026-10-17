@@ -1,25 +1,26 @@
-"""opencode skills <-> espanso package bridge: parse SKILL.md files, look skills up, regenerate package.yml.
+"""opencode skills -> espanso mirror: convert SKILL.md files into a static match file.
 ~~~
 - parse frontmatter (name, description) from a SKILL.md file
 - collect every skill under the opencode skills directory (including nested folders)
-- format an all-skills listing or a single-skill lookup for espanso expansion
-- regenerate match/packages/skills/package.yml from the live skills directory
-- expose a tiny CLI (list / get / regen) used by espanso shell vars
+- render each skill name as an espanso trigger (":<name>") whose replacement is its description
+- write the generated mirror to match/skills.yml (auto-loaded by espanso, no shell vars)
+- expose a tiny CLI (sync / show) for the daily cron and manual runs
 ~~~
 returns type: dict | list | str | None -- per-function; see each docstring
 """
 
 from __future__ import annotations
 
+import json
 import os
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional
 
 DEFAULT_SKILLS_DIR = Path.home() / ".config" / "opencode" / "skills"
-PACKAGE_DIR = Path(__file__).resolve().parent
-DEFAULT_OUTPUT = PACKAGE_DIR / "package.yml"
-PACKAGE_VERSION = "1.0.0"
+REPO_ROOT = Path(__file__).resolve().parents[3]
+DEFAULT_OUTPUT = REPO_ROOT / "match" / "skills.yml"
+MIRROR_VERSION = "1.1.0"
 
 
 def parse_frontmatter(skill_md: Path) -> Optional[Dict[str, str]]:
@@ -70,10 +71,9 @@ def collect_skills(skills_dir: Path = DEFAULT_SKILLS_DIR) -> List[Dict[str, str]
         if not meta or "name" not in meta:
             continue
         rel = md.parent.relative_to(skills_dir)
-        skill_id = str(rel).replace(os.sep, "/")
         skills.append(
             {
-                "id": skill_id,
+                "id": str(rel).replace(os.sep, "/"),
                 "name": meta["name"],
                 "description": meta.get("description", ""),
                 "path": str(md),
@@ -83,125 +83,75 @@ def collect_skills(skills_dir: Path = DEFAULT_SKILLS_DIR) -> List[Dict[str, str]
 
 
 def format_skill_list(skills: List[Dict[str, str]]) -> str:
-    """Render the full skill catalogue as a compact text block for espanso.
+    """Render the full skill catalogue as a compact text block for the ":skills" trigger.
     ~~~
-    - sort skills by id
-    - emit one line per skill: id — first sentence of the description
+    - sort skills by name
+    - emit one line per skill: ":name -- first sentence of the description"
     - prepend a header with the skill count
     ~~~
     returns type: str -- multi-line plain-text listing
     """
     if not skills:
         return "No opencode skills found."
-    header = f"opencode skills ({len(skills)}):"
     rows = []
-    for s in sorted(skills, key=lambda x: x["id"]):
+    for s in sorted(skills, key=lambda x: x["name"]):
         desc = s["description"].split(". ")[0].rstrip(".")
-        rows.append(f"  :skill-{s['id']}  {desc}")
-    return "\n".join([header] + rows)
+        rows.append(f"  :{s['name']} -- {desc}")
+    return "\n".join([f"opencode skills ({len(skills)}):"] + rows)
 
 
-def lookup_skill(query: str, skills: List[Dict[str, str]]) -> str:
-    """Find one skill by id or name and render its details for espanso.
-    ~~~
-    - normalise the query (strip, lower-case, drop a leading ':skill-' prefix)
-    - exact-match against id, then bare name, then suffix of id
-    - if nothing matches, return close candidates by substring
-    - render the matched skill's description and SKILL.md path
-    ~~~
-    returns type: str -- skill detail block, or a 'not found' hint with candidates
-    """
-    q = (query or "").strip().lower().lstrip(":").removeprefix("skill-")
-    if not q:
-        return "Usage: type :skill then the skill name (see :skills for the list)."
-    by_id = {s["id"].lower(): s for s in skills}
-    by_name: Dict[str, Dict[str, str]] = {}
-    for s in skills:
-        by_name.setdefault(s["name"].lower(), s)
-    match = (
-        by_id.get(q)
-        or by_name.get(q)
-        or next((s for sid, s in by_id.items() if sid.endswith("/" + q)), None)
-    )
-    if match is None:
-        candidates = [s["id"] for s in skills if q in s["id"].lower()][:5]
-        if candidates:
-            return f"No skill '{query}'. Did you mean: {', '.join(candidates)}?"
-        return f"No skill '{query}' found. Type :skills for the full list."
-    return f"{match['id']}\n{match['description']}\n\n{match['path']}"
-
-
-def generate_package_yml(
+def generate_skills_yml(
     skills: List[Dict[str, str]],
     output_path: Path = DEFAULT_OUTPUT,
-    version: str = PACKAGE_VERSION,
+    version: str = MIRROR_VERSION,
 ) -> Path:
-    """Regenerate the espanso skills package.yml from the collected skill metadata.
+    """Convert the collected skills into a static espanso match file (md -> yml mirror).
     ~~~
-    - build YAML text with name/parent/version header and a do-not-edit banner
-    - emit the :skills match (shell var running 'list') with an absolute script path
-    - emit the :skill match (form input + shell var running 'get')
-    - embed the current skill ids as a comment block for quick reference
-    - write the file to output_path
+    - build a "matches:" list with one entry per skill: trigger ":<name>", replace its description
+    - prepend a ":skills" entry that lists every trigger with a short summary
+    - quote all values as JSON strings so YAML stays valid for any description content
+    - write the file to output_path and create parent directories if needed
     ~~~
     returns type: Path -- the path that was written
     """
-    script = str(PACKAGE_DIR / "skills_lib.py")
-    ids = ", ".join(sorted(s["id"] for s in skills))
-    yml = (
-        "# AUTO-GENERATED by skills_lib.py -- do not edit by hand.\n"
-        "# Regenerate with: python3 skills_lib.py regen  (or skills_updater.ipynb)\n"
-        f"# Skills at generation time ({len(skills)}): {ids}\n"
-        "name: skills\n"
-        "parent: default\n"
-        f"version: {version}\n"
-        "matches:\n"
-        "  - trigger: \":skills\"\n"
-        "    replace: \"{{skills_out}}\"\n"
-        "    vars:\n"
-        "      - name: skills_out\n"
-        "        type: shell\n"
-        "        params:\n"
-        f"          cmd: \"python3 '{script}' list\"\n"
-        "  - trigger: \":skill\"\n"
-        "    replace: \"{{skill_out}}\"\n"
-        "    vars:\n"
-        "      - name: input\n"
-        "        type: form\n"
-        "        params:\n"
-        "          layout: |\n"
-        "            [[name]]\n"
-        "      - name: skill_out\n"
-        "        type: shell\n"
-        "        params:\n"
-        f"          cmd: \"python3 '{script}' get '{{{{input.name}}}}'\"\n"
-    )
-    output_path.write_text(yml, encoding="utf-8")
+    lines = [
+        "# AUTO-GENERATED by skills_lib.py -- do not edit by hand.",
+        "# Mirror of ~/.config/opencode/skills (md -> yml). Regenerate daily via sync-daily.sh",
+        f"# or manually: python3 {Path(__file__).name} sync",
+        f"# version: {version} | skills at generation time ({len(skills)}): "
+        + ", ".join(sorted(s["name"] for s in skills)),
+        "matches:",
+        "  - trigger: \":skills\"",
+        f"    replace: {json.dumps(format_skill_list(skills), ensure_ascii=False)}",
+        "    word: true",
+    ]
+    for s in sorted(skills, key=lambda x: x["name"]):
+        lines.append(f"  - trigger: {json.dumps(':' + s['name'], ensure_ascii=False)}")
+        lines.append(f"    replace: {json.dumps(s['description'], ensure_ascii=False)}")
+        lines.append("    word: true")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return output_path
 
 
 def main(argv: List[str]) -> int:
-    """CLI entry point used by espanso shell vars and manual regeneration.
+    """CLI entry point used by the daily cron and manual regeneration.
     ~~~
-    - dispatch on argv[1]: 'list' prints the catalogue, 'get <name>' prints one skill,
-      'regen' rewrites package.yml
+    - dispatch on argv[1]: 'sync' rewrites the match file, 'show' prints it to stdout
     - load skills from DEFAULT_SKILLS_DIR (override with OPENCODE_SKILLS_DIR)
     ~~~
     returns type: int -- process exit code (0 on success)
     """
     skills_dir = Path(os.environ.get("OPENCODE_SKILLS_DIR", str(DEFAULT_SKILLS_DIR)))
-    command = argv[1] if len(argv) > 1 else "list"
+    command = argv[1] if len(argv) > 1 else "sync"
     skills = collect_skills(skills_dir)
-    if command == "list":
-        print(format_skill_list(skills))
-    elif command == "get":
-        query = argv[2] if len(argv) > 2 else ""
-        print(lookup_skill(query, skills))
-    elif command == "regen":
-        path = generate_package_yml(skills)
-        print(f"Wrote {path} ({len(skills)} skills, version {PACKAGE_VERSION})")
+    path = generate_skills_yml(skills)
+    if command == "show":
+        print(path.read_text(encoding="utf-8"))
+    elif command == "sync":
+        print(f"Wrote {path} ({len(skills)} skills, version {MIRROR_VERSION})")
     else:
-        print(f"Unknown command '{command}'. Use: list | get <name> | regen")
+        print(f"Unknown command '{command}'. Use: sync | show")
         return 1
     return 0
 

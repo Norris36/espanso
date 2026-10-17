@@ -1,33 +1,39 @@
-# skills (espanso package)
+# skills (espanso mirror)
 
-Bridges your opencode skills (`~/.config/opencode/skills`) into espanso.
-Auto-generated `package.yml` — do not edit by hand.
+Mirror of your opencode skills (`~/.config/opencode/skills`) as **static espanso
+triggers**. Each skill's name becomes a trigger whose replacement is its
+description — so typing `:tdd` expands instantly (no shell round-trip).
+
+`match/skills.yml` is auto-generated from the `SKILL.md` frontmatter and is
+refreshed daily by `scripts/sync-daily.sh`.
 
 ## Triggers
 
-| Trigger  | Effect |
-|----------|--------|
-| `:skills` | Lists every opencode skill with a one-line summary |
-| `:skill`  | Form prompt: type a skill name → expands to its description + SKILL.md path |
+| Trigger | Expands to |
+|---------|-----------|
+| `:skills` | List of every skill and a one-line summary |
+| `:<skill-name>` | That skill's description, e.g. `:tdd`, `:brainstorming`, `:tdd` |
 
-Skill lookup accepts full ids (`engineering/tdd`), bare names (`tdd`),
-and `:skill-<id>` forms.
-
-## Regenerating
-
-Skills change over time — regenerate `package.yml` after adding/removing any:
-
-```bash
-python3 skills_lib.py regen
-```
-
-or run `skills_updater.ipynb` in VS Code (preferred for testing).
+Nested skills use their bare name (`engineering/tdd` -> `:tdd`).
 
 ## Files
 
-- `skills_lib.py` — parsing, lookup, and YAML generation functions + CLI
-- `package.yml` — generated espanso package (matches above)
-- `skills_updater.ipynb` — notebook for testing and regeneration
+- `skills_lib.py` — parsing + md -> yml conversion functions and CLI
+- `skills_updater.ipynb` — testing and manual regeneration (preferred)
+- `match/skills.yml` — the generated mirror (do not edit by hand)
+
+> Note: this lives under `match/packages/` only as the tooling home. The output
+> is a plain match file (`match/skills.yml`) rather than an espanso package,
+> because espanso packages must be named `package.yml` and can't be `skills.yml`.
+
+## Regenerating
+
+```bash
+python3 skills_lib.py sync   # rewrite match/skills.yml
+python3 skills_lib.py show   # print it to stdout
+```
+
+Run `skills_updater.ipynb` in VS Code to test and regenerate interactively.
 
 ## Environment
 

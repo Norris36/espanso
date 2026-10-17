@@ -1,6 +1,7 @@
 #!/bin/sh
-# Summary: Daily espanso config sync — commit local changes, pull origin/master, push to origin.
+# Summary: Daily espanso config sync — regenerate skills mirror, commit local changes, pull origin/master, push to origin.
 # ~~~
+# - Regenerates match/skills.yml from ~/.config/opencode/skills (md -> yml mirror)
 # - Commits any local changes on the current branch (dev) with a dated auto-sync message
 # - Fetches and merges origin/master (the remote default branch)
 # - On merge conflict: aborts the merge, logs the conflict, and skips the push
@@ -18,6 +19,13 @@ log() {
 }
 
 cd "$REPO" || { log "ERROR: repo not found at $REPO"; exit 1; }
+
+# Regenerate the skills mirror so :<skill-name> triggers stay current
+if python3 "$REPO/match/packages/skills/skills_lib.py" sync >/dev/null 2>&1; then
+  log "Regenerated match/skills.yml"
+else
+  log "WARN: skills regen failed"
+fi
 
 git add -A
 if ! git diff --cached --quiet; then
