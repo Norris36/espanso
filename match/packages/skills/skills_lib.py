@@ -20,7 +20,7 @@ from typing import Dict, List, Optional
 DEFAULT_SKILLS_DIR = Path.home() / ".config" / "opencode" / "skills"
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_OUTPUT = REPO_ROOT / "match" / "skills.yml"
-MIRROR_VERSION = "1.2.0"
+MIRROR_VERSION = "1.3.0"
 
 
 def parse_skill(skill_md: Path) -> Optional[Dict[str, str]]:

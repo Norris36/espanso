@@ -1,0 +1,12 @@
+#!/bin/sh
+# pre-commit: delegate espanso config guardrails to validate.py (see AGENTS.md).
+# returns: exit 0 to allow the commit, non-zero to block it
+set -u
+
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+PY="$(command -v python3 || true)"
+if [ -z "$PY" ]; then
+  echo "pre-commit: python3 not found; skipping config checks" >&2
+  exit 0
+fi
+exec "$PY" "$ROOT/.githooks/validate.py"

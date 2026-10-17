@@ -27,6 +27,9 @@ else
   log "WARN: skills regen failed"
 fi
 
+# Keep the pre-commit guardrail wired even on a fresh clone (idempotent)
+git config core.hooksPath .githooks
+
 git add -A
 if ! git diff --cached --quiet; then
   git commit -m "Auto-sync: local config changes ($(date +%F))" >/dev/null 2>&1 \
