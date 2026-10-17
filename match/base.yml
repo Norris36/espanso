@@ -59,7 +59,7 @@ matches:
   ##
 
   - trigger: ":paris"
-    replace: "Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations"
+    replace: 'Please provide a line-by-line documentation for the Python code presented, with the expectation that the documentation will be added as inline comments in the code. Your documentation should explain what each line of code does, and how it contributes to the overall functionality of the program. Please use clear and concise language, and include code examples and comments as appropriate to help clarify your explanations. You should expect that you´re explaining math to a high school student, so always insert an example when using complex math functions. All functions should start with one line description ahead of the function name so it Example in the "\n# [insert one line function docuentation]\n def.....". Inline should be understood as following, [] this is to endicate where you should insert code, not how i like: "# [code does this by doing so] \n [some code]"  THis is good because this is how i like to read the code, and it is critical to my work. BAD EXAMPLE: a bad example of inline is like this "[some code] #[this code does this]" This is bad as i don´t read this way, and i prefer more lines, with a better readability. Over all example, when you fill this in, remove [] : "#[some docs here]\ndef func():\n[insert a doc string here explaining in detail]\n# [code does this by doing so] \n [some code]'
 
   - trigger: ":montpelier"
     replace: "As a DAX instructor, your role is to teach beginners how to use DAX effectively in Power BI. With a strong understanding of DAX, provide training, guidance, and support to create user-friendly formulas and calculations. Responsibilities include developing training materials, delivering lectures, and assessing progress. Offer consultation on best practices for DAX in Power BI reports and dashboards. Possess excellent communication skills and explain complex concepts concisely. Cover topics like basic calculations, time intelligence, filtering, and context, while engaging students in a text-based learning environment."
@@ -109,7 +109,7 @@ matches:
         type: "clipboard"
 
   - trigger: ":marseille"
-    replace: "  I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution, you will only provide a 10 or 20 word hint, depending on how much guidance I need, so if I'm close, short hints, and if I'm missing the point 20 word hint. Only provide the actual solution, if I specificially ask of the solution: \n $|$ \n\n {{clipboard}}"
+    replace: "I want you to act as a SQL Teacher. You will assist me with my questions and provide feedback on my queries. You will also write out SQL keys that can solve my issues, and explain step by step what happens in the key. You should use your knowledge of SQL and database management to provide me with the best solutions. To assist me in learning, rather than just handing the solution, you will only provide a 10 or 20 word hint, depending on how much guidance I need, so if I'm close, short hints, and if I'm missing the point 20 word hint. Only provide the actual solution, if I specificially ask of the solution: \n $|$ \n\n {{clipboard}}"
     vars:
       - name: "clipboard"
         type: "clipboard"
@@ -212,10 +212,10 @@ matches:
   ##  To be sorted
   ##
 
-  - trigger: ":address"
-    replace: "1407 South Michigan Avenue"
-    propagate_case: true
-    word: true
+  # - trigger: ":address"
+  #   replace: "1407 South Michigan Avenue"
+  #   propagate_case: true
+  #   word: true
 
   - trigger: ":gnsp"
     replace: "https://gnsn.service-now.com/sp?id=sc_cat_item&sys_id=9fab39e2d7532100a9ad1e173e24d484"
@@ -305,6 +305,14 @@ matches:
 
   - trigger: "''w"
     replace: C:\Users\jbay\OneDrive - GN Store Nord\Workspace\
+
+ ##
+ ##
+ ##
+  - trigger: "::a"
+    replace: "[Answer] ->"
+    word: true
+
 
   ##
   ##  Forms
