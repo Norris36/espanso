@@ -4196,7 +4196,7 @@ matches:
   - triggers: [':u7981', ':u7981:']
     replace: "\U0001F232"
     word: true
-  - triggers: [':a', ':a:']
+  - triggers: [':a:']
     replace: "\U0001F170️"
     word: true
   - triggers: [':b', ':b:']

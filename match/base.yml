@@ -306,8 +306,8 @@ matches:
  ##
  ##
  ##
-  - trigger: "::a"
-    replace: "[Answer] ->"
+  - trigger: ":a"
+    replace: "[Answer] "
     word: true
 
   - trigger: "_2020"
